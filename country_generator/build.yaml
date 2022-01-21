@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      country_generator:
+        enabled: true
+
+builders:
+  country_generator:
+    import: "package:country_generator/country_generator.dart"
+    builder_factories: ["build"]
+    build_extensions: {"$lib$": ["country.g.dart"]}
+    auto_apply: root_package
+    build_to: source

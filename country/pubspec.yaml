@@ -1,0 +1,22 @@
+name: country
+description: Generated countries with country_gen
+version: 0.0.1
+homepage: https://github.com/aaassseee/country
+repository: https://github.com/aaassseee/country/tree/master/country
+issue_tracker: https://github.com/aaassseee/country/issues
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dev_dependencies:
+  build_runner: ^2.1.7
+#  country_generator:
+#    path:
+#      ../country_generator
+  country_generator: ^0.0.1
+  flutter_lints: ^1.0.4
+
+country_generator:
+  sourceFolder: submodule/countries
+  outputFolder: lib/src
