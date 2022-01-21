@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "gitsubmodule" # See documentation for possible values
-    directory: "/country/submodule/countries" # Location of package manifests
+    directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
     assignees:
