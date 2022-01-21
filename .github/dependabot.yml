@@ -9,7 +9,7 @@ updates:
     directory: "/country/submodule/countries" # Location of package manifests
     schedule:
       interval: "daily"
-    assignees
+    assignees:
       - "aaassseee"
     reviewers:
       - "aaassseee"
