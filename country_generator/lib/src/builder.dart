@@ -91,7 +91,8 @@ class CountryGeneratorBuilder extends Builder {
 
       String output = '';
       output += 'import \'country.dart\';\n\n';
-      output += 'class Countries {';
+      output += 'class Countries {\n';
+      output += '  Countries._();\n';
       for (final country in countryList) {
         country.isoShortNameByLanguage
             .addAll(processedLocaleMap[country.alpha2]!);
@@ -103,7 +104,7 @@ class CountryGeneratorBuilder extends Builder {
 
       output += '''
   
-  static List<Country> get => [
+  static List<Country> get values => [
         ${countryList.map((country) => country.alpha3.toLowerCase()).join(',\n        ')}
       ];
 ''';
