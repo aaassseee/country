@@ -1,3 +1,5 @@
+import 'package:intl/locale.dart';
+
 class Country {
   const Country(
       this.alpha2,
@@ -189,6 +191,18 @@ class Country {
       esmMember.hashCode ^
       altCurrency.hashCode ^
       isoShortNameByLanguage.hashCode;
+
+  String get flagEmoji {
+    final countryCode = alpha2.toLowerCase();
+    return String.fromCharCodes([
+      127365 + countryCode.codeUnitAt(0),
+      127365 + countryCode.codeUnitAt(1),
+    ]);
+  }
+
+  String? getIsoShortNameByLocale(Locale locale) =>
+      isoShortNameByLanguage[locale.toLanguageTag()] ??
+      isoShortNameByLanguage[locale.languageCode];
 }
 
 class Coordinate {

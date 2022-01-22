@@ -1,6 +1,7 @@
 # country
 
-Generated countries with country_gen. This plugin is using [countries](https://github.com/countries/countries) to
+Generated country class with country_generator using countries.
+This plugin is using [countries](https://github.com/countries/countries) to
 generate dart class.
 
 ## Getting Started
