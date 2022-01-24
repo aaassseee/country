@@ -9,8 +9,10 @@ Extension function for [country](https://github.com/aaassseee/country/tree/maste
 Add the following lines in your pubspec.yaml file
 
 ```yaml
-dependencies:
-  flutter_country:
+flutter_country:
+  git:
+    url: https://github.com/aaassseee/country.git
+    path: flutter_country/
 ```
 
 ### API
