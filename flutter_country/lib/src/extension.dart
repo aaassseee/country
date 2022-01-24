@@ -7,10 +7,16 @@ extension CountryExtension on Country {
   ///
   /// May be separate to another package because dart:ui require Flutter as a
   /// dependency
-  String? getIsoShortNameByLocale(Locale locale) =>
-      isoShortNameByLanguage[[
-        locale.languageCode.toLowerCase(),
-        if (locale.countryCode != null) locale.countryCode!.toLowerCase()
-      ].join('-')] ??
-      isoShortNameByLanguage[locale.languageCode.toLowerCase()];
+  String getIsoShortNameByLocale(Locale locale) {
+    String? shortName = isoShortNameByLanguage[[
+          locale.languageCode.toLowerCase(),
+          if (locale.countryCode != null) locale.countryCode!.toLowerCase()
+        ].join('-')] ??
+        isoShortNameByLanguage[locale.languageCode.toLowerCase()];
+    if (shortName == null) {
+      throw ArgumentError('Invalid locale');
+    }
+
+    return shortName;
+  }
 }
