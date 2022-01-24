@@ -33,3 +33,7 @@ country_generator:
 ```shell
 flutter packages pub run build_runner build
 ```
+
+## Maintainer
+
+[Jack Liu](https://github.com/aaassseee)

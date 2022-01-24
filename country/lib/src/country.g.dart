@@ -1,8 +1,11 @@
 import 'country.dart';
 
+/// Class for storing all country object
 class Countries {
+  /// private constructor for preventing object construction
   Countries._();
 
+  /// Country: The Principality of Andorra
   static const Country and = Country(
       'AD',
       'AND',
@@ -14,7 +17,7 @@ class Countries {
           Coordinate(42.506285, 1.521801),
           Coordinate(42.655791, 1.786639),
           Coordinate(42.4287488, 1.4087052),
-          Boundary(Coordinate(42.655791, 1.786639),
+          BoundingBox(Coordinate(42.655791, 1.786639),
               Coordinate(42.4287488, 1.4087052)),
           null),
       '00',
@@ -178,6 +181,7 @@ class Countries {
         "zu": "I-Andora"
       });
 
+  /// Country: The United Arab Emirates
   static const Country are = Country(
       'AE',
       'ARE',
@@ -189,7 +193,7 @@ class Countries {
           Coordinate(23.424076, 53.847818),
           Coordinate(26.0765, 56.4395001),
           Coordinate(22.6315138, 51.4723),
-          Boundary(
+          BoundingBox(
               Coordinate(26.0765, 56.4395001), Coordinate(22.6315138, 51.4723)),
           null),
       '00',
@@ -364,6 +368,7 @@ class Countries {
         "zu": "United Arab Emirates"
       });
 
+  /// Country: The Islamic Republic of Afghanistan
   static const Country afg = Country(
       'AF',
       'AFG',
@@ -375,7 +380,7 @@ class Countries {
           Coordinate(33.93911, 67.709953),
           Coordinate(38.49087670000001, 74.8898619),
           Coordinate(29.3772, 60.5170005),
-          Boundary(Coordinate(38.49087670000001, 74.8898619),
+          BoundingBox(Coordinate(38.49087670000001, 74.8898619),
               Coordinate(29.3772, 60.5170005)),
           null),
       '00',
@@ -539,6 +544,7 @@ class Countries {
         "zu": "I-Afganistani"
       });
 
+  /// Country: Antigua and Barbuda
   static const Country atg = Country(
       'AG',
       'ATG',
@@ -550,7 +556,7 @@ class Countries {
           Coordinate(17.060816, -61.796428),
           Coordinate(17.7499946, -61.6394),
           Coordinate(16.9018, -62.38100009999999),
-          Boundary(Coordinate(17.7499946, -61.6394),
+          BoundingBox(Coordinate(17.7499946, -61.6394),
               Coordinate(16.9018, -62.38100009999999)),
           null),
       '011',
@@ -721,6 +727,7 @@ class Countries {
         "zu": "Antigua no Barbuda"
       });
 
+  /// Country: Anguilla
   static const Country aia = Country(
       'AI',
       'AIA',
@@ -732,7 +739,7 @@ class Countries {
           Coordinate(18.220554, -63.06861499999999),
           Coordinate(18.6332326, -62.91999999999999),
           Coordinate(18.1465043, -63.4803),
-          Boundary(Coordinate(18.6332326, -62.91999999999999),
+          BoundingBox(Coordinate(18.6332326, -62.91999999999999),
               Coordinate(18.1465043, -63.4803)),
           null),
       '011',
@@ -896,6 +903,7 @@ class Countries {
         "zu": "Anguilla"
       });
 
+  /// Country: The Republic of Albania
   static const Country alb = Country(
       'AL',
       'ALB',
@@ -907,7 +915,7 @@ class Countries {
           Coordinate(41.153332, 20.168331),
           Coordinate(42.6611669, 21.0572394),
           Coordinate(39.6447296, 19.1217),
-          Boundary(Coordinate(42.6611669, 21.0572394),
+          BoundingBox(Coordinate(42.6611669, 21.0572394),
               Coordinate(39.6447296, 19.1217)),
           null),
       '00',
@@ -1071,6 +1079,7 @@ class Countries {
         "zu": "I-Albaniya"
       });
 
+  /// Country: The Republic of Armenia
   static const Country arm = Country(
       'AM',
       'ARM',
@@ -1082,7 +1091,7 @@ class Countries {
           Coordinate(40.069099, 45.038189),
           Coordinate(41.300993, 46.6342219),
           Coordinate(38.840244, 43.4472601),
-          Boundary(Coordinate(41.300993, 46.6342219),
+          BoundingBox(Coordinate(41.300993, 46.6342219),
               Coordinate(38.840244, 43.4472601)),
           null),
       '00',
@@ -1246,6 +1255,7 @@ class Countries {
         "zu": "Armenia"
       });
 
+  /// Country: The Republic of Angola
   static const Country ago = Country(
       'AO',
       'AGO',
@@ -1257,7 +1267,7 @@ class Countries {
           Coordinate(-11.202692, 17.873887),
           Coordinate(-4.388063300000001, 24.0878855),
           Coordinate(-18.0391039, 11.4696999),
-          Boundary(Coordinate(-4.388063300000001, 24.0878855),
+          BoundingBox(Coordinate(-4.388063300000001, 24.0878855),
               Coordinate(-18.0391039, 11.4696999)),
           null),
       '00',
@@ -1421,6 +1431,7 @@ class Countries {
         "zu": "I-Angola"
       });
 
+  /// Country: Antarctica
   static const Country ata = Country(
       'AQ',
       'ATA',
@@ -1432,7 +1443,8 @@ class Countries {
           Coordinate(-82.862752, 135.0),
           Coordinate(-60.1086999, 180.0),
           Coordinate(-90.0, -180.0),
-          Boundary(Coordinate(-60.1086999, 180.0), Coordinate(-90.0, -180.0)),
+          BoundingBox(
+              Coordinate(-60.1086999, 180.0), Coordinate(-90.0, -180.0)),
           null),
       '',
       null,
@@ -1595,6 +1607,7 @@ class Countries {
         "zu": "Antarctica"
       });
 
+  /// Country: The Argentine Republic
   static const Country arg = Country(
       'AR',
       'ARG',
@@ -1606,7 +1619,7 @@ class Countries {
           Coordinate(-38.416097, -63.61667199999999),
           Coordinate(-21.7810459, -53.637481),
           Coordinate(-55.1250224, -73.5603601),
-          Boundary(Coordinate(-21.7810459, -53.637481),
+          BoundingBox(Coordinate(-21.7810459, -53.637481),
               Coordinate(-55.1250224, -73.5603601)),
           null),
       '00',
@@ -1774,6 +1787,7 @@ class Countries {
         "zu": "I-Argentina"
       });
 
+  /// Country: The Territory of American Samoa
   static const Country asm = Country(
       'AS',
       'ASM',
@@ -1785,7 +1799,7 @@ class Countries {
           Coordinate(-14.270972, -170.132217),
           Coordinate(-13.4056506, -169.2059326),
           Coordinate(-14.7217608, -171.0076904),
-          Boundary(Coordinate(-13.4056506, -169.2059326),
+          BoundingBox(Coordinate(-13.4056506, -169.2059326),
               Coordinate(-14.7217608, -171.0076904)),
           null),
       '011',
@@ -1956,6 +1970,7 @@ class Countries {
         "zu": "American Samoa"
       });
 
+  /// Country: The Republic of Austria
   static const Country aut = Country(
       'AT',
       'AUT',
@@ -1967,7 +1982,7 @@ class Countries {
           Coordinate(47.516231, 14.550072),
           Coordinate(49.0206081, 17.1607329),
           Coordinate(46.37233579999999, 9.530783399999999),
-          Boundary(Coordinate(49.0206081, 17.1607329),
+          BoundingBox(Coordinate(49.0206081, 17.1607329),
               Coordinate(46.37233579999999, 9.530783399999999)),
           null),
       '00',
@@ -2134,6 +2149,7 @@ class Countries {
         "zu": "I-Austriyiya"
       });
 
+  /// Country: The Commonwealth of Australia
   static const Country aus = Country(
       'AU',
       'AUS',
@@ -2145,7 +2161,7 @@ class Countries {
           Coordinate(-25.274398, 133.775136),
           Coordinate(-9.187026399999999, 159.2872223),
           Coordinate(-54.83376579999999, 110.9510339),
-          Boundary(Coordinate(-9.187026399999999, 159.2872223),
+          BoundingBox(Coordinate(-9.187026399999999, 159.2872223),
               Coordinate(-54.83376579999999, 110.9510339)),
           null),
       '0011',
@@ -2312,6 +2328,7 @@ class Countries {
         "zu": "I-Australiya"
       });
 
+  /// Country: Aruba
   static const Country abw = Country(
       'AW',
       'ABW',
@@ -2323,7 +2340,7 @@ class Countries {
           Coordinate(12.52111, -69.968338),
           Coordinate(12.6306179, -69.8644638),
           Coordinate(12.406093, -70.070114),
-          Boundary(Coordinate(12.6306179, -69.8644638),
+          BoundingBox(Coordinate(12.6306179, -69.8644638),
               Coordinate(12.406093, -70.070114)),
           null),
       '00',
@@ -2487,6 +2504,7 @@ class Countries {
         "zu": "Aruba"
       });
 
+  /// Country: Åland
   static const Country ala = Country(
       'AX',
       'ALA',
@@ -2498,7 +2516,7 @@ class Countries {
           Coordinate(60.1785247, 19.9156105),
           Coordinate(60.8400009, 21.4866841),
           Coordinate(59.6872001, 19.2095998),
-          Boundary(Coordinate(60.8400009, 21.4866841),
+          BoundingBox(Coordinate(60.8400009, 21.4866841),
               Coordinate(59.6872001, 19.2095998)),
           null),
       '',
@@ -2662,6 +2680,7 @@ class Countries {
         "zu": "Åland Islands"
       });
 
+  /// Country: The Republic of Azerbaijan
   static const Country aze = Country(
       'AZ',
       'AZE',
@@ -2673,7 +2692,7 @@ class Countries {
           Coordinate(40.143105, 47.576927),
           Coordinate(41.9594999, 50.7458001),
           Coordinate(38.3922171, 44.7632599),
-          Boundary(Coordinate(41.9594999, 50.7458001),
+          BoundingBox(Coordinate(41.9594999, 50.7458001),
               Coordinate(38.3922171, 44.7632599)),
           null),
       '810',
@@ -2844,6 +2863,7 @@ class Countries {
         "zu": "I-Azerbayijani"
       });
 
+  /// Country: Bosnia and Herzegovina
   static const Country bih = Country(
       'BA',
       'BIH',
@@ -2855,7 +2875,7 @@ class Countries {
           Coordinate(43.915886, 17.679076),
           Coordinate(45.2766262, 19.6237016),
           Coordinate(42.5564808, 15.7223665),
-          Boundary(Coordinate(45.2766262, 19.6237016),
+          BoundingBox(Coordinate(45.2766262, 19.6237016),
               Coordinate(42.5564808, 15.7223665)),
           null),
       '00',
@@ -3030,6 +3050,7 @@ class Countries {
         "zu": "IBhosniya neHerzegovina"
       });
 
+  /// Country: Barbados
   static const Country brb = Country(
       'BB',
       'BRB',
@@ -3041,7 +3062,7 @@ class Countries {
           Coordinate(13.193887, -59.543198),
           Coordinate(13.3365093, -59.4174957),
           Coordinate(13.039844, -59.6530151),
-          Boundary(Coordinate(13.3365093, -59.4174957),
+          BoundingBox(Coordinate(13.3365093, -59.4174957),
               Coordinate(13.039844, -59.6530151)),
           null),
       '011',
@@ -3205,6 +3226,7 @@ class Countries {
         "zu": "I-Barbados"
       });
 
+  /// Country: The People's Republic of Bangladesh
   static const Country bgd = Country(
       'BD',
       'BGD',
@@ -3216,7 +3238,7 @@ class Countries {
           Coordinate(23.684994, 90.356331),
           Coordinate(26.633914, 92.6801153),
           Coordinate(20.3794, 88.00861410000002),
-          Boundary(Coordinate(26.633914, 92.6801153),
+          BoundingBox(Coordinate(26.633914, 92.6801153),
               Coordinate(20.3794, 88.00861410000002)),
           null),
       '00',
@@ -3380,6 +3402,7 @@ class Countries {
         "zu": "Isi-Bhangladeshi"
       });
 
+  /// Country: The Kingdom of Belgium
   static const Country bel = Country(
       'BE',
       'BEL',
@@ -3391,7 +3414,7 @@ class Countries {
           Coordinate(50.503887, 4.469936),
           Coordinate(51.5051449, 6.408124099999999),
           Coordinate(49.497013, 2.5240999),
-          Boundary(Coordinate(51.5051449, 6.408124099999999),
+          BoundingBox(Coordinate(51.5051449, 6.408124099999999),
               Coordinate(49.497013, 2.5240999)),
           null),
       '00',
@@ -3558,6 +3581,7 @@ class Countries {
         "zu": "Isi-Bhelijiyamu"
       });
 
+  /// Country: Burkina Faso
   static const Country bfa = Country(
       'BF',
       'BFA',
@@ -3569,7 +3593,7 @@ class Countries {
           Coordinate(12.238333, -1.561593),
           Coordinate(15.0840397, 2.4043596),
           Coordinate(9.4104717, -5.5132416),
-          Boundary(Coordinate(15.0840397, 2.4043596),
+          BoundingBox(Coordinate(15.0840397, 2.4043596),
               Coordinate(9.4104717, -5.5132416)),
           null),
       '00',
@@ -3733,6 +3757,7 @@ class Countries {
         "zu": "IBukhina Faso"
       });
 
+  /// Country: The Republic of Bulgaria
   static const Country bgr = Country(
       'BG',
       'BGR',
@@ -3744,7 +3769,7 @@ class Countries {
           Coordinate(42.733883, 25.48583),
           Coordinate(44.2153059, 28.7292001),
           Coordinate(41.2354469, 22.3573446),
-          Boundary(Coordinate(44.2153059, 28.7292001),
+          BoundingBox(Coordinate(44.2153059, 28.7292001),
               Coordinate(41.2354469, 22.3573446)),
           null),
       '00',
@@ -3911,6 +3936,7 @@ class Countries {
         "zu": "I-Buligariya"
       });
 
+  /// Country: The Kingdom of Bahrain
   static const Country bhr = Country(
       'BH',
       'BHR',
@@ -3922,7 +3948,7 @@ class Countries {
           Coordinate(26.0667, 50.5577),
           Coordinate(26.3469001, 50.8509064),
           Coordinate(25.5349999, 50.324246),
-          Boundary(Coordinate(26.3469001, 50.8509064),
+          BoundingBox(Coordinate(26.3469001, 50.8509064),
               Coordinate(25.5349999, 50.324246)),
           null),
       '00',
@@ -4089,6 +4115,7 @@ class Countries {
         "zu": "Bahrain"
       });
 
+  /// Country: The Republic of Burundi
   static const Country bdi = Country(
       'BI',
       'BDI',
@@ -4100,7 +4127,7 @@ class Countries {
           Coordinate(-3.373056, 29.918886),
           Coordinate(-2.3097301, 30.84954),
           Coordinate(-4.4693288, 29.000968),
-          Boundary(Coordinate(-2.3097301, 30.84954),
+          BoundingBox(Coordinate(-2.3097301, 30.84954),
               Coordinate(-4.4693288, 29.000968)),
           null),
       '00',
@@ -4264,6 +4291,7 @@ class Countries {
         "zu": "IBurundi"
       });
 
+  /// Country: The Republic of Benin
   static const Country ben = Country(
       'BJ',
       'BEN',
@@ -4275,7 +4303,7 @@ class Countries {
           Coordinate(9.30769, 2.315834),
           Coordinate(12.4086111, 3.8433429),
           Coordinate(6.2061001, 0.7754124000000001),
-          Boundary(Coordinate(12.4086111, 3.8433429),
+          BoundingBox(Coordinate(12.4086111, 3.8433429),
               Coordinate(6.2061001, 0.7754124000000001)),
           null),
       '00',
@@ -4439,6 +4467,7 @@ class Countries {
         "zu": "IBenini"
       });
 
+  /// Country: The Collectivity of Saint-Barthélemy
   static const Country blm = Country(
       'BL',
       'BLM',
@@ -4450,7 +4479,7 @@ class Countries {
           Coordinate(17.9, -62.833333),
           Coordinate(17.978, -62.7869),
           Coordinate(17.8663, -62.9559999),
-          Boundary(
+          BoundingBox(
               Coordinate(17.978, -62.7869), Coordinate(17.8663, -62.9559999)),
           null),
       '',
@@ -4614,6 +4643,7 @@ class Countries {
         "zu": "Saint Barthélemy"
       });
 
+  /// Country: Bermuda
   static const Country bmu = Country(
       'BM',
       'BMU',
@@ -4625,7 +4655,7 @@ class Countries {
           Coordinate(32.3078, -64.7505),
           Coordinate(32.3961, -64.6413999),
           Coordinate(32.2424975, -64.89139999999999),
-          Boundary(Coordinate(32.3961, -64.6413999),
+          BoundingBox(Coordinate(32.3961, -64.6413999),
               Coordinate(32.2424975, -64.89139999999999)),
           null),
       '011',
@@ -4789,6 +4819,7 @@ class Countries {
         "zu": "Bermuda"
       });
 
+  /// Country: The Nation of Brunei, the Abode of Peace
   static const Country brn = Country(
       'BN',
       'BRN',
@@ -4800,7 +4831,7 @@ class Countries {
           Coordinate(4.535277, 114.727669),
           Coordinate(5.0978001, 115.3639552),
           Coordinate(4.002460999999999, 114.0752),
-          Boundary(Coordinate(5.0978001, 115.3639552),
+          BoundingBox(Coordinate(5.0978001, 115.3639552),
               Coordinate(4.002460999999999, 114.0752)),
           null),
       '00',
@@ -4964,6 +4995,7 @@ class Countries {
         "zu": "Brunei Darussalam"
       });
 
+  /// Country: The Plurinational State of Bolivia
   static const Country bol = Country(
       'BO',
       'BOL',
@@ -4975,7 +5007,7 @@ class Countries {
           Coordinate(-16.290154, -63.58865299999999),
           Coordinate(-9.669323, -57.453803),
           Coordinate(-22.8980899, -69.64498999999999),
-          Boundary(Coordinate(-9.669323, -57.453803),
+          BoundingBox(Coordinate(-9.669323, -57.453803),
               Coordinate(-22.8980899, -69.64498999999999)),
           null),
       '0010',
@@ -5139,6 +5171,7 @@ class Countries {
         "zu": "I Boliviya"
       });
 
+  /// Country: Bonaire, Sint Eustatius and Saba
   static const Country bes = Country(
       'BQ',
       'BES',
@@ -5150,7 +5183,7 @@ class Countries {
           Coordinate(12.1783611, -68.2385339),
           Coordinate(17.6606999, -62.9228),
           Coordinate(11.9641, -68.5149),
-          Boundary(
+          BoundingBox(
               Coordinate(17.6606999, -62.9228), Coordinate(11.9641, -68.5149)),
           null),
       '00',
@@ -5319,6 +5352,7 @@ class Countries {
         "zu": "Bonaire, Sint Eustatius and Saba"
       });
 
+  /// Country: The Federative Republic of Brazil
   static const Country bra = Country(
       'BR',
       'BRA',
@@ -5330,7 +5364,7 @@ class Countries {
           Coordinate(-14.235004, -51.92528),
           Coordinate(5.2717863, -28.650543),
           Coordinate(-34.0891, -73.9828169),
-          Boundary(Coordinate(5.2717863, -28.650543),
+          BoundingBox(Coordinate(5.2717863, -28.650543),
               Coordinate(-34.0891, -73.9828169)),
           null),
       '0014',
@@ -5497,6 +5531,7 @@ class Countries {
         "zu": "I Brazili"
       });
 
+  /// Country: The Commonwealth of The Bahamas
   static const Country bhs = Country(
       'BS',
       'BHS',
@@ -5508,7 +5543,7 @@ class Countries {
           Coordinate(25.03428, -77.39627999999999),
           Coordinate(27.263412, -72.70975390000001),
           Coordinate(20.9082735, -80.4775603),
-          Boundary(Coordinate(27.263412, -72.70975390000001),
+          BoundingBox(Coordinate(27.263412, -72.70975390000001),
               Coordinate(20.9082735, -80.4775603)),
           null),
       '011',
@@ -5672,6 +5707,7 @@ class Countries {
         "zu": "Bahamas"
       });
 
+  /// Country: The Kingdom of Bhutan
   static const Country btn = Country(
       'BT',
       'BTN',
@@ -5683,7 +5719,7 @@ class Countries {
           Coordinate(27.514162, 90.433601),
           Coordinate(28.246987, 92.125232),
           Coordinate(26.702016, 88.7464739),
-          Boundary(Coordinate(28.246987, 92.125232),
+          BoundingBox(Coordinate(28.246987, 92.125232),
               Coordinate(26.702016, 88.7464739)),
           null),
       '00',
@@ -5847,6 +5883,7 @@ class Countries {
         "zu": "Bhutan"
       });
 
+  /// Country: Bouvet Island
   static const Country bvt = Country(
       'BV',
       'BVT',
@@ -5858,7 +5895,7 @@ class Countries {
           Coordinate(-54.4207915, 3.3464497),
           Coordinate(-54.3869298, 3.4332785),
           Coordinate(-54.4541004, 3.2858826),
-          Boundary(Coordinate(-54.3869298, 3.4332785),
+          BoundingBox(Coordinate(-54.3869298, 3.4332785),
               Coordinate(-54.4541004, 3.2858826)),
           null),
       '',
@@ -6022,6 +6059,7 @@ class Countries {
         "zu": "Bouvet Island"
       });
 
+  /// Country: The Republic of Botswana
   static const Country bwa = Country(
       'BW',
       'BWA',
@@ -6033,7 +6071,7 @@ class Countries {
           Coordinate(-22.328474, 24.684866),
           Coordinate(-17.7781369, 29.375304),
           Coordinate(-26.9075448, 19.998903),
-          Boundary(Coordinate(-17.7781369, 29.375304),
+          BoundingBox(Coordinate(-17.7781369, 29.375304),
               Coordinate(-26.9075448, 19.998903)),
           null),
       '00',
@@ -6197,6 +6235,7 @@ class Countries {
         "zu": "IButswana"
       });
 
+  /// Country: The Republic of Belarus
   static const Country blr = Country(
       'BY',
       'BLR',
@@ -6208,7 +6247,7 @@ class Countries {
           Coordinate(53.709807, 27.953389),
           Coordinate(56.1718719, 32.7768202),
           Coordinate(51.26201100000001, 23.1783377),
-          Boundary(Coordinate(56.1718719, 32.7768202),
+          BoundingBox(Coordinate(56.1718719, 32.7768202),
               Coordinate(51.26201100000001, 23.1783377)),
           null),
       '810',
@@ -6380,6 +6419,7 @@ class Countries {
         "zu": "I Bhelarusi"
       });
 
+  /// Country: Belize
   static const Country blz = Country(
       'BZ',
       'BLZ',
@@ -6391,7 +6431,7 @@ class Countries {
           Coordinate(17.189877, -88.49765),
           Coordinate(18.4959419, -87.41269989999999),
           Coordinate(15.8856189, -89.22758789999999),
-          Boundary(Coordinate(18.4959419, -87.41269989999999),
+          BoundingBox(Coordinate(18.4959419, -87.41269989999999),
               Coordinate(15.8856189, -89.22758789999999)),
           null),
       '00',
@@ -6555,6 +6595,7 @@ class Countries {
         "zu": "Belize"
       });
 
+  /// Country: Canada
   static const Country can = Country(
       'CA',
       'CAN',
@@ -6566,7 +6607,7 @@ class Countries {
           Coordinate(56.130366, -106.346771),
           Coordinate(83.6381, -50.9766),
           Coordinate(41.6765559, -141.00187),
-          Boundary(Coordinate(83.6381, -50.9766),
+          BoundingBox(Coordinate(83.6381, -50.9766),
               Coordinate(41.6765559, -141.00187)),
           null),
       '011',
@@ -6733,6 +6774,7 @@ class Countries {
         "zu": "I Khanada"
       });
 
+  /// Country: The Territory of Cocos (Keeling) Islands
   static const Country cck = Country(
       'CC',
       'CCK',
@@ -6744,7 +6786,7 @@ class Countries {
           Coordinate(-12.164165, 96.87095599999999),
           Coordinate(-11.819973, 96.93271639999999),
           Coordinate(-12.2118513, 96.8134118),
-          Boundary(Coordinate(-11.819973, 96.93271639999999),
+          BoundingBox(Coordinate(-11.819973, 96.93271639999999),
               Coordinate(-12.2118513, 96.8134118)),
           null),
       '0011',
@@ -6913,6 +6955,7 @@ class Countries {
         "zu": "Cocos (Keeling) Islands"
       });
 
+  /// Country: The Democratic Republic of the Congo
   static const Country cod = Country(
       'CD',
       'COD',
@@ -6924,7 +6967,7 @@ class Countries {
           Coordinate(-4.038333, 21.758664),
           Coordinate(5.3920029, 31.314612),
           Coordinate(-13.4590349, 12.1454),
-          Boundary(Coordinate(5.3920029, 31.314612),
+          BoundingBox(Coordinate(5.3920029, 31.314612),
               Coordinate(-13.4590349, 12.1454)),
           null),
       '00',
@@ -7097,6 +7140,7 @@ class Countries {
         "zu": "Congo, The Democratic Republic of the"
       });
 
+  /// Country: The Central African Republic
   static const Country caf = Country(
       'CF',
       'CAF',
@@ -7108,7 +7152,7 @@ class Countries {
           Coordinate(6.611110999999999, 20.939444),
           Coordinate(11.0179569, 27.4583049),
           Coordinate(2.2230529, 14.4150981),
-          Boundary(Coordinate(11.0179569, 27.4583049),
+          BoundingBox(Coordinate(11.0179569, 27.4583049),
               Coordinate(2.2230529, 14.4150981)),
           null),
       '00',
@@ -7279,6 +7323,7 @@ class Countries {
         "zu": "Central African Republic"
       });
 
+  /// Country: The Republic of the Congo
   static const Country cog = Country(
       'CG',
       'COG',
@@ -7290,7 +7335,7 @@ class Countries {
           Coordinate(-0.228021, 15.827659),
           Coordinate(3.707791, 18.650421),
           Coordinate(-5.0964, 11.1182001),
-          Boundary(
+          BoundingBox(
               Coordinate(3.707791, 18.650421), Coordinate(-5.0964, 11.1182001)),
           null),
       '00',
@@ -7454,6 +7499,7 @@ class Countries {
         "zu": "Congo"
       });
 
+  /// Country: The Swiss Confederation
   static const Country che = Country(
       'CH',
       'CHE',
@@ -7465,7 +7511,7 @@ class Countries {
           Coordinate(46.818188, 8.227511999999999),
           Coordinate(47.8084546, 10.4923401),
           Coordinate(45.81792, 5.95608),
-          Boundary(Coordinate(47.8084546, 10.4923401),
+          BoundingBox(Coordinate(47.8084546, 10.4923401),
               Coordinate(45.81792, 5.95608)),
           null),
       '00',
@@ -7632,6 +7678,7 @@ class Countries {
         "zu": "I-Switzerland"
       });
 
+  /// Country: The Republic of Côte d'Ivoire
   static const Country civ = Country(
       'CI',
       'CIV',
@@ -7643,7 +7690,7 @@ class Countries {
           Coordinate(7.539988999999999, -5.547079999999999),
           Coordinate(10.7400149, -2.493031),
           Coordinate(4.193, -8.6020589),
-          Boundary(
+          BoundingBox(
               Coordinate(10.7400149, -2.493031), Coordinate(4.193, -8.6020589)),
           null),
       '00',
@@ -7815,6 +7862,7 @@ class Countries {
         "zu": "Côte d'Ivoire"
       });
 
+  /// Country: The Cook Islands
   static const Country cok = Country(
       'CK',
       'COK',
@@ -7826,7 +7874,7 @@ class Countries {
           Coordinate(-21.236736, -159.777671),
           Coordinate(-8.1679932, -155.6982422),
           Coordinate(-23.0898384, -166.1791992),
-          Boundary(Coordinate(-8.1679932, -155.6982422),
+          BoundingBox(Coordinate(-8.1679932, -155.6982422),
               Coordinate(-23.0898384, -166.1791992)),
           null),
       '00',
@@ -7997,6 +8045,7 @@ class Countries {
         "zu": "Cook Islands"
       });
 
+  /// Country: The Republic of Chile
   static const Country chl = Country(
       'CL',
       'CHL',
@@ -8008,7 +8057,7 @@ class Countries {
           Coordinate(-35.675147, -71.542969),
           Coordinate(-17.4983291, -66.3327),
           Coordinate(-56.1455, -110.0281),
-          Boundary(Coordinate(-17.4983291, -66.3327),
+          BoundingBox(Coordinate(-17.4983291, -66.3327),
               Coordinate(-56.1455, -110.0281)),
           null),
       '00',
@@ -8172,6 +8221,7 @@ class Countries {
         "zu": "I-Chile"
       });
 
+  /// Country: The Republic of Cameroon
   static const Country cmr = Country(
       'CM',
       'CMR',
@@ -8183,7 +8233,7 @@ class Countries {
           Coordinate(7.369721999999999, 12.354722),
           Coordinate(13.083335, 16.1944081),
           Coordinate(1.6559, 8.3936001),
-          Boundary(
+          BoundingBox(
               Coordinate(13.083335, 16.1944081), Coordinate(1.6559, 8.3936001)),
           null),
       '00',
@@ -8347,6 +8397,7 @@ class Countries {
         "zu": "IKamerooni"
       });
 
+  /// Country: The People's Republic of China
   static const Country chn = Country(
       'CN',
       'CHN',
@@ -8358,7 +8409,7 @@ class Countries {
           Coordinate(35.86166, 104.195397),
           Coordinate(53.5609739, 134.7754563),
           Coordinate(17.9996, 73.4994136),
-          Boundary(Coordinate(53.5609739, 134.7754563),
+          BoundingBox(Coordinate(53.5609739, 134.7754563),
               Coordinate(17.9996, 73.4994136)),
           null),
       '00',
@@ -8525,6 +8576,7 @@ class Countries {
         "zu": "Isi-Shayina"
       });
 
+  /// Country: The Republic of Colombia
   static const Country col = Country(
       'CO',
       'COL',
@@ -8536,7 +8588,7 @@ class Countries {
           Coordinate(4.570868, -74.297333),
           Coordinate(13.5177999, -66.8463122),
           Coordinate(-4.227109899999999, -81.8317),
-          Boundary(Coordinate(13.5177999, -66.8463122),
+          BoundingBox(Coordinate(13.5177999, -66.8463122),
               Coordinate(-4.227109899999999, -81.8317)),
           null),
       '005',
@@ -8700,6 +8752,7 @@ class Countries {
         "zu": "Colombia"
       });
 
+  /// Country: The Republic of Costa Rica
   static const Country cri = Country(
       'CR',
       'CRI',
@@ -8711,7 +8764,7 @@ class Countries {
           Coordinate(9.748916999999999, -83.753428),
           Coordinate(11.2196806, -82.51830009999999),
           Coordinate(5.496099999999999, -87.09899999999999),
-          Boundary(Coordinate(11.2196806, -82.51830009999999),
+          BoundingBox(Coordinate(11.2196806, -82.51830009999999),
               Coordinate(5.496099999999999, -87.09899999999999)),
           null),
       '00',
@@ -8875,6 +8928,7 @@ class Countries {
         "zu": "Costa Rica"
       });
 
+  /// Country: The Republic of Cuba
   static const Country cub = Country(
       'CU',
       'CUB',
@@ -8886,7 +8940,7 @@ class Countries {
           Coordinate(21.521757, -77.781167),
           Coordinate(23.3776001, -73.9545),
           Coordinate(19.6529001, -85.1715001),
-          Boundary(Coordinate(23.3776001, -73.9545),
+          BoundingBox(Coordinate(23.3776001, -73.9545),
               Coordinate(19.6529001, -85.1715001)),
           null),
       '119',
@@ -9050,6 +9104,7 @@ class Countries {
         "zu": "Cuba"
       });
 
+  /// Country: The Republic of Cabo Verde
   static const Country cpv = Country(
       'CV',
       'CPV',
@@ -9061,7 +9116,7 @@ class Countries {
           Coordinate(16.5388, -23.0418),
           Coordinate(17.3191764, -22.5933839),
           Coordinate(14.7270733, -25.383911),
-          Boundary(Coordinate(17.3191764, -22.5933839),
+          BoundingBox(Coordinate(17.3191764, -22.5933839),
               Coordinate(14.7270733, -25.383911)),
           null),
       '00',
@@ -9232,6 +9287,7 @@ class Countries {
         "zu": "Cabo Verde"
       });
 
+  /// Country: The Country of Curaçao
   static const Country cuw = Country(
       'CW',
       'CUW',
@@ -9243,7 +9299,7 @@ class Countries {
           Coordinate(12.16957, -68.99002),
           Coordinate(12.4941999, -68.5670001),
           Coordinate(11.9224, -69.29899999999999),
-          Boundary(Coordinate(12.4941999, -68.5670001),
+          BoundingBox(Coordinate(12.4941999, -68.5670001),
               Coordinate(11.9224, -69.29899999999999)),
           null),
       '00',
@@ -9407,6 +9463,7 @@ class Countries {
         "zu": "Curaçao"
       });
 
+  /// Country: The Territory of Christmas Island
   static const Country cxr = Country(
       'CX',
       'CXR',
@@ -9418,7 +9475,7 @@ class Countries {
           Coordinate(-10.447525, 105.690449),
           Coordinate(-10.412352, 105.7129382),
           Coordinate(-10.5703619, 105.5333161),
-          Boundary(Coordinate(-10.412352, 105.7129382),
+          BoundingBox(Coordinate(-10.412352, 105.7129382),
               Coordinate(-10.5703619, 105.5333161)),
           null),
       '0011',
@@ -9582,6 +9639,7 @@ class Countries {
         "zu": "Christmas Island"
       });
 
+  /// Country: The Republic of Cyprus
   static const Country cyp = Country(
       'CY',
       'CYP',
@@ -9593,7 +9651,7 @@ class Countries {
           Coordinate(35.126413, 33.429859),
           Coordinate(35.7071999, 34.60450000000001),
           Coordinate(34.6304001, 32.2459),
-          Boundary(Coordinate(35.7071999, 34.60450000000001),
+          BoundingBox(Coordinate(35.7071999, 34.60450000000001),
               Coordinate(34.6304001, 32.2459)),
           null),
       '00',
@@ -9757,6 +9815,7 @@ class Countries {
         "zu": "Cyprus"
       });
 
+  /// Country: The Czech Republic
   static const Country cze = Country(
       'CZ',
       'CZE',
@@ -9768,7 +9827,7 @@ class Countries {
           Coordinate(49.81749199999999, 15.472962),
           Coordinate(51.0557185, 18.8592361),
           Coordinate(48.5518081, 12.090589),
-          Boundary(Coordinate(51.0557185, 18.8592361),
+          BoundingBox(Coordinate(51.0557185, 18.8592361),
               Coordinate(48.5518081, 12.090589)),
           null),
       '00',
@@ -9943,6 +10002,7 @@ class Countries {
         "zu": "Czechia"
       });
 
+  /// Country: The Federal Republic of Germany
   static const Country deu = Country(
       'DE',
       'DEU',
@@ -9954,7 +10014,7 @@ class Countries {
           Coordinate(51.165691, 10.451526),
           Coordinate(55.0815, 15.0418962),
           Coordinate(47.2701115, 5.8663425),
-          Boundary(Coordinate(55.0815, 15.0418962),
+          BoundingBox(Coordinate(55.0815, 15.0418962),
               Coordinate(47.2701115, 5.8663425)),
           null),
       '00',
@@ -10121,6 +10181,7 @@ class Countries {
         "zu": "Isi-Jalimani"
       });
 
+  /// Country: The Republic of Djibouti
   static const Country dji = Country(
       'DJ',
       'DJI',
@@ -10132,7 +10193,7 @@ class Countries {
           Coordinate(11.825138, 42.590275),
           Coordinate(12.7136972, 43.4839),
           Coordinate(10.912953, 41.77084600000001),
-          Boundary(Coordinate(12.7136972, 43.4839),
+          BoundingBox(Coordinate(12.7136972, 43.4839),
               Coordinate(10.912953, 41.77084600000001)),
           null),
       '00',
@@ -10296,6 +10357,7 @@ class Countries {
         "zu": "IJibuthi"
       });
 
+  /// Country: The Kingdom of Denmark
   static const Country dnk = Country(
       'DK',
       'DNK',
@@ -10307,7 +10369,7 @@ class Countries {
           Coordinate(56.26392, 9.501785),
           Coordinate(58.02846, 15.2298),
           Coordinate(54.4317001, 7.855200099999999),
-          Boundary(Coordinate(58.02846, 15.2298),
+          BoundingBox(Coordinate(58.02846, 15.2298),
               Coordinate(54.4317001, 7.855200099999999)),
           null),
       '00',
@@ -10475,6 +10537,7 @@ class Countries {
         "zu": "Isi-Denimaki"
       });
 
+  /// Country: The Commonwealth of Dominica
   static const Country dma = Country(
       'DM',
       'DMA',
@@ -10486,7 +10549,7 @@ class Countries {
           Coordinate(15.414999, -61.37097600000001),
           Coordinate(15.6485199, -61.23090180000001),
           Coordinate(15.2042266, -61.484108),
-          Boundary(Coordinate(15.6485199, -61.23090180000001),
+          BoundingBox(Coordinate(15.6485199, -61.23090180000001),
               Coordinate(15.2042266, -61.484108)),
           null),
       '011',
@@ -10650,6 +10713,7 @@ class Countries {
         "zu": "Dominica"
       });
 
+  /// Country: The Dominican Republic
   static const Country dom = Country(
       'DO',
       'DOM',
@@ -10661,7 +10725,7 @@ class Countries {
           Coordinate(18.735693, -70.162651),
           Coordinate(19.9786989, -68.25260010000001),
           Coordinate(17.3611001, -72.0075099),
-          Boundary(Coordinate(19.9786989, -68.25260010000001),
+          BoundingBox(Coordinate(19.9786989, -68.25260010000001),
               Coordinate(17.3611001, -72.0075099)),
           null),
       '011',
@@ -10832,6 +10896,7 @@ class Countries {
         "zu": "Ulawulo lokuziphatha kwe Dominikhani"
       });
 
+  /// Country: The People's Democratic Republic of Algeria
   static const Country dza = Country(
       'DZ',
       'DZA',
@@ -10843,7 +10908,7 @@ class Countries {
           Coordinate(28.033886, 1.659626),
           Coordinate(37.2216, 11.9999992),
           Coordinate(18.9681469, -8.6676111),
-          Boundary(Coordinate(37.2216, 11.9999992),
+          BoundingBox(Coordinate(37.2216, 11.9999992),
               Coordinate(18.9681469, -8.6676111)),
           null),
       '00',
@@ -11015,6 +11080,7 @@ class Countries {
         "zu": "IAljiriya"
       });
 
+  /// Country: The Republic of Ecuador
   static const Country ecu = Country(
       'EC',
       'ECU',
@@ -11026,7 +11092,7 @@ class Countries {
           Coordinate(-1.831239, -78.18340599999999),
           Coordinate(2.2955, -75.1887938),
           Coordinate(-5.0143509, -92.60379999999999),
-          Boundary(Coordinate(2.2955, -75.1887938),
+          BoundingBox(Coordinate(2.2955, -75.1887938),
               Coordinate(-5.0143509, -92.60379999999999)),
           null),
       '00',
@@ -11190,6 +11256,7 @@ class Countries {
         "zu": "Ecuador"
       });
 
+  /// Country: The Republic of Estonia
   static const Country est = Country(
       'EE',
       'EST',
@@ -11201,7 +11268,7 @@ class Countries {
           Coordinate(58.595272, 25.0136071),
           Coordinate(59.7315, 28.2101389),
           Coordinate(57.50931600000001, 21.6540999),
-          Boundary(Coordinate(59.7315, 28.2101389),
+          BoundingBox(Coordinate(59.7315, 28.2101389),
               Coordinate(57.50931600000001, 21.6540999)),
           null),
       '00',
@@ -11365,6 +11432,7 @@ class Countries {
         "zu": "I-Estoniya"
       });
 
+  /// Country: The Arab Republic of Egypt
   static const Country egy = Country(
       'EG',
       'EGY',
@@ -11376,7 +11444,7 @@ class Countries {
           Coordinate(26.820553, 30.802498),
           Coordinate(31.8122, 37.0569),
           Coordinate(21.9999999, 24.696775),
-          Boundary(
+          BoundingBox(
               Coordinate(31.8122, 37.0569), Coordinate(21.9999999, 24.696775)),
           null),
       '00',
@@ -11543,6 +11611,7 @@ class Countries {
         "zu": "IGibhithe"
       });
 
+  /// Country: The Sahrawi Arab Democratic Republic
   static const Country esh = Country(
       'EH',
       'ESH',
@@ -11554,7 +11623,7 @@ class Countries {
           Coordinate(24.215527, -12.885834),
           Coordinate(27.7223999, -8.667525),
           Coordinate(20.427, -17.4573001),
-          Boundary(Coordinate(27.7223999, -8.667525),
+          BoundingBox(Coordinate(27.7223999, -8.667525),
               Coordinate(20.427, -17.4573001)),
           null),
       '',
@@ -11725,6 +11794,7 @@ class Countries {
         "zu": "Western Sahara"
       });
 
+  /// Country: The State of Eritrea
   static const Country eri = Country(
       'ER',
       'ERI',
@@ -11736,7 +11806,7 @@ class Countries {
           Coordinate(15.179384, 39.782334),
           Coordinate(18.0204137, 43.2312),
           Coordinate(12.354723, 36.433348),
-          Boundary(Coordinate(18.0204137, 43.2312),
+          BoundingBox(Coordinate(18.0204137, 43.2312),
               Coordinate(12.354723, 36.433348)),
           null),
       '00',
@@ -11900,6 +11970,7 @@ class Countries {
         "zu": "I-Eritrea"
       });
 
+  /// Country: The Kingdom of Spain
   static const Country esp = Country(
       'ES',
       'ESP',
@@ -11911,7 +11982,7 @@ class Countries {
           Coordinate(40.46366700000001, -3.74922),
           Coordinate(43.8504, 4.6362),
           Coordinate(27.4985, -18.2648001),
-          Boundary(
+          BoundingBox(
               Coordinate(43.8504, 4.6362), Coordinate(27.4985, -18.2648001)),
           null),
       '00',
@@ -12079,6 +12150,7 @@ class Countries {
         "zu": "Isi-Spayini"
       });
 
+  /// Country: The Federal Democratic Republic of Ethiopia
   static const Country eth = Country(
       'ET',
       'ETH',
@@ -12090,7 +12162,7 @@ class Countries {
           Coordinate(9.145000000000001, 40.489673),
           Coordinate(14.8942141, 48.0010561),
           Coordinate(3.4041369, 32.997734),
-          Boundary(Coordinate(14.8942141, 48.0010561),
+          BoundingBox(Coordinate(14.8942141, 48.0010561),
               Coordinate(3.4041369, 32.997734)),
           null),
       '00',
@@ -12254,6 +12326,7 @@ class Countries {
         "zu": "I-Ithiopia"
       });
 
+  /// Country: The Republic of Finland
   static const Country fin = Country(
       'FI',
       'FIN',
@@ -12265,7 +12338,7 @@ class Countries {
           Coordinate(61.92410999999999, 25.7481511),
           Coordinate(70.0922932, 31.5870999),
           Coordinate(59.693623, 20.4565002),
-          Boundary(Coordinate(70.0922932, 31.5870999),
+          BoundingBox(Coordinate(70.0922932, 31.5870999),
               Coordinate(59.693623, 20.4565002)),
           null),
       '00',
@@ -12432,6 +12505,7 @@ class Countries {
         "zu": "I-Finilandi"
       });
 
+  /// Country: The Republic of Fiji
   static const Country fji = Country(
       'FJ',
       'FJI',
@@ -12443,7 +12517,7 @@ class Countries {
           Coordinate(-17.713371, 178.065032),
           Coordinate(-12.2084957, -177.8686523),
           Coordinate(-20.8998713, 176.7919922),
-          Boundary(Coordinate(-12.2084957, -177.8686523),
+          BoundingBox(Coordinate(-12.2084957, -177.8686523),
               Coordinate(-20.8998713, 176.7919922)),
           null),
       '00',
@@ -12607,6 +12681,7 @@ class Countries {
         "zu": "IFiji"
       });
 
+  /// Country: The Falkland Islands
   static const Country flk = Country(
       'FK',
       'FLK',
@@ -12618,7 +12693,7 @@ class Countries {
           Coordinate(-51.796253, -59.523613),
           Coordinate(-50.9809115, -57.6768495),
           Coordinate(-52.4744161, -61.3792419),
-          Boundary(Coordinate(-50.9809115, -57.6768495),
+          BoundingBox(Coordinate(-50.9809115, -57.6768495),
               Coordinate(-52.4744161, -61.3792419)),
           null),
       '00',
@@ -12789,6 +12864,7 @@ class Countries {
         "zu": "Falkland Islands (Malvinas)"
       });
 
+  /// Country: The Federated States of Micronesia
   static const Country fsm = Country(
       'FM',
       'FSM',
@@ -12800,7 +12876,7 @@ class Countries {
           Coordinate(7.425554, 150.550812),
           Coordinate(10.2770863, 163.5177612),
           Coordinate(0.1538084, 136.9226075),
-          Boundary(Coordinate(10.2770863, 163.5177612),
+          BoundingBox(Coordinate(10.2770863, 163.5177612),
               Coordinate(0.1538084, 136.9226075)),
           null),
       '011',
@@ -12964,6 +13040,7 @@ class Countries {
         "zu": "Micronesia, Federated States of"
       });
 
+  /// Country: The Faroe Islands
   static const Country fro = Country(
       'FO',
       'FRO',
@@ -12975,7 +13052,7 @@ class Countries {
           Coordinate(61.89263500000001, -6.9118061),
           Coordinate(62.4310742, -6.190796),
           Coordinate(61.3677776, -7.7178956),
-          Boundary(Coordinate(62.4310742, -6.190796),
+          BoundingBox(Coordinate(62.4310742, -6.190796),
               Coordinate(61.3677776, -7.7178956)),
           null),
       '00',
@@ -13146,6 +13223,7 @@ class Countries {
         "zu": "Faroe Islands"
       });
 
+  /// Country: The French Republic
   static const Country fra = Country(
       'FR',
       'FRA',
@@ -13157,7 +13235,7 @@ class Countries {
           Coordinate(46.227638, 2.213749),
           Coordinate(51.1241999, 9.6624999),
           Coordinate(41.31433, -5.5591),
-          Boundary(
+          BoundingBox(
               Coordinate(51.1241999, 9.6624999), Coordinate(41.31433, -5.5591)),
           null),
       '00',
@@ -13331,6 +13409,7 @@ class Countries {
         "zu": "Isi Frentshi"
       });
 
+  /// Country: The Gabonese Republic
   static const Country gab = Country(
       'GA',
       'GAB',
@@ -13342,7 +13421,7 @@ class Countries {
           Coordinate(-0.803689, 11.609444),
           Coordinate(2.318109, 14.5269234),
           Coordinate(-4.1656, 8.421),
-          Boundary(
+          BoundingBox(
               Coordinate(2.318109, 14.5269234), Coordinate(-4.1656, 8.421)),
           null),
       '00',
@@ -13506,6 +13585,7 @@ class Countries {
         "zu": "IGaboni"
       });
 
+  /// Country: The United Kingdom of Great Britain and Northern Ireland
   static const Country gbr = Country(
       'GB',
       'GBR',
@@ -13517,7 +13597,7 @@ class Countries {
           Coordinate(55.378051, -3.435973),
           Coordinate(60.91569999999999, 1.68153079591),
           Coordinate(49.959999905, -7.57216793459),
-          Boundary(Coordinate(60.91569999999999, 1.68153079591),
+          BoundingBox(Coordinate(60.91569999999999, 1.68153079591),
               Coordinate(49.959999905, -7.57216793459)),
           null),
       '00',
@@ -13699,6 +13779,7 @@ class Countries {
         "zu": "United Kingdom"
       });
 
+  /// Country: Grenada
   static const Country grd = Country(
       'GD',
       'GRD',
@@ -13710,7 +13791,7 @@ class Countries {
           Coordinate(12.1165, -61.67899999999999),
           Coordinate(12.5367, -61.3746999),
           Coordinate(11.9829051, -61.80589999999999),
-          Boundary(Coordinate(12.5367, -61.3746999),
+          BoundingBox(Coordinate(12.5367, -61.3746999),
               Coordinate(11.9829051, -61.80589999999999)),
           null),
       '011',
@@ -13874,6 +13955,7 @@ class Countries {
         "zu": "I-Grenada"
       });
 
+  /// Country: Georgia
   static const Country geo = Country(
       'GE',
       'GEO',
@@ -13885,7 +13967,7 @@ class Countries {
           Coordinate(42.315407, 43.35689199999999),
           Coordinate(43.5866269, 46.7361189),
           Coordinate(41.054942, 39.9792001),
-          Boundary(Coordinate(43.5866269, 46.7361189),
+          BoundingBox(Coordinate(43.5866269, 46.7361189),
               Coordinate(41.054942, 39.9792001)),
           null),
       '810',
@@ -14049,6 +14131,7 @@ class Countries {
         "zu": "Georgia"
       });
 
+  /// Country: Guyane
   static const Country guf = Country(
       'GF',
       'GUF',
@@ -14060,7 +14143,7 @@ class Countries {
           Coordinate(3.933889, -53.125782),
           Coordinate(5.9548, -51.6164491),
           Coordinate(2.109287, -54.5544379),
-          Boundary(Coordinate(5.9548, -51.6164491),
+          BoundingBox(Coordinate(5.9548, -51.6164491),
               Coordinate(2.109287, -54.5544379)),
           null),
       '00',
@@ -14230,6 +14313,7 @@ class Countries {
         "zu": "French Guiana"
       });
 
+  /// Country: The Bailiwick of Guernsey
   static const Country ggy = Country(
       'GG',
       'GGY',
@@ -14241,7 +14325,7 @@ class Countries {
           Coordinate(49.4481982, -2.58949),
           Coordinate(49.5094108, -2.5016885),
           Coordinate(49.4167199, -2.6745361),
-          Boundary(Coordinate(49.5094108, -2.5016885),
+          BoundingBox(Coordinate(49.5094108, -2.5016885),
               Coordinate(49.4167199, -2.6745361)),
           null),
       '',
@@ -14412,6 +14496,7 @@ class Countries {
         "zu": "Guernsey"
       });
 
+  /// Country: The Republic of Ghana
   static const Country gha = Country(
       'GH',
       'GHA',
@@ -14423,7 +14508,7 @@ class Countries {
           Coordinate(7.946527, -1.023194),
           Coordinate(11.1750308, 1.199972),
           Coordinate(4.6339001, -3.2607859),
-          Boundary(Coordinate(11.1750308, 1.199972),
+          BoundingBox(Coordinate(11.1750308, 1.199972),
               Coordinate(4.6339001, -3.2607859)),
           null),
       '00',
@@ -14587,6 +14672,7 @@ class Countries {
         "zu": "IGana"
       });
 
+  /// Country: Gibraltar
   static const Country gib = Country(
       'GI',
       'GIB',
@@ -14598,7 +14684,7 @@ class Countries {
           Coordinate(36.140751, -5.353585),
           Coordinate(36.1551186, -5.334499999999999),
           Coordinate(36.1038999, -5.3721),
-          Boundary(Coordinate(36.1551186, -5.334499999999999),
+          BoundingBox(Coordinate(36.1551186, -5.334499999999999),
               Coordinate(36.1038999, -5.3721)),
           null),
       '00',
@@ -14762,6 +14848,7 @@ class Countries {
         "zu": "Gibraltar"
       });
 
+  /// Country: Kalaallit Nunaat
   static const Country grl = Country(
       'GL',
       'GRL',
@@ -14773,7 +14860,7 @@ class Countries {
           Coordinate(71.706936, -42.604303),
           Coordinate(83.9702561, -8.2617199),
           Coordinate(58.26329, -73.8281196),
-          Boundary(Coordinate(83.9702561, -8.2617199),
+          BoundingBox(Coordinate(83.9702561, -8.2617199),
               Coordinate(58.26329, -73.8281196)),
           null),
       '009',
@@ -14940,6 +15027,7 @@ class Countries {
         "zu": "Greenland"
       });
 
+  /// Country: The Republic of The Gambia
   static const Country gmb = Country(
       'GM',
       'GMB',
@@ -14951,7 +15039,7 @@ class Countries {
           Coordinate(13.443182, -15.310139),
           Coordinate(13.825058, -13.7913862),
           Coordinate(13.0098999, -16.9464001),
-          Boundary(Coordinate(13.825058, -13.7913862),
+          BoundingBox(Coordinate(13.825058, -13.7913862),
               Coordinate(13.0098999, -16.9464001)),
           null),
       '00',
@@ -15115,6 +15203,7 @@ class Countries {
         "zu": "Gambia"
       });
 
+  /// Country: The Republic of Guinea
   static const Country gin = Country(
       'GN',
       'GIN',
@@ -15126,7 +15215,7 @@ class Countries {
           Coordinate(9.945587, -9.696645),
           Coordinate(12.6748616, -7.637853),
           Coordinate(7.190909099999999, -15.282),
-          Boundary(Coordinate(12.6748616, -7.637853),
+          BoundingBox(Coordinate(12.6748616, -7.637853),
               Coordinate(7.190909099999999, -15.282)),
           null),
       '00',
@@ -15290,6 +15379,7 @@ class Countries {
         "zu": "IGini"
       });
 
+  /// Country: Guadeloupe
   static const Country glp = Country(
       'GP',
       'GLP',
@@ -15301,7 +15391,7 @@ class Countries {
           Coordinate(16.265, -61.55099999999999),
           Coordinate(16.5572273, -60.9473),
           Coordinate(15.742032, -61.8468),
-          Boundary(Coordinate(16.5572273, -60.9473),
+          BoundingBox(Coordinate(16.5572273, -60.9473),
               Coordinate(15.742032, -61.8468)),
           null),
       '00',
@@ -15465,6 +15555,7 @@ class Countries {
         "zu": "Guadeloupe"
       });
 
+  /// Country: The Republic of Equatorial Guinea
   static const Country gnq = Country(
       'GQ',
       'GNQ',
@@ -15476,7 +15567,7 @@ class Countries {
           Coordinate(1.650801, 10.267895),
           Coordinate(3.8355, 11.3333),
           Coordinate(-1.5475, 5.541900099999999),
-          Boundary(Coordinate(3.8355, 11.3333),
+          BoundingBox(Coordinate(3.8355, 11.3333),
               Coordinate(-1.5475, 5.541900099999999)),
           null),
       '00',
@@ -15647,6 +15738,7 @@ class Countries {
         "zu": "IGini Enkabazwe"
       });
 
+  /// Country: The Hellenic Republic
   static const Country grc = Country(
       'GR',
       'GRC',
@@ -15658,7 +15750,7 @@ class Countries {
           Coordinate(39.074208, 21.824312),
           Coordinate(41.7488784, 29.6527999),
           Coordinate(34.5428, 19.3098),
-          Boundary(
+          BoundingBox(
               Coordinate(41.7488784, 29.6527999), Coordinate(34.5428, 19.3098)),
           null),
       '00',
@@ -15825,6 +15917,7 @@ class Countries {
         "zu": "I-Grisi"
       });
 
+  /// Country: South Georgia and the South Sandwich Islands
   static const Country sgs = Country(
       'GS',
       'SGS',
@@ -15836,7 +15929,7 @@ class Countries {
           Coordinate(-54.429579, -36.587909),
           Coordinate(-53.8525267, -25.4663085),
           Coordinate(-59.91097600000001, -38.4301758),
-          Boundary(Coordinate(-53.8525267, -25.4663085),
+          BoundingBox(Coordinate(-53.8525267, -25.4663085),
               Coordinate(-59.91097600000001, -38.4301758)),
           null),
       '',
@@ -16006,6 +16099,7 @@ class Countries {
         "zu": "South Georgia and the South Sandwich Islands"
       });
 
+  /// Country: The Republic of Guatemala
   static const Country gtm = Country(
       'GT',
       'GTM',
@@ -16017,7 +16111,7 @@ class Countries {
           Coordinate(15.783471, -90.23075899999999),
           Coordinate(17.815697, -88.1982001),
           Coordinate(13.63, -92.2714),
-          Boundary(
+          BoundingBox(
               Coordinate(17.815697, -88.1982001), Coordinate(13.63, -92.2714)),
           null),
       '00',
@@ -16181,6 +16275,7 @@ class Countries {
         "zu": "I-Guwathemala"
       });
 
+  /// Country: The Territory of Guam
   static const Country gum = Country(
       'GU',
       'GUM',
@@ -16192,7 +16287,7 @@ class Countries {
           Coordinate(13.444304, 144.793731),
           Coordinate(13.7994072, 145.112915),
           Coordinate(13.1022175, 144.4647218),
-          Boundary(Coordinate(13.7994072, 145.112915),
+          BoundingBox(Coordinate(13.7994072, 145.112915),
               Coordinate(13.1022175, 144.4647218)),
           null),
       '011',
@@ -16356,6 +16451,7 @@ class Countries {
         "zu": "Guam"
       });
 
+  /// Country: The Republic of Guinea-Bissau
   static const Country gnb = Country(
       'GW',
       'GNB',
@@ -16367,7 +16463,7 @@ class Countries {
           Coordinate(11.803749, -15.180413),
           Coordinate(12.6869468, -13.6265235),
           Coordinate(10.7146, -16.9518999),
-          Boundary(Coordinate(12.6869468, -13.6265235),
+          BoundingBox(Coordinate(12.6869468, -13.6265235),
               Coordinate(10.7146, -16.9518999)),
           null),
       '00',
@@ -16537,6 +16633,7 @@ class Countries {
         "zu": "IGini Bisawu"
       });
 
+  /// Country: The Co-operative Republic of Guyana
   static const Country guy = Country(
       'GY',
       'GUY',
@@ -16548,7 +16645,7 @@ class Countries {
           Coordinate(4.860416, -58.93018),
           Coordinate(8.722199999999999, -56.49112),
           Coordinate(1.164724, -61.414905),
-          Boundary(Coordinate(8.722199999999999, -56.49112),
+          BoundingBox(Coordinate(8.722199999999999, -56.49112),
               Coordinate(1.164724, -61.414905)),
           null),
       '00',
@@ -16712,6 +16809,7 @@ class Countries {
         "zu": "Guyana"
       });
 
+  /// Country: The Hong Kong Special Administrative Region of China
   static const Country hkg = Country(
       'HK',
       'HKG',
@@ -16723,7 +16821,7 @@ class Countries {
           Coordinate(22.3193039, 114.1693611),
           Coordinate(22.5619469, 114.4294999),
           Coordinate(22.1435, 113.8259001),
-          Boundary(Coordinate(22.5619469, 114.4294999),
+          BoundingBox(Coordinate(22.5619469, 114.4294999),
               Coordinate(22.1435, 113.8259001)),
           null),
       '001',
@@ -16890,6 +16988,7 @@ class Countries {
         "zu": "Hong Kong"
       });
 
+  /// Country: The Territory of Heard Island and McDonald Islands
   static const Country hmd = Country(
       'HM',
       'HMD',
@@ -16901,7 +17000,7 @@ class Countries {
           Coordinate(-53.08181, 73.50415799999999),
           Coordinate(-52.9609444, 73.7792016),
           Coordinate(-53.19168759999999, 73.25065599999999),
-          Boundary(Coordinate(-52.9609444, 73.7792016),
+          BoundingBox(Coordinate(-52.9609444, 73.7792016),
               Coordinate(-53.19168759999999, 73.25065599999999)),
           null),
       '',
@@ -17071,6 +17170,7 @@ class Countries {
         "zu": "Heard Island and McDonald Islands"
       });
 
+  /// Country: The Republic of Honduras
   static const Country hnd = Country(
       'HN',
       'HND',
@@ -17082,7 +17182,7 @@ class Countries {
           Coordinate(15.199999, -86.241905),
           Coordinate(17.4677999, -83.0621001),
           Coordinate(12.9808201, -89.3564822),
-          Boundary(Coordinate(17.4677999, -83.0621001),
+          BoundingBox(Coordinate(17.4677999, -83.0621001),
               Coordinate(12.9808201, -89.3564822)),
           null),
       '00',
@@ -17246,6 +17346,7 @@ class Countries {
         "zu": "I-Hondurasi"
       });
 
+  /// Country: The Republic of Croatia
   static const Country hrv = Country(
       'HR',
       'HRV',
@@ -17257,7 +17358,7 @@ class Countries {
           Coordinate(45.1, 15.2000001),
           Coordinate(46.5549857, 19.4480523),
           Coordinate(42.3385087, 13.3649),
-          Boundary(Coordinate(46.5549857, 19.4480523),
+          BoundingBox(Coordinate(46.5549857, 19.4480523),
               Coordinate(42.3385087, 13.3649)),
           null),
       '00',
@@ -17432,6 +17533,7 @@ class Countries {
         "zu": "I-Crowathiya"
       });
 
+  /// Country: The Republic of Haiti
   static const Country hti = Country(
       'HT',
       'HTI',
@@ -17443,7 +17545,7 @@ class Countries {
           Coordinate(18.971187, -72.285215),
           Coordinate(20.1282, -71.621754),
           Coordinate(17.9422, -74.6082),
-          Boundary(
+          BoundingBox(
               Coordinate(20.1282, -71.621754), Coordinate(17.9422, -74.6082)),
           null),
       '00',
@@ -17607,6 +17709,7 @@ class Countries {
         "zu": "Haiti"
       });
 
+  /// Country: Hungary
   static const Country hun = Country(
       'HU',
       'HUN',
@@ -17618,7 +17721,7 @@ class Countries {
           Coordinate(47.162494, 19.5033041),
           Coordinate(48.585234, 22.8965438),
           Coordinate(45.7370889, 16.1133078),
-          Boundary(Coordinate(48.585234, 22.8965438),
+          BoundingBox(Coordinate(48.585234, 22.8965438),
               Coordinate(45.7370889, 16.1133078)),
           null),
       '00',
@@ -17786,6 +17889,7 @@ class Countries {
         "zu": "I-Hungariya"
       });
 
+  /// Country: The Republic of Indonesia
   static const Country idn = Country(
       'ID',
       'IDN',
@@ -17797,7 +17901,7 @@ class Countries {
           Coordinate(-0.789275, 113.921327),
           Coordinate(6.216999899999999, 141.0425),
           Coordinate(-11.1082999, 94.7351),
-          Boundary(Coordinate(6.216999899999999, 141.0425),
+          BoundingBox(Coordinate(6.216999899999999, 141.0425),
               Coordinate(-11.1082999, 94.7351)),
           null),
       '001',
@@ -17965,6 +18069,7 @@ class Countries {
         "zu": "I-Indoneshiya"
       });
 
+  /// Country: Ireland
   static const Country irl = Country(
       'IE',
       'IRL',
@@ -17976,7 +18081,7 @@ class Countries {
           Coordinate(53.1423672, -7.692053599999999),
           Coordinate(55.38294149999999, -5.431909999999999),
           Coordinate(51.4475448, -10.4800237),
-          Boundary(Coordinate(55.38294149999999, -5.431909999999999),
+          BoundingBox(Coordinate(55.38294149999999, -5.431909999999999),
               Coordinate(51.4475448, -10.4800237)),
           null),
       '00',
@@ -18143,6 +18248,7 @@ class Countries {
         "zu": "I-Irelandi"
       });
 
+  /// Country: The State of Israel
   static const Country isr = Country(
       'IL',
       'ISR',
@@ -18154,7 +18260,7 @@ class Countries {
           Coordinate(31.046051, 34.851612),
           Coordinate(33.33280500000001, 35.896244),
           Coordinate(29.47969999999999, 34.2673871),
-          Boundary(Coordinate(33.33280500000001, 35.896244),
+          BoundingBox(Coordinate(33.33280500000001, 35.896244),
               Coordinate(29.47969999999999, 34.2673871)),
           null),
       '00',
@@ -18321,6 +18427,7 @@ class Countries {
         "zu": "I-Sirayeli"
       });
 
+  /// Country: The Isle of Man
   static const Country imn = Country(
       'IM',
       'IMN',
@@ -18332,7 +18439,7 @@ class Countries {
           Coordinate(54.236107, -4.548056),
           Coordinate(54.4369363, -4.270618199999999),
           Coordinate(54.0186764, -4.8736609),
-          Boundary(Coordinate(54.4369363, -4.270618199999999),
+          BoundingBox(Coordinate(54.4369363, -4.270618199999999),
               Coordinate(54.0186764, -4.8736609)),
           null),
       '',
@@ -18496,6 +18603,7 @@ class Countries {
         "zu": "Isle of Man"
       });
 
+  /// Country: The Republic of India
   static const Country ind = Country(
       'IN',
       'IND',
@@ -18507,7 +18615,7 @@ class Countries {
           Coordinate(20.593684, 78.96288),
           Coordinate(35.513327, 97.39535869999999),
           Coordinate(6.4626999, 68.1097),
-          Boundary(Coordinate(35.513327, 97.39535869999999),
+          BoundingBox(Coordinate(35.513327, 97.39535869999999),
               Coordinate(6.4626999, 68.1097)),
           null),
       '00',
@@ -18675,6 +18783,7 @@ class Countries {
         "zu": "India"
       });
 
+  /// Country: The British Indian Ocean Territory
   static const Country iot = Country(
       'IO',
       'IOT',
@@ -18686,7 +18795,7 @@ class Countries {
           Coordinate(-6.343194, 71.876519),
           Coordinate(-5.1401857, 72.5880433),
           Coordinate(-7.4891118, 71.1859131),
-          Boundary(Coordinate(-5.1401857, 72.5880433),
+          BoundingBox(Coordinate(-5.1401857, 72.5880433),
               Coordinate(-7.4891118, 71.1859131)),
           null),
       '',
@@ -18856,6 +18965,7 @@ class Countries {
         "zu": "British Indian Ocean Territory"
       });
 
+  /// Country: The Republic of Iraq
   static const Country irq = Country(
       'IQ',
       'IRQ',
@@ -18867,7 +18977,7 @@ class Countries {
           Coordinate(33.223191, 43.679291),
           Coordinate(37.380645, 48.6350999),
           Coordinate(29.0612079, 38.7936741),
-          Boundary(Coordinate(37.380645, 48.6350999),
+          BoundingBox(Coordinate(37.380645, 48.6350999),
               Coordinate(29.0612079, 38.7936741)),
           null),
       '00',
@@ -19031,6 +19141,7 @@ class Countries {
         "zu": "I-Iraki"
       });
 
+  /// Country: The Islamic Republic of Iran
   static const Country irn = Country(
       'IR',
       'IRN',
@@ -19042,7 +19153,7 @@ class Countries {
           Coordinate(32.427908, 53.688046),
           Coordinate(39.782056, 63.3333366),
           Coordinate(24.8066999, 44.0326949),
-          Boundary(Coordinate(39.782056, 63.3333366),
+          BoundingBox(Coordinate(39.782056, 63.3333366),
               Coordinate(24.8066999, 44.0326949)),
           null),
       '00',
@@ -19212,6 +19323,7 @@ class Countries {
         "zu": "Iran, Islamic Republic of"
       });
 
+  /// Country: Iceland
   static const Country isl = Country(
       'IS',
       'ISL',
@@ -19223,7 +19335,7 @@ class Countries {
           Coordinate(64.963051, -19.020835),
           Coordinate(67.2466, -12.2388001),
           Coordinate(62.4819, -26.2572999),
-          Boundary(Coordinate(67.2466, -12.2388001),
+          BoundingBox(Coordinate(67.2466, -12.2388001),
               Coordinate(62.4819, -26.2572999)),
           null),
       '00',
@@ -19390,6 +19502,7 @@ class Countries {
         "zu": "I-Icelandi"
       });
 
+  /// Country: The Italian Republic
   static const Country ita = Country(
       'IT',
       'ITA',
@@ -19401,7 +19514,7 @@ class Countries {
           Coordinate(41.87194, 12.56738),
           Coordinate(47.092, 18.7975999),
           Coordinate(35.4897, 6.6267201),
-          Boundary(
+          BoundingBox(
               Coordinate(47.092, 18.7975999), Coordinate(35.4897, 6.6267201)),
           null),
       '00',
@@ -19568,6 +19681,7 @@ class Countries {
         "zu": "I-Ithali"
       });
 
+  /// Country: The Bailiwick of Jersey
   static const Country jey = Country(
       'JE',
       'JEY',
@@ -19579,7 +19693,7 @@ class Countries {
           Coordinate(49.214439, -2.13125),
           Coordinate(49.26650009999999, -2.0013001),
           Coordinate(49.1582, -2.2602001),
-          Boundary(Coordinate(49.26650009999999, -2.0013001),
+          BoundingBox(Coordinate(49.26650009999999, -2.0013001),
               Coordinate(49.1582, -2.2602001)),
           null),
       '',
@@ -19743,6 +19857,7 @@ class Countries {
         "zu": "Jersey"
       });
 
+  /// Country: Jamaica
   static const Country jam = Country(
       'JM',
       'JAM',
@@ -19754,7 +19869,7 @@ class Countries {
           Coordinate(18.109581, -77.297508),
           Coordinate(18.5697821, -76.1448669),
           Coordinate(17.6688854, -78.4073639),
-          Boundary(Coordinate(18.5697821, -76.1448669),
+          BoundingBox(Coordinate(18.5697821, -76.1448669),
               Coordinate(17.6688854, -78.4073639)),
           null),
       '011',
@@ -19918,6 +20033,7 @@ class Countries {
         "zu": "Jamaica"
       });
 
+  /// Country: The Hashemite Kingdom of Jordan
   static const Country jor = Country(
       'JO',
       'JOR',
@@ -19929,7 +20045,7 @@ class Countries {
           Coordinate(30.585164, 36.238414),
           Coordinate(33.374735, 39.301154),
           Coordinate(29.1850361, 34.9441001),
-          Boundary(Coordinate(33.374735, 39.301154),
+          BoundingBox(Coordinate(33.374735, 39.301154),
               Coordinate(29.1850361, 34.9441001)),
           null),
       '00',
@@ -20104,6 +20220,7 @@ class Countries {
         "zu": "Jordan"
       });
 
+  /// Country: Japan
   static const Country jpn = Country(
       'JP',
       'JPN',
@@ -20115,7 +20232,7 @@ class Countries {
           Coordinate(36.204824, 138.252924),
           Coordinate(45.6412626, 154.0031455),
           Coordinate(20.3585295, 122.8554688),
-          Boundary(Coordinate(45.6412626, 154.0031455),
+          BoundingBox(Coordinate(45.6412626, 154.0031455),
               Coordinate(20.3585295, 122.8554688)),
           null),
       '010',
@@ -20282,6 +20399,7 @@ class Countries {
         "zu": "I-Japhani"
       });
 
+  /// Country: The Republic of Kenya
   static const Country ken = Country(
       'KE',
       'KEN',
@@ -20293,7 +20411,7 @@ class Countries {
           Coordinate(-0.023559, 37.906193),
           Coordinate(5.033420899999999, 41.9069449),
           Coordinate(-4.724299999999999, 33.90982109999999),
-          Boundary(Coordinate(5.033420899999999, 41.9069449),
+          BoundingBox(Coordinate(5.033420899999999, 41.9069449),
               Coordinate(-4.724299999999999, 33.90982109999999)),
           null),
       '000',
@@ -20457,6 +20575,7 @@ class Countries {
         "zu": "Kenya"
       });
 
+  /// Country: The Kyrgyz Republic
   static const Country kgz = Country(
       'KG',
       'KGZ',
@@ -20468,7 +20587,7 @@ class Countries {
           Coordinate(41.20438, 74.766098),
           Coordinate(43.2653569, 80.2281514),
           Coordinate(39.180254, 69.250998),
-          Boundary(Coordinate(43.2653569, 80.2281514),
+          BoundingBox(Coordinate(43.2653569, 80.2281514),
               Coordinate(39.180254, 69.250998)),
           null),
       '00',
@@ -20640,6 +20759,7 @@ class Countries {
         "zu": "Kyrgyzstan"
       });
 
+  /// Country: The Kingdom of Cambodia
   static const Country khm = Country(
       'KH',
       'KHM',
@@ -20651,7 +20771,7 @@ class Countries {
           Coordinate(12.565679, 104.990963),
           Coordinate(14.6901791, 107.627687),
           Coordinate(9.6007, 102.333542),
-          Boundary(Coordinate(14.6901791, 107.627687),
+          BoundingBox(Coordinate(14.6901791, 107.627687),
               Coordinate(9.6007, 102.333542)),
           null),
       '00',
@@ -20815,6 +20935,7 @@ class Countries {
         "zu": "Cambodia"
       });
 
+  /// Country: The Republic of Kiribati
   static const Country kir = Country(
       'KI',
       'KIR',
@@ -20826,7 +20947,7 @@ class Countries {
           Coordinate(-3.370417, -168.734039),
           Coordinate(5.4082108, -145.1513674),
           Coordinate(-13.0502263, 168.8818359),
-          Boundary(Coordinate(5.4082108, -145.1513674),
+          BoundingBox(Coordinate(5.4082108, -145.1513674),
               Coordinate(-13.0502263, 168.8818359)),
           null),
       '00',
@@ -20990,6 +21111,7 @@ class Countries {
         "zu": "Kiribati"
       });
 
+  /// Country: The Union of the Comoros
   static const Country com = Country(
       'KM',
       'COM',
@@ -21001,7 +21123,7 @@ class Countries {
           Coordinate(-11.6455, 43.3333),
           Coordinate(-11.3373321, 44.5646666),
           Coordinate(-12.4687602, 43.1968689),
-          Boundary(Coordinate(-11.3373321, 44.5646666),
+          BoundingBox(Coordinate(-11.3373321, 44.5646666),
               Coordinate(-12.4687602, 43.1968689)),
           null),
       '00',
@@ -21165,6 +21287,7 @@ class Countries {
         "zu": "IsiKhomorosi"
       });
 
+  /// Country: Saint Kitts and Nevis
   static const Country kna = Country(
       'KN',
       'KNA',
@@ -21176,7 +21299,7 @@ class Countries {
           Coordinate(17.357822, -62.782998),
           Coordinate(17.4205891, -62.52369989999999),
           Coordinate(17.07861, -62.86949999999999),
-          Boundary(Coordinate(17.4205891, -62.52369989999999),
+          BoundingBox(Coordinate(17.4205891, -62.52369989999999),
               Coordinate(17.07861, -62.86949999999999)),
           '-62.643184661865234'),
       '011',
@@ -21349,6 +21472,7 @@ class Countries {
         "zu": "St. Kitts no Nevis"
       });
 
+  /// Country: The Democratic People's Republic of Korea
   static const Country prk = Country(
       'KP',
       'PRK',
@@ -21360,7 +21484,7 @@ class Countries {
           Coordinate(40.339852, 127.510093),
           Coordinate(43.01159, 130.6990167),
           Coordinate(37.5892001, 124.1491605),
-          Boundary(Coordinate(43.01159, 130.6990167),
+          BoundingBox(Coordinate(43.01159, 130.6990167),
               Coordinate(37.5892001, 124.1491605)),
           null),
       '00',
@@ -21534,6 +21658,7 @@ class Countries {
         "zu": "North Korea"
       });
 
+  /// Country: The Republic of Korea
   static const Country kor = Country(
       'KR',
       'KOR',
@@ -21545,7 +21670,7 @@ class Countries {
           Coordinate(35.907757, 127.766922),
           Coordinate(38.63400000000001, 131.1603),
           Coordinate(33.0041, 124.5863),
-          Boundary(Coordinate(38.63400000000001, 131.1603),
+          BoundingBox(Coordinate(38.63400000000001, 131.1603),
               Coordinate(33.0041, 124.5863)),
           null),
       '001',
@@ -21722,6 +21847,7 @@ class Countries {
         "zu": "South Korea"
       });
 
+  /// Country: The State of Kuwait
   static const Country kwt = Country(
       'KW',
       'KWT',
@@ -21733,7 +21859,7 @@ class Countries {
           Coordinate(29.31166, 47.481766),
           Coordinate(30.1036993, 48.5184),
           Coordinate(28.5244463, 46.55303989999999),
-          Boundary(Coordinate(30.1036993, 48.5184),
+          BoundingBox(Coordinate(30.1036993, 48.5184),
               Coordinate(28.5244463, 46.55303989999999)),
           null),
       '00',
@@ -21901,6 +22027,7 @@ class Countries {
         "zu": "Kuwait"
       });
 
+  /// Country: The Cayman Islands
   static const Country cym = Country(
       'KY',
       'CYM',
@@ -21912,7 +22039,7 @@ class Countries {
           Coordinate(19.3133, -81.2546),
           Coordinate(19.7616, -79.7191),
           Coordinate(19.2538999, -81.42940010000001),
-          Boundary(Coordinate(19.7616, -79.7191),
+          BoundingBox(Coordinate(19.7616, -79.7191),
               Coordinate(19.2538999, -81.42940010000001)),
           null),
       '011',
@@ -22083,6 +22210,7 @@ class Countries {
         "zu": "Cayman Islands"
       });
 
+  /// Country: The Republic of Kazakhstan
   static const Country kaz = Country(
       'KZ',
       'KAZ',
@@ -22094,7 +22222,7 @@ class Countries {
           Coordinate(48.019573, 66.923684),
           Coordinate(55.4419839, 87.315415),
           Coordinate(40.5685841, 46.493672),
-          Boundary(Coordinate(55.4419839, 87.315415),
+          BoundingBox(Coordinate(55.4419839, 87.315415),
               Coordinate(40.5685841, 46.493672)),
           null),
       '810',
@@ -22258,6 +22386,7 @@ class Countries {
         "zu": "Kazakhstan"
       });
 
+  /// Country: The Lao People's Democratic Republic
   static const Country lao = Country(
       'LA',
       'LAO',
@@ -22269,7 +22398,7 @@ class Countries {
           Coordinate(19.85627, 102.495496),
           Coordinate(22.5090449, 107.635094),
           Coordinate(13.9097198, 100.0832139),
-          Boundary(Coordinate(22.5090449, 107.635094),
+          BoundingBox(Coordinate(22.5090449, 107.635094),
               Coordinate(13.9097198, 100.0832139)),
           null),
       '00',
@@ -22433,6 +22562,7 @@ class Countries {
         "zu": "Lao People's Democratic Republic"
       });
 
+  /// Country: The Lebanese Republic
   static const Country lbn = Country(
       'LB',
       'LBN',
@@ -22444,7 +22574,7 @@ class Countries {
           Coordinate(33.854721, 35.862285),
           Coordinate(34.69209, 36.62372),
           Coordinate(33.0550256, 35.0711001),
-          Boundary(Coordinate(34.69209, 36.62372),
+          BoundingBox(Coordinate(34.69209, 36.62372),
               Coordinate(33.0550256, 35.0711001)),
           null),
       '00',
@@ -22611,6 +22741,7 @@ class Countries {
         "zu": "Lebanon"
       });
 
+  /// Country: Saint Lucia
   static const Country lca = Country(
       'LC',
       'LCA',
@@ -22622,7 +22753,7 @@ class Countries {
           Coordinate(13.909444, -60.978893),
           Coordinate(14.1209277, -60.85979460000001),
           Coordinate(13.7047779, -61.0812378),
-          Boundary(Coordinate(14.1209277, -60.85979460000001),
+          BoundingBox(Coordinate(14.1209277, -60.85979460000001),
               Coordinate(13.7047779, -61.0812378)),
           null),
       '011',
@@ -22793,6 +22924,7 @@ class Countries {
         "zu": "Saint Lucia"
       });
 
+  /// Country: The Principality of Liechtenstein
   static const Country lie = Country(
       'LI',
       'LIE',
@@ -22804,7 +22936,7 @@ class Countries {
           Coordinate(47.166, 9.555373),
           Coordinate(47.2705467, 9.6356501),
           Coordinate(47.04828999999999, 9.47162),
-          Boundary(Coordinate(47.2705467, 9.6356501),
+          BoundingBox(Coordinate(47.2705467, 9.6356501),
               Coordinate(47.04828999999999, 9.47162)),
           null),
       '00',
@@ -22968,6 +23100,7 @@ class Countries {
         "zu": "Liechtenstein"
       });
 
+  /// Country: The Democratic Socialist Republic of Sri Lanka
   static const Country lka = Country(
       'LK',
       'LKA',
@@ -22979,7 +23112,7 @@ class Countries {
           Coordinate(7.873053999999999, 80.77179699999999),
           Coordinate(10.03377, 82.14479999999999),
           Coordinate(5.6816, 79.26769999999999),
-          Boundary(Coordinate(10.03377, 82.14479999999999),
+          BoundingBox(Coordinate(10.03377, 82.14479999999999),
               Coordinate(5.6816, 79.26769999999999)),
           null),
       '00',
@@ -23143,6 +23276,7 @@ class Countries {
         "zu": "Sri Lanka"
       });
 
+  /// Country: The Republic of Liberia
   static const Country lbr = Country(
       'LR',
       'LBR',
@@ -23154,7 +23288,7 @@ class Countries {
           Coordinate(6.428055, -9.429499000000002),
           Coordinate(8.551986, -7.3692549),
           Coordinate(4.269699999999999, -11.5355999),
-          Boundary(Coordinate(8.551986, -7.3692549),
+          BoundingBox(Coordinate(8.551986, -7.3692549),
               Coordinate(4.269699999999999, -11.5355999)),
           null),
       '00',
@@ -23318,6 +23452,7 @@ class Countries {
         "zu": "ILiberia"
       });
 
+  /// Country: The Kingdom of Lesotho
   static const Country lso = Country(
       'LS',
       'LSO',
@@ -23329,7 +23464,7 @@ class Countries {
           Coordinate(-29.609988, 28.233608),
           Coordinate(-28.5708011, 29.4557087),
           Coordinate(-30.6755788, 27.011231),
-          Boundary(Coordinate(-28.5708011, 29.4557087),
+          BoundingBox(Coordinate(-28.5708011, 29.4557087),
               Coordinate(-30.6755788, 27.011231)),
           null),
       '00',
@@ -23493,6 +23628,7 @@ class Countries {
         "zu": "Lesotho"
       });
 
+  /// Country: The Republic of Lithuania
   static const Country ltu = Country(
       'LT',
       'LTU',
@@ -23504,7 +23640,7 @@ class Countries {
           Coordinate(55.169438, 23.881275),
           Coordinate(56.45032089999999, 26.835523),
           Coordinate(53.8967949, 20.931),
-          Boundary(Coordinate(56.45032089999999, 26.835523),
+          BoundingBox(Coordinate(56.45032089999999, 26.835523),
               Coordinate(53.8967949, 20.931)),
           null),
       '00',
@@ -23677,6 +23813,7 @@ class Countries {
         "zu": "I-Lithuwaniya"
       });
 
+  /// Country: The Grand Duchy of Luxembourg
   static const Country lux = Country(
       'LU',
       'LUX',
@@ -23688,7 +23825,7 @@ class Countries {
           Coordinate(49.815273, 6.129582999999999),
           Coordinate(50.18282, 6.530970099999999),
           Coordinate(49.447779, 5.7356699),
-          Boundary(Coordinate(50.18282, 6.530970099999999),
+          BoundingBox(Coordinate(50.18282, 6.530970099999999),
               Coordinate(49.447779, 5.7356699)),
           null),
       '00',
@@ -23855,6 +23992,7 @@ class Countries {
         "zu": "I-Luxembourg"
       });
 
+  /// Country: The Republic of Latvia
   static const Country lva = Country(
       'LV',
       'LVA',
@@ -23866,7 +24004,7 @@ class Countries {
           Coordinate(56.879635, 24.603189),
           Coordinate(58.0855688, 28.2414029),
           Coordinate(55.6747769, 20.8465999),
-          Boundary(Coordinate(58.0855688, 28.2414029),
+          BoundingBox(Coordinate(58.0855688, 28.2414029),
               Coordinate(55.6747769, 20.8465999)),
           null),
       '00',
@@ -24034,6 +24172,7 @@ class Countries {
         "zu": "I-Latviya"
       });
 
+  /// Country: The State of Libya
   static const Country lby = Country(
       'LY',
       'LBY',
@@ -24045,7 +24184,7 @@ class Countries {
           Coordinate(26.3351, 17.228331),
           Coordinate(33.2203, 25.2686),
           Coordinate(19.5, 9.391466),
-          Boundary(Coordinate(33.2203, 25.2686), Coordinate(19.5, 9.391466)),
+          BoundingBox(Coordinate(33.2203, 25.2686), Coordinate(19.5, 9.391466)),
           null),
       '00',
       'LBA',
@@ -24217,6 +24356,7 @@ class Countries {
         "zu": "ILibiya"
       });
 
+  /// Country: The Kingdom of Morocco
   static const Country mar = Country(
       'MA',
       'MAR',
@@ -24228,7 +24368,7 @@ class Countries {
           Coordinate(31.791702, -7.092619999999999),
           Coordinate(35.9344, -0.9969759),
           Coordinate(27.6672693, -13.3044001),
-          Boundary(Coordinate(35.9344, -0.9969759),
+          BoundingBox(Coordinate(35.9344, -0.9969759),
               Coordinate(27.6672693, -13.3044001)),
           null),
       '00',
@@ -24392,6 +24532,7 @@ class Countries {
         "zu": "Morocco"
       });
 
+  /// Country: The Principality of Monaco
   static const Country mco = Country(
       'MC',
       'MCO',
@@ -24403,7 +24544,7 @@ class Countries {
           Coordinate(43.73841760000001, 7.424615799999999),
           Coordinate(43.7519029, 7.4426),
           Coordinate(43.7237999, 7.4091049),
-          Boundary(Coordinate(43.7519029, 7.4426),
+          BoundingBox(Coordinate(43.7519029, 7.4426),
               Coordinate(43.7237999, 7.4091049)),
           null),
       '00',
@@ -24567,6 +24708,7 @@ class Countries {
         "zu": "Monaco"
       });
 
+  /// Country: The Republic of Moldova
   static const Country mda = Country(
       'MD',
       'MDA',
@@ -24578,7 +24720,7 @@ class Countries {
           Coordinate(47.411631, 28.369885),
           Coordinate(48.492029, 30.1635898),
           Coordinate(45.4674379, 26.6164248),
-          Boundary(Coordinate(48.492029, 30.1635898),
+          BoundingBox(Coordinate(48.492029, 30.1635898),
               Coordinate(45.4674379, 26.6164248)),
           null),
       '00',
@@ -24750,6 +24892,7 @@ class Countries {
         "zu": "Moldova"
       });
 
+  /// Country: Montenegro
   static const Country mne = Country(
       'ME',
       'MNE',
@@ -24761,7 +24904,7 @@ class Countries {
           Coordinate(42.708678, 19.37439),
           Coordinate(43.558743, 20.352926),
           Coordinate(41.8297, 18.4337921),
-          Boundary(Coordinate(43.558743, 20.352926),
+          BoundingBox(Coordinate(43.558743, 20.352926),
               Coordinate(41.8297, 18.4337921)),
           null),
       '99',
@@ -24925,6 +25068,7 @@ class Countries {
         "zu": "Montenegro"
       });
 
+  /// Country: The Collectivity of Saint-Martin
   static const Country maf = Country(
       'MF',
       'MAF',
@@ -24936,7 +25080,7 @@ class Countries {
           Coordinate(18.08255, -63.05225100000001),
           Coordinate(18.1356001, -62.9613001),
           Coordinate(18.0462883, -63.1630001),
-          Boundary(Coordinate(18.1356001, -62.9613001),
+          BoundingBox(Coordinate(18.1356001, -62.9613001),
               Coordinate(18.0462883, -63.1630001)),
           null),
       '',
@@ -25100,6 +25244,7 @@ class Countries {
         "zu": "Saint Martin (French part)"
       });
 
+  /// Country: The Republic of Madagascar
   static const Country mdg = Country(
       'MG',
       'MDG',
@@ -25111,7 +25256,7 @@ class Countries {
           Coordinate(-18.766947, 46.869107),
           Coordinate(-11.4369999, 50.9985001),
           Coordinate(-26.2146, 42.7368),
-          Boundary(Coordinate(-11.4369999, 50.9985001),
+          BoundingBox(Coordinate(-11.4369999, 50.9985001),
               Coordinate(-26.2146, 42.7368)),
           null),
       '00',
@@ -25275,6 +25420,7 @@ class Countries {
         "zu": "Madagascar"
       });
 
+  /// Country: The Republic of the Marshall Islands
   static const Country mhl = Country(
       'MH',
       'MHL',
@@ -25286,7 +25432,7 @@ class Countries {
           Coordinate(7.131474, 171.184478),
           Coordinate(15.0190749, 172.5732421),
           Coordinate(4.1601583, 159.8840332),
-          Boundary(Coordinate(15.0190749, 172.5732421),
+          BoundingBox(Coordinate(15.0190749, 172.5732421),
               Coordinate(4.1601583, 159.8840332)),
           null),
       '00',
@@ -25457,6 +25603,7 @@ class Countries {
         "zu": "Marshall Islands"
       });
 
+  /// Country: The Republic of North Macedonia
   static const Country mkd = Country(
       'MK',
       'MKD',
@@ -25468,7 +25615,7 @@ class Countries {
           Coordinate(41.608635, 21.745275),
           Coordinate(42.373646, 23.0340441),
           Coordinate(40.8537826, 20.452423),
-          Boundary(Coordinate(42.373646, 23.0340441),
+          BoundingBox(Coordinate(42.373646, 23.0340441),
               Coordinate(40.8537826, 20.452423)),
           null),
       '00',
@@ -25644,6 +25791,7 @@ class Countries {
         "zu": "North Macedonia"
       });
 
+  /// Country: The Republic of Mali
   static const Country mli = Country(
       'ML',
       'MLI',
@@ -25655,7 +25803,7 @@ class Countries {
           Coordinate(17.570692, -3.996166),
           Coordinate(25.001084, 4.267382599999999),
           Coordinate(10.147811, -12.2403447),
-          Boundary(Coordinate(25.001084, 4.267382599999999),
+          BoundingBox(Coordinate(25.001084, 4.267382599999999),
               Coordinate(10.147811, -12.2403447)),
           null),
       '00',
@@ -25819,6 +25967,7 @@ class Countries {
         "zu": "IMali"
       });
 
+  /// Country: The Republic of the Union of Myanmar
   static const Country mmr = Country(
       'MM',
       'MMR',
@@ -25830,7 +25979,7 @@ class Countries {
           Coordinate(21.916221, 95.955974),
           Coordinate(28.5478351, 101.1702717),
           Coordinate(9.4518, 92.171808),
-          Boundary(Coordinate(28.5478351, 101.1702717),
+          BoundingBox(Coordinate(28.5478351, 101.1702717),
               Coordinate(9.4518, 92.171808)),
           null),
       '00',
@@ -25994,6 +26143,7 @@ class Countries {
         "zu": "Myanmar"
       });
 
+  /// Country: Mongolia
   static const Country mng = Country(
       'MN',
       'MNG',
@@ -26005,7 +26155,7 @@ class Countries {
           Coordinate(46.862496, 103.846656),
           Coordinate(52.148355, 119.9315098),
           Coordinate(41.581833, 87.7344789),
-          Boundary(Coordinate(52.148355, 119.9315098),
+          BoundingBox(Coordinate(52.148355, 119.9315098),
               Coordinate(41.581833, 87.7344789)),
           null),
       '001',
@@ -26169,6 +26319,7 @@ class Countries {
         "zu": "Mongolia"
       });
 
+  /// Country: The Macao Special Administrative Region of China
   static const Country mac = Country(
       'MO',
       'MAC',
@@ -26180,7 +26331,7 @@ class Countries {
           Coordinate(22.198745, 113.543873),
           Coordinate(22.2170639, 113.6127001),
           Coordinate(22.1066001, 113.5276053),
-          Boundary(Coordinate(22.2170639, 113.6127001),
+          BoundingBox(Coordinate(22.2170639, 113.6127001),
               Coordinate(22.1066001, 113.5276053)),
           null),
       '00',
@@ -26344,6 +26495,7 @@ class Countries {
         "zu": "Macao"
       });
 
+  /// Country: The Commonwealth of the Northern Mariana Islands
   static const Country mnp = Country(
       'MP',
       'MNP',
@@ -26355,7 +26507,7 @@ class Countries {
           Coordinate(15.0979, 145.6739),
           Coordinate(20.6584862, 146.2060546),
           Coordinate(13.9713848, 144.7668457),
-          Boundary(Coordinate(20.6584862, 146.2060546),
+          BoundingBox(Coordinate(20.6584862, 146.2060546),
               Coordinate(13.9713848, 144.7668457)),
           null),
       '011',
@@ -26526,6 +26678,7 @@ class Countries {
         "zu": "Northern Mariana Islands"
       });
 
+  /// Country: Martinique
   static const Country mtq = Country(
       'MQ',
       'MTQ',
@@ -26537,7 +26690,7 @@ class Countries {
           Coordinate(14.641528, -61.024174),
           Coordinate(14.8973451, -60.7856368),
           Coordinate(14.370834, -61.24191279999999),
-          Boundary(Coordinate(14.8973451, -60.7856368),
+          BoundingBox(Coordinate(14.8973451, -60.7856368),
               Coordinate(14.370834, -61.24191279999999)),
           null),
       '00',
@@ -26701,6 +26854,7 @@ class Countries {
         "zu": "Martinique"
       });
 
+  /// Country: The Islamic Republic of Mauritania
   static const Country mrt = Country(
       'MR',
       'MRT',
@@ -26712,7 +26866,7 @@ class Countries {
           Coordinate(21.00789, -10.940835),
           Coordinate(27.3158916, -4.833334799999999),
           Coordinate(14.721273, -17.0687276),
-          Boundary(Coordinate(27.3158916, -4.833334799999999),
+          BoundingBox(Coordinate(27.3158916, -4.833334799999999),
               Coordinate(14.721273, -17.0687276)),
           null),
       '00',
@@ -26883,6 +27037,7 @@ class Countries {
         "zu": "IMoritaniya"
       });
 
+  /// Country: Montserrat
   static const Country msr = Country(
       'MS',
       'MSR',
@@ -26894,7 +27049,7 @@ class Countries {
           Coordinate(16.742498, -62.187366),
           Coordinate(16.8260672, -62.14262009999999),
           Coordinate(16.671007, -62.242584),
-          Boundary(Coordinate(16.8260672, -62.14262009999999),
+          BoundingBox(Coordinate(16.8260672, -62.14262009999999),
               Coordinate(16.671007, -62.242584)),
           null),
       '011',
@@ -27058,6 +27213,7 @@ class Countries {
         "zu": "Montserrat"
       });
 
+  /// Country: The Republic of Malta
   static const Country mlt = Country(
       'MT',
       'MLT',
@@ -27069,7 +27225,7 @@ class Countries {
           Coordinate(35.937496, 14.375416),
           Coordinate(36.0853, 14.5765999),
           Coordinate(35.79960000000001, 14.1801001),
-          Boundary(Coordinate(36.0853, 14.5765999),
+          BoundingBox(Coordinate(36.0853, 14.5765999),
               Coordinate(35.79960000000001, 14.1801001)),
           null),
       '00',
@@ -27233,6 +27389,7 @@ class Countries {
         "zu": "I-Malta"
       });
 
+  /// Country: The Republic of Mauritius
   static const Country mus = Country(
       'MU',
       'MUS',
@@ -27244,7 +27401,7 @@ class Countries {
           Coordinate(-20.348404, 57.55215200000001),
           Coordinate(-10.0878538, 63.80859390000001),
           Coordinate(-20.7458403, 56.3159179),
-          Boundary(Coordinate(-10.0878538, 63.80859390000001),
+          BoundingBox(Coordinate(-10.0878538, 63.80859390000001),
               Coordinate(-20.7458403, 56.3159179)),
           null),
       '020',
@@ -27408,6 +27565,7 @@ class Countries {
         "zu": "IMorishisi"
       });
 
+  /// Country: The Republic of Maldives
   static const Country mdv = Country(
       'MV',
       'MDV',
@@ -27419,7 +27577,7 @@ class Countries {
           Coordinate(3.202778, 73.22068),
           Coordinate(7.5149809, 74.7290038),
           Coordinate(-1.2907844, 71.75170899999999),
-          Boundary(Coordinate(7.5149809, 74.7290038),
+          BoundingBox(Coordinate(7.5149809, 74.7290038),
               Coordinate(-1.2907844, 71.75170899999999)),
           null),
       '00',
@@ -27583,6 +27741,7 @@ class Countries {
         "zu": "Maldives"
       });
 
+  /// Country: The Republic of Malawi
   static const Country mwi = Country(
       'MW',
       'MWI',
@@ -27594,7 +27753,7 @@ class Countries {
           Coordinate(-13.254308, 34.301525),
           Coordinate(-9.3672272, 35.91857299999999),
           Coordinate(-17.1295216, 32.6725205),
-          Boundary(Coordinate(-9.3672272, 35.91857299999999),
+          BoundingBox(Coordinate(-9.3672272, 35.91857299999999),
               Coordinate(-17.1295216, 32.6725205)),
           null),
       '00',
@@ -27758,6 +27917,7 @@ class Countries {
         "zu": "IMalawi"
       });
 
+  /// Country: The United Mexican States
   static const Country mex = Country(
       'MX',
       'MEX',
@@ -27769,7 +27929,7 @@ class Countries {
           Coordinate(23.634501, -102.552784),
           Coordinate(32.7186534, -86.5887),
           Coordinate(14.3895, -118.6523001),
-          Boundary(Coordinate(32.7186534, -86.5887),
+          BoundingBox(Coordinate(32.7186534, -86.5887),
               Coordinate(14.3895, -118.6523001)),
           null),
       '00',
@@ -27936,6 +28096,7 @@ class Countries {
         "zu": "I-Mexico"
       });
 
+  /// Country: Malaysia
   static const Country mys = Country(
       'MY',
       'MYS',
@@ -27947,7 +28108,7 @@ class Countries {
           Coordinate(4.210484, 101.975766),
           Coordinate(7.5191, 119.4000001),
           Coordinate(0.8539281000000001, 98.9353999),
-          Boundary(Coordinate(7.5191, 119.4000001),
+          BoundingBox(Coordinate(7.5191, 119.4000001),
               Coordinate(0.8539281000000001, 98.9353999)),
           null),
       '00',
@@ -28111,6 +28272,7 @@ class Countries {
         "zu": "Malaysia"
       });
 
+  /// Country: The Republic of Mozambique
   static const Country moz = Country(
       'MZ',
       'MOZ',
@@ -28122,7 +28284,7 @@ class Countries {
           Coordinate(-18.665695, 35.529562),
           Coordinate(-10.3128929, 41.3965),
           Coordinate(-26.9612, 30.2155501),
-          Boundary(Coordinate(-10.3128929, 41.3965),
+          BoundingBox(Coordinate(-10.3128929, 41.3965),
               Coordinate(-26.9612, 30.2155501)),
           null),
       '00',
@@ -28286,6 +28448,7 @@ class Countries {
         "zu": "IMozambiki"
       });
 
+  /// Country: The Republic of Namibia
   static const Country nam = Country(
       'NA',
       'NAM',
@@ -28297,7 +28460,7 @@ class Countries {
           Coordinate(-22.95764, 18.49041),
           Coordinate(-16.9634849, 25.261752),
           Coordinate(-28.97063889999999, 11.4696999),
-          Boundary(Coordinate(-16.9634849, 25.261752),
+          BoundingBox(Coordinate(-16.9634849, 25.261752),
               Coordinate(-28.97063889999999, 11.4696999)),
           null),
       '00',
@@ -28461,6 +28624,7 @@ class Countries {
         "zu": "INamibhiya"
       });
 
+  /// Country: New Caledonia
   static const Country ncl = Country(
       'NC',
       'NCL',
@@ -28472,7 +28636,7 @@ class Countries {
           Coordinate(-20.904305, 165.618042),
           Coordinate(-19.1607355, 168.3325194),
           Coordinate(-23.2514406, 163.3557129),
-          Boundary(Coordinate(-19.1607355, 168.3325194),
+          BoundingBox(Coordinate(-19.1607355, 168.3325194),
               Coordinate(-23.2514406, 163.3557129)),
           null),
       '00',
@@ -28643,6 +28807,7 @@ class Countries {
         "zu": "New Caledonia"
       });
 
+  /// Country: The Republic of the Niger
   static const Country ner = Country(
       'NE',
       'NER',
@@ -28654,7 +28819,7 @@ class Countries {
           Coordinate(17.607789, 8.081666),
           Coordinate(23.4999997, 15.9990339),
           Coordinate(11.693756, 0.1617177),
-          Boundary(Coordinate(23.4999997, 15.9990339),
+          BoundingBox(Coordinate(23.4999997, 15.9990339),
               Coordinate(11.693756, 0.1617177)),
           null),
       '00',
@@ -28818,6 +28983,7 @@ class Countries {
         "zu": "INayighe"
       });
 
+  /// Country: The Territory of Norfolk Island
   static const Country nfk = Country(
       'NF',
       'NFK',
@@ -28829,7 +28995,7 @@ class Countries {
           Coordinate(-29.040835, 167.954712),
           Coordinate(-28.9929014, 167.9985523),
           Coordinate(-29.137506, 167.9134083),
-          Boundary(Coordinate(-28.9929014, 167.9985523),
+          BoundingBox(Coordinate(-28.9929014, 167.9985523),
               Coordinate(-29.137506, 167.9134083)),
           null),
       '00',
@@ -29000,6 +29166,7 @@ class Countries {
         "zu": "Norfolk Island"
       });
 
+  /// Country: The Federal Republic of Nigeria
   static const Country nga = Country(
       'NG',
       'NGA',
@@ -29011,7 +29178,7 @@ class Countries {
           Coordinate(9.081999, 8.675277),
           Coordinate(13.8856449, 14.677982),
           Coordinate(4.1821001, 2.676932),
-          Boundary(Coordinate(13.8856449, 14.677982),
+          BoundingBox(Coordinate(13.8856449, 14.677982),
               Coordinate(4.1821001, 2.676932)),
           null),
       '009',
@@ -29175,6 +29342,7 @@ class Countries {
         "zu": "INigeria"
       });
 
+  /// Country: The Republic of Nicaragua
   static const Country nic = Country(
       'NI',
       'NIC',
@@ -29186,7 +29354,7 @@ class Countries {
           Coordinate(12.865416, -85.207229),
           Coordinate(15.0297369, -82.2766),
           Coordinate(10.7080549, -87.7588),
-          Boundary(Coordinate(15.0297369, -82.2766),
+          BoundingBox(Coordinate(15.0297369, -82.2766),
               Coordinate(10.7080549, -87.7588)),
           null),
       '00',
@@ -29350,6 +29518,7 @@ class Countries {
         "zu": "Nicaragua"
       });
 
+  /// Country: The Kingdom of the Netherlands
   static const Country nld = Country(
       'NL',
       'NLD',
@@ -29361,7 +29530,7 @@ class Countries {
           Coordinate(52.132633, 5.291265999999999),
           Coordinate(53.6316, 7.227510199999999),
           Coordinate(50.75038379999999, 3.3316001),
-          Boundary(Coordinate(53.6316, 7.227510199999999),
+          BoundingBox(Coordinate(53.6316, 7.227510199999999),
               Coordinate(50.75038379999999, 3.3316001)),
           null),
       '00',
@@ -29536,6 +29705,7 @@ class Countries {
         "zu": "I-Netherlands"
       });
 
+  /// Country: The Kingdom of Norway
   static const Country nor = Country(
       'NO',
       'NOR',
@@ -29547,7 +29717,7 @@ class Countries {
           Coordinate(60.47202399999999, 8.468945999999999),
           Coordinate(71.30780000000001, 31.3549999),
           Coordinate(57.8097, 4.0649),
-          Boundary(Coordinate(71.30780000000001, 31.3549999),
+          BoundingBox(Coordinate(71.30780000000001, 31.3549999),
               Coordinate(57.8097, 4.0649)),
           null),
       '00',
@@ -29714,6 +29884,7 @@ class Countries {
         "zu": "I-Noweyi"
       });
 
+  /// Country: The Federal Democratic Republic of Nepal
   static const Country npl = Country(
       'NP',
       'NPL',
@@ -29725,7 +29896,7 @@ class Countries {
           Coordinate(28.394857, 84.12400799999999),
           Coordinate(30.4473898, 88.20182969999999),
           Coordinate(26.3473741, 80.05846980000001),
-          Boundary(Coordinate(30.4473898, 88.20182969999999),
+          BoundingBox(Coordinate(30.4473898, 88.20182969999999),
               Coordinate(26.3473741, 80.05846980000001)),
           null),
       '00',
@@ -29893,6 +30064,7 @@ class Countries {
         "zu": "Nepal"
       });
 
+  /// Country: The Republic of Nauru
   static const Country nru = Country(
       'NR',
       'NRU',
@@ -29904,7 +30076,7 @@ class Countries {
           Coordinate(-0.522778, 166.931503),
           Coordinate(-0.4978976000000001, 166.9631767),
           Coordinate(-0.5580623, 166.9071293),
-          Boundary(Coordinate(-0.4978976000000001, 166.9631767),
+          BoundingBox(Coordinate(-0.4978976000000001, 166.9631767),
               Coordinate(-0.5580623, 166.9071293)),
           null),
       '00',
@@ -30068,6 +30240,7 @@ class Countries {
         "zu": "Nauru"
       });
 
+  /// Country: Niue
   static const Country niu = Country(
       'NU',
       'NIU',
@@ -30079,7 +30252,7 @@ class Countries {
           Coordinate(-19.054445, -169.867233),
           Coordinate(-18.952625, -169.7743248),
           Coordinate(-19.1555668, -169.9500846),
-          Boundary(Coordinate(-18.952625, -169.7743248),
+          BoundingBox(Coordinate(-18.952625, -169.7743248),
               Coordinate(-19.1555668, -169.9500846)),
           null),
       '00',
@@ -30243,6 +30416,7 @@ class Countries {
         "zu": "Niue"
       });
 
+  /// Country: New Zealand
   static const Country nzl = Country(
       'NZ',
       'NZL',
@@ -30254,7 +30428,7 @@ class Countries {
           Coordinate(-40.900557, 174.885971),
           Coordinate(-28.8773225, -175.1235077),
           Coordinate(-52.7224663, 165.7437641),
-          Boundary(Coordinate(-28.8773225, -175.1235077),
+          BoundingBox(Coordinate(-28.8773225, -175.1235077),
               Coordinate(-52.7224663, 165.7437641)),
           null),
       '00',
@@ -30429,6 +30603,7 @@ class Countries {
         "zu": "I-New Zealand"
       });
 
+  /// Country: The Sultanate of Oman
   static const Country omn = Country(
       'OM',
       'OMN',
@@ -30440,7 +30615,7 @@ class Countries {
           Coordinate(21.4735329, 55.975413),
           Coordinate(26.4361001, 60.30399999999999),
           Coordinate(16.4571999, 52.0000019),
-          Boundary(Coordinate(26.4361001, 60.30399999999999),
+          BoundingBox(Coordinate(26.4361001, 60.30399999999999),
               Coordinate(16.4571999, 52.0000019)),
           null),
       '00',
@@ -30608,6 +30783,7 @@ class Countries {
         "zu": "Oman"
       });
 
+  /// Country: The Republic of Panamá
   static const Country pan = Country(
       'PA',
       'PAN',
@@ -30619,7 +30795,7 @@ class Countries {
           Coordinate(8.537981, -80.782127),
           Coordinate(9.7145001, -77.1584879),
           Coordinate(7.0409, -83.05224109999999),
-          Boundary(Coordinate(9.7145001, -77.1584879),
+          BoundingBox(Coordinate(9.7145001, -77.1584879),
               Coordinate(7.0409, -83.05224109999999)),
           null),
       '00',
@@ -30783,6 +30959,7 @@ class Countries {
         "zu": "I-Panama"
       });
 
+  /// Country: The Republic of Perú
   static const Country per = Country(
       'PE',
       'PER',
@@ -30794,7 +30971,7 @@ class Countries {
           Coordinate(-9.189967, -75.015152),
           Coordinate(-0.0387769, -68.65232879999999),
           Coordinate(-18.4483, -81.3867001),
-          Boundary(Coordinate(-0.0387769, -68.65232879999999),
+          BoundingBox(Coordinate(-0.0387769, -68.65232879999999),
               Coordinate(-18.4483, -81.3867001)),
           null),
       '00',
@@ -30958,6 +31135,7 @@ class Countries {
         "zu": "I-Peru"
       });
 
+  /// Country: French Polynesia
   static const Country pyf = Country(
       'PF',
       'PYF',
@@ -30969,7 +31147,7 @@ class Countries {
           Coordinate(-17.679742, -149.406843),
           Coordinate(-6.4682, -134.0551932),
           Coordinate(-28.61346, -155.125483),
-          Boundary(Coordinate(-6.4682, -134.0551932),
+          BoundingBox(Coordinate(-6.4682, -134.0551932),
               Coordinate(-28.61346, -155.125483)),
           null),
       '00',
@@ -31140,6 +31318,7 @@ class Countries {
         "zu": "French Polynesia"
       });
 
+  /// Country: The Independent State of Papua New Guinea
   static const Country png = Country(
       'PG',
       'PNG',
@@ -31151,7 +31330,7 @@ class Countries {
           Coordinate(-6.314992999999999, 143.95555),
           Coordinate(-0.6702, 159.9609001),
           Coordinate(-12.0823, 140.8419695),
-          Boundary(Coordinate(-0.6702, 159.9609001),
+          BoundingBox(Coordinate(-0.6702, 159.9609001),
               Coordinate(-12.0823, 140.8419695)),
           null),
       '05',
@@ -31322,6 +31501,7 @@ class Countries {
         "zu": "Papua New Guinea"
       });
 
+  /// Country: The Republic of the Philippines
   static const Country phl = Country(
       'PH',
       'PHL',
@@ -31333,7 +31513,7 @@ class Countries {
           Coordinate(12.879721, 121.774017),
           Coordinate(21.2412572, 127.6444784),
           Coordinate(4.2259, 116.1474999),
-          Boundary(Coordinate(21.2412572, 127.6444784),
+          BoundingBox(Coordinate(21.2412572, 127.6444784),
               Coordinate(4.2259, 116.1474999)),
           null),
       '00',
@@ -31500,6 +31680,7 @@ class Countries {
         "zu": "Philippines"
       });
 
+  /// Country: The Islamic Republic of Pakistan
   static const Country pak = Country(
       'PK',
       'PAK',
@@ -31511,7 +31692,7 @@ class Countries {
           Coordinate(30.375321, 69.34511599999999),
           Coordinate(37.0841069, 77.8231711),
           Coordinate(23.6344999, 60.8729721),
-          Boundary(Coordinate(37.0841069, 77.8231711),
+          BoundingBox(Coordinate(37.0841069, 77.8231711),
               Coordinate(23.6344999, 60.8729721)),
           null),
       '00',
@@ -31675,6 +31856,7 @@ class Countries {
         "zu": "Pakistan"
       });
 
+  /// Country: The Republic of Poland
   static const Country pol = Country(
       'PL',
       'POL',
@@ -31686,7 +31868,7 @@ class Countries {
           Coordinate(51.919438, 19.145136),
           Coordinate(54.9054761, 24.1458931),
           Coordinate(49.002025, 14.1228641),
-          Boundary(Coordinate(54.9054761, 24.1458931),
+          BoundingBox(Coordinate(54.9054761, 24.1458931),
               Coordinate(49.002025, 14.1228641)),
           null),
       '00',
@@ -31854,6 +32036,7 @@ class Countries {
         "zu": "I-Polandi"
       });
 
+  /// Country: The Overseas Collectivity of Saint-Pierre and Miquelon
   static const Country spm = Country(
       'PM',
       'SPM',
@@ -31865,7 +32048,7 @@ class Countries {
           Coordinate(46.8852, -56.3159),
           Coordinate(47.21579999999999, -55.98249999999999),
           Coordinate(46.7003, -56.5233),
-          Boundary(Coordinate(47.21579999999999, -55.98249999999999),
+          BoundingBox(Coordinate(47.21579999999999, -55.98249999999999),
               Coordinate(46.7003, -56.5233)),
           null),
       '00',
@@ -32036,6 +32219,7 @@ class Countries {
         "zu": "Saint Pierre and Miquelon"
       });
 
+  /// Country: The Pitcairn, Henderson, Ducie and Oeno Islands
   static const Country pcn = Country(
       'PN',
       'PCN',
@@ -32047,7 +32231,7 @@ class Countries {
           Coordinate(-24.3767537, -128.3242376),
           Coordinate(-23.7928845, -124.5410156),
           Coordinate(-25.1776023, -130.9268188),
-          Boundary(Coordinate(-23.7928845, -124.5410156),
+          BoundingBox(Coordinate(-23.7928845, -124.5410156),
               Coordinate(-25.1776023, -130.9268188)),
           null),
       '00',
@@ -32211,6 +32395,7 @@ class Countries {
         "zu": "Pitcairn"
       });
 
+  /// Country: The Commonwealth of Puerto Rico
   static const Country pri = Country(
       'PR',
       'PRI',
@@ -32222,7 +32407,7 @@ class Countries {
           Coordinate(18.220833, -66.590149),
           Coordinate(18.5720479, -65.2105715),
           Coordinate(17.8449191, -67.9611844),
-          Boundary(Coordinate(18.5720479, -65.2105715),
+          BoundingBox(Coordinate(18.5720479, -65.2105715),
               Coordinate(17.8449191, -67.9611844)),
           null),
       '011',
@@ -32386,6 +32571,7 @@ class Countries {
         "zu": "Puerto Rico"
       });
 
+  /// Country: The State of Palestine
   static const Country pse = Country(
       'PS',
       'PSE',
@@ -32397,7 +32583,7 @@ class Countries {
           Coordinate(31.952162, 35.233154),
           Coordinate(32.5520999, 35.5740521),
           Coordinate(31.219691, 34.21010010000001),
-          Boundary(Coordinate(32.5520999, 35.5740521),
+          BoundingBox(Coordinate(32.5520999, 35.5740521),
               Coordinate(31.219691, 34.21010010000001)),
           null),
       '00',
@@ -32571,6 +32757,7 @@ class Countries {
         "zu": "Palestine, State of"
       });
 
+  /// Country: The Portuguese Republic
   static const Country prt = Country(
       'PT',
       'PRT',
@@ -32582,7 +32769,7 @@ class Countries {
           Coordinate(39.39987199999999, -8.224454),
           Coordinate(42.1543111, -6.189159200000001),
           Coordinate(32.2895, -31.4647999),
-          Boundary(Coordinate(42.1543111, -6.189159200000001),
+          BoundingBox(Coordinate(42.1543111, -6.189159200000001),
               Coordinate(32.2895, -31.4647999)),
           null),
       '00',
@@ -32749,6 +32936,7 @@ class Countries {
         "zu": "I-Phothugali"
       });
 
+  /// Country: The Republic of Palau
   static const Country plw = Country(
       'PW',
       'PLW',
@@ -32760,7 +32948,7 @@ class Countries {
           Coordinate(7.514979999999999, 134.58252),
           Coordinate(8.238674, 135.0769),
           Coordinate(2.6394, 131.0115),
-          Boundary(
+          BoundingBox(
               Coordinate(8.238674, 135.0769), Coordinate(2.6394, 131.0115)),
           null),
       '00',
@@ -32924,6 +33112,7 @@ class Countries {
         "zu": "Palau"
       });
 
+  /// Country: The Republic of Paraguay
   static const Country pry = Country(
       'PY',
       'PRY',
@@ -32935,7 +33124,7 @@ class Countries {
           Coordinate(-23.442503, -58.443832),
           Coordinate(-19.2876589, -54.258562),
           Coordinate(-27.5817594, -62.63895230000001),
-          Boundary(Coordinate(-19.2876589, -54.258562),
+          BoundingBox(Coordinate(-19.2876589, -54.258562),
               Coordinate(-27.5817594, -62.63895230000001)),
           null),
       '002',
@@ -33099,6 +33288,7 @@ class Countries {
         "zu": "I-Paraguwayi"
       });
 
+  /// Country: The State of Qatar
   static const Country qat = Country(
       'QA',
       'QAT',
@@ -33110,7 +33300,7 @@ class Countries {
           Coordinate(25.354826, 51.183884),
           Coordinate(26.2171, 51.7144001),
           Coordinate(24.471118, 50.7211001),
-          Boundary(Coordinate(26.2171, 51.7144001),
+          BoundingBox(Coordinate(26.2171, 51.7144001),
               Coordinate(24.471118, 50.7211001)),
           null),
       '00',
@@ -33277,6 +33467,7 @@ class Countries {
         "zu": "Qatar"
       });
 
+  /// Country: Réunion
   static const Country reu = Country(
       'RE',
       'REU',
@@ -33288,7 +33479,7 @@ class Countries {
           Coordinate(-21.115141, 55.536384),
           Coordinate(-20.8671529, 55.84487919999999),
           Coordinate(-21.4035321, 55.209732),
-          Boundary(Coordinate(-20.8671529, 55.84487919999999),
+          BoundingBox(Coordinate(-20.8671529, 55.84487919999999),
               Coordinate(-21.4035321, 55.209732)),
           null),
       '00',
@@ -33452,6 +33643,7 @@ class Countries {
         "zu": "Réunion"
       });
 
+  /// Country: Romania
   static const Country rou = Country(
       'RO',
       'ROU',
@@ -33463,7 +33655,7 @@ class Countries {
           Coordinate(45.943161, 24.96676),
           Coordinate(48.26518, 29.77839999999999),
           Coordinate(43.6186193, 20.2617591),
-          Boundary(Coordinate(48.26518, 29.77839999999999),
+          BoundingBox(Coordinate(48.26518, 29.77839999999999),
               Coordinate(43.6186193, 20.2617591)),
           null),
       '00',
@@ -33630,6 +33822,7 @@ class Countries {
         "zu": "I-Romaniya"
       });
 
+  /// Country: The Republic of Serbia
   static const Country srb = Country(
       'RS',
       'SRB',
@@ -33641,7 +33834,7 @@ class Countries {
           Coordinate(44.016521, 21.005859),
           Coordinate(46.190032, 23.0063095),
           Coordinate(42.2315029, 18.8385221),
-          Boundary(Coordinate(46.190032, 23.0063095),
+          BoundingBox(Coordinate(46.190032, 23.0063095),
               Coordinate(42.2315029, 18.8385221)),
           null),
       '99',
@@ -33805,6 +33998,7 @@ class Countries {
         "zu": "Serbia"
       });
 
+  /// Country: The Russian Federation
   static const Country rus = Country(
       'RU',
       'RUS',
@@ -33816,7 +34010,7 @@ class Countries {
           Coordinate(61.52401, 105.318756),
           Coordinate(82.1673907, -168.97788),
           Coordinate(41.185353, 19.6160999),
-          Boundary(Coordinate(82.1673907, -168.97788),
+          BoundingBox(Coordinate(82.1673907, -168.97788),
               Coordinate(41.185353, 19.6160999)),
           null),
       '810',
@@ -33992,6 +34186,7 @@ class Countries {
         "zu": "Russian Federation"
       });
 
+  /// Country: The Republic of Rwanda
   static const Country rwa = Country(
       'RW',
       'RWA',
@@ -34003,7 +34198,7 @@ class Countries {
           Coordinate(-1.940278, 29.873888),
           Coordinate(-1.0473752, 30.8991179),
           Coordinate(-2.8399383, 28.861754),
-          Boundary(Coordinate(-1.0473752, 30.8991179),
+          BoundingBox(Coordinate(-1.0473752, 30.8991179),
               Coordinate(-2.8399383, 28.861754)),
           null),
       '00',
@@ -34167,6 +34362,7 @@ class Countries {
         "zu": "IRuwanda"
       });
 
+  /// Country: The Kingdom of Saudi Arabia
   static const Country sau = Country(
       'SA',
       'SAU',
@@ -34178,7 +34374,7 @@ class Countries {
           Coordinate(23.885942, 45.079162),
           Coordinate(32.154284, 55.6666999),
           Coordinate(16.0036, 34.4815001),
-          Boundary(Coordinate(32.154284, 55.6666999),
+          BoundingBox(Coordinate(32.154284, 55.6666999),
               Coordinate(16.0036, 34.4815001)),
           null),
       '00',
@@ -34354,6 +34550,7 @@ class Countries {
         "zu": "Saudi Arabia"
       });
 
+  /// Country: The Solomon Islands
   static const Country slb = Country(
       'SB',
       'SLB',
@@ -34365,7 +34562,7 @@ class Countries {
           Coordinate(-9.64571, 160.156194),
           Coordinate(-6.075011, 168.0249023),
           Coordinate(-12.6832149, 155.1187134),
-          Boundary(Coordinate(-6.075011, 168.0249023),
+          BoundingBox(Coordinate(-6.075011, 168.0249023),
               Coordinate(-12.6832149, 155.1187134)),
           null),
       '00',
@@ -34536,6 +34733,7 @@ class Countries {
         "zu": "Solomon Islands"
       });
 
+  /// Country: The Republic of Seychelles
   static const Country syc = Country(
       'SC',
       'SYC',
@@ -34547,7 +34745,7 @@ class Countries {
           Coordinate(-4.679574, 55.491977),
           Coordinate(-3.7091721, 56.3928224),
           Coordinate(-10.4716073, 45.9832764),
-          Boundary(Coordinate(-3.7091721, 56.3928224),
+          BoundingBox(Coordinate(-3.7091721, 56.3928224),
               Coordinate(-10.4716073, 45.9832764)),
           null),
       '00',
@@ -34711,6 +34909,7 @@ class Countries {
         "zu": "Seychelles"
       });
 
+  /// Country: The Republic of the Sudan
   static const Country sdn = Country(
       'SD',
       'SDN',
@@ -34722,7 +34921,7 @@ class Countries {
           Coordinate(12.862807, 30.217636),
           Coordinate(22.224918, 38.69379989999999),
           Coordinate(9.3472209, 21.8146345),
-          Boundary(Coordinate(22.224918, 38.69379989999999),
+          BoundingBox(Coordinate(22.224918, 38.69379989999999),
               Coordinate(9.3472209, 21.8146345)),
           null),
       '00',
@@ -34886,6 +35085,7 @@ class Countries {
         "zu": "ISudan"
       });
 
+  /// Country: The Kingdom of Sweden
   static const Country swe = Country(
       'SE',
       'SWE',
@@ -34897,7 +35097,7 @@ class Countries {
           Coordinate(60.12816100000001, 18.643501),
           Coordinate(69.0599709, 24.1773101),
           Coordinate(55.0059799, 10.5798),
-          Boundary(Coordinate(69.0599709, 24.1773101),
+          BoundingBox(Coordinate(69.0599709, 24.1773101),
               Coordinate(55.0059799, 10.5798)),
           null),
       '00',
@@ -35064,6 +35264,7 @@ class Countries {
         "zu": "Isi-Swideni"
       });
 
+  /// Country: The Republic of Singapore
   static const Country sgp = Country(
       'SG',
       'SGP',
@@ -35075,7 +35276,7 @@ class Countries {
           Coordinate(1.352083, 103.819836),
           Coordinate(1.4784001, 104.0945001),
           Coordinate(1.1496, 103.594),
-          Boundary(
+          BoundingBox(
               Coordinate(1.4784001, 104.0945001), Coordinate(1.1496, 103.594)),
           null),
       '001',
@@ -35242,6 +35443,7 @@ class Countries {
         "zu": "Singapore"
       });
 
+  /// Country: Saint Helena, Ascension and Tristan da Cunha
   static const Country shn = Country(
       'SH',
       'SHN',
@@ -35253,7 +35455,7 @@ class Countries {
           Coordinate(-24.1434812, -10.0306945),
           Coordinate(-7.1008926, -5.0976561),
           Coordinate(-41.0371886, -15.4248047),
-          Boundary(Coordinate(-7.1008926, -5.0976561),
+          BoundingBox(Coordinate(-7.1008926, -5.0976561),
               Coordinate(-41.0371886, -15.4248047)),
           null),
       '00',
@@ -35425,6 +35627,7 @@ class Countries {
         "zu": "Saint Helena, Ascension and Tristan da Cunha"
       });
 
+  /// Country: The Republic of Slovenia
   static const Country svn = Country(
       'SI',
       'SVN',
@@ -35436,7 +35639,7 @@ class Countries {
           Coordinate(46.151241, 14.995463),
           Coordinate(46.876659, 16.6107038),
           Coordinate(45.4218356, 13.3753355),
-          Boundary(Coordinate(46.876659, 16.6107038),
+          BoundingBox(Coordinate(46.876659, 16.6107038),
               Coordinate(45.4218356, 13.3753355)),
           null),
       '00',
@@ -35603,6 +35806,7 @@ class Countries {
         "zu": "Isi-Sloveniya"
       });
 
+  /// Country: Svalbard and Jan Mayen
   static const Country sjm = Country(
       'SJ',
       'SJM',
@@ -35614,7 +35818,7 @@ class Countries {
           Coordinate(77.55360399999999, 23.6702719),
           Coordinate(80.92842569999999, 34.8046879),
           Coordinate(70.4662074, -10.5468752),
-          Boundary(Coordinate(80.92842569999999, 34.8046879),
+          BoundingBox(Coordinate(80.92842569999999, 34.8046879),
               Coordinate(70.4662074, -10.5468752)),
           null),
       '00',
@@ -35785,6 +35989,7 @@ class Countries {
         "zu": "Svalbard and Jan Mayen"
       });
 
+  /// Country: The Slovak Republic
   static const Country svk = Country(
       'SK',
       'SVK',
@@ -35796,7 +36001,7 @@ class Countries {
           Coordinate(48.669026, 19.699024),
           Coordinate(49.613805, 22.5658602),
           Coordinate(47.731159, 16.8331821),
-          Boundary(Coordinate(49.613805, 22.5658602),
+          BoundingBox(Coordinate(49.613805, 22.5658602),
               Coordinate(47.731159, 16.8331821)),
           null),
       '00',
@@ -35970,6 +36175,7 @@ class Countries {
         "zu": "Isi-Slovaki"
       });
 
+  /// Country: The Republic of Sierra Leone
   static const Country sle = Country(
       'SL',
       'SLE',
@@ -35981,7 +36187,7 @@ class Countries {
           Coordinate(8.460555, -11.779889),
           Coordinate(9.9999737, -10.2716829),
           Coordinate(6.8446, -13.4032999),
-          Boundary(Coordinate(9.9999737, -10.2716829),
+          BoundingBox(Coordinate(9.9999737, -10.2716829),
               Coordinate(6.8446, -13.4032999)),
           null),
       '00',
@@ -36145,6 +36351,7 @@ class Countries {
         "zu": "ISiera Liyoni"
       });
 
+  /// Country: The Republic of San Marino
   static const Country smr = Country(
       'SM',
       'SMR',
@@ -36156,7 +36363,7 @@ class Countries {
           Coordinate(43.94236, 12.457777),
           Coordinate(43.992075, 12.5167041),
           Coordinate(43.8936809, 12.4034824),
-          Boundary(Coordinate(43.992075, 12.5167041),
+          BoundingBox(Coordinate(43.992075, 12.5167041),
               Coordinate(43.8936809, 12.4034824)),
           null),
       '00',
@@ -36320,6 +36527,7 @@ class Countries {
         "zu": "San Marino"
       });
 
+  /// Country: The Republic of Senegal
   static const Country sen = Country(
       'SN',
       'SEN',
@@ -36331,7 +36539,7 @@ class Countries {
           Coordinate(14.497401, -14.452362),
           Coordinate(16.6929572, -11.3457683),
           Coordinate(12.2649001, -17.6879999),
-          Boundary(Coordinate(16.6929572, -11.3457683),
+          BoundingBox(Coordinate(16.6929572, -11.3457683),
               Coordinate(12.2649001, -17.6879999)),
           null),
       '00',
@@ -36495,6 +36703,7 @@ class Countries {
         "zu": "ISenegal"
       });
 
+  /// Country: The Federal Republic of Somalia
   static const Country som = Country(
       'SO',
       'SOM',
@@ -36506,7 +36715,7 @@ class Countries {
           Coordinate(5.152149, 46.199616),
           Coordinate(12.3615, 51.6138),
           Coordinate(-1.8673, 40.994373),
-          Boundary(
+          BoundingBox(
               Coordinate(12.3615, 51.6138), Coordinate(-1.8673, 40.994373)),
           null),
       '00',
@@ -36670,6 +36879,7 @@ class Countries {
         "zu": "ISomalia"
       });
 
+  /// Country: The Republic of Suriname
   static const Country sur = Country(
       'SR',
       'SUR',
@@ -36681,7 +36891,7 @@ class Countries {
           Coordinate(3.919305, -56.027783),
           Coordinate(6.1295999, -53.94289999999999),
           Coordinate(1.837306, -58.07050590000001),
-          Boundary(Coordinate(6.1295999, -53.94289999999999),
+          BoundingBox(Coordinate(6.1295999, -53.94289999999999),
               Coordinate(1.837306, -58.07050590000001)),
           null),
       '00',
@@ -36845,6 +37055,7 @@ class Countries {
         "zu": "Suriname"
       });
 
+  /// Country: The Republic of South Sudan
   static const Country ssd = Country(
       'SS',
       'SSD',
@@ -36856,7 +37067,7 @@ class Countries {
           Coordinate(6.876991899999999, 31.3069788),
           Coordinate(12.236389, 35.9489971),
           Coordinate(3.48898, 23.4408491),
-          Boundary(Coordinate(12.236389, 35.9489971),
+          BoundingBox(Coordinate(12.236389, 35.9489971),
               Coordinate(3.48898, 23.4408491)),
           null),
       '0',
@@ -37020,6 +37231,7 @@ class Countries {
         "zu": "ISudan yaseNingizimu"
       });
 
+  /// Country: The Democratic Republic of São Tomé and Príncipe
   static const Country stp = Country(
       'ST',
       'STP',
@@ -37031,7 +37243,7 @@ class Countries {
           Coordinate(0.18636, 6.613080999999999),
           Coordinate(1.8961687, 7.658843900000001),
           Coordinate(-0.09887689999999999, 6.328125),
-          Boundary(Coordinate(1.8961687, 7.658843900000001),
+          BoundingBox(Coordinate(1.8961687, 7.658843900000001),
               Coordinate(-0.09887689999999999, 6.328125)),
           null),
       '00',
@@ -37202,6 +37414,7 @@ class Countries {
         "zu": "ISawu Tome noPhrinitshipeyi"
       });
 
+  /// Country: The Republic of El Salvador
   static const Country slv = Country(
       'SV',
       'SLV',
@@ -37213,7 +37426,7 @@ class Countries {
           Coordinate(13.794185, -88.89653),
           Coordinate(14.4505567, -87.6682),
           Coordinate(13.0473999, -90.19229999999999),
-          Boundary(Coordinate(14.4505567, -87.6682),
+          BoundingBox(Coordinate(14.4505567, -87.6682),
               Coordinate(13.0473999, -90.19229999999999)),
           null),
       '00',
@@ -37377,6 +37590,7 @@ class Countries {
         "zu": "I-El Salvador"
       });
 
+  /// Country: Sint Maarten
   static const Country sxm = Country(
       'SX',
       'SXM',
@@ -37388,7 +37602,7 @@ class Countries {
           Coordinate(18.04248, -63.05483),
           Coordinate(18.0641707, -62.9784),
           Coordinate(17.9941, -63.13979990000001),
-          Boundary(Coordinate(18.0641707, -62.9784),
+          BoundingBox(Coordinate(18.0641707, -62.9784),
               Coordinate(17.9941, -63.13979990000001)),
           null),
       '011',
@@ -37552,6 +37766,7 @@ class Countries {
         "zu": "Sint Maarten (Dutch part)"
       });
 
+  /// Country: The Syrian Arab Republic
   static const Country syr = Country(
       'SY',
       'SYR',
@@ -37563,7 +37778,7 @@ class Countries {
           Coordinate(34.80207499999999, 38.996815),
           Coordinate(37.318693, 42.376309),
           Coordinate(32.311136, 35.62869999999999),
-          Boundary(Coordinate(37.318693, 42.376309),
+          BoundingBox(Coordinate(37.318693, 42.376309),
               Coordinate(32.311136, 35.62869999999999)),
           null),
       '00',
@@ -37739,6 +37954,7 @@ class Countries {
         "zu": "Syrian Arab Republic"
       });
 
+  /// Country: The Kingdom of Eswatini
   static const Country swz = Country(
       'SZ',
       'SWZ',
@@ -37750,7 +37966,7 @@ class Countries {
           Coordinate(-26.522503, 31.465866),
           Coordinate(-25.71792, 32.1349067),
           Coordinate(-27.317402, 30.79064),
-          Boundary(Coordinate(-25.71792, 32.1349067),
+          BoundingBox(Coordinate(-25.71792, 32.1349067),
               Coordinate(-27.317402, 30.79064)),
           null),
       '00',
@@ -37914,6 +38130,7 @@ class Countries {
         "zu": "Eswatini"
       });
 
+  /// Country: The Turks and Caicos Islands
   static const Country tca = Country(
       'TC',
       'TCA',
@@ -37925,7 +38142,7 @@ class Countries {
           Coordinate(21.694025, -71.797928),
           Coordinate(22.0016285, -71.05949989999999),
           Coordinate(21.1459922, -72.52069999999999),
-          Boundary(Coordinate(22.0016285, -71.05949989999999),
+          BoundingBox(Coordinate(22.0016285, -71.05949989999999),
               Coordinate(21.1459922, -72.52069999999999)),
           null),
       '011',
@@ -38097,6 +38314,7 @@ class Countries {
         "zu": "Turks and Caicos Islands"
       });
 
+  /// Country: The Republic of Chad
   static const Country tcd = Country(
       'TD',
       'TCD',
@@ -38108,7 +38326,7 @@ class Countries {
           Coordinate(15.454166, 18.732207),
           Coordinate(23.449228, 24.0000011),
           Coordinate(7.442975, 13.4699999),
-          Boundary(Coordinate(23.449228, 24.0000011),
+          BoundingBox(Coordinate(23.449228, 24.0000011),
               Coordinate(7.442975, 13.4699999)),
           null),
       '15',
@@ -38272,6 +38490,7 @@ class Countries {
         "zu": "ITshedi"
       });
 
+  /// Country: The French Southern and Antarctic Lands
   static const Country atf = Country(
       'TF',
       'ATF',
@@ -38283,7 +38502,7 @@ class Countries {
           Coordinate(-49.280366, 69.3485571),
           Coordinate(-45.7567331, 70.6558228),
           Coordinate(-50.0641918, 49.8519168),
-          Boundary(Coordinate(-45.7567331, 70.6558228),
+          BoundingBox(Coordinate(-45.7567331, 70.6558228),
               Coordinate(-50.0641918, 49.8519168)),
           null),
       '',
@@ -38455,6 +38674,7 @@ class Countries {
         "zu": "French Southern Territories"
       });
 
+  /// Country: The Togolese Republic
   static const Country tgo = Country(
       'TG',
       'TGO',
@@ -38466,7 +38686,7 @@ class Countries {
           Coordinate(8.619543, 0.824782),
           Coordinate(11.139617, 1.8089071),
           Coordinate(6.0812, -0.1440418),
-          Boundary(
+          BoundingBox(
               Coordinate(11.139617, 1.8089071), Coordinate(6.0812, -0.1440418)),
           null),
       '00',
@@ -38630,6 +38850,7 @@ class Countries {
         "zu": "ITogo"
       });
 
+  /// Country: The Kingdom of Thailand
   static const Country tha = Country(
       'TH',
       'THA',
@@ -38641,7 +38862,7 @@ class Countries {
           Coordinate(15.870032, 100.992541),
           Coordinate(20.465143, 105.636812),
           Coordinate(5.613038, 97.343396),
-          Boundary(Coordinate(20.465143, 105.636812),
+          BoundingBox(Coordinate(20.465143, 105.636812),
               Coordinate(5.613038, 97.343396)),
           null),
       '001',
@@ -38805,6 +39026,7 @@ class Countries {
         "zu": "I-Thayilandi"
       });
 
+  /// Country: The Republic of Tajikistan
   static const Country tjk = Country(
       'TJ',
       'TJK',
@@ -38816,7 +39038,7 @@ class Countries {
           Coordinate(38.861034, 71.276093),
           Coordinate(41.044367, 75.1539564),
           Coordinate(36.6719898, 67.34201209999999),
-          Boundary(Coordinate(41.044367, 75.1539564),
+          BoundingBox(Coordinate(41.044367, 75.1539564),
               Coordinate(36.6719898, 67.34201209999999)),
           null),
       '810',
@@ -38987,6 +39209,7 @@ class Countries {
         "zu": "Tajikistan"
       });
 
+  /// Country: Tokelau
   static const Country tkl = Country(
       'TK',
       'TKL',
@@ -38998,7 +39221,7 @@ class Countries {
           Coordinate(-9.200199999999999, -171.8484),
           Coordinate(-8.4221116, -171.0928346),
           Coordinate(-9.5059527, -172.6625061),
-          Boundary(Coordinate(-8.4221116, -171.0928346),
+          BoundingBox(Coordinate(-8.4221116, -171.0928346),
               Coordinate(-9.5059527, -172.6625061)),
           null),
       '00',
@@ -39162,6 +39385,7 @@ class Countries {
         "zu": "Tokelau"
       });
 
+  /// Country: The Democratic Republic of Timor-Leste
   static const Country tls = Country(
       'TL',
       'TLS',
@@ -39173,7 +39397,7 @@ class Countries {
           Coordinate(-8.874217, 125.727539),
           Coordinate(-8.048399999999999, 127.4249),
           Coordinate(-9.5303001, 124.0332),
-          Boundary(Coordinate(-8.048399999999999, 127.4249),
+          BoundingBox(Coordinate(-8.048399999999999, 127.4249),
               Coordinate(-9.5303001, 124.0332)),
           null),
       'None',
@@ -39344,6 +39568,7 @@ class Countries {
         "zu": "Timor-Leste"
       });
 
+  /// Country: Turkmenistan
   static const Country tkm = Country(
       'TM',
       'TKM',
@@ -39355,7 +39580,7 @@ class Countries {
           Coordinate(38.969719, 59.556278),
           Coordinate(42.798844, 66.70735309999999),
           Coordinate(35.12876, 52.3169),
-          Boundary(Coordinate(42.798844, 66.70735309999999),
+          BoundingBox(Coordinate(42.798844, 66.70735309999999),
               Coordinate(35.12876, 52.3169)),
           null),
       '810',
@@ -39519,6 +39744,7 @@ class Countries {
         "zu": "Turkmenistan"
       });
 
+  /// Country: The Republic of Tunisia
   static const Country tun = Country(
       'TN',
       'TUN',
@@ -39530,7 +39756,7 @@ class Countries {
           Coordinate(33.886917, 9.537499),
           Coordinate(37.5359, 11.599217),
           Coordinate(30.2280339, 7.522311),
-          Boundary(
+          BoundingBox(
               Coordinate(37.5359, 11.599217), Coordinate(30.2280339, 7.522311)),
           null),
       '00',
@@ -39694,6 +39920,7 @@ class Countries {
         "zu": "ITunisia"
       });
 
+  /// Country: The Kingdom of Tonga
   static const Country ton = Country(
       'TO',
       'TON',
@@ -39705,7 +39932,7 @@ class Countries {
           Coordinate(-21.178986, -175.198242),
           Coordinate(-15.4060236, -173.2543946),
           Coordinate(-21.8360059, -175.9570313),
-          Boundary(Coordinate(-15.4060236, -173.2543946),
+          BoundingBox(Coordinate(-15.4060236, -173.2543946),
               Coordinate(-21.8360059, -175.9570313)),
           null),
       '00',
@@ -39869,6 +40096,7 @@ class Countries {
         "zu": "Tonga"
       });
 
+  /// Country: The Republic of Turkey
   static const Country tur = Country(
       'TR',
       'TUR',
@@ -39880,7 +40108,7 @@ class Countries {
           Coordinate(38.963745, 35.243322),
           Coordinate(42.3666999, 44.8178449),
           Coordinate(35.808592, 25.5377),
-          Boundary(Coordinate(42.3666999, 44.8178449),
+          BoundingBox(Coordinate(42.3666999, 44.8178449),
               Coordinate(35.808592, 25.5377)),
           null),
       '00',
@@ -40047,6 +40275,7 @@ class Countries {
         "zu": "I-Turkey"
       });
 
+  /// Country: The Republic of Trinidad and Tobago
   static const Country tto = Country(
       'TT',
       'TTO',
@@ -40058,7 +40287,7 @@ class Countries {
           Coordinate(10.691803, -61.222503),
           Coordinate(11.4004, -60.45089989999999),
           Coordinate(9.9930001, -61.9725001),
-          Boundary(Coordinate(11.4004, -60.45089989999999),
+          BoundingBox(Coordinate(11.4004, -60.45089989999999),
               Coordinate(9.9930001, -61.9725001)),
           null),
       '011',
@@ -40229,6 +40458,7 @@ class Countries {
         "zu": "I-Trinidad ne Tobago"
       });
 
+  /// Country: Tuvalu
   static const Country tuv = Country(
       'TV',
       'TUV',
@@ -40240,7 +40470,7 @@ class Countries {
           Coordinate(-7.109534999999999, 177.64933),
           Coordinate(-5.4300853, 179.9999999),
           Coordinate(-11.1891797, 175.5615234),
-          Boundary(Coordinate(-5.4300853, 179.9999999),
+          BoundingBox(Coordinate(-5.4300853, 179.9999999),
               Coordinate(-11.1891797, 175.5615234)),
           null),
       '00',
@@ -40404,6 +40634,7 @@ class Countries {
         "zu": "Tuvalu"
       });
 
+  /// Country: The Republic of China
   static const Country twn = Country(
       'TW',
       'TWN',
@@ -40415,7 +40646,7 @@ class Countries {
           Coordinate(23.69781, 120.960515),
           Coordinate(26.4545, 123.5021012),
           Coordinate(20.5170001, 116.6665),
-          Boundary(Coordinate(26.4545, 123.5021012),
+          BoundingBox(Coordinate(26.4545, 123.5021012),
               Coordinate(20.5170001, 116.6665)),
           null),
       '002',
@@ -40582,6 +40813,7 @@ class Countries {
         "zu": "I-Tayiwani"
       });
 
+  /// Country: The United Republic of Tanzania
   static const Country tza = Country(
       'TZ',
       'TZA',
@@ -40593,7 +40825,7 @@ class Countries {
           Coordinate(-6.369028, 34.888822),
           Coordinate(-0.9843968000000001, 40.6398),
           Coordinate(-11.7612539, 29.34),
-          Boundary(Coordinate(-0.9843968000000001, 40.6398),
+          BoundingBox(Coordinate(-0.9843968000000001, 40.6398),
               Coordinate(-11.7612539, 29.34)),
           null),
       '000',
@@ -40757,6 +40989,7 @@ class Countries {
         "zu": "ITanzania"
       });
 
+  /// Country: Ukraine
   static const Country ukr = Country(
       'UA',
       'UKR',
@@ -40768,7 +41001,7 @@ class Countries {
           Coordinate(48.379433, 31.1655799),
           Coordinate(52.3793713, 40.2204802),
           Coordinate(44.2924, 22.137159),
-          Boundary(Coordinate(52.3793713, 40.2204802),
+          BoundingBox(Coordinate(52.3793713, 40.2204802),
               Coordinate(44.2924, 22.137159)),
           null),
       '810',
@@ -40944,6 +41177,7 @@ class Countries {
         "zu": "I-Ukraine"
       });
 
+  /// Country: The Republic of Uganda
   static const Country uga = Country(
       'UG',
       'UGA',
@@ -40955,7 +41189,7 @@ class Countries {
           Coordinate(1.373333, 32.290275),
           Coordinate(4.218628, 35.0330489),
           Coordinate(-1.4823178, 29.573433),
-          Boundary(Coordinate(4.218628, 35.0330489),
+          BoundingBox(Coordinate(4.218628, 35.0330489),
               Coordinate(-1.4823178, 29.573433)),
           null),
       '000',
@@ -41119,6 +41353,7 @@ class Countries {
         "zu": "Uganda"
       });
 
+  /// Country: United States Minor Outlying Islands
   static const Country umi = Country(
       'UM',
       'UMI',
@@ -41130,7 +41365,7 @@ class Countries {
           Coordinate(19.2823192, 166.647047),
           Coordinate(28.3977184, -159.9849071),
           Coordinate(-0.3824678, 166.5989221),
-          Boundary(Coordinate(28.3977184, -159.9849071),
+          BoundingBox(Coordinate(28.3977184, -159.9849071),
               Coordinate(-0.3824678, 166.5989221)),
           null),
       '',
@@ -41301,6 +41536,7 @@ class Countries {
         "zu": "United States Minor Outlying Islands"
       });
 
+  /// Country: The United States of America
   static const Country usa = Country(
       'US',
       'USA',
@@ -41312,7 +41548,7 @@ class Countries {
           Coordinate(37.09024, -95.712891),
           Coordinate(71.3577635769, -66.96466),
           Coordinate(18.91619, -171.791110603),
-          Boundary(Coordinate(71.3577635769, -66.96466),
+          BoundingBox(Coordinate(71.3577635769, -66.96466),
               Coordinate(18.91619, -171.791110603)),
           null),
       '011',
@@ -41488,6 +41724,7 @@ class Countries {
         "zu": "United States"
       });
 
+  /// Country: The Oriental Republic of Uruguay
   static const Country ury = Country(
       'UY',
       'URY',
@@ -41499,7 +41736,7 @@ class Countries {
           Coordinate(-32.522779, -55.765835),
           Coordinate(-30.0852149, -53.0779284),
           Coordinate(-35.1558001, -58.4913609),
-          Boundary(Coordinate(-30.0852149, -53.0779284),
+          BoundingBox(Coordinate(-30.0852149, -53.0779284),
               Coordinate(-35.1558001, -58.4913609)),
           null),
       '00',
@@ -41663,6 +41900,7 @@ class Countries {
         "zu": "I-Uruguwayi"
       });
 
+  /// Country: The Republic of Uzbekistan
   static const Country uzb = Country(
       'UZ',
       'UZB',
@@ -41674,7 +41912,7 @@ class Countries {
           Coordinate(41.377491, 64.585262),
           Coordinate(45.590075, 73.148946),
           Coordinate(37.1722571, 55.9982179),
-          Boundary(Coordinate(45.590075, 73.148946),
+          BoundingBox(Coordinate(45.590075, 73.148946),
               Coordinate(37.1722571, 55.9982179)),
           null),
       '810',
@@ -41845,6 +42083,7 @@ class Countries {
         "zu": "Uzbekistan"
       });
 
+  /// Country: The Holy See
   static const Country vat = Country(
       'VA',
       'VAT',
@@ -41856,7 +42095,7 @@ class Countries {
           Coordinate(41.902916, 12.453389),
           Coordinate(41.90744309999999, 12.4583938),
           Coordinate(41.9001896, 12.4457286),
-          Boundary(Coordinate(41.90744309999999, 12.4583938),
+          BoundingBox(Coordinate(41.90744309999999, 12.4583938),
               Coordinate(41.9001896, 12.4457286)),
           null),
       '00',
@@ -42028,6 +42267,7 @@ class Countries {
         "zu": "Holy See (Vatican City State)"
       });
 
+  /// Country: Saint Vincent and the Grenadines
   static const Country vct = Country(
       'VC',
       'VCT',
@@ -42039,7 +42279,7 @@ class Countries {
           Coordinate(12.984305, -61.287228),
           Coordinate(13.4136657, -61.0846),
           Coordinate(12.5294999, -61.4822),
-          Boundary(Coordinate(13.4136657, -61.0846),
+          BoundingBox(Coordinate(13.4136657, -61.0846),
               Coordinate(12.5294999, -61.4822)),
           null),
       '011',
@@ -42212,6 +42452,7 @@ class Countries {
         "zu": "Saint Vincent and the Grenadines"
       });
 
+  /// Country: The Bolivarian Republic of Venezuela
   static const Country ven = Country(
       'VE',
       'VEN',
@@ -42223,7 +42464,7 @@ class Countries {
           Coordinate(6.42375, -66.58973),
           Coordinate(12.6886, -59.805666),
           Coordinate(0.6475291, -73.36703899999999),
-          Boundary(Coordinate(12.6886, -59.805666),
+          BoundingBox(Coordinate(12.6886, -59.805666),
               Coordinate(0.6475291, -73.36703899999999)),
           null),
       '00',
@@ -42387,6 +42628,7 @@ class Countries {
         "zu": "I-Venezuwela"
       });
 
+  /// Country: The Virgin Islands
   static const Country vgb = Country(
       'VG',
       'VGB',
@@ -42398,7 +42640,7 @@ class Countries {
           Coordinate(18.420695, -64.639968),
           Coordinate(18.7539999, -64.2651999),
           Coordinate(18.2899998, -64.8775),
-          Boundary(Coordinate(18.7539999, -64.2651999),
+          BoundingBox(Coordinate(18.7539999, -64.2651999),
               Coordinate(18.2899998, -64.8775)),
           null),
       '011',
@@ -42570,6 +42812,7 @@ class Countries {
         "zu": "Virgin Islands, British"
       });
 
+  /// Country: The Virgin Islands of the United States
   static const Country vir = Country(
       'VI',
       'VIR',
@@ -42581,7 +42824,7 @@ class Countries {
           Coordinate(18.335765, -64.896335),
           Coordinate(18.4239, -64.4391),
           Coordinate(17.5482999, -65.1101),
-          Boundary(
+          BoundingBox(
               Coordinate(18.4239, -64.4391), Coordinate(17.5482999, -65.1101)),
           null),
       '011',
@@ -42754,6 +42997,7 @@ class Countries {
         "zu": "Virgin Islands, U.S."
       });
 
+  /// Country: The Socialist Republic of Viet Nam
   static const Country vnm = Country(
       'VN',
       'VNM',
@@ -42765,7 +43009,7 @@ class Countries {
           Coordinate(14.058324, 108.277199),
           Coordinate(23.3926504, 109.6765),
           Coordinate(8.1952001, 102.1439156),
-          Boundary(Coordinate(23.3926504, 109.6765),
+          BoundingBox(Coordinate(23.3926504, 109.6765),
               Coordinate(8.1952001, 102.1439156)),
           null),
       '00',
@@ -42933,6 +43177,7 @@ class Countries {
         "zu": "Vietnam"
       });
 
+  /// Country: The Republic of Vanuatu
   static const Country vut = Country(
       'VU',
       'VUT',
@@ -42944,7 +43189,7 @@ class Countries {
           Coordinate(-15.376706, 166.959158),
           Coordinate(-12.8064449, 170.5023193),
           Coordinate(-20.5350773, 166.0583495),
-          Boundary(Coordinate(-12.8064449, 170.5023193),
+          BoundingBox(Coordinate(-12.8064449, 170.5023193),
               Coordinate(-20.5350773, 166.0583495)),
           null),
       '00',
@@ -43108,6 +43353,7 @@ class Countries {
         "zu": "Vanuatu"
       });
 
+  /// Country: The Territory of the Wallis and Futuna Islands
   static const Country wlf = Country(
       'WF',
       'WLF',
@@ -43119,7 +43365,7 @@ class Countries {
           Coordinate(-14.2938, -178.1165),
           Coordinate(-13.1303042, -176.0971068),
           Coordinate(-14.4187203, -178.2284546),
-          Boundary(Coordinate(-13.1303042, -176.0971068),
+          BoundingBox(Coordinate(-13.1303042, -176.0971068),
               Coordinate(-14.4187203, -178.2284546)),
           null),
       '19',
@@ -43290,6 +43536,7 @@ class Countries {
         "zu": "Wallis and Futuna"
       });
 
+  /// Country: The Independent State of Samoa
   static const Country wsm = Country(
       'WS',
       'WSM',
@@ -43301,7 +43548,7 @@ class Countries {
           Coordinate(-13.759029, -172.104629),
           Coordinate(-13.4203449, -171.3950515),
           Coordinate(-14.0833012, -172.8108215),
-          Boundary(Coordinate(-13.4203449, -171.3950515),
+          BoundingBox(Coordinate(-13.4203449, -171.3950515),
               Coordinate(-14.0833012, -172.8108215)),
           null),
       '00',
@@ -43465,6 +43712,7 @@ class Countries {
         "zu": "Samoa"
       });
 
+  /// Country: The Republic of Yemen
   static const Country yem = Country(
       'YE',
       'YEM',
@@ -43476,7 +43724,7 @@ class Countries {
           Coordinate(15.552727, 48.516388),
           Coordinate(18.9996331, 54.67899999999999),
           Coordinate(11.7975, 41.70959999999999),
-          Boundary(Coordinate(18.9996331, 54.67899999999999),
+          BoundingBox(Coordinate(18.9996331, 54.67899999999999),
               Coordinate(11.7975, 41.70959999999999)),
           null),
       '00',
@@ -43643,6 +43891,7 @@ class Countries {
         "zu": "IYemen"
       });
 
+  /// Country: The Department of Mayotte
   static const Country myt = Country(
       'YT',
       'MYT',
@@ -43654,7 +43903,7 @@ class Countries {
           Coordinate(-12.8275, 45.166244),
           Coordinate(-12.5772665, 45.32014849999999),
           Coordinate(-13.0358332, 44.9914169),
-          Boundary(Coordinate(-12.5772665, 45.32014849999999),
+          BoundingBox(Coordinate(-12.5772665, 45.32014849999999),
               Coordinate(-13.0358332, 44.9914169)),
           null),
       '00',
@@ -43818,6 +44067,7 @@ class Countries {
         "zu": "IMayotte"
       });
 
+  /// Country: The Republic of South Africa
   static const Country zaf = Country(
       'ZA',
       'ZAF',
@@ -43829,7 +44079,7 @@ class Countries {
           Coordinate(-30.559482, 22.937506),
           Coordinate(-22.1254239, 38.2216904),
           Coordinate(-47.1313489, 16.2816999),
-          Boundary(Coordinate(-22.1254239, 38.2216904),
+          BoundingBox(Coordinate(-22.1254239, 38.2216904),
               Coordinate(-47.1313489, 16.2816999)),
           null),
       '09',
@@ -44005,6 +44255,7 @@ class Countries {
         "zu": "IRiphabliki yaseNingizimu Afrika"
       });
 
+  /// Country: The Republic of Zambia
   static const Country zmb = Country(
       'ZM',
       'ZMB',
@@ -44016,7 +44267,7 @@ class Countries {
           Coordinate(-13.133897, 27.849332),
           Coordinate(-8.2032838, 33.7090305),
           Coordinate(-18.0774179, 21.999351),
-          Boundary(Coordinate(-8.2032838, 33.7090305),
+          BoundingBox(Coordinate(-8.2032838, 33.7090305),
               Coordinate(-18.0774179, 21.999351)),
           null),
       '00',
@@ -44180,6 +44431,7 @@ class Countries {
         "zu": "IZambiya"
       });
 
+  /// Country: The Republic of Zimbabwe
   static const Country zwe = Country(
       'ZW',
       'ZWE',
@@ -44191,7 +44443,7 @@ class Countries {
           Coordinate(-19.015438, 29.154857),
           Coordinate(-15.6093188, 33.068236),
           Coordinate(-22.4219117, 25.237368),
-          Boundary(Coordinate(-15.6093188, 33.068236),
+          BoundingBox(Coordinate(-15.6093188, 33.068236),
               Coordinate(-22.4219117, 25.237368)),
           null),
       '00',
@@ -44355,6 +44607,7 @@ class Countries {
         "zu": "IZimbabwe"
       });
 
+  /// All countries in the world
   static List<Country> get values => [
         and,
         are,

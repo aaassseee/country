@@ -29,10 +29,6 @@ void printAllCountry() {
 }
 ```
 
-##### Short name by locale
+## Maintainer
 
-```dart
-String getCountryNameByLocale(Country country, Locale locale) =>
-    country.isoShortNameByLanguage[const Locale('en', 'US').languageCode]!;
-```
-
+[Jack Liu](https://github.com/aaassseee)

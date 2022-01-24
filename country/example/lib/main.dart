@@ -37,7 +37,7 @@ class _CountryExampleState extends State<CountryExample> {
       body: Center(
         child: Column(
           children: [
-            if (country != null) Text(getCountryFlagEmoji(country!)),
+            if (country != null) Text(country!.flagEmoji),
             DropdownButtonFormField<Country>(
               items: [
                 for (final country in Countries.values)
@@ -56,98 +56,5 @@ class _CountryExampleState extends State<CountryExample> {
         ),
       ),
     );
-  }
-}
-
-String getCountryFlagEmoji(Country country) {
-  final countryCode = country.alpha2.toLowerCase();
-  return String.fromCharCodes([
-    127365 + countryCode.codeUnitAt(0),
-    127365 + countryCode.codeUnitAt(1),
-  ]);
-}
-
-String getFlagEmojiCode(String character) {
-  switch (character) {
-    case 'a':
-      return '🇦';
-
-    case 'b':
-      return '🇧';
-
-    case 'c':
-      return '🇨';
-
-    case 'd':
-      return '🇩';
-
-    case 'e':
-      return '🇪';
-
-    case 'f':
-      return '🇫';
-
-    case 'g':
-      return '🇬';
-
-    case 'h':
-      return '🇭';
-
-    case 'i':
-      return '🇮';
-
-    case 'j':
-      return '🇯';
-
-    case 'k':
-      return '🇰';
-
-    case 'l':
-      return '🇱';
-
-    case 'm':
-      return '🇲';
-
-    case 'n':
-      return '🇳';
-
-    case 'o':
-      return '🇴';
-
-    case 'p':
-      return '🇵';
-
-    case 'q':
-      return '🇶';
-
-    case 'r':
-      return '🇷';
-
-    case 's':
-      return '🇸';
-
-    case 't':
-      return '🇹';
-
-    case 'u':
-      return '🇺';
-
-    case 'v':
-      return '🇻';
-
-    case 'w':
-      return '🇼';
-
-    case 'x':
-      return '🇽';
-
-    case 'y':
-      return '🇾';
-
-    case 'z':
-      return '🇿';
-
-    default:
-      throw ArgumentError();
   }
 }

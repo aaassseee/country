@@ -1,3 +1,8 @@
+## 0.0.3
+
+* added documentation
+* separated iso short name by locale method to [flutter_country](https://github.com/aaassseee/country/tree/master/flutter_country)
+
 ## 0.0.2
 
 * added flag emoji

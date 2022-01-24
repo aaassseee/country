@@ -2,18 +2,21 @@ import 'dart:convert';
 
 import 'package:country/country.dart';
 
+/// Extension class for generating class string with [List<String>]
 extension ListStringExtension on List<String> {
   String toClassString() {
     return '[${map((e) => '\'${e.replaceAll('\'', '\\\'')}\'').join(', ')}]';
   }
 }
 
+/// Extension class for generating class string with [List<int>]
 extension ListIntExtension on List<int> {
   String toClassString() {
     return '[${join(', ')}]';
   }
 }
 
+/// Extension class for generating class string with [Country]
 extension CountryClassStringExtension on Country {
   String toClassString() {
     return '''Country(
@@ -54,12 +57,14 @@ extension CountryClassStringExtension on Country {
   }
 }
 
+/// Extension class for generating class string with [Coordinate]
 extension CoordinateClassStringExtension on Coordinate {
   String toClassString() {
     return 'Coordinate($latitude, $longitude)';
   }
 }
 
+/// Extension class for generating class string with [GeoData]
 extension GeoDataClassStringExtension on GeoData {
   String toClassString() {
     return '''GeoData(
@@ -71,13 +76,15 @@ extension GeoDataClassStringExtension on GeoData {
   }
 }
 
-extension BoundaryClassStringExtension on Boundary {
+/// Extension class for generating class string with [BoundingBox]
+extension BoundingBoxClassStringExtension on BoundingBox {
   String toClassString() {
-    return '''Boundary(${northeast.toClassString()},
+    return '''BoundingBox(${northeast.toClassString()},
               ${southwest.toClassString()})''';
   }
 }
 
+/// Extension class for generating class string with [VatRates]
 extension VatRatesClassStringExtension on VatRates {
   String toClassString() {
     return '''VatRates(
@@ -86,6 +93,7 @@ extension VatRatesClassStringExtension on VatRates {
   }
 }
 
+/// Extension class for generating class string with [Continent]
 extension ContinentClassStringExtension on Continent {
   String toClassString() {
     switch (wireName) {
@@ -116,6 +124,7 @@ extension ContinentClassStringExtension on Continent {
   }
 }
 
+/// Extension class for generating class string with [Region]
 extension RegionClassStringExtension on Region {
   String toClassString() {
     switch (wireName) {
@@ -143,6 +152,7 @@ extension RegionClassStringExtension on Region {
   }
 }
 
+/// Extension class for generating class string with [WorldRegion]
 extension WorldRegionClassStringExtension on WorldRegion {
   String toClassString() {
     switch (wireName) {
