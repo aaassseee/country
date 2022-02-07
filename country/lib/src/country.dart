@@ -131,7 +131,7 @@ class Country {
   final String internationalPrefix;
 
   /// The International Olympic Committee (IOC) uses three-letter abbreviation
-  /// country codes[1] to refer to each group of athletes that participate in
+  /// country codes to refer to each group of athletes that participate in
   /// the Olympic Games.
   ///
   /// Each geocode usually identifies a National Olympic Committee (NOC), but
@@ -222,7 +222,7 @@ class Country {
   /// Array of unofficial, slang names or aliases for this country
   final List<String> unofficialNames;
 
-  /// The "World Region" this country is in: [WorldRegion.amer]
+  /// The World Region this country is in: [WorldRegion.amer]
   /// , [WorldRegion.apac] or [WorldRegion.emea]
   final WorldRegion worldRegion;
 

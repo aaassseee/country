@@ -1,3 +1,7 @@
+## 0.0.4+1
+
+* updated README.md
+
 ## 0.0.4
 
 * removed flutter as dependency

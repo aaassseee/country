@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/country/country.iml" filepath="$PROJECT_DIR$/country/country.iml" />
+      <module fileurl="file://$PROJECT_DIR$/country_generator/country_generator.iml" filepath="$PROJECT_DIR$/country_generator/country_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_country/flutter_country.iml" filepath="$PROJECT_DIR$/flutter_country/flutter_country.iml" />
+    </modules>
+  </component>
+</project>
