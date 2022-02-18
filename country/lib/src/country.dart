@@ -1,3 +1,5 @@
+part 'country.g.dart';
+
 /// Class for storing information of the country
 class Country {
   /// Creates country
@@ -60,7 +62,7 @@ class Country {
       json['postal_code'],
       json['postal_code_format'],
       Region.fromWireName(json['region']),
-      json['start_of_week'],
+      Week.fromWireName(json['start_of_week']),
       json['subregion'],
       json['un_locode'],
       List<String>.from(json['unofficial_names']),
@@ -203,7 +205,7 @@ class Country {
   final Region region;
 
   /// The starting day of the week
-  final String startOfWeek;
+  final Week startOfWeek;
 
   /// The Subegion this country is in. Approximately matches the United Nations
   /// geoscheme's Subregions
@@ -750,10 +752,111 @@ class Region {
   int get hashCode => wireName.hashCode;
 }
 
-///
+/// A class for storing information of week
+class Week {
+  /// Creates week
+  const Week._(this.wireName);
+
+  /// Creates week with a decoded json object from [countries](https://github.com/countries/countries)
+  factory Week.fromWireName(String wireName) {
+    switch (wireName) {
+      case mondayWireName:
+        return monday;
+
+      case tuesdayWireName:
+        return tuesday;
+
+      case wednesdayWireName:
+        return wednesday;
+
+      case thursdayWireName:
+        return thursday;
+
+      case fridayWireName:
+        return friday;
+
+      case saturdayWireName:
+        return saturday;
+
+      case sundayWireName:
+        return sunday;
+
+      default:
+        throw ArgumentError('UnSupported wireName: $wireName');
+    }
+  }
+
+  /// Actual value from json
+  final String wireName;
+
+  /// Value of [monday] in json
+  static const mondayWireName = 'monday';
+
+  /// Value of [tuesday] in json
+  static const tuesdayWireName = 'tuesday';
+
+  /// Value of [wednesday] in json
+  static const wednesdayWireName = 'wednesday';
+
+  /// Value of [thursday] in json
+  static const thursdayWireName = 'thursday';
+
+  /// Value of [friday] in json
+  static const fridayWireName = 'friday';
+
+  /// Value of [saturday] in json
+  static const saturdayWireName = 'saturday';
+
+  /// Value of [sunday] in json
+  static const sundayWireName = 'sunday';
+
+  /// Constant value of the [monday] enum
+  static const monday = Week._(mondayWireName);
+
+  /// Constant value of the [tuesday] enum
+  static const tuesday = Week._(tuesdayWireName);
+
+  /// Constant value of the [wednesday] enum
+  static const wednesday = Week._(wednesdayWireName);
+
+  /// Constant value of the [thursday] enum
+  static const thursday = Week._(thursdayWireName);
+
+  /// Constant value of the [friday] enum
+  static const friday = Week._(fridayWireName);
+
+  /// Constant value of the [saturday] enum
+  static const saturday = Week._(saturdayWireName);
+
+  /// Constant value of the [sunday] enum
+  static const sunday = Week._(sundayWireName);
+
+  /// All values with [Week]
+  static get values =>
+      [monday, tuesday, wednesday, thursday, friday, saturday, sunday];
+
+  @override
+  String toString() {
+    return 'Week{wireName: $wireName}';
+  }
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Week &&
+          runtimeType == other.runtimeType &&
+          wireName == other.wireName;
+
+  @override
+  int get hashCode => wireName.hashCode;
+}
+
+/// A class for storing information of world region
 class WorldRegion {
+  /// Creates world region
   const WorldRegion._(this.wireName);
 
+  /// Creates world region with a decoded json object from [countries](https://github.com/countries/countries)
   factory WorldRegion.fromWireName(String wireName) {
     switch (wireName) {
       case amerWireName:
@@ -766,7 +869,7 @@ class WorldRegion {
         return emea;
 
       default:
-        throw ArgumentError();
+        throw ArgumentError('UnSupported wireName: $wireName');
     }
   }
 

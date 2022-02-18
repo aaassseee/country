@@ -1,6 +1,6 @@
 name: flutter_country
 description: A new Flutter project.
-version: 0.0.3
+version: 1.0.0
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/flutter_country
 issue_tracker: https://github.com/aaassseee/country/issues
@@ -15,7 +15,7 @@ dependencies:
 #  country:
 #    path:
 #      ../country
-  country: ^0.0.4
+  country: '>=1.0.0 <2.0.0'
 
 dev_dependencies:
   flutter_test:

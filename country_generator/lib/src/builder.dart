@@ -84,7 +84,7 @@ class CountryGeneratorBuilder extends Builder {
       }
 
       String output = '';
-      output += 'import \'country.dart\';\n\n';
+      output += 'part of \'country.dart\';\n\n';
       output += '/// Class for storing all country object\n';
       output += 'class Countries {\n';
       output +=

@@ -1,3 +1,8 @@
+## 1.0.0
+
+* upgrade country to '1.0.0'
+* added Week class to string extension
+
 ## 0.0.4
 
 * upgrade country to '0.0.4'

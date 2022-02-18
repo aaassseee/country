@@ -1,3 +1,8 @@
+## 1.0.0
+
+* (Breaking change) changed start of week from string to week enum class
+* updated submodule with new data
+
 ## 0.0.4+1
 
 * updated README.md

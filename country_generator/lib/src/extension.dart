@@ -41,7 +41,7 @@ extension CountryClassStringExtension on Country {
       $postalCode,
       ${postalCodeFormat == null ? null : 'r\'${postalCodeFormat!.replaceAll('\'', '\\\'')}\''},
       ${region.toClassString()},
-      '${startOfWeek..replaceAll('\'', '\\\'')}',
+      ${startOfWeek.toClassString()},
       '${subregion..replaceAll('\'', '\\\'')}',
       '${unLocode..replaceAll('\'', '\\\'')}',
       ${unofficialNames.toClassString()},
@@ -145,6 +145,37 @@ extension RegionClassStringExtension on Region {
 
       case Region.oceaniaWireName:
         return 'Region.oceania';
+
+      default:
+        throw ArgumentError('Unsupported wireName: $wireName');
+    }
+  }
+}
+
+/// Extension class for generating class string with [Week]
+extension WeekClassStringExtension on Week {
+  String toClassString() {
+    switch (wireName) {
+      case Week.mondayWireName:
+        return 'Week.monday';
+
+      case Week.tuesdayWireName:
+        return 'Week.tuesday';
+
+      case Week.wednesdayWireName:
+        return 'Week.wednesday';
+
+      case Week.thursdayWireName:
+        return 'Week.thursday';
+
+      case Week.fridayWireName:
+        return 'Week.friday';
+
+      case Week.saturdayWireName:
+        return 'Week.saturday';
+
+      case Week.sundayWireName:
+        return 'Week.sunday';
 
       default:
         throw ArgumentError('Unsupported wireName: $wireName');
