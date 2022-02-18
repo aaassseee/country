@@ -1,3 +1,7 @@
+## 1.0.0+1
+
+* fixed README.md typo
+
 ## 1.0.0
 
 * (Breaking change) changed start of week from string to week enum class

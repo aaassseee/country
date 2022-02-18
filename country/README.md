@@ -119,7 +119,7 @@ dependencies:
 
 e.g
 ```dart
-String getShortNameByLocale(Country country) {
+String getCountryFlagEmoji(Country country) {
   return country.flagEmoji;
 }
 ```
