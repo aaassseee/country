@@ -12,7 +12,7 @@ Add the following lines in your pubspec.yaml file
 flutter_country:
   git:
     url: https://github.com/aaassseee/country.git
-    path: flutter_country/
+    path: flutter_country
 ```
 
 ### API
@@ -21,6 +21,10 @@ flutter_country:
 
 ```dart
 String shortName = Countries.hkg.getIsoShortNameByLocale(const Locale('zh', 'HK'));
+
+String getShortNameByLocale(Country country) {
+  return country.getIsoShortNameByLocale(const Locale('zh', 'HK'));
+}
 ```
 
 ## Maintainer

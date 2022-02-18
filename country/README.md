@@ -101,6 +101,12 @@ dependencies:
 |-----------|:--------:|------------------------|
 | wireName  | &cross;  | Actual value from json |
 
+#### Week(enum class)
+
+| Parameter | Nullable | Description            |
+|-----------|:--------:|------------------------|
+| wireName  | &cross;  | Actual value from json |
+
 #### WorldRegion(enum class)
 
 | Parameter | Nullable | Description            |
@@ -109,13 +115,41 @@ dependencies:
 
 ### API
 
+#### Flag emoji
+
+e.g
+```dart
+String getShortNameByLocale(Country country) {
+  return country.flagEmoji;
+}
+```
+
 #### All country
 
+e.g
 ```dart
 void printAllCountry() {
   for (final country in Countries.values) {
     print(country);
   }
+}
+```
+
+##### Short name by locale (flutter_country depend on Flutter)
+
+###### Install
+Add the following lines in your pubspec.yaml file
+
+```yaml
+flutter_country:
+  git:
+    url: https://github.com/aaassseee/country.git
+    path: flutter_country
+```
+e.g
+```dart
+String getShortNameByLocale(Country country) {
+  return country.getIsoShortNameByLocale(const Locale('zh', 'HK'));
 }
 ```
 
