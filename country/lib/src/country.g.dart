@@ -1585,7 +1585,7 @@ class Countries {
         "te": "అంటార్క్టికా",
         "tg": "Антарктида",
         "th": "แอนตาร์กติกา",
-        "ti": "Antarctica",
+        "ti": "ኣንታርክቲካ",
         "tk": "Antarctica",
         "tl": "Antarktika",
         "tr": "Antarktika",
@@ -2102,7 +2102,7 @@ class Countries {
         "nl": "Oostenrijk",
         "nn": "Austerrike",
         "nv": "Óóswiya",
-        "oc": "Austria",
+        "oc": "Àustria",
         "or": "ଅଷ୍ଟ୍ରିୟା",
         "pa": "ਆਸਟਰੀਆ",
         "pi": "आस्ट्रिया",
@@ -2146,7 +2146,7 @@ class Countries {
         "zh-hk": "奧地利",
         "zh-tw": "奧地利",
         "zh": "奥地利",
-        "zu": "I-Austriyiya"
+        "zu": "I-Ostriya"
       });
 
   /// Country: The Commonwealth of Australia
@@ -2325,7 +2325,7 @@ class Countries {
         "zh-hk": "澳大利亞",
         "zh-tw": "澳大利亞",
         "zh": "澳大利亚",
-        "zu": "I-Australiya"
+        "zu": "I-Ostreliya"
       });
 
   /// Country: Aruba
@@ -3380,7 +3380,7 @@ class Countries {
         "te": "బాంగ్లాదేశ్",
         "tg": "Бангладеш",
         "th": "บังกลาเทศ",
-        "ti": "Bangladesh",
+        "ti": "ባንግላዴሽ",
         "tk": "Bangladeş",
         "tl": "Bangladesh",
         "tr": "Bangladeş",
@@ -3914,7 +3914,7 @@ class Countries {
         "te": "బల్గేరియా",
         "tg": "Булғория",
         "th": "บัลแกเรีย",
-        "ti": "ቡልጌሪያ",
+        "ti": "ቡልጋሪያ",
         "tk": "Bolgariýa",
         "tl": "Bulgaria",
         "tr": "Bulgaristan",
@@ -3933,7 +3933,7 @@ class Countries {
         "zh-hk": "保加利亞",
         "zh-tw": "保加利亞",
         "zh": "保加利亚",
-        "zu": "I-Buligariya"
+        "zu": "IBulgariya"
       });
 
   /// Country: The Kingdom of Bahrain
@@ -4269,7 +4269,7 @@ class Countries {
         "te": "బురుండీ",
         "tg": "Бурунди",
         "th": "บุรุนดี",
-        "ti": "Burundi",
+        "ti": "ቡሩንዲ",
         "tk": "Burundi",
         "tl": "Burundi",
         "tr": "Burundi",
@@ -5528,7 +5528,7 @@ class Countries {
         "zh-hk": "巴西",
         "zh-tw": "巴西",
         "zh": "巴西",
-        "zu": "I Brazili"
+        "zu": "IBrazili"
       });
 
   /// Country: The Commonwealth of The Bahamas
@@ -5685,7 +5685,7 @@ class Countries {
         "te": "బహామాజ్",
         "tg": "Ҷазираҳои Баҳама",
         "th": "บาฮามาส",
-        "ti": "Bahamas",
+        "ti": "ባሃማስ",
         "tk": "Bahamas",
         "tl": "Bahamas",
         "tr": "Bahamalar",
@@ -6416,7 +6416,7 @@ class Countries {
         "zh-hk": "白俄羅斯",
         "zh-tw": "白俄羅斯",
         "zh": "白俄罗斯",
-        "zu": "I Bhelarusi"
+        "zu": "IBelarusi"
       });
 
   /// Country: Belize
@@ -6573,7 +6573,7 @@ class Countries {
         "te": "బేలిఝ",
         "tg": "Белиз",
         "th": "เบลีซ",
-        "ti": "ቤሊዘ",
+        "ti": "ቤሊዝ",
         "tk": "Beliz",
         "tl": "Belize",
         "tr": "Belize",
@@ -8749,7 +8749,7 @@ class Countries {
         "zh-hk": "哥倫比亞",
         "zh-tw": "哥倫比亞",
         "zh": "哥伦比亚",
-        "zu": "Colombia"
+        "zu": "IKolombiya"
       });
 
   /// Country: The Republic of Costa Rica
@@ -10178,7 +10178,7 @@ class Countries {
         "zh-hk": "德國",
         "zh-tw": "德國",
         "zh": "德国",
-        "zu": "Isi-Jalimani"
+        "zu": "IJalimani"
       });
 
   /// Country: The Republic of Djibouti
@@ -10534,7 +10534,7 @@ class Countries {
         "zh-hk": "丹麥",
         "zh-tw": "丹麥",
         "zh": "丹麦",
-        "zu": "Isi-Denimaki"
+        "zu": "IDenimaki"
       });
 
   /// Country: The Commonwealth of Dominica
@@ -12147,7 +12147,7 @@ class Countries {
         "zh-hk": "西班牙",
         "zh-tw": "西班牙",
         "zh": "西班牙",
-        "zu": "Isi-Spayini"
+        "zu": "ISpeyini"
       });
 
   /// Country: The Federal Democratic Republic of Ethiopia
@@ -12502,7 +12502,7 @@ class Countries {
         "zh-hk": "芬蘭",
         "zh-tw": "芬蘭",
         "zh": "芬兰",
-        "zu": "I-Finilandi"
+        "zu": "IFinlandi"
       });
 
   /// Country: The Republic of Fiji
@@ -13406,7 +13406,7 @@ class Countries {
         "zh-hk": "法國",
         "zh-tw": "法國",
         "zh": "法国",
-        "zu": "Isi Frentshi"
+        "zu": "IFulansi"
       });
 
   /// Country: The Gabonese Republic
@@ -13776,7 +13776,7 @@ class Countries {
         "zh-hk": "英國",
         "zh-tw": "英國",
         "zh": "英国",
-        "zu": "United Kingdom"
+        "zu": "Umbuso Ohlangeneyo"
       });
 
   /// Country: Grenada
@@ -15914,7 +15914,7 @@ class Countries {
         "zh-hk": "希臘",
         "zh-tw": "希臘",
         "zh": "希腊",
-        "zu": "I-Grisi"
+        "zu": "IGreki"
       });
 
   /// Country: South Georgia and the South Sandwich Islands
@@ -17530,7 +17530,7 @@ class Countries {
         "zh-hk": "克羅地亞",
         "zh-tw": "克羅埃西亞",
         "zh": "克罗地亚",
-        "zu": "I-Crowathiya"
+        "zu": "IKrowati"
       });
 
   /// Country: The Republic of Haiti
@@ -18066,7 +18066,7 @@ class Countries {
         "zh-hk": "印尼",
         "zh-tw": "印度尼西亞",
         "zh": "印度尼西亚",
-        "zu": "I-Indoneshiya"
+        "zu": "I-Indonesia"
       });
 
   /// Country: Ireland
@@ -18245,7 +18245,7 @@ class Countries {
         "zh-hk": "愛爾蘭",
         "zh-tw": "愛爾蘭",
         "zh": "爱尔兰",
-        "zu": "I-Irelandi"
+        "zu": "I-Ayilendi"
       });
 
   /// Country: The State of Israel
@@ -18424,7 +18424,7 @@ class Countries {
         "zh-hk": "以色列",
         "zh-tw": "以色列",
         "zh": "以色列",
-        "zu": "I-Sirayeli"
+        "zu": "Isreyili"
       });
 
   /// Country: The Isle of Man
@@ -19499,7 +19499,7 @@ class Countries {
         "zh-hk": "冰島",
         "zh-tw": "冰島",
         "zh": "冰岛",
-        "zu": "I-Icelandi"
+        "zu": "I-Ayisilandi"
       });
 
   /// Country: The Italian Republic
@@ -19678,7 +19678,7 @@ class Countries {
         "zh-hk": "意大利",
         "zh-tw": "義大利",
         "zh": "意大利",
-        "zu": "I-Ithali"
+        "zu": "ITaliya"
       });
 
   /// Country: The Bailiwick of Jersey
@@ -20396,7 +20396,7 @@ class Countries {
         "zh-hk": "日本",
         "zh-tw": "日本",
         "zh": "日本",
-        "zu": "I-Japhani"
+        "zu": "IJaphani"
       });
 
   /// Country: The Republic of Kenya
@@ -20572,7 +20572,7 @@ class Countries {
         "zh-hk": "肯雅",
         "zh-tw": "肯亞",
         "zh": "肯尼亚",
-        "zu": "Kenya"
+        "zu": "IKenya"
       });
 
   /// Country: The Kyrgyz Republic
@@ -21469,7 +21469,7 @@ class Countries {
         "zh-hk": "聖基茨和尼維斯聯邦",
         "zh-tw": "聖克里斯多福及尼維斯",
         "zh": "圣基茨和尼维斯",
-        "zu": "St. Kitts no Nevis"
+        "zu": "Saint Kitts and Nevis"
       });
 
   /// Country: The Democratic People's Republic of Korea
@@ -23625,7 +23625,7 @@ class Countries {
         "zh-hk": "萊索托",
         "zh-tw": "賴索托",
         "zh": "莱索托",
-        "zu": "Lesotho"
+        "zu": "OSotho"
       });
 
   /// Country: The Republic of Lithuania
@@ -23810,7 +23810,7 @@ class Countries {
         "zh-hk": "立陶宛",
         "zh-tw": "立陶宛",
         "zh": "立陶宛",
-        "zu": "I-Lithuwaniya"
+        "zu": "ILithuwaniya"
       });
 
   /// Country: The Grand Duchy of Luxembourg
@@ -24169,7 +24169,7 @@ class Countries {
         "zh-hk": "拉脫維亞",
         "zh-tw": "拉脫維亞",
         "zh": "拉脱维亚",
-        "zu": "I-Latviya"
+        "zu": "ILatviya"
       });
 
   /// Country: The State of Libya
@@ -24529,7 +24529,7 @@ class Countries {
         "zh-hk": "摩洛哥",
         "zh-tw": "摩洛哥",
         "zh": "摩洛哥",
-        "zu": "Morocco"
+        "zu": "IMorokho"
       });
 
   /// Country: The Principality of Monaco
@@ -25065,7 +25065,7 @@ class Countries {
         "zh-hk": "黑山",
         "zh-tw": "蒙特內哥羅",
         "zh": "黑山",
-        "zu": "Montenegro"
+        "zu": "IMontenegro"
       });
 
   /// Country: The Collectivity of Saint-Martin
@@ -25417,7 +25417,7 @@ class Countries {
         "zh-hk": "馬達加斯加",
         "zh-tw": "馬達加斯加",
         "zh": "马达加斯加",
-        "zu": "Madagascar"
+        "zu": "IMadagasika"
       });
 
   /// Country: The Republic of the Marshall Islands
@@ -27386,7 +27386,7 @@ class Countries {
         "zh-hk": "馬耳他",
         "zh-tw": "馬爾他",
         "zh": "马尔他",
-        "zu": "I-Malta"
+        "zu": "IMalta"
       });
 
   /// Country: The Republic of Mauritius
@@ -28093,7 +28093,7 @@ class Countries {
         "zh-hk": "墨西哥",
         "zh-tw": "墨西哥",
         "zh": "墨西哥",
-        "zu": "I-Mexico"
+        "zu": "IMekisiko"
       });
 
   /// Country: Malaysia
@@ -29881,7 +29881,7 @@ class Countries {
         "zh-hk": "挪威",
         "zh-tw": "挪威",
         "zh": "挪威",
-        "zu": "I-Noweyi"
+        "zu": "INoki"
       });
 
   /// Country: The Federal Democratic Republic of Nepal
@@ -30600,7 +30600,7 @@ class Countries {
         "zh-hk": "新西蘭",
         "zh-tw": "紐西蘭",
         "zh": "新西兰",
-        "zu": "I-New Zealand"
+        "zu": "INyuzilandi"
       });
 
   /// Country: The Sultanate of Oman
@@ -30956,7 +30956,7 @@ class Countries {
         "zh-hk": "巴拿馬",
         "zh-tw": "巴拿馬",
         "zh": "巴拿马",
-        "zu": "I-Panama"
+        "zu": "Panama"
       });
 
   /// Country: The Republic of Perú
@@ -31853,7 +31853,7 @@ class Countries {
         "zh-hk": "巴基斯坦",
         "zh-tw": "巴基斯坦",
         "zh": "巴基斯坦",
-        "zu": "Pakistan"
+        "zu": "IPakistani"
       });
 
   /// Country: The Republic of Poland
@@ -32033,7 +32033,7 @@ class Countries {
         "zh-hk": "波蘭",
         "zh-tw": "波蘭",
         "zh": "波兰",
-        "zu": "I-Polandi"
+        "zu": "IPolandi"
       });
 
   /// Country: The Overseas Collectivity of Saint-Pierre and Miquelon
@@ -32933,7 +32933,7 @@ class Countries {
         "zh-hk": "葡萄牙",
         "zh-tw": "葡萄牙",
         "zh": "葡萄牙",
-        "zu": "I-Phothugali"
+        "zu": "IPhothugali"
       });
 
   /// Country: The Republic of Palau
@@ -33640,7 +33640,7 @@ class Countries {
         "zh-hk": "留尼旺",
         "zh-tw": "留尼旺島",
         "zh": "留尼汪",
-        "zu": "Réunion"
+        "zu": "IRiyunion"
       });
 
   /// Country: Romania
@@ -33995,7 +33995,7 @@ class Countries {
         "zh-hk": "塞爾維亞",
         "zh-tw": "塞爾維亞",
         "zh": "塞尔维亚",
-        "zu": "Serbia"
+        "zu": "ISerbiya"
       });
 
   /// Country: The Russian Federation
@@ -34906,7 +34906,7 @@ class Countries {
         "zh-hk": "塞舌爾",
         "zh-tw": "塞席爾",
         "zh": "塞舌尔",
-        "zu": "Seychelles"
+        "zu": "IsiSeyisheli"
       });
 
   /// Country: The Republic of the Sudan
@@ -35261,7 +35261,7 @@ class Countries {
         "zh-hk": "瑞典",
         "zh-tw": "瑞典",
         "zh": "瑞典",
-        "zu": "Isi-Swideni"
+        "zu": "ISwidi"
       });
 
   /// Country: The Republic of Singapore
@@ -35803,7 +35803,7 @@ class Countries {
         "zh-hk": "斯洛文尼亞",
         "zh-tw": "斯洛維尼亞",
         "zh": "斯洛文尼亚",
-        "zu": "Isi-Sloveniya"
+        "zu": "ISloveniya"
       });
 
   /// Country: Svalbard and Jan Mayen
@@ -36172,7 +36172,7 @@ class Countries {
         "zh-hk": "斯洛伐克",
         "zh-tw": "斯洛伐克",
         "zh": "斯洛伐克",
-        "zu": "Isi-Slovaki"
+        "zu": "ISlovaki"
       });
 
   /// Country: The Republic of Sierra Leone
@@ -36524,7 +36524,7 @@ class Countries {
         "zh-hk": "聖馬力諾",
         "zh-tw": "聖馬利諾",
         "zh": "圣马力诺市",
-        "zu": "San Marino"
+        "zu": "USanti Marino"
       });
 
   /// Country: The Republic of Senegal
@@ -37587,7 +37587,7 @@ class Countries {
         "zh-hk": "薩爾瓦多",
         "zh-tw": "薩爾瓦多",
         "zh": "萨尔瓦多",
-        "zu": "I-El Salvador"
+        "zu": "El Salvador"
       });
 
   /// Country: Sint Maarten
@@ -40272,7 +40272,7 @@ class Countries {
         "zh-hk": "土耳其",
         "zh-tw": "土耳其",
         "zh": "土耳其",
-        "zu": "I-Turkey"
+        "zu": "ITheki"
       });
 
   /// Country: The Republic of Trinidad and Tobago
@@ -41174,7 +41174,7 @@ class Countries {
         "zh-hk": "烏克蘭",
         "zh-tw": "烏克蘭",
         "zh": "乌克兰",
-        "zu": "I-Ukraine"
+        "zu": "I-Yukreyini"
       });
 
   /// Country: The Republic of Uganda
@@ -41350,7 +41350,7 @@ class Countries {
         "zh-hk": "烏干達",
         "zh-tw": "烏干達",
         "zh": "乌干达",
-        "zu": "Uganda"
+        "zu": "IYuganda"
       });
 
   /// Country: United States Minor Outlying Islands
@@ -43174,7 +43174,7 @@ class Countries {
         "zh-hk": "越南",
         "zh-tw": "越南",
         "zh": "越南",
-        "zu": "Vietnam"
+        "zu": "IViyetnami"
       });
 
   /// Country: The Republic of Vanuatu
