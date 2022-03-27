@@ -1,3 +1,7 @@
+## 1.0.1
+
+* updated submodule with new data
+
 ## 1.0.0+1
 
 * fixed README.md typo
