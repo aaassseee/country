@@ -397,8 +397,8 @@ class Coordinate {
 /// A class for storing information of coordinate and bounding box
 class GeoData {
   /// Creates Geodata
-  const GeoData(this.coordinate, this.maxCoordinate, this.minCoordinate,
-      this.boundary, this.longitudeDec);
+  const GeoData(
+      this.coordinate, this.maxCoordinate, this.minCoordinate, this.boundary);
 
   /// Creates geodata with a decoded json object from [countries](https://github.com/countries/countries)
   factory GeoData.fromJson(Map<String, dynamic> json) => GeoData(
@@ -407,8 +407,7 @@ class GeoData {
           json['max_latitude'].toDouble(), json['max_longitude'].toDouble()),
       Coordinate(
           json['min_latitude'].toDouble(), json['min_longitude'].toDouble()),
-      BoundingBox.fromJson(json['bounds']),
-      json['longitude_dec']);
+      BoundingBox.fromJson(json['bounds']));
 
   /// The coordinate represent as the center point of this country
   final Coordinate coordinate;
@@ -422,14 +421,9 @@ class GeoData {
   /// The bounding box of this country
   final BoundingBox boundary;
 
-  /// The description of the [coordinate.longitude]
-  @Deprecated(
-      'The Country#longitude_dec method has been deprecated and will be removed in 5.0. Please use Country#longitude instead.')
-  final String? longitudeDec;
-
   @override
   String toString() {
-    return 'GeoData{coordinate: $coordinate, maxCoordinate: $maxCoordinate, minCoordinate: $minCoordinate, boundary: $boundary, longitudeDec: $longitudeDec}';
+    return 'GeoData{coordinate: $coordinate, maxCoordinate: $maxCoordinate, minCoordinate: $minCoordinate, boundary: $boundary}';
   }
 
   @override
@@ -440,16 +434,14 @@ class GeoData {
           coordinate == other.coordinate &&
           maxCoordinate == other.maxCoordinate &&
           minCoordinate == other.minCoordinate &&
-          boundary == other.boundary &&
-          longitudeDec == other.longitudeDec;
+          boundary == other.boundary;
 
   @override
   int get hashCode =>
       coordinate.hashCode ^
       maxCoordinate.hashCode ^
       minCoordinate.hashCode ^
-      boundary.hashCode ^
-      longitudeDec.hashCode;
+      boundary.hashCode;
 }
 
 /// A class for storing information of bounding box

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/flutter_country/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_country/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_country/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/country/build" />
+      <excludeFolder url="file://$MODULE_DIR$/country/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/country/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/country_generator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/country_generator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/country_generator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/country/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/country/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/country/example/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
