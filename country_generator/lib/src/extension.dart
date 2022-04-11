@@ -71,8 +71,7 @@ extension GeoDataClassStringExtension on GeoData {
           ${coordinate.toClassString()},
           ${maxCoordinate.toClassString()},
           ${minCoordinate.toClassString()},
-          ${boundary.toClassString()},
-          ${longitudeDec == null ? null : '\'${longitudeDec!.replaceAll('\'', '\\\'')}\''})''';
+          ${boundary.toClassString()})''';
   }
 }
 

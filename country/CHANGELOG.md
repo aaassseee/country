@@ -1,3 +1,8 @@
+## 2.0.0
+
+* upgrade country to '2.0.0'
+* deprecated longitudeDec
+
 ## 1.0.1
 
 * updated submodule with new data
