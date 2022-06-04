@@ -1,3 +1,8 @@
+## 2.0.1
+
+* updated submodule
+* updated generated country with new data
+
 ## 2.0.0
 
 * upgrade country to '2.0.0'
