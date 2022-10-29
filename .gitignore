@@ -37,6 +37,7 @@
 # .idea/modules
 # *.iml
 # *.ipr
+.idea/git_toolbox_prj.xml
 
 # CMake
 cmake-build-*/

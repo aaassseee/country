@@ -9,10 +9,10 @@ using [countries](https://github.com/countries/countries).
 
 ## Package
 
-| Plugin                                                   | Pub                                                                                                                       | Points                                                                                                               |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| [country](./country)                                     | [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)                     | [![pub points](https://badges.bar/country/pub%20points)](https://pub.dev/packages/country/score)                     |
-| [country_generator](./country_generator)                 | [![pub package](https://img.shields.io/pub/v/country_generator.svg)](https://pub.dartlang.org/packages/country_generator) | [![pub points](https://badges.bar/country_generator/pub%20points)](https://pub.dev/packages/country_generator/score) |
+| Plugin                                                   | Pub                                                                                                                       |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [country](./country)                                     | [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)                     |
+| [country_generator](./country_generator)                 | [![pub package](https://img.shields.io/pub/v/country_generator.svg)](https://pub.dartlang.org/packages/country_generator) |
 
 ## Maintainer
 

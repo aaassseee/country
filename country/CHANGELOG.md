@@ -1,3 +1,9 @@
+## 2.0.3
+
+* update dependencies
+* updated submodule
+* updated generated country with new data
+
 ## 2.0.2
 
 * updated submodule

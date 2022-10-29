@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="generate country" type="ShConfigurationType">
-    <option name="SCRIPT_TEXT" value="flutter pub get; flutter packages pub run build_runner build; flutter format ." />
+    <option name="SCRIPT_TEXT" value="flutter pub get; flutter packages pub run build_runner build --delete-conflicting-outputs; flutter format ." />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
