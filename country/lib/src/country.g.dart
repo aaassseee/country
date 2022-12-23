@@ -17162,7 +17162,7 @@ class Countries {
       'HRV',
       Continent.europe,
       '385',
-      'HRK',
+      'EUR',
       'HR',
       GeoData(
           Coordinate(45.1, 15.2000001),
