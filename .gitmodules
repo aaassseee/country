@@ -1,3 +1,0 @@
-[submodule "country/submodule/countries"]
-	path = country/submodule/countries
-	url = https://github.com/countries/countries.git
