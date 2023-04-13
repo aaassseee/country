@@ -29,9 +29,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  country:
+  flutter_country:
     path:
-      ../../country
+      ../../flutter_country
 
 dev_dependencies:
   flutter_test:

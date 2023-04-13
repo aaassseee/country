@@ -1,5 +1,5 @@
-import 'package:country/country.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_country/flutter_country.dart';
 
 void main() {
   runApp(const MyApp());
