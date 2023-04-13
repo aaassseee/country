@@ -42,11 +42,12 @@ packages:
     source: hosted
     version: "1.17.0"
   country:
-    dependency: "direct main"
+    dependency: transitive
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: country
+      sha256: "2e2f992a0106a2e3760c87207645dad9bd9db55e21f0c0972ef3488bbbe20c7c"
+      url: "https://pub.dev"
+    source: hosted
     version: "2.0.7"
   fake_async:
     dependency: transitive
@@ -61,6 +62,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_country:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "2.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -185,3 +193,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.18.0 <3.0.0"
+  flutter: ">=1.17.0"
