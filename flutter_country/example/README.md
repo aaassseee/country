@@ -1,6 +1,6 @@
-# country_example
+# flutter_country_example
 
-Demonstrates how to use the country.
+Demonstrates how to use flutter_country.
 
 ## Getting Started
 
