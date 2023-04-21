@@ -16,5 +16,10 @@ void main() {
         Countries.gbr.getIsoShortNameByLocale(const Locale.fromSubtags(
             languageCode: 'zh', countryCode: 'HK', scriptCode: 'hant')),
         '英國');
+
+    expect(
+      Countries.gbr.getIsoShortNameByLocale(),
+      Countries.gbr.getIsoShortNameByLocale(window.locale),
+    );
   });
 }

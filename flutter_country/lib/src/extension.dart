@@ -7,7 +7,10 @@ extension CountryExtension on Country {
   ///
   /// May be separate to another package because dart:ui require Flutter as a
   /// dependency
-  String getIsoShortNameByLocale(Locale locale) {
+  /// 
+  /// The default locale is [window.locale]
+  String getIsoShortNameByLocale([Locale? locale]) {
+    locale ??= window.locale;
     String? shortName = isoShortNameByLanguage[[
           locale.languageCode.toLowerCase(),
           if (locale.countryCode != null) locale.countryCode!.toLowerCase()
