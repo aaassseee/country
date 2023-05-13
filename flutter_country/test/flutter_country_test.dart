@@ -19,7 +19,7 @@ void main() {
 
     expect(
       Countries.gbr.getIsoShortNameByLocale(),
-      Countries.gbr.getIsoShortNameByLocale(window.locale),
+      Countries.gbr.getIsoShortNameByLocale(PlatformDispatcher.instance.locale),
     );
   });
 }
