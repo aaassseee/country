@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:build/build.dart';
@@ -22,61 +21,22 @@ class CountryGeneratorBuilder extends Builder {
             'Missing pubspec.yaml in ${pubspecFile.parent.absolute}');
       }
 
+      // load pubspec settings
       final pubspec = loadYaml(pubspecFile.readAsStringSync()) as Map?;
       final config = pubspec?['country_generator'];
       final sourceFolderPath = config?['sourceFolder'] ?? 'countries';
       final outputFolderPath = config?['outputFolder'] ?? 'lib/gen';
 
-      final sourceFolder = Directory(normalize(
-          join(pubspecFile.parent.path, sourceFolderPath, cacheFolderPath)));
-      if (!sourceFolder.existsSync()) {
+      final dataFolder = Directory(normalize(
+          join(pubspecFile.parent.path, sourceFolderPath, dataFolderPath)));
+      if (!dataFolder.existsSync()) {
         throw FileSystemException(
-            'Missing folder on ${sourceFolder.absolute.path}');
+            'Missing folder on ${dataFolder.absolute.path}');
       }
 
-      final localeFolder = Directory(
-          normalize(join(sourceFolder.absolute.path, localeFolderPath)));
-      if (!localeFolder.existsSync()) {
-        throw FileSystemException(
-            'Missing folder on ${localeFolder.absolute.path}');
-      }
+      final translationMap = _readTranslationData(dataFolder);
+      final countryList = _readCountryData(dataFolder, translationMap);
 
-      Map<String, Map<String, String>> localeMap = {};
-      for (final localeFile in localeFolder.listSync().whereType<File>()) {
-        if (!localeFile.uri.pathSegments.last.endsWith('.json')) {
-          continue;
-        }
-
-        localeMap.addAll({
-          localeFile.uri.pathSegments.last.replaceAll('.json', ''):
-              (json.decode(localeFile.readAsStringSync()) as Map)
-                  .cast<String, String>()
-        });
-      }
-
-      Map<String, Map<String, String>> processedLocaleMap = {};
-      localeMap.forEach((key, value) {
-        value.forEach((countryCode, countryName) {
-          if (!processedLocaleMap.containsKey(countryCode)) {
-            processedLocaleMap[countryCode] = {key: countryName};
-          } else {
-            processedLocaleMap[countryCode]!.addAll({key: countryName});
-          }
-        });
-      });
-
-      final countryJsonFile = File(
-          normalize(join(sourceFolder.absolute.path, countryJsonFilePath)));
-      if (!countryJsonFile.existsSync()) {
-        throw FileSystemException(
-            'Missing countries.json in ${sourceFolder.absolute}');
-      }
-
-      final countryJson =
-          json.decode(countryJsonFile.readAsStringSync()) as Map;
-      final countryList = countryJson.values
-          .map((country) => Country.fromJson(country))
-          .toList();
       final outputFile = File(normalize(
           join(pubspecFile.parent.path, outputFolderPath, outputFilePath)));
       if (!outputFile.existsSync()) {
@@ -91,8 +51,6 @@ class CountryGeneratorBuilder extends Builder {
           '  /// private constructor for preventing object construction\n';
       output += '  Countries._();\n';
       for (final country in countryList) {
-        country.isoShortNameByLanguage
-            .addAll(processedLocaleMap[country.alpha2]!);
         output += '''
   
   /// Country: ${country.isoLongName}
@@ -124,4 +82,66 @@ class CountryGeneratorBuilder extends Builder {
   Map<String, List<String>> get buildExtensions => const {
         r'$lib$': ['country.g.dart']
       };
+
+  Map<String, Map<String, String>> _readTranslationData(Directory dataFolder) {
+    final translationFolder = Directory(
+        normalize(join(dataFolder.absolute.path, translationFolderPath)));
+    if (!translationFolder.existsSync()) {
+      throw FileSystemException(
+          'Missing translation folder on ${translationFolder.absolute.path}');
+    }
+
+    final allTranslationMap = <String, Map<String, String>>{};
+
+    final translationFileList = translationFolder
+        .listSync()
+        .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .cast<File>();
+    for (final translationFile in translationFileList) {
+      final locale = RegExp('countries-(.*?).yaml')
+          .firstMatch(translationFile.uri.pathSegments.last)
+          ?.group(1);
+      if (locale == null) continue;
+      final translationData =
+          (loadYamlNode(translationFile.readAsStringSync()) as YamlMap).toMap();
+      for (final MapEntry(key: countryCode, value: translation)
+          in translationData.entries) {
+        if (!allTranslationMap.containsKey(countryCode)) {
+          allTranslationMap[countryCode] = {locale: translation};
+        } else {
+          allTranslationMap[countryCode]!.addAll({locale: translation});
+        }
+      }
+    }
+
+    return allTranslationMap;
+  }
+
+  List<Country> _readCountryData(Directory dataFolder,
+      Map<String, Map<String, String>> allTranslationMap) {
+    final countryFolder =
+        Directory(normalize(join(dataFolder.absolute.path, countryFolderPath)));
+    if (!countryFolder.existsSync()) {
+      throw FileSystemException(
+          'Missing country folder on ${countryFolder.absolute.path}');
+    }
+
+    final List<Country> countryList = [];
+    final countryFileList = countryFolder
+        .listSync()
+        .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .cast<File>();
+    for (final countryFile in countryFileList) {
+      final countryCode = countryFile.uri.pathSegments.last.substring(0, 2);
+      final countryData =
+          (loadYamlNode(countryFile.readAsStringSync()) as YamlMap)
+              .toMap()[countryCode];
+      countryData['isoShortNameByLocale'] = allTranslationMap[countryCode];
+
+      final country = Country.fromJson(countryData);
+      countryList.add(country);
+    }
+
+    return countryList;
+  }
 }
