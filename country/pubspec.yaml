@@ -11,10 +11,10 @@ environment:
 dev_dependencies:
   test: ^1.21.7
   build_runner: ^2.3.2
-  country_generator:
-    path:
-      ../country_generator
-#  country_generator: '>=2.0.0 <3.0.0'
+#  country_generator:
+#    path:
+#      ../country_generator
+  country_generator: '>=3.0.0 <4.0.0'
   flutter_lints: ^2.0.1
 
 country_generator:
