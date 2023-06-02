@@ -1,3 +1,7 @@
+## 3.0.0
+
+* upgrade country to '3.0.0'
+
 ## 2.0.1
 
 * update dependencies

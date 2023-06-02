@@ -1,3 +1,8 @@
+## 3.0.0
+
+* upgrade country to '3.0.0'
+* read countries data from data folder instead of cache folder
+
 ## 2.0.1
 
 * update dependencies
