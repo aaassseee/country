@@ -1,3 +1,7 @@
+## 3.0.1
+
+* fix dart sdk constraint
+
 ## 3.0.0
 
 * changed all class from positioned parameter to named parameter
