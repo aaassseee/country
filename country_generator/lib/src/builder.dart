@@ -11,7 +11,8 @@ import 'package:yaml/yaml.dart';
 /// Country generator for generating classes from [countries](https://github.com/countries/countries)
 class CountryGeneratorBuilder extends Builder {
   /// generate country.g.dart with [countries](https://github.com/countries/countries)
-  /// countries.json in [countryJsonFilePath] and all locale json in [localeFolderPath]
+  /// countries data in [countryFolderPath] and all translation data in
+  /// [translationFolderPath]
   @override
   FutureOr<void> build(BuildStep buildStep) async {
     try {
