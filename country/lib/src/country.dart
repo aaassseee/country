@@ -3,77 +3,83 @@ part 'country.g.dart';
 /// Class for storing information of the country
 class Country {
   /// Creates country
-  const Country(
-      this.alpha2,
-      this.alpha3,
-      this.continent,
-      this.countryCode,
-      this.currencyCode,
-      this.gec,
-      this.geo,
-      this.internationalPrefix,
-      this.ioc,
-      this.isoLongName,
-      this.isoShortName,
-      this.languagesOfficial,
-      this.languagesSpoken,
-      this.nationalDestinationCodeLengths,
-      this.nationalNumberLengths,
-      this.nationalPrefix,
-      this.nationality,
-      this.number,
-      this.postalCode,
-      this.postalCodeFormat,
-      this.region,
-      this.startOfWeek,
-      this.subregion,
-      this.unLocode,
-      this.unofficialNames,
-      this.worldRegion,
-      this.addressFormat,
-      this.vatRates,
-      this.nanpPrefix,
-      this.eeaMember,
-      this.euMember,
-      this.esmMember,
-      this.altCurrency,
-      this.isoShortNameByLanguage);
+  const Country({
+    required this.alpha2,
+    required this.alpha3,
+    required this.continent,
+    required this.countryCode,
+    required this.currencyCode,
+    this.gec,
+    required this.geo,
+    required this.internationalPrefix,
+    this.ioc,
+    required this.isoLongName,
+    required this.isoShortName,
+    required this.languagesOfficial,
+    required this.languagesSpoken,
+    required this.nationalDestinationCodeLengths,
+    required this.nationalNumberLengths,
+    required this.nationalPrefix,
+    required this.nationality,
+    required this.number,
+    required this.postalCode,
+    this.postalCodeFormat,
+    required this.region,
+    required this.startOfWeek,
+    required this.subregion,
+    required this.unLocode,
+    required this.unofficialNames,
+    required this.worldRegion,
+    this.addressFormat,
+    this.vatRates,
+    this.nanpPrefix,
+    this.eeaMember,
+    this.euMember,
+    this.esmMember,
+    this.altCurrency,
+    required this.isoShortNameByLocale,
+  });
 
   /// Creates a country with a decoded json object from [countries](https://github.com/countries/countries)
   factory Country.fromJson(Map<String, dynamic> json) => Country(
-      json['alpha2'],
-      json['alpha3'],
-      Continent.fromWireName(json['continent']),
-      json['country_code'],
-      json['currency_code'],
-      json['gec'],
-      GeoData.fromJson(json['geo']),
-      json['international_prefix'],
-      json['ioc'],
-      json['iso_long_name'],
-      json['iso_short_name'],
-      List<String>.from(json['languages_official']),
-      List<String>.from(json['languages_spoken']),
-      List<int>.from(json['national_destination_code_lengths']),
-      List<int>.from(json['national_number_lengths']),
-      json['national_prefix'],
-      json['nationality'],
-      json['number'],
-      json['postal_code'],
-      json['postal_code_format'],
-      Region.fromWireName(json['region']),
-      Week.fromWireName(json['start_of_week']),
-      json['subregion'],
-      json['un_locode'],
-      List<String>.from(json['unofficial_names']),
-      WorldRegion.fromWireName(json['world_region']),
-      json['address_format'],
-      json['vat_rates'] == null ? null : VatRates.fromJson(json['vat_rates']),
-      json['nanp_prefix'],
-      json['eea_member'],
-      json['eu_member'],
-      json['esm_member'],
-      json['alt_currency'], {});
+        alpha2: json['alpha2'],
+        alpha3: json['alpha3'],
+        continent: Continent.fromWireName(json['continent']),
+        countryCode: json['country_code'],
+        currencyCode: json['currency_code'],
+        gec: json['gec'],
+        geo: GeoData.fromJson(json['geo']),
+        internationalPrefix: json['international_prefix'],
+        ioc: json['ioc'],
+        isoLongName: json['iso_long_name'],
+        isoShortName: json['iso_short_name'],
+        languagesOfficial: List<String>.from(json['languages_official']),
+        languagesSpoken: List<String>.from(json['languages_spoken']),
+        nationalDestinationCodeLengths:
+            List<int>.from(json['national_destination_code_lengths']),
+        nationalNumberLengths: List<int>.from(json['national_number_lengths']),
+        nationalPrefix: json['national_prefix'],
+        nationality: json['nationality'],
+        number: json['number'],
+        postalCode: json['postal_code'],
+        postalCodeFormat: json['postal_code_format'],
+        region: Region.fromWireName(json['region']),
+        startOfWeek: Week.fromWireName(json['start_of_week']),
+        subregion: json['subregion'],
+        unLocode: json['un_locode'],
+        unofficialNames: List<String>.from(json['unofficial_names']),
+        worldRegion: WorldRegion.fromWireName(json['world_region']),
+        addressFormat: json['address_format'],
+        vatRates: json['vat_rates'] == null
+            ? null
+            : VatRates.fromJson(json['vat_rates']),
+        nanpPrefix: json['nanp_prefix'],
+        eeaMember: json['eea_member'],
+        euMember: json['eu_member'],
+        esmMember: json['esm_member'],
+        altCurrency: json['alt_currency'],
+        isoShortNameByLocale: json['isoShortNameByLocale'] ?? {},
+      );
 
   /// ISO 3166-1 alpha-2 codes are two-letter country codes defined in
   /// ISO 3166-1, part of the ISO 3166 standard published by the International
@@ -257,12 +263,15 @@ class Country {
   /// or complementing national currencies.
   final String? altCurrency;
 
+  @Deprecated('use isoShortNameByLocale instead')
+  Map<String, String> get isoShortNameByLanguage => isoShortNameByLocale;
+
   /// Map for storing country short name by locale
-  final Map<String, String> isoShortNameByLanguage;
+  final Map<String, String> isoShortNameByLocale;
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unofficialNames: $unofficialNames, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, isoShortNameByLanguage: $isoShortNameByLanguage}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unofficialNames: $unofficialNames, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, isoShortNameByLocale: $isoShortNameByLocale}';
   }
 
   @override
@@ -304,7 +313,7 @@ class Country {
           euMember == other.euMember &&
           esmMember == other.esmMember &&
           altCurrency == other.altCurrency &&
-          isoShortNameByLanguage == other.isoShortNameByLanguage;
+          isoShortNameByLocale == other.isoShortNameByLocale;
 
   @override
   int get hashCode =>
@@ -341,7 +350,7 @@ class Country {
       euMember.hashCode ^
       esmMember.hashCode ^
       altCurrency.hashCode ^
-      isoShortNameByLanguage.hashCode;
+      isoShortNameByLocale.hashCode;
 
   /// Emoji flags are supported on all major platforms except Windows,
   /// which displays two-letter country codes instead of emoji flag images.
@@ -365,7 +374,10 @@ class Country {
 /// others.
 class Coordinate {
   /// Creates coordinate
-  const Coordinate(this.latitude, this.longitude);
+  const Coordinate({
+    required this.latitude,
+    required this.longitude,
+  });
 
   /// In geography, latitude is a geographic coordinate that specifies the
   /// north–south position of a point on the Earth's surface. Latitude is an
@@ -397,17 +409,29 @@ class Coordinate {
 /// A class for storing information of coordinate and bounding box
 class GeoData {
   /// Creates Geodata
-  const GeoData(
-      this.coordinate, this.maxCoordinate, this.minCoordinate, this.boundary);
+  const GeoData({
+    required this.coordinate,
+    required this.maxCoordinate,
+    required this.minCoordinate,
+    required this.boundary,
+  });
 
   /// Creates geodata with a decoded json object from [countries](https://github.com/countries/countries)
   factory GeoData.fromJson(Map<String, dynamic> json) => GeoData(
-      Coordinate(json['latitude'].toDouble(), json['longitude'].toDouble()),
-      Coordinate(
-          json['max_latitude'].toDouble(), json['max_longitude'].toDouble()),
-      Coordinate(
-          json['min_latitude'].toDouble(), json['min_longitude'].toDouble()),
-      BoundingBox.fromJson(json['bounds']));
+        coordinate: Coordinate(
+          latitude: json['latitude'].toDouble(),
+          longitude: json['longitude'].toDouble(),
+        ),
+        maxCoordinate: Coordinate(
+          latitude: json['max_latitude'].toDouble(),
+          longitude: json['max_longitude'].toDouble(),
+        ),
+        minCoordinate: Coordinate(
+          latitude: json['min_latitude'].toDouble(),
+          longitude: json['min_longitude'].toDouble(),
+        ),
+        boundary: BoundingBox.fromJson(json['bounds']),
+      );
 
   /// The coordinate represent as the center point of this country
   final Coordinate coordinate;
@@ -450,14 +474,22 @@ class GeoData {
 /// coordinate.
 class BoundingBox {
   /// Creates bounding box
-  const BoundingBox(this.northeast, this.southwest);
+  const BoundingBox({
+    required this.northeast,
+    required this.southwest,
+  });
 
   /// Creates bounding box with a decoded json object from [countries](https://github.com/countries/countries)
   factory BoundingBox.fromJson(Map<String, dynamic> json) => BoundingBox(
-      Coordinate(json['northeast']['lat'].toDouble(),
-          json['northeast']['lng'].toDouble()),
-      Coordinate(json['southwest']['lat'].toDouble(),
-          json['southwest']['lng'].toDouble()));
+        northeast: Coordinate(
+          latitude: json['northeast']['lat'].toDouble(),
+          longitude: json['northeast']['lng'].toDouble(),
+        ),
+        southwest: Coordinate(
+          latitude: json['southwest']['lat'].toDouble(),
+          longitude: json['southwest']['lng'].toDouble(),
+        ),
+      );
 
   /// The coordinate represent as the most northeast point of this country
   final Coordinate northeast;
@@ -491,17 +523,23 @@ class BoundingBox {
 /// production, distribution, or sale to the end consumer.
 class VatRates {
   /// Creates VAT rates
-  const VatRates(this.standard, this.reduced, this.superReduced, this.parking);
+  const VatRates({
+    required this.standard,
+    required this.reduced,
+    this.superReduced,
+    this.parking,
+  });
 
   /// Creates VAT rates with a decoded json object from [countries](https://github.com/countries/countries)
   factory VatRates.fromJson(Map<String, dynamic> json) => VatRates(
-      json['standard'].toDouble(),
-      List.from(json['reduced'])
-          .map((e) => e.toDouble())
-          .cast<double>()
-          .toList(),
-      json['super_reduced']?.toDouble(),
-      json['parking']?.toDouble());
+        standard: json['standard'].toDouble(),
+        reduced: List.from(json['reduced'])
+            .map((e) => e.toDouble())
+            .cast<double>()
+            .toList(),
+        superReduced: json['super_reduced']?.toDouble(),
+        parking: json['parking']?.toDouble(),
+      );
 
   /// The standard rate of VAT rates
   final double standard;
@@ -627,8 +665,15 @@ class Continent {
   static const southAmerica = Continent._(southAmericaWireName);
 
   /// All values with [Continent]
-  static get values =>
-      [africa, antarctica, asia, australia, europe, northAmerica, southAmerica];
+  static get values => [
+        africa,
+        antarctica,
+        asia,
+        australia,
+        europe,
+        northAmerica,
+        southAmerica,
+      ];
 
   @override
   String toString() {
@@ -726,7 +771,14 @@ class Region {
   static const oceania = Region._(oceaniaWireName);
 
   /// All values with [Region]
-  static get values => [europe, asia, americas, africa, unknown, oceania];
+  static get values => [
+        europe,
+        asia,
+        americas,
+        africa,
+        unknown,
+        oceania,
+      ];
 
   @override
   String toString() {
@@ -824,8 +876,15 @@ class Week {
   static const sunday = Week._(sundayWireName);
 
   /// All values with [Week]
-  static get values =>
-      [monday, tuesday, wednesday, thursday, friday, saturday, sunday];
+  static get values => [
+        monday,
+        tuesday,
+        wednesday,
+        thursday,
+        friday,
+        saturday,
+        sunday,
+      ];
 
   @override
   String toString() {
@@ -887,7 +946,11 @@ class WorldRegion {
   static const emea = WorldRegion._(emeaWireName);
 
   /// All values with [WorldRegion]
-  static get values => [amer, apac, emea];
+  static get values => [
+        amer,
+        apac,
+        emea,
+      ];
 
   @override
   String toString() {

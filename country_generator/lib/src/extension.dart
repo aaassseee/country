@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:country/country.dart';
+import 'package:yaml/yaml.dart';
 
 /// Extension class for generating class string with [List<String>]
 extension ListStringExtension on List<String> {
@@ -16,51 +17,82 @@ extension ListIntExtension on List<int> {
   }
 }
 
+/// Extension class for converting yaml map to map
+extension YamlMapToMapExtension on YamlMap {
+  dynamic _convertNode(dynamic node) {
+    if (node is YamlMap) {
+      return node.toMap();
+    }
+
+    if (node is YamlList) {
+      var list = <dynamic>[];
+      for (final item in node) {
+        list.add(_convertNode(item));
+      }
+      return list;
+    }
+
+    return node;
+  }
+
+  Map<String, dynamic> toMap() {
+    var map = <String, dynamic>{};
+    nodes.forEach((k, v) {
+      map[(k as YamlScalar).value.toString()] = _convertNode(v.value);
+    });
+    return map;
+  }
+}
+
 /// Extension class for generating class string with [Country]
 extension CountryClassStringExtension on Country {
   String toClassString() {
     return '''Country(
-      '${alpha2..replaceAll('\'', '\\\'')}',
-      '${alpha3..replaceAll('\'', '\\\'')}',
-      ${continent.toClassString()},
-      '${countryCode..replaceAll('\'', '\\\'')}',
-      '${currencyCode..replaceAll('\'', '\\\'')}',
-      ${gec == null ? null : '\'${gec!.replaceAll('\'', '\\\'')}\''},
-      ${geo.toClassString()},
-      '${internationalPrefix..replaceAll('\'', '\\\'')}',
-      ${ioc == null ? null : '\'${ioc!.replaceAll('\'', '\\\'')}\''},
-      '${isoLongName.replaceAll('\'', '\\\'')}',
-      '${isoShortName.replaceAll('\'', '\\\'')}',
-      ${languagesOfficial.toClassString()},
-      ${languagesSpoken.toClassString()},
-      ${nationalDestinationCodeLengths.toClassString()},
-      ${nationalNumberLengths.toClassString()},
-      '${nationalPrefix..replaceAll('\'', '\\\'')}',
-      '${nationality..replaceAll('\'', '\\\'')}',
-      '${number..replaceAll('\'', '\\\'')}',
-      $postalCode,
-      ${postalCodeFormat == null ? null : 'r\'${postalCodeFormat!.replaceAll('\'', '\\\'')}\''},
-      ${region.toClassString()},
-      ${startOfWeek.toClassString()},
-      '${subregion..replaceAll('\'', '\\\'')}',
-      '${unLocode..replaceAll('\'', '\\\'')}',
-      ${unofficialNames.toClassString()},
-      ${worldRegion.toClassString()},
-      ${addressFormat == null ? null : '\'\'\'$addressFormat\'\'\''},
-      ${vatRates?.toClassString()},
-      ${nanpPrefix == null ? null : '\'${nanpPrefix!.replaceAll('\'', '\\\'')}\''},
-      $eeaMember,
-      $euMember,
-      $esmMember,
-      ${altCurrency == null ? null : '\'${altCurrency!.replaceAll('\'', '\\\'')}\''},
-      ${json.encode(isoShortNameByLanguage)})''';
+      alpha2: '${alpha2..replaceAll('\'', '\\\'')}',
+      alpha3: '${alpha3..replaceAll('\'', '\\\'')}',
+      continent: ${continent.toClassString()},
+      countryCode: '${countryCode..replaceAll('\'', '\\\'')}',
+      currencyCode: '${currencyCode..replaceAll('\'', '\\\'')}',
+      gec: ${gec == null ? null : '\'${gec!.replaceAll('\'', '\\\'')}\''},
+      geo: ${geo.toClassString()},
+      internationalPrefix: '${internationalPrefix..replaceAll('\'', '\\\'')}',
+      ioc: ${ioc == null ? null : '\'${ioc!.replaceAll('\'', '\\\'')}\''},
+      isoLongName: '${isoLongName.replaceAll('\'', '\\\'')}',
+      isoShortName: '${isoShortName.replaceAll('\'', '\\\'')}',
+      languagesOfficial: ${languagesOfficial.toClassString()},
+      languagesSpoken: ${languagesSpoken.toClassString()},
+      nationalDestinationCodeLengths: ${nationalDestinationCodeLengths.toClassString()},
+      nationalNumberLengths: ${nationalNumberLengths.toClassString()},
+      nationalPrefix: '${nationalPrefix..replaceAll('\'', '\\\'')}',
+      nationality: '${nationality..replaceAll('\'', '\\\'')}',
+      number: '${number..replaceAll('\'', '\\\'')}',
+      postalCode: $postalCode,
+      postalCodeFormat: ${postalCodeFormat == null ? null : 'r\'${postalCodeFormat!.replaceAll('\'', '\\\'')}\''},
+      region: ${region.toClassString()},
+      startOfWeek: ${startOfWeek.toClassString()},
+      subregion: '${subregion..replaceAll('\'', '\\\'')}',
+      unLocode: '${unLocode..replaceAll('\'', '\\\'')}',
+      unofficialNames: ${unofficialNames.toClassString()},
+      worldRegion: ${worldRegion.toClassString()},
+      addressFormat: ${addressFormat == null ? null : '\'\'\'$addressFormat\'\'\''},
+      vatRates: ${vatRates?.toClassString()},
+      nanpPrefix: ${nanpPrefix == null ? null : '\'${nanpPrefix!.replaceAll('\'', '\\\'')}\''},
+      eeaMember: $eeaMember,
+      euMember: $euMember,
+      esmMember: $esmMember,
+      altCurrency: ${altCurrency == null ? null : '\'${altCurrency!.replaceAll('\'', '\\\'')}\''},
+      isoShortNameByLocale: ${json.encode(isoShortNameByLocale)},
+      )''';
   }
 }
 
 /// Extension class for generating class string with [Coordinate]
 extension CoordinateClassStringExtension on Coordinate {
   String toClassString() {
-    return 'Coordinate($latitude, $longitude)';
+    return '''Coordinate(
+    latitude: $latitude,
+    longitude: $longitude,
+    )''';
   }
 }
 
@@ -68,18 +100,21 @@ extension CoordinateClassStringExtension on Coordinate {
 extension GeoDataClassStringExtension on GeoData {
   String toClassString() {
     return '''GeoData(
-          ${coordinate.toClassString()},
-          ${maxCoordinate.toClassString()},
-          ${minCoordinate.toClassString()},
-          ${boundary.toClassString()})''';
+          coordinate: ${coordinate.toClassString()},
+          maxCoordinate: ${maxCoordinate.toClassString()},
+          minCoordinate: ${minCoordinate.toClassString()},
+          boundary: ${boundary.toClassString()},
+          )''';
   }
 }
 
 /// Extension class for generating class string with [BoundingBox]
 extension BoundingBoxClassStringExtension on BoundingBox {
   String toClassString() {
-    return '''BoundingBox(${northeast.toClassString()},
-              ${southwest.toClassString()})''';
+    return '''BoundingBox(
+    northeast: ${northeast.toClassString()},
+    southwest: ${southwest.toClassString()},
+    )''';
   }
 }
 
@@ -87,8 +122,11 @@ extension BoundingBoxClassStringExtension on BoundingBox {
 extension VatRatesClassStringExtension on VatRates {
   String toClassString() {
     return '''VatRates(
-              $standard, $reduced,
-              $superReduced, $parking)''';
+              standard: $standard,
+              reduced: $reduced,
+              superReduced: $superReduced,
+              parking: $parking,
+              )''';
   }
 }
 

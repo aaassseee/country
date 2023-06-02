@@ -44,11 +44,10 @@ packages:
   country:
     dependency: transitive
     description:
-      name: country
-      sha256: "2e2f992a0106a2e3760c87207645dad9bd9db55e21f0c0972ef3488bbbe20c7c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.7"
+      path: "../../country"
+      relative: true
+    source: path
+    version: "2.0.9"
   fake_async:
     dependency: transitive
     description:
