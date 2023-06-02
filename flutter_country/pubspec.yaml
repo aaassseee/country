@@ -1,12 +1,12 @@
 name: flutter_country
 description: Flutter extension function on country, generated country class by using countries.
-version: 2.0.1
+version: 3.0.0
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/flutter_country
 issue_tracker: https://github.com/aaassseee/country/issues
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -15,7 +15,7 @@ dependencies:
 #  country:
 #    path:
 #      ../country
-  country: '>=2.0.0 <3.0.0'
+  country: '>=3.0.0 <4.0.0'
 
 dev_dependencies:
   flutter_test:

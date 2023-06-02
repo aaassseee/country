@@ -1,3 +1,12 @@
+## 3.0.1
+
+* fix dart sdk constraint
+
+## 3.0.0
+
+* changed all class from positioned parameter to named parameter
+* renamed parameter isoShortNameByLanguage to isoShortNameByLocale
+
 ## 2.0.9
 
 * updated submodule
