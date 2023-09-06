@@ -7,8 +7,6 @@ issue_tracker: https://github.com/aaassseee/country/issues
 
 topics:
   - country
-  - country detail
-  - country information
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
