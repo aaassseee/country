@@ -1,3 +1,7 @@
+## 3.0.0+1
+
+* update package topics
+
 ## 3.0.0
 
 * upgrade country to '3.0.0'

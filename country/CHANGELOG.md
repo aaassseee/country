@@ -1,3 +1,7 @@
+## 3.0.1+1
+
+* update package topics
+
 ## 3.0.1
 
 * fix dart sdk constraint
