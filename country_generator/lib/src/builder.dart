@@ -36,7 +36,9 @@ class CountryGeneratorBuilder extends Builder {
       }
 
       final translationMap = _readTranslationData(dataFolder);
-      final countryList = _readCountryData(dataFolder, translationMap);
+      final subdivisionData = _readSubdivisionData(dataFolder);
+      final countryList =
+          _readCountryData(dataFolder, translationMap, subdivisionData);
 
       final outputFile = File(normalize(
           join(pubspecFile.parent.path, outputFolderPath, outputFilePath)));
@@ -118,8 +120,42 @@ class CountryGeneratorBuilder extends Builder {
     return allTranslationMap;
   }
 
-  List<Country> _readCountryData(Directory dataFolder,
-      Map<String, Map<String, String>> allTranslationMap) {
+  Map<String, List<Map<String, dynamic>>> _readSubdivisionData(
+      Directory dataFolder) {
+    final subdivisionFolder = Directory(
+        normalize(join(dataFolder.absolute.path, subdivisionFolderPath)));
+    if (!subdivisionFolder.existsSync()) {
+      throw FileSystemException(
+          'Missing subdivision folder on ${subdivisionFolder.absolute.path}');
+    }
+
+    final allSubdivisionMap = <String, List<Map<String, dynamic>>>{};
+
+    final subdivisionFileList = subdivisionFolder
+        .listSync()
+        .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .cast<File>();
+    for (final subdivisionFile in subdivisionFileList) {
+      final countryCode = subdivisionFile.uri.pathSegments.last.substring(0, 2);
+      final subdivisionData =
+          (loadYamlNode(subdivisionFile.readAsStringSync()) as YamlMap).toMap();
+      for (final MapEntry(key: _, value: data) in subdivisionData.entries) {
+        if (!allSubdivisionMap.containsKey(countryCode)) {
+          allSubdivisionMap[countryCode] = [data];
+        } else {
+          allSubdivisionMap[countryCode]!.addAll([data]);
+        }
+      }
+    }
+
+    return allSubdivisionMap;
+  }
+
+  List<Country> _readCountryData(
+    Directory dataFolder,
+    Map<String, Map<String, String>> allTranslationMap,
+    Map<String, List<Map<String, dynamic>>> allSubdivisionMap,
+  ) {
     final countryFolder =
         Directory(normalize(join(dataFolder.absolute.path, countryFolderPath)));
     if (!countryFolder.existsSync()) {
@@ -135,9 +171,11 @@ class CountryGeneratorBuilder extends Builder {
     for (final countryFile in countryFileList) {
       final countryCode = countryFile.uri.pathSegments.last.substring(0, 2);
       final countryData =
-          (loadYamlNode(countryFile.readAsStringSync()) as YamlMap)
+          (loadYamlNode(countryFile.readAsStringSync(), recover: true)
+                  as YamlMap)
               .toMap()[countryCode];
       countryData['isoShortNameByLocale'] = allTranslationMap[countryCode];
+      countryData['subdivision'] = allSubdivisionMap[countryCode];
 
       final country = Country.fromJson(countryData);
       countryList.add(country);

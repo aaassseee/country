@@ -1,3 +1,9 @@
+## 4.0.0
+
+* support subdivision generation
+* upgrade country to '4.0.0'
+* read countries data from data folder instead of cache folder
+
 ## 3.0.0
 
 * upgrade country to '3.0.0'
