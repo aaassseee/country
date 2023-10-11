@@ -999,22 +999,22 @@ class SubdivisionGeoData {
         minLongitude: json['min_longitude']?.toDouble(),
       );
 
-  /// The latitude represent as the center point of this country
+  /// The latitude represent as the center point of subdivision
   final double? latitude;
 
-  /// The longitude represent as the center point of this country
+  /// The longitude represent as the center point of subdivision
   final double? longitude;
 
-  /// The maximum latitude represent as the center point of this country
+  /// The maximum latitude represent as the center point of subdivision
   final double? maxLatitude;
 
-  /// The maximum longitude represent as the center point of this country
+  /// The maximum longitude represent as the center point of subdivision
   final double? maxLongitude;
 
-  /// The minimum latitude represent as the center point of this country
+  /// The minimum latitude represent as the center point of subdivision
   final double? minLatitude;
 
-  /// The minimum longitude represent as the center point of this country
+  /// The minimum longitude represent as the center point of subdivision
   final double? minLongitude;
 
   @override
@@ -1055,7 +1055,7 @@ class Subdivision {
     required this.type,
   });
 
-  /// Creates Subdivision with a decoded json object from [countries](https://github.com/countries/countries)
+  /// Creates subdivision with a decoded json object from [countries](https://github.com/countries/countries)
   factory Subdivision.fromJson(Map<String, dynamic> json) => Subdivision(
         name: json['name'].toString(),
         code: json['code'].toString(),
@@ -1066,13 +1066,18 @@ class Subdivision {
         type: json['type'],
       );
 
+  /// The name of this subdivision
   final String name;
 
+  /// The code of this subdivision
   final String code;
 
+  /// The GeoData info of this subdivision
   final SubdivisionGeoData? geo;
 
+  /// The translation map of this subdivision
   final Map<String, dynamic> translation;
 
+  /// The type of this subdivision
   final String type;
 }
