@@ -12,3 +12,6 @@ const countryFolderPath = 'countries';
 
 /// translation data folder name within [countries](https://github.com/countries)
 const translationFolderPath = 'translations';
+
+/// subdivision data folder name within [countries](https://github.com/countries)
+const subdivisionFolderPath = 'subdivisions';
