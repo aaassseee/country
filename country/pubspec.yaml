@@ -1,12 +1,13 @@
 name: country
 description: Generated country class with country_generator using countries.
-version: 3.0.1+1
+version: 4.0.0
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/country
 issue_tracker: https://github.com/aaassseee/country/issues
 
 topics:
   - country
+  - countries
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
@@ -17,7 +18,7 @@ dev_dependencies:
 #  country_generator:
 #    path:
 #      ../country_generator
-  country_generator: '>=3.0.0 <4.0.0'
+  country_generator: '>=4.0.0 <5.0.0'
   flutter_lints: ^2.0.1
 
 country_generator:

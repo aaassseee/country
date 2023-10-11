@@ -1,3 +1,9 @@
+## 4.0.0
+
+* added subdivision to country object
+* updated submodule
+* updated generated country with new data
+
 ## 3.0.1+1
 
 * update package topics
