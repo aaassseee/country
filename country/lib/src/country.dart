@@ -38,6 +38,7 @@ class Country {
     this.esmMember,
     this.altCurrency,
     required this.isoShortNameByLocale,
+    required this.subdivision,
   });
 
   /// Creates a country with a decoded json object from [countries](https://github.com/countries/countries)
@@ -79,6 +80,10 @@ class Country {
         esmMember: json['esm_member'],
         altCurrency: json['alt_currency'],
         isoShortNameByLocale: json['isoShortNameByLocale'] ?? {},
+        subdivision: List.from(json['subdivision'] ?? [])
+            .map((e) => Subdivision.fromJson(e))
+            .cast<Subdivision>()
+            .toList(),
       );
 
   /// ISO 3166-1 alpha-2 codes are two-letter country codes defined in
@@ -268,6 +273,9 @@ class Country {
 
   /// Map for storing country short name by locale
   final Map<String, String> isoShortNameByLocale;
+
+  /// Map for subdivision
+  final List<Subdivision> subdivision;
 
   @override
   String toString() {
@@ -966,4 +974,105 @@ class WorldRegion {
 
   @override
   int get hashCode => wireName.hashCode;
+}
+
+/// A class for storing information of coordinate
+class SubdivisionGeoData {
+  /// Creates subdivision GeoData
+  const SubdivisionGeoData({
+    required this.latitude,
+    required this.longitude,
+    required this.maxLatitude,
+    required this.maxLongitude,
+    required this.minLatitude,
+    required this.minLongitude,
+  });
+
+  /// Creates subdivision GeoData with a decoded json object from [countries](https://github.com/countries/countries)
+  factory SubdivisionGeoData.fromJson(Map<String, dynamic> json) =>
+      SubdivisionGeoData(
+        latitude: json['latitude']?.toDouble(),
+        longitude: json['longitude']?.toDouble(),
+        maxLatitude: json['max_latitude']?.toDouble(),
+        maxLongitude: json['max_longitude']?.toDouble(),
+        minLatitude: json['min_latitude']?.toDouble(),
+        minLongitude: json['min_longitude']?.toDouble(),
+      );
+
+  /// The latitude represent as the center point of this country
+  final double? latitude;
+
+  /// The longitude represent as the center point of this country
+  final double? longitude;
+
+  /// The maximum latitude represent as the center point of this country
+  final double? maxLatitude;
+
+  /// The maximum longitude represent as the center point of this country
+  final double? maxLongitude;
+
+  /// The minimum latitude represent as the center point of this country
+  final double? minLatitude;
+
+  /// The minimum longitude represent as the center point of this country
+  final double? minLongitude;
+
+  @override
+  String toString() {
+    return 'SubdivisionGeoData{latitude: $latitude, longitude: $longitude, maxLatitude: $maxLatitude, maxLongitude: $maxLongitude, minLatitude: $minLatitude, minLongitude: $minLongitude}';
+  }
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is SubdivisionGeoData &&
+          runtimeType == other.runtimeType &&
+          latitude == other.latitude &&
+          longitude == other.longitude &&
+          maxLatitude == other.maxLatitude &&
+          maxLongitude == other.maxLongitude &&
+          minLatitude == other.minLatitude &&
+          minLongitude == other.minLongitude;
+
+  @override
+  int get hashCode =>
+      latitude.hashCode ^
+      longitude.hashCode ^
+      maxLatitude.hashCode ^
+      maxLongitude.hashCode ^
+      minLatitude.hashCode ^
+      minLongitude.hashCode;
+}
+
+/// A class for storing subdivision of country
+class Subdivision {
+  /// Creates subdivision
+  const Subdivision({
+    required this.name,
+    required this.code,
+    required this.geo,
+    required this.translation,
+    required this.type,
+  });
+
+  /// Creates Subdivision with a decoded json object from [countries](https://github.com/countries/countries)
+  factory Subdivision.fromJson(Map<String, dynamic> json) => Subdivision(
+        name: json['name'].toString(),
+        code: json['code'].toString(),
+        geo: json['geo'] == null
+            ? null
+            : SubdivisionGeoData.fromJson(json['geo']),
+        translation: json['translations'],
+        type: json['type'],
+      );
+
+  final String name;
+
+  final String code;
+
+  final SubdivisionGeoData? geo;
+
+  final Map<String, dynamic> translation;
+
+  final String type;
 }
