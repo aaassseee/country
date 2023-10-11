@@ -153,6 +153,27 @@ void printAllCountry() {
 |-----------|:--------:|------------------------|
 | wireName  | &cross;  | Actual value from json |
 
+#### SubdivisionGeoData
+
+| Parameter    | Nullable | Description                                                        |
+|--------------|:--------:|--------------------------------------------------------------------|
+| latitude     | &check;  | The latitude represent as the center point of subdivision          |
+| longitude    | &check;  | The longitude represent as the center point of subdivision         |
+| maxLatitude  | &check;  | The maximum latitude represent as the center point of subdivision  |
+| maxLongitude | &check;  | The maximum longitude represent as the center point of subdivision |
+| minLatitude  | &check;  | The minimum latitude represent as the center point of subdivision  |
+| minLongitude | &check;  | The minimum longitude represent as the center point of subdivision |
+
+#### Subdivision
+
+| Parameter   | Nullable | Description                             |
+|-------------|:--------:|-----------------------------------------|
+| name        | &cross;  | The name of this subdivision            |
+| code        | &cross;  | The code of this subdivision            |
+| geo         | &check;  | The GeoData info of this subdivision    |
+| translation | &cross;  | The translation map of this subdivision |
+| type        | &cross;  | The type of this subdivision            |
+
 ## Maintainer
 
 [Jack Liu](https://github.com/aaassseee)
