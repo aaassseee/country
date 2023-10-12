@@ -1,5 +1,3 @@
-part 'country.g.dart';
-
 /// Class for storing information of the country
 class Country {
   /// Creates country

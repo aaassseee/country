@@ -1,3 +1,7 @@
+## 4.0.1
+
+* changed generated code from part of to import
+
 ## 4.0.0
 
 * support subdivision generation

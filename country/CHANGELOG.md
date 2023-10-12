@@ -1,3 +1,7 @@
+## 4.0.1
+
+* updated generated country file
+
 ## 4.0.0
 
 * added subdivision to country object
