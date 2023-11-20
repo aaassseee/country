@@ -35,6 +35,8 @@ class Country {
     this.euMember,
     this.esmMember,
     this.altCurrency,
+    required this.g7Member,
+    required this.g20Member,
     required this.isoShortNameByLocale,
     required this.subdivision,
   });
@@ -77,6 +79,8 @@ class Country {
         euMember: json['eu_member'],
         esmMember: json['esm_member'],
         altCurrency: json['alt_currency'],
+        g7Member: json['g7_member'] ?? false,
+        g20Member: json['g20_member'] ?? false,
         isoShortNameByLocale: json['isoShortNameByLocale'] ?? {},
         subdivision: List.from(json['subdivision'] ?? [])
             .map((e) => Subdivision.fromJson(e))
@@ -266,6 +270,12 @@ class Country {
   /// or complementing national currencies.
   final String? altCurrency;
 
+  /// If this country is a member of the Group of Seven.
+  final bool g7Member;
+
+  /// If this country is a member of the Group of Twenty.
+  final bool g20Member;
+
   @Deprecated('use isoShortNameByLocale instead')
   Map<String, String> get isoShortNameByLanguage => isoShortNameByLocale;
 
@@ -277,7 +287,7 @@ class Country {
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unofficialNames: $unofficialNames, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, isoShortNameByLocale: $isoShortNameByLocale}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unofficialNames: $unofficialNames, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
   }
 
   @override
@@ -319,7 +329,10 @@ class Country {
           euMember == other.euMember &&
           esmMember == other.esmMember &&
           altCurrency == other.altCurrency &&
-          isoShortNameByLocale == other.isoShortNameByLocale;
+          g7Member == other.g7Member &&
+          g20Member == other.g20Member &&
+          isoShortNameByLocale == other.isoShortNameByLocale &&
+          subdivision == other.subdivision;
 
   @override
   int get hashCode =>
@@ -356,7 +369,10 @@ class Country {
       euMember.hashCode ^
       esmMember.hashCode ^
       altCurrency.hashCode ^
-      isoShortNameByLocale.hashCode;
+      g7Member.hashCode ^
+      g20Member.hashCode ^
+      isoShortNameByLocale.hashCode ^
+      subdivision.hashCode;
 
   /// Emoji flags are supported on all major platforms except Windows,
   /// which displays two-letter country codes instead of emoji flag images.
