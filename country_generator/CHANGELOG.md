@@ -1,5 +1,6 @@
 ## 4.0.1
 
+* added g7Member and g20Member
 * changed generated code from part of to import
 
 ## 4.0.0
