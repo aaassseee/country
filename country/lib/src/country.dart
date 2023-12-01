@@ -31,9 +31,9 @@ class Country {
     this.addressFormat,
     this.vatRates,
     this.nanpPrefix,
-    this.eeaMember,
-    this.euMember,
-    this.esmMember,
+    required this.eeaMember,
+    required this.euMember,
+    required this.esmMember,
     this.altCurrency,
     required this.g7Member,
     required this.g20Member,
@@ -75,9 +75,9 @@ class Country {
             ? null
             : VatRates.fromJson(json['vat_rates']),
         nanpPrefix: json['nanp_prefix'],
-        eeaMember: json['eea_member'],
-        euMember: json['eu_member'],
-        esmMember: json['esm_member'],
+        eeaMember: json['eea_member'] ?? false,
+        euMember: json['eu_member'] ?? false,
+        esmMember: json['esm_member'] ?? false,
         altCurrency: json['alt_currency'],
         g7Member: json['g7_member'] ?? false,
         g20Member: json['g20_member'] ?? false,
@@ -257,13 +257,13 @@ class Country {
   final String? nanpPrefix;
 
   /// If this country is a member of the European Economic Area.
-  final bool? eeaMember;
+  final bool eeaMember;
 
   /// If this country is a member of the European Union.
-  final bool? euMember;
+  final bool euMember;
 
   /// If this country is a member of the European Single Market.
-  final bool? esmMember;
+  final bool esmMember;
 
   /// A complementary currency is a currency or medium of exchange that is not
   /// necessarily a national currency, but that is thought of as supplementing
