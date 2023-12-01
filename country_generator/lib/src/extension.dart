@@ -81,6 +81,8 @@ extension CountryClassStringExtension on Country {
       euMember: $euMember,
       esmMember: $esmMember,
       altCurrency: ${altCurrency == null ? null : '\'${altCurrency!.replaceAll('\'', '\\\'')}\''},
+      g7Member: $g7Member,
+      g20Member: $g20Member,
       isoShortNameByLocale: ${json.encode(isoShortNameByLocale)},
       subdivision: ${subdivision.toClassString()},
       )''';

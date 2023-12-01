@@ -1,3 +1,9 @@
+## 4.0.1
+
+* changed eeaMember euMember esmMember should not be nullable boolean
+* added g7Member and g20Member
+* updated generated country file
+
 ## 4.0.0
 
 * added subdivision to country object
