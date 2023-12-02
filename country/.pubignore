@@ -14,15 +14,10 @@ build/
 .flutter-plugins-dependencies
 flutter_export_environment.sh
 
-example/
-
-example/build
+example/build/
 example/.dart_tool
-
 example/.flutter-plugins
 example/.flutter-plugins-dependencies
 example/.packages
 example/.pub-cache/
 example/.pub/
-example/build/
-example
