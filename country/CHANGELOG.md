@@ -1,3 +1,7 @@
+## 4.0.2
+
+* updated generated country with new data
+
 ## 4.0.1
 
 * changed eeaMember euMember esmMember should not be nullable boolean
