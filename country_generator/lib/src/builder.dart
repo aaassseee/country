@@ -46,29 +46,54 @@ class CountryGeneratorBuilder extends Builder {
         outputFile.createSync(recursive: true);
       }
 
-      String output = '';
-      output += 'import \'country.dart\';\n\n';
-      output += '/// Class for storing all country object\n';
-      output += 'class Countries {\n';
-      output +=
-          '  /// private constructor for preventing object construction\n';
-      output += '  Countries._();\n';
+      String countryImportOutput = '';
+      String countryClassOutput = '';
+      String countryAlpha3Output = '';
       for (final country in countryList) {
-        output += '''
-  
-  /// Country: ${country.isoLongName}
-  static const Country ${country.alpha3.toLowerCase()} = ${country.toClassString()};
-''';
+        countryImportOutput +=
+            'import \'country/${country.alpha3.toLowerCase()}.g.dart\';\n';
+        countryClassOutput += [
+          '  /// Country: ${country.isoLongName}',
+          '  static Country get ${country.alpha3.toLowerCase()} => country${country.alpha3};',
+          '',
+        ].join('\n');
+        countryAlpha3Output += '        ${country.alpha3.toLowerCase()},\n';
+
+        final countryFile = File(normalize(join(
+            pubspecFile.parent.path,
+            outputFolderPath,
+            'country/${country.alpha3.toLowerCase()}.g.dart')));
+        if (!countryFile.existsSync()) {
+          countryFile.createSync(recursive: true);
+        }
+
+        final countryOutput = [
+          'import \'../country.dart\';',
+          '',
+          'const country${country.alpha3} = ${country.toClassString()};'
+        ].join('\n');
+
+        countryFile.writeAsStringSync(countryOutput);
       }
 
-      output += '''
-  
-  /// All countries in the world
-  static List<Country> get values => [
-        ${countryList.map((country) => country.alpha3.toLowerCase()).join(',\n        ')}
-      ];
-''';
-      output += '}';
+      final output = [
+        'import \'country.dart\';',
+        '',
+        countryImportOutput,
+        '',
+        '/// Class for storing all country object',
+        'class Countries {',
+        '  /// private constructor for preventing object construction',
+        '  Countries._();',
+        '',
+        countryClassOutput,
+        '',
+        '  /// All countries in the world',
+        'static List<Country> get values => [',
+        countryAlpha3Output,
+        '      ];',
+        '}',
+      ].join('\n');
       outputFile.writeAsStringSync(output);
     } catch (error, stackTrace) {
       log.shout(error);

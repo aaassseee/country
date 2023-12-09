@@ -1,3 +1,7 @@
+## 4.1.0
+
+* generate country data into multiple files
+
 ## 4.0.1
 
 * added g7Member and g20Member
