@@ -15,18 +15,6 @@ dependencies:
 
 [![pub package](https://img.shields.io/pub/v/flutter_country_utility.svg)](https://pub.dartlang.org/packages/flutter_country_utility)
 
-### API
-
-##### Short name by locale
-
-```dart
-String shortName = Countries.hkg.getIsoShortNameByLocale(const Locale('zh', 'HK'));
-
-String getShortNameByLocale(Country country) {
-  return country.getIsoShortNameByLocale(const Locale('zh', 'HK'));
-}
-```
-
 ## Maintainer
 
 [Jack Liu](https://github.com/aaassseee)
