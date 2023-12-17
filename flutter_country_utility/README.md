@@ -1,6 +1,6 @@
 # flutter_country_utility
 
-Flutter extension function on [country](https://github.com/aaassseee/country/tree/master/country), generated country class by using [countries](https://github.com/countries/countries).
+Flutter extension function by using [country](https://github.com/aaassseee/country/tree/master/country), generated country class by using [countries](https://github.com/countries/countries).
 
 ## Getting Started
 
