@@ -260,7 +260,7 @@ extension SubdivisionClassStringExtension on Subdivision {
     return '''Subdivision(
               name: '${name.replaceAll('\'', '\\\'')}',
               code: '$code',
-              geo: ${geo == null ? null : geo!.toClassString()},
+              geo: ${geo?.toClassString()},
               translation: ${json.encode(translation)},
               type: '$type',
               )''';
