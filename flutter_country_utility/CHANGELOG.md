@@ -1,3 +1,7 @@
+## 3.0.0+2
+
+* update README.md
+
 ## 3.0.0+1
 
 * update package topics
