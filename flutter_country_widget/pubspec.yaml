@@ -1,10 +1,10 @@
 name: flutter_country_widget
-description: "A new Flutter project."
+description: "Flutter pre-defined widget with country, generated country class by using countries."
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=3.2.2 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
