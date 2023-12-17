@@ -1,4 +1,4 @@
-# flutter_country
+# flutter_country_utility
 
 Flutter extension function on [country](https://github.com/aaassseee/country/tree/master/country), generated country class by using [countries](https://github.com/countries/countries).
 
@@ -9,11 +9,11 @@ Flutter extension function on [country](https://github.com/aaassseee/country/tre
 Add the following lines in your pubspec.yaml file
 
 ```yaml
-flutter_country:
-  git:
-    url: https://github.com/aaassseee/country.git
-    path: flutter_country
+dependencies:
+  country: ^latest_version
 ```
+
+[![pub package](https://img.shields.io/pub/v/flutter_country_utility.svg)](https://pub.dartlang.org/packages/flutter_country_utility)
 
 ### API
 
