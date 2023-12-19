@@ -4,12 +4,19 @@ import 'package:collection/collection.dart';
 import 'package:country/country.dart';
 
 extension CountryExtension on Country {
+  @Deprecated('function name deprecated, use isoShortName instead')
+  String getIsoShortNameByLocale([Locale? locale]) => isoShortName(locale);
+
+  @Deprecated('function name deprecated, use isoShortNameOrNull instead')
+  String? tryGetIsoShortNameByLocale([Locale? locale]) =>
+      isoShortNameOrNull(locale);
+
   /// Quick way to get country short name by dart:ui locale
   /// throws [ArgumentError] when could not find any country short name
   ///
   /// The default locale is [PlatformDispatcher.instance.locale]
-  String getIsoShortNameByLocale([Locale? locale]) {
-    final shortName = tryGetIsoShortNameByLocale(locale);
+  String isoShortName([Locale? locale]) {
+    final shortName = isoShortNameOrNull(locale);
     if (shortName == null) {
       throw ArgumentError('Invalid locale');
     }
@@ -20,7 +27,7 @@ extension CountryExtension on Country {
   /// Quick way to get country short name by dart:ui locale
   ///
   /// The default locale is [PlatformDispatcher.instance.locale]
-  String? tryGetIsoShortNameByLocale([Locale? locale]) {
+  String? isoShortNameOrNull([Locale? locale]) {
     locale ??= PlatformDispatcher.instance.locale;
 
     final languageCode = locale.languageCode;
