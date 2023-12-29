@@ -42,7 +42,8 @@ class _CountryExampleState extends State<CountryExample> {
               items: [
                 for (final country in Countries.values)
                   DropdownMenuItem(
-                    child: Text(country.isoShortName),
+                    child: Text(country.isoLocalizedShortName(
+                        Localizations.localeOf(context))),
                     value: country,
                   ),
               ],
