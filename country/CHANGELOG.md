@@ -1,3 +1,7 @@
+## 4.1.1
+
+* updated generated country to static const
+
 ## 4.1.0+1
 
 * updated README.md
