@@ -54,7 +54,7 @@ class CountryGeneratorBuilder extends Builder {
             'import \'country/${country.alpha3.toLowerCase()}.g.dart\';\n';
         countryClassOutput += [
           '  /// Country: ${country.isoLongName}',
-          '  static Country get ${country.alpha3.toLowerCase()} => country${country.alpha3};',
+          '  static const Country ${country.alpha3.toLowerCase()} = country${country.alpha3};',
           '',
         ].join('\n');
         countryAlpha3Output += '        ${country.alpha3.toLowerCase()},\n';
@@ -89,7 +89,7 @@ class CountryGeneratorBuilder extends Builder {
         countryClassOutput,
         '',
         '  /// All countries in the world',
-        'static List<Country> get values => [',
+        'static const List<Country> values = [',
         countryAlpha3Output,
         '      ];',
         '}',
