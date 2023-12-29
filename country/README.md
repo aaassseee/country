@@ -14,21 +14,22 @@ dependencies:
   country: ^latest_version
 ```
 
+##### latest version
 [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)
 
 ### API
 
-##### Short name by locale (flutter_country depend on Flutter)
+##### Short name by locale (flutter_country_utility depend on Flutter)
 
 ###### Install
-Replace country install with the following lines in your pubspec.yaml file
+Replace country by installing the following lines in your pubspec.yaml file
 
 ```yaml
-flutter_country:
-  git:
-    url: https://github.com/aaassseee/country.git
-    path: flutter_country
+flutter_country_utility: ^latest_version
 ```
+##### latest version
+[![pub package](https://img.shields.io/pub/v/flutter_country_utility.svg)](https://pub.dartlang.org/packages/flutter_country_utility)
+
 e.g
 ```dart
 String getShortNameByLocale(Country country) {
