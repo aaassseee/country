@@ -256,1002 +256,1002 @@ class Countries {
   Countries._();
 
   /// Country: The Principality of Andorra
-  static Country get and => countryAND;
+  static const Country and = countryAND;
 
   /// Country: The United Arab Emirates
-  static Country get are => countryARE;
+  static const Country are = countryARE;
 
   /// Country: The Islamic Republic of Afghanistan
-  static Country get afg => countryAFG;
+  static const Country afg = countryAFG;
 
   /// Country: Antigua and Barbuda
-  static Country get atg => countryATG;
+  static const Country atg = countryATG;
 
   /// Country: Anguilla
-  static Country get aia => countryAIA;
+  static const Country aia = countryAIA;
 
   /// Country: The Republic of Albania
-  static Country get alb => countryALB;
+  static const Country alb = countryALB;
 
   /// Country: The Republic of Armenia
-  static Country get arm => countryARM;
+  static const Country arm = countryARM;
 
   /// Country: The Republic of Angola
-  static Country get ago => countryAGO;
+  static const Country ago = countryAGO;
 
   /// Country: Antarctica
-  static Country get ata => countryATA;
+  static const Country ata = countryATA;
 
   /// Country: The Argentine Republic
-  static Country get arg => countryARG;
+  static const Country arg = countryARG;
 
   /// Country: The Territory of American Samoa
-  static Country get asm => countryASM;
+  static const Country asm = countryASM;
 
   /// Country: The Republic of Austria
-  static Country get aut => countryAUT;
+  static const Country aut = countryAUT;
 
   /// Country: The Commonwealth of Australia
-  static Country get aus => countryAUS;
+  static const Country aus = countryAUS;
 
   /// Country: Aruba
-  static Country get abw => countryABW;
+  static const Country abw = countryABW;
 
   /// Country: Åland
-  static Country get ala => countryALA;
+  static const Country ala = countryALA;
 
   /// Country: The Republic of Azerbaijan
-  static Country get aze => countryAZE;
+  static const Country aze = countryAZE;
 
   /// Country: Bosnia and Herzegovina
-  static Country get bih => countryBIH;
+  static const Country bih = countryBIH;
 
   /// Country: Barbados
-  static Country get brb => countryBRB;
+  static const Country brb = countryBRB;
 
   /// Country: The People's Republic of Bangladesh
-  static Country get bgd => countryBGD;
+  static const Country bgd = countryBGD;
 
   /// Country: The Kingdom of Belgium
-  static Country get bel => countryBEL;
+  static const Country bel = countryBEL;
 
   /// Country: Burkina Faso
-  static Country get bfa => countryBFA;
+  static const Country bfa = countryBFA;
 
   /// Country: The Republic of Bulgaria
-  static Country get bgr => countryBGR;
+  static const Country bgr = countryBGR;
 
   /// Country: The Kingdom of Bahrain
-  static Country get bhr => countryBHR;
+  static const Country bhr = countryBHR;
 
   /// Country: The Republic of Burundi
-  static Country get bdi => countryBDI;
+  static const Country bdi = countryBDI;
 
   /// Country: The Republic of Benin
-  static Country get ben => countryBEN;
+  static const Country ben = countryBEN;
 
   /// Country: The Collectivity of Saint-Barthélemy
-  static Country get blm => countryBLM;
+  static const Country blm = countryBLM;
 
   /// Country: Bermuda
-  static Country get bmu => countryBMU;
+  static const Country bmu = countryBMU;
 
   /// Country: The Nation of Brunei, the Abode of Peace
-  static Country get brn => countryBRN;
+  static const Country brn = countryBRN;
 
   /// Country: The Plurinational State of Bolivia
-  static Country get bol => countryBOL;
+  static const Country bol = countryBOL;
 
   /// Country: Bonaire, Sint Eustatius and Saba
-  static Country get bes => countryBES;
+  static const Country bes = countryBES;
 
   /// Country: The Federative Republic of Brazil
-  static Country get bra => countryBRA;
+  static const Country bra = countryBRA;
 
   /// Country: The Commonwealth of The Bahamas
-  static Country get bhs => countryBHS;
+  static const Country bhs = countryBHS;
 
   /// Country: The Kingdom of Bhutan
-  static Country get btn => countryBTN;
+  static const Country btn = countryBTN;
 
   /// Country: Bouvet Island
-  static Country get bvt => countryBVT;
+  static const Country bvt = countryBVT;
 
   /// Country: The Republic of Botswana
-  static Country get bwa => countryBWA;
+  static const Country bwa = countryBWA;
 
   /// Country: The Republic of Belarus
-  static Country get blr => countryBLR;
+  static const Country blr = countryBLR;
 
   /// Country: Belize
-  static Country get blz => countryBLZ;
+  static const Country blz = countryBLZ;
 
   /// Country: Canada
-  static Country get can => countryCAN;
+  static const Country can = countryCAN;
 
   /// Country: The Territory of Cocos (Keeling) Islands
-  static Country get cck => countryCCK;
+  static const Country cck = countryCCK;
 
   /// Country: The Democratic Republic of the Congo
-  static Country get cod => countryCOD;
+  static const Country cod = countryCOD;
 
   /// Country: The Central African Republic
-  static Country get caf => countryCAF;
+  static const Country caf = countryCAF;
 
   /// Country: The Republic of the Congo
-  static Country get cog => countryCOG;
+  static const Country cog = countryCOG;
 
   /// Country: The Swiss Confederation
-  static Country get che => countryCHE;
+  static const Country che = countryCHE;
 
   /// Country: The Republic of Côte d'Ivoire
-  static Country get civ => countryCIV;
+  static const Country civ = countryCIV;
 
   /// Country: The Cook Islands
-  static Country get cok => countryCOK;
+  static const Country cok = countryCOK;
 
   /// Country: The Republic of Chile
-  static Country get chl => countryCHL;
+  static const Country chl = countryCHL;
 
   /// Country: The Republic of Cameroon
-  static Country get cmr => countryCMR;
+  static const Country cmr = countryCMR;
 
   /// Country: The People's Republic of China
-  static Country get chn => countryCHN;
+  static const Country chn = countryCHN;
 
   /// Country: The Republic of Colombia
-  static Country get col => countryCOL;
+  static const Country col = countryCOL;
 
   /// Country: The Republic of Costa Rica
-  static Country get cri => countryCRI;
+  static const Country cri = countryCRI;
 
   /// Country: The Republic of Cuba
-  static Country get cub => countryCUB;
+  static const Country cub = countryCUB;
 
   /// Country: The Republic of Cabo Verde
-  static Country get cpv => countryCPV;
+  static const Country cpv = countryCPV;
 
   /// Country: The Country of Curaçao
-  static Country get cuw => countryCUW;
+  static const Country cuw = countryCUW;
 
   /// Country: The Territory of Christmas Island
-  static Country get cxr => countryCXR;
+  static const Country cxr = countryCXR;
 
   /// Country: The Republic of Cyprus
-  static Country get cyp => countryCYP;
+  static const Country cyp = countryCYP;
 
   /// Country: The Czech Republic
-  static Country get cze => countryCZE;
+  static const Country cze = countryCZE;
 
   /// Country: The Federal Republic of Germany
-  static Country get deu => countryDEU;
+  static const Country deu = countryDEU;
 
   /// Country: The Republic of Djibouti
-  static Country get dji => countryDJI;
+  static const Country dji = countryDJI;
 
   /// Country: The Kingdom of Denmark
-  static Country get dnk => countryDNK;
+  static const Country dnk = countryDNK;
 
   /// Country: The Commonwealth of Dominica
-  static Country get dma => countryDMA;
+  static const Country dma = countryDMA;
 
   /// Country: The Dominican Republic
-  static Country get dom => countryDOM;
+  static const Country dom = countryDOM;
 
   /// Country: The People's Democratic Republic of Algeria
-  static Country get dza => countryDZA;
+  static const Country dza = countryDZA;
 
   /// Country: The Republic of Ecuador
-  static Country get ecu => countryECU;
+  static const Country ecu = countryECU;
 
   /// Country: The Republic of Estonia
-  static Country get est => countryEST;
+  static const Country est = countryEST;
 
   /// Country: The Arab Republic of Egypt
-  static Country get egy => countryEGY;
+  static const Country egy = countryEGY;
 
   /// Country: The Sahrawi Arab Democratic Republic
-  static Country get esh => countryESH;
+  static const Country esh = countryESH;
 
   /// Country: The State of Eritrea
-  static Country get eri => countryERI;
+  static const Country eri = countryERI;
 
   /// Country: The Kingdom of Spain
-  static Country get esp => countryESP;
+  static const Country esp = countryESP;
 
   /// Country: The Federal Democratic Republic of Ethiopia
-  static Country get eth => countryETH;
+  static const Country eth = countryETH;
 
   /// Country: The Republic of Finland
-  static Country get fin => countryFIN;
+  static const Country fin = countryFIN;
 
   /// Country: The Republic of Fiji
-  static Country get fji => countryFJI;
+  static const Country fji = countryFJI;
 
   /// Country: The Falkland Islands
-  static Country get flk => countryFLK;
+  static const Country flk = countryFLK;
 
   /// Country: The Federated States of Micronesia
-  static Country get fsm => countryFSM;
+  static const Country fsm = countryFSM;
 
   /// Country: The Faroe Islands
-  static Country get fro => countryFRO;
+  static const Country fro = countryFRO;
 
   /// Country: The French Republic
-  static Country get fra => countryFRA;
+  static const Country fra = countryFRA;
 
   /// Country: The Gabonese Republic
-  static Country get gab => countryGAB;
+  static const Country gab = countryGAB;
 
   /// Country: The United Kingdom of Great Britain and Northern Ireland
-  static Country get gbr => countryGBR;
+  static const Country gbr = countryGBR;
 
   /// Country: Grenada
-  static Country get grd => countryGRD;
+  static const Country grd = countryGRD;
 
   /// Country: Georgia
-  static Country get geo => countryGEO;
+  static const Country geo = countryGEO;
 
   /// Country: Guyane
-  static Country get guf => countryGUF;
+  static const Country guf = countryGUF;
 
   /// Country: The Bailiwick of Guernsey
-  static Country get ggy => countryGGY;
+  static const Country ggy = countryGGY;
 
   /// Country: The Republic of Ghana
-  static Country get gha => countryGHA;
+  static const Country gha = countryGHA;
 
   /// Country: Gibraltar
-  static Country get gib => countryGIB;
+  static const Country gib = countryGIB;
 
   /// Country: Kalaallit Nunaat
-  static Country get grl => countryGRL;
+  static const Country grl = countryGRL;
 
   /// Country: The Republic of The Gambia
-  static Country get gmb => countryGMB;
+  static const Country gmb = countryGMB;
 
   /// Country: The Republic of Guinea
-  static Country get gin => countryGIN;
+  static const Country gin = countryGIN;
 
   /// Country: Guadeloupe
-  static Country get glp => countryGLP;
+  static const Country glp = countryGLP;
 
   /// Country: The Republic of Equatorial Guinea
-  static Country get gnq => countryGNQ;
+  static const Country gnq = countryGNQ;
 
   /// Country: The Hellenic Republic
-  static Country get grc => countryGRC;
+  static const Country grc = countryGRC;
 
   /// Country: South Georgia and the South Sandwich Islands
-  static Country get sgs => countrySGS;
+  static const Country sgs = countrySGS;
 
   /// Country: The Republic of Guatemala
-  static Country get gtm => countryGTM;
+  static const Country gtm = countryGTM;
 
   /// Country: The Territory of Guam
-  static Country get gum => countryGUM;
+  static const Country gum = countryGUM;
 
   /// Country: The Republic of Guinea-Bissau
-  static Country get gnb => countryGNB;
+  static const Country gnb = countryGNB;
 
   /// Country: The Co-operative Republic of Guyana
-  static Country get guy => countryGUY;
+  static const Country guy = countryGUY;
 
   /// Country: The Hong Kong Special Administrative Region of China
-  static Country get hkg => countryHKG;
+  static const Country hkg = countryHKG;
 
   /// Country: The Territory of Heard Island and McDonald Islands
-  static Country get hmd => countryHMD;
+  static const Country hmd = countryHMD;
 
   /// Country: The Republic of Honduras
-  static Country get hnd => countryHND;
+  static const Country hnd = countryHND;
 
   /// Country: The Republic of Croatia
-  static Country get hrv => countryHRV;
+  static const Country hrv = countryHRV;
 
   /// Country: The Republic of Haiti
-  static Country get hti => countryHTI;
+  static const Country hti = countryHTI;
 
   /// Country: Hungary
-  static Country get hun => countryHUN;
+  static const Country hun = countryHUN;
 
   /// Country: The Republic of Indonesia
-  static Country get idn => countryIDN;
+  static const Country idn = countryIDN;
 
   /// Country: Ireland
-  static Country get irl => countryIRL;
+  static const Country irl = countryIRL;
 
   /// Country: The State of Israel
-  static Country get isr => countryISR;
+  static const Country isr = countryISR;
 
   /// Country: The Isle of Man
-  static Country get imn => countryIMN;
+  static const Country imn = countryIMN;
 
   /// Country: The Republic of India
-  static Country get ind => countryIND;
+  static const Country ind = countryIND;
 
   /// Country: The British Indian Ocean Territory
-  static Country get iot => countryIOT;
+  static const Country iot = countryIOT;
 
   /// Country: The Republic of Iraq
-  static Country get irq => countryIRQ;
+  static const Country irq = countryIRQ;
 
   /// Country: The Islamic Republic of Iran
-  static Country get irn => countryIRN;
+  static const Country irn = countryIRN;
 
   /// Country: Iceland
-  static Country get isl => countryISL;
+  static const Country isl = countryISL;
 
   /// Country: The Italian Republic
-  static Country get ita => countryITA;
+  static const Country ita = countryITA;
 
   /// Country: The Bailiwick of Jersey
-  static Country get jey => countryJEY;
+  static const Country jey = countryJEY;
 
   /// Country: Jamaica
-  static Country get jam => countryJAM;
+  static const Country jam = countryJAM;
 
   /// Country: The Hashemite Kingdom of Jordan
-  static Country get jor => countryJOR;
+  static const Country jor = countryJOR;
 
   /// Country: Japan
-  static Country get jpn => countryJPN;
+  static const Country jpn = countryJPN;
 
   /// Country: The Republic of Kenya
-  static Country get ken => countryKEN;
+  static const Country ken = countryKEN;
 
   /// Country: The Kyrgyz Republic
-  static Country get kgz => countryKGZ;
+  static const Country kgz = countryKGZ;
 
   /// Country: The Kingdom of Cambodia
-  static Country get khm => countryKHM;
+  static const Country khm = countryKHM;
 
   /// Country: The Republic of Kiribati
-  static Country get kir => countryKIR;
+  static const Country kir = countryKIR;
 
   /// Country: The Union of the Comoros
-  static Country get com => countryCOM;
+  static const Country com = countryCOM;
 
   /// Country: Saint Kitts and Nevis
-  static Country get kna => countryKNA;
+  static const Country kna = countryKNA;
 
   /// Country: The Democratic People's Republic of Korea
-  static Country get prk => countryPRK;
+  static const Country prk = countryPRK;
 
   /// Country: The Republic of Korea
-  static Country get kor => countryKOR;
+  static const Country kor = countryKOR;
 
   /// Country: The State of Kuwait
-  static Country get kwt => countryKWT;
+  static const Country kwt = countryKWT;
 
   /// Country: The Cayman Islands
-  static Country get cym => countryCYM;
+  static const Country cym = countryCYM;
 
   /// Country: The Republic of Kazakhstan
-  static Country get kaz => countryKAZ;
+  static const Country kaz = countryKAZ;
 
   /// Country: The Lao People's Democratic Republic
-  static Country get lao => countryLAO;
+  static const Country lao = countryLAO;
 
   /// Country: The Lebanese Republic
-  static Country get lbn => countryLBN;
+  static const Country lbn = countryLBN;
 
   /// Country: Saint Lucia
-  static Country get lca => countryLCA;
+  static const Country lca = countryLCA;
 
   /// Country: The Principality of Liechtenstein
-  static Country get lie => countryLIE;
+  static const Country lie = countryLIE;
 
   /// Country: The Democratic Socialist Republic of Sri Lanka
-  static Country get lka => countryLKA;
+  static const Country lka = countryLKA;
 
   /// Country: The Republic of Liberia
-  static Country get lbr => countryLBR;
+  static const Country lbr = countryLBR;
 
   /// Country: The Kingdom of Lesotho
-  static Country get lso => countryLSO;
+  static const Country lso = countryLSO;
 
   /// Country: The Republic of Lithuania
-  static Country get ltu => countryLTU;
+  static const Country ltu = countryLTU;
 
   /// Country: The Grand Duchy of Luxembourg
-  static Country get lux => countryLUX;
+  static const Country lux = countryLUX;
 
   /// Country: The Republic of Latvia
-  static Country get lva => countryLVA;
+  static const Country lva = countryLVA;
 
   /// Country: The State of Libya
-  static Country get lby => countryLBY;
+  static const Country lby = countryLBY;
 
   /// Country: The Kingdom of Morocco
-  static Country get mar => countryMAR;
+  static const Country mar = countryMAR;
 
   /// Country: The Principality of Monaco
-  static Country get mco => countryMCO;
+  static const Country mco = countryMCO;
 
   /// Country: The Republic of Moldova
-  static Country get mda => countryMDA;
+  static const Country mda = countryMDA;
 
   /// Country: Montenegro
-  static Country get mne => countryMNE;
+  static const Country mne = countryMNE;
 
   /// Country: The Collectivity of Saint-Martin
-  static Country get maf => countryMAF;
+  static const Country maf = countryMAF;
 
   /// Country: The Republic of Madagascar
-  static Country get mdg => countryMDG;
+  static const Country mdg = countryMDG;
 
   /// Country: The Republic of the Marshall Islands
-  static Country get mhl => countryMHL;
+  static const Country mhl = countryMHL;
 
   /// Country: The Republic of North Macedonia
-  static Country get mkd => countryMKD;
+  static const Country mkd = countryMKD;
 
   /// Country: The Republic of Mali
-  static Country get mli => countryMLI;
+  static const Country mli = countryMLI;
 
   /// Country: The Republic of the Union of Myanmar
-  static Country get mmr => countryMMR;
+  static const Country mmr = countryMMR;
 
   /// Country: Mongolia
-  static Country get mng => countryMNG;
+  static const Country mng = countryMNG;
 
   /// Country: The Macao Special Administrative Region of China
-  static Country get mac => countryMAC;
+  static const Country mac = countryMAC;
 
   /// Country: The Commonwealth of the Northern Mariana Islands
-  static Country get mnp => countryMNP;
+  static const Country mnp = countryMNP;
 
   /// Country: Martinique
-  static Country get mtq => countryMTQ;
+  static const Country mtq = countryMTQ;
 
   /// Country: The Islamic Republic of Mauritania
-  static Country get mrt => countryMRT;
+  static const Country mrt = countryMRT;
 
   /// Country: Montserrat
-  static Country get msr => countryMSR;
+  static const Country msr = countryMSR;
 
   /// Country: The Republic of Malta
-  static Country get mlt => countryMLT;
+  static const Country mlt = countryMLT;
 
   /// Country: The Republic of Mauritius
-  static Country get mus => countryMUS;
+  static const Country mus = countryMUS;
 
   /// Country: The Republic of Maldives
-  static Country get mdv => countryMDV;
+  static const Country mdv = countryMDV;
 
   /// Country: The Republic of Malawi
-  static Country get mwi => countryMWI;
+  static const Country mwi = countryMWI;
 
   /// Country: The United Mexican States
-  static Country get mex => countryMEX;
+  static const Country mex = countryMEX;
 
   /// Country: Malaysia
-  static Country get mys => countryMYS;
+  static const Country mys = countryMYS;
 
   /// Country: The Republic of Mozambique
-  static Country get moz => countryMOZ;
+  static const Country moz = countryMOZ;
 
   /// Country: The Republic of Namibia
-  static Country get nam => countryNAM;
+  static const Country nam = countryNAM;
 
   /// Country: New Caledonia
-  static Country get ncl => countryNCL;
+  static const Country ncl = countryNCL;
 
   /// Country: The Republic of the Niger
-  static Country get ner => countryNER;
+  static const Country ner = countryNER;
 
   /// Country: The Territory of Norfolk Island
-  static Country get nfk => countryNFK;
+  static const Country nfk = countryNFK;
 
   /// Country: The Federal Republic of Nigeria
-  static Country get nga => countryNGA;
+  static const Country nga = countryNGA;
 
   /// Country: The Republic of Nicaragua
-  static Country get nic => countryNIC;
+  static const Country nic = countryNIC;
 
   /// Country: The Kingdom of the Netherlands
-  static Country get nld => countryNLD;
+  static const Country nld = countryNLD;
 
   /// Country: The Kingdom of Norway
-  static Country get nor => countryNOR;
+  static const Country nor = countryNOR;
 
   /// Country: The Federal Democratic Republic of Nepal
-  static Country get npl => countryNPL;
+  static const Country npl = countryNPL;
 
   /// Country: The Republic of Nauru
-  static Country get nru => countryNRU;
+  static const Country nru = countryNRU;
 
   /// Country: Niue
-  static Country get niu => countryNIU;
+  static const Country niu = countryNIU;
 
   /// Country: New Zealand
-  static Country get nzl => countryNZL;
+  static const Country nzl = countryNZL;
 
   /// Country: The Sultanate of Oman
-  static Country get omn => countryOMN;
+  static const Country omn = countryOMN;
 
   /// Country: The Republic of Panamá
-  static Country get pan => countryPAN;
+  static const Country pan = countryPAN;
 
   /// Country: The Republic of Perú
-  static Country get per => countryPER;
+  static const Country per = countryPER;
 
   /// Country: French Polynesia
-  static Country get pyf => countryPYF;
+  static const Country pyf = countryPYF;
 
   /// Country: The Independent State of Papua New Guinea
-  static Country get png => countryPNG;
+  static const Country png = countryPNG;
 
   /// Country: The Republic of the Philippines
-  static Country get phl => countryPHL;
+  static const Country phl = countryPHL;
 
   /// Country: The Islamic Republic of Pakistan
-  static Country get pak => countryPAK;
+  static const Country pak = countryPAK;
 
   /// Country: The Republic of Poland
-  static Country get pol => countryPOL;
+  static const Country pol = countryPOL;
 
   /// Country: The Overseas Collectivity of Saint-Pierre and Miquelon
-  static Country get spm => countrySPM;
+  static const Country spm = countrySPM;
 
   /// Country: The Pitcairn, Henderson, Ducie and Oeno Islands
-  static Country get pcn => countryPCN;
+  static const Country pcn = countryPCN;
 
   /// Country: The Commonwealth of Puerto Rico
-  static Country get pri => countryPRI;
+  static const Country pri = countryPRI;
 
   /// Country: The State of Palestine
-  static Country get pse => countryPSE;
+  static const Country pse = countryPSE;
 
   /// Country: The Portuguese Republic
-  static Country get prt => countryPRT;
+  static const Country prt = countryPRT;
 
   /// Country: The Republic of Palau
-  static Country get plw => countryPLW;
+  static const Country plw = countryPLW;
 
   /// Country: The Republic of Paraguay
-  static Country get pry => countryPRY;
+  static const Country pry = countryPRY;
 
   /// Country: The State of Qatar
-  static Country get qat => countryQAT;
+  static const Country qat = countryQAT;
 
   /// Country: Réunion
-  static Country get reu => countryREU;
+  static const Country reu = countryREU;
 
   /// Country: Romania
-  static Country get rou => countryROU;
+  static const Country rou = countryROU;
 
   /// Country: The Republic of Serbia
-  static Country get srb => countrySRB;
+  static const Country srb = countrySRB;
 
   /// Country: The Russian Federation
-  static Country get rus => countryRUS;
+  static const Country rus = countryRUS;
 
   /// Country: The Republic of Rwanda
-  static Country get rwa => countryRWA;
+  static const Country rwa = countryRWA;
 
   /// Country: The Kingdom of Saudi Arabia
-  static Country get sau => countrySAU;
+  static const Country sau = countrySAU;
 
   /// Country: The Solomon Islands
-  static Country get slb => countrySLB;
+  static const Country slb = countrySLB;
 
   /// Country: The Republic of Seychelles
-  static Country get syc => countrySYC;
+  static const Country syc = countrySYC;
 
   /// Country: The Republic of the Sudan
-  static Country get sdn => countrySDN;
+  static const Country sdn = countrySDN;
 
   /// Country: The Kingdom of Sweden
-  static Country get swe => countrySWE;
+  static const Country swe = countrySWE;
 
   /// Country: The Republic of Singapore
-  static Country get sgp => countrySGP;
+  static const Country sgp = countrySGP;
 
   /// Country: Saint Helena, Ascension and Tristan da Cunha
-  static Country get shn => countrySHN;
+  static const Country shn = countrySHN;
 
   /// Country: The Republic of Slovenia
-  static Country get svn => countrySVN;
+  static const Country svn = countrySVN;
 
   /// Country: Svalbard and Jan Mayen
-  static Country get sjm => countrySJM;
+  static const Country sjm = countrySJM;
 
   /// Country: The Slovak Republic
-  static Country get svk => countrySVK;
+  static const Country svk = countrySVK;
 
   /// Country: The Republic of Sierra Leone
-  static Country get sle => countrySLE;
+  static const Country sle = countrySLE;
 
   /// Country: The Republic of San Marino
-  static Country get smr => countrySMR;
+  static const Country smr = countrySMR;
 
   /// Country: The Republic of Senegal
-  static Country get sen => countrySEN;
+  static const Country sen = countrySEN;
 
   /// Country: The Federal Republic of Somalia
-  static Country get som => countrySOM;
+  static const Country som = countrySOM;
 
   /// Country: The Republic of Suriname
-  static Country get sur => countrySUR;
+  static const Country sur = countrySUR;
 
   /// Country: The Republic of South Sudan
-  static Country get ssd => countrySSD;
+  static const Country ssd = countrySSD;
 
   /// Country: The Democratic Republic of São Tomé and Príncipe
-  static Country get stp => countrySTP;
+  static const Country stp = countrySTP;
 
   /// Country: The Republic of El Salvador
-  static Country get slv => countrySLV;
+  static const Country slv = countrySLV;
 
   /// Country: Sint Maarten
-  static Country get sxm => countrySXM;
+  static const Country sxm = countrySXM;
 
   /// Country: The Syrian Arab Republic
-  static Country get syr => countrySYR;
+  static const Country syr = countrySYR;
 
   /// Country: The Kingdom of Eswatini
-  static Country get swz => countrySWZ;
+  static const Country swz = countrySWZ;
 
   /// Country: The Turks and Caicos Islands
-  static Country get tca => countryTCA;
+  static const Country tca = countryTCA;
 
   /// Country: The Republic of Chad
-  static Country get tcd => countryTCD;
+  static const Country tcd = countryTCD;
 
   /// Country: The French Southern and Antarctic Lands
-  static Country get atf => countryATF;
+  static const Country atf = countryATF;
 
   /// Country: The Togolese Republic
-  static Country get tgo => countryTGO;
+  static const Country tgo = countryTGO;
 
   /// Country: The Kingdom of Thailand
-  static Country get tha => countryTHA;
+  static const Country tha = countryTHA;
 
   /// Country: The Republic of Tajikistan
-  static Country get tjk => countryTJK;
+  static const Country tjk = countryTJK;
 
   /// Country: Tokelau
-  static Country get tkl => countryTKL;
+  static const Country tkl = countryTKL;
 
   /// Country: The Democratic Republic of Timor-Leste
-  static Country get tls => countryTLS;
+  static const Country tls = countryTLS;
 
   /// Country: Turkmenistan
-  static Country get tkm => countryTKM;
+  static const Country tkm = countryTKM;
 
   /// Country: The Republic of Tunisia
-  static Country get tun => countryTUN;
+  static const Country tun = countryTUN;
 
   /// Country: The Kingdom of Tonga
-  static Country get ton => countryTON;
+  static const Country ton = countryTON;
 
   /// Country: The Republic of Türkiye
-  static Country get tur => countryTUR;
+  static const Country tur = countryTUR;
 
   /// Country: The Republic of Trinidad and Tobago
-  static Country get tto => countryTTO;
+  static const Country tto = countryTTO;
 
   /// Country: Tuvalu
-  static Country get tuv => countryTUV;
+  static const Country tuv = countryTUV;
 
   /// Country: Taiwan, Province of China
-  static Country get twn => countryTWN;
+  static const Country twn = countryTWN;
 
   /// Country: The United Republic of Tanzania
-  static Country get tza => countryTZA;
+  static const Country tza = countryTZA;
 
   /// Country: Ukraine
-  static Country get ukr => countryUKR;
+  static const Country ukr = countryUKR;
 
   /// Country: The Republic of Uganda
-  static Country get uga => countryUGA;
+  static const Country uga = countryUGA;
 
   /// Country: United States Minor Outlying Islands
-  static Country get umi => countryUMI;
+  static const Country umi = countryUMI;
 
   /// Country: The United States of America
-  static Country get usa => countryUSA;
+  static const Country usa = countryUSA;
 
   /// Country: The Oriental Republic of Uruguay
-  static Country get ury => countryURY;
+  static const Country ury = countryURY;
 
   /// Country: The Republic of Uzbekistan
-  static Country get uzb => countryUZB;
+  static const Country uzb = countryUZB;
 
   /// Country: The Holy See
-  static Country get vat => countryVAT;
+  static const Country vat = countryVAT;
 
   /// Country: Saint Vincent and the Grenadines
-  static Country get vct => countryVCT;
+  static const Country vct = countryVCT;
 
   /// Country: The Bolivarian Republic of Venezuela
-  static Country get ven => countryVEN;
+  static const Country ven = countryVEN;
 
   /// Country: The Virgin Islands
-  static Country get vgb => countryVGB;
+  static const Country vgb = countryVGB;
 
   /// Country: The Virgin Islands of the United States
-  static Country get vir => countryVIR;
+  static const Country vir = countryVIR;
 
   /// Country: The Socialist Republic of Viet Nam
-  static Country get vnm => countryVNM;
+  static const Country vnm = countryVNM;
 
   /// Country: The Republic of Vanuatu
-  static Country get vut => countryVUT;
+  static const Country vut = countryVUT;
 
   /// Country: The Territory of the Wallis and Futuna Islands
-  static Country get wlf => countryWLF;
+  static const Country wlf = countryWLF;
 
   /// Country: The Independent State of Samoa
-  static Country get wsm => countryWSM;
+  static const Country wsm = countryWSM;
 
   /// Country: The Republic of Yemen
-  static Country get yem => countryYEM;
+  static const Country yem = countryYEM;
 
   /// Country: The Department of Mayotte
-  static Country get myt => countryMYT;
+  static const Country myt = countryMYT;
 
   /// Country: The Republic of South Africa
-  static Country get zaf => countryZAF;
+  static const Country zaf = countryZAF;
 
   /// Country: The Republic of Zambia
-  static Country get zmb => countryZMB;
+  static const Country zmb = countryZMB;
 
   /// Country: The Republic of Zimbabwe
-  static Country get zwe => countryZWE;
+  static const Country zwe = countryZWE;
 
   /// All countries in the world
-  static List<Country> get values => [
-        and,
-        are,
-        afg,
-        atg,
-        aia,
-        alb,
-        arm,
-        ago,
-        ata,
-        arg,
-        asm,
-        aut,
-        aus,
-        abw,
-        ala,
-        aze,
-        bih,
-        brb,
-        bgd,
-        bel,
-        bfa,
-        bgr,
-        bhr,
-        bdi,
-        ben,
-        blm,
-        bmu,
-        brn,
-        bol,
-        bes,
-        bra,
-        bhs,
-        btn,
-        bvt,
-        bwa,
-        blr,
-        blz,
-        can,
-        cck,
-        cod,
-        caf,
-        cog,
-        che,
-        civ,
-        cok,
-        chl,
-        cmr,
-        chn,
-        col,
-        cri,
-        cub,
-        cpv,
-        cuw,
-        cxr,
-        cyp,
-        cze,
-        deu,
-        dji,
-        dnk,
-        dma,
-        dom,
-        dza,
-        ecu,
-        est,
-        egy,
-        esh,
-        eri,
-        esp,
-        eth,
-        fin,
-        fji,
-        flk,
-        fsm,
-        fro,
-        fra,
-        gab,
-        gbr,
-        grd,
-        geo,
-        guf,
-        ggy,
-        gha,
-        gib,
-        grl,
-        gmb,
-        gin,
-        glp,
-        gnq,
-        grc,
-        sgs,
-        gtm,
-        gum,
-        gnb,
-        guy,
-        hkg,
-        hmd,
-        hnd,
-        hrv,
-        hti,
-        hun,
-        idn,
-        irl,
-        isr,
-        imn,
-        ind,
-        iot,
-        irq,
-        irn,
-        isl,
-        ita,
-        jey,
-        jam,
-        jor,
-        jpn,
-        ken,
-        kgz,
-        khm,
-        kir,
-        com,
-        kna,
-        prk,
-        kor,
-        kwt,
-        cym,
-        kaz,
-        lao,
-        lbn,
-        lca,
-        lie,
-        lka,
-        lbr,
-        lso,
-        ltu,
-        lux,
-        lva,
-        lby,
-        mar,
-        mco,
-        mda,
-        mne,
-        maf,
-        mdg,
-        mhl,
-        mkd,
-        mli,
-        mmr,
-        mng,
-        mac,
-        mnp,
-        mtq,
-        mrt,
-        msr,
-        mlt,
-        mus,
-        mdv,
-        mwi,
-        mex,
-        mys,
-        moz,
-        nam,
-        ncl,
-        ner,
-        nfk,
-        nga,
-        nic,
-        nld,
-        nor,
-        npl,
-        nru,
-        niu,
-        nzl,
-        omn,
-        pan,
-        per,
-        pyf,
-        png,
-        phl,
-        pak,
-        pol,
-        spm,
-        pcn,
-        pri,
-        pse,
-        prt,
-        plw,
-        pry,
-        qat,
-        reu,
-        rou,
-        srb,
-        rus,
-        rwa,
-        sau,
-        slb,
-        syc,
-        sdn,
-        swe,
-        sgp,
-        shn,
-        svn,
-        sjm,
-        svk,
-        sle,
-        smr,
-        sen,
-        som,
-        sur,
-        ssd,
-        stp,
-        slv,
-        sxm,
-        syr,
-        swz,
-        tca,
-        tcd,
-        atf,
-        tgo,
-        tha,
-        tjk,
-        tkl,
-        tls,
-        tkm,
-        tun,
-        ton,
-        tur,
-        tto,
-        tuv,
-        twn,
-        tza,
-        ukr,
-        uga,
-        umi,
-        usa,
-        ury,
-        uzb,
-        vat,
-        vct,
-        ven,
-        vgb,
-        vir,
-        vnm,
-        vut,
-        wlf,
-        wsm,
-        yem,
-        myt,
-        zaf,
-        zmb,
-        zwe,
-      ];
+  static const List<Country> values = [
+    and,
+    are,
+    afg,
+    atg,
+    aia,
+    alb,
+    arm,
+    ago,
+    ata,
+    arg,
+    asm,
+    aut,
+    aus,
+    abw,
+    ala,
+    aze,
+    bih,
+    brb,
+    bgd,
+    bel,
+    bfa,
+    bgr,
+    bhr,
+    bdi,
+    ben,
+    blm,
+    bmu,
+    brn,
+    bol,
+    bes,
+    bra,
+    bhs,
+    btn,
+    bvt,
+    bwa,
+    blr,
+    blz,
+    can,
+    cck,
+    cod,
+    caf,
+    cog,
+    che,
+    civ,
+    cok,
+    chl,
+    cmr,
+    chn,
+    col,
+    cri,
+    cub,
+    cpv,
+    cuw,
+    cxr,
+    cyp,
+    cze,
+    deu,
+    dji,
+    dnk,
+    dma,
+    dom,
+    dza,
+    ecu,
+    est,
+    egy,
+    esh,
+    eri,
+    esp,
+    eth,
+    fin,
+    fji,
+    flk,
+    fsm,
+    fro,
+    fra,
+    gab,
+    gbr,
+    grd,
+    geo,
+    guf,
+    ggy,
+    gha,
+    gib,
+    grl,
+    gmb,
+    gin,
+    glp,
+    gnq,
+    grc,
+    sgs,
+    gtm,
+    gum,
+    gnb,
+    guy,
+    hkg,
+    hmd,
+    hnd,
+    hrv,
+    hti,
+    hun,
+    idn,
+    irl,
+    isr,
+    imn,
+    ind,
+    iot,
+    irq,
+    irn,
+    isl,
+    ita,
+    jey,
+    jam,
+    jor,
+    jpn,
+    ken,
+    kgz,
+    khm,
+    kir,
+    com,
+    kna,
+    prk,
+    kor,
+    kwt,
+    cym,
+    kaz,
+    lao,
+    lbn,
+    lca,
+    lie,
+    lka,
+    lbr,
+    lso,
+    ltu,
+    lux,
+    lva,
+    lby,
+    mar,
+    mco,
+    mda,
+    mne,
+    maf,
+    mdg,
+    mhl,
+    mkd,
+    mli,
+    mmr,
+    mng,
+    mac,
+    mnp,
+    mtq,
+    mrt,
+    msr,
+    mlt,
+    mus,
+    mdv,
+    mwi,
+    mex,
+    mys,
+    moz,
+    nam,
+    ncl,
+    ner,
+    nfk,
+    nga,
+    nic,
+    nld,
+    nor,
+    npl,
+    nru,
+    niu,
+    nzl,
+    omn,
+    pan,
+    per,
+    pyf,
+    png,
+    phl,
+    pak,
+    pol,
+    spm,
+    pcn,
+    pri,
+    pse,
+    prt,
+    plw,
+    pry,
+    qat,
+    reu,
+    rou,
+    srb,
+    rus,
+    rwa,
+    sau,
+    slb,
+    syc,
+    sdn,
+    swe,
+    sgp,
+    shn,
+    svn,
+    sjm,
+    svk,
+    sle,
+    smr,
+    sen,
+    som,
+    sur,
+    ssd,
+    stp,
+    slv,
+    sxm,
+    syr,
+    swz,
+    tca,
+    tcd,
+    atf,
+    tgo,
+    tha,
+    tjk,
+    tkl,
+    tls,
+    tkm,
+    tun,
+    ton,
+    tur,
+    tto,
+    tuv,
+    twn,
+    tza,
+    ukr,
+    uga,
+    umi,
+    usa,
+    ury,
+    uzb,
+    vat,
+    vct,
+    ven,
+    vgb,
+    vir,
+    vnm,
+    vut,
+    wlf,
+    wsm,
+    yem,
+    myt,
+    zaf,
+    zmb,
+    zwe,
+  ];
 }
