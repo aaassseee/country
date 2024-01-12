@@ -4,17 +4,23 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_country_utility: ">=3.0.0 <4.0.0"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: '>=3.0.0 <4.0.0'
+
+#dependency_overrides:
+#  country:
+#    path:
+#      ../country
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
