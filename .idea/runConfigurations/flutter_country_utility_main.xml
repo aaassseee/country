@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="flutter_country_utility main" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/flutter_country_utility/example/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>
