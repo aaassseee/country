@@ -5,25 +5,22 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('short name by locale', () {
-    expect(
-        Countries.hkg.getIsoShortNameByLocale(const Locale('zh', 'HK')), '香港');
-    expect(Countries.hkg.getIsoShortNameByLocale(const Locale('en', 'US')),
+    expect(Countries.hkg.isoLocalizedShortName(const Locale('zh', 'HK')), '香港');
+    expect(Countries.hkg.isoLocalizedShortName(const Locale('en', 'US')),
         'Hong Kong');
     expect(
-        Countries.gbr.getIsoShortNameByLocale(const Locale.fromSubtags(
+        Countries.gbr.isoLocalizedShortName(const Locale.fromSubtags(
             languageCode: 'zh', scriptCode: 'Hant', countryCode: 'HK')),
         '英國');
 
     expect(
-      Countries.gbr.getIsoShortNameByLocale(),
-      Countries.gbr.getIsoShortNameByLocale(PlatformDispatcher.instance.locale),
+      Countries.gbr.isoLocalizedShortName(),
+      Countries.gbr.isoLocalizedShortName(PlatformDispatcher.instance.locale),
     );
 
-    expect(
-        () => Countries.hkg.getIsoShortNameByLocale(const Locale('ZH', 'hk')),
+    expect(() => Countries.hkg.isoLocalizedShortName(const Locale('ZH', 'hk')),
         throwsArgumentError);
-    expect(
-        () => Countries.hkg.getIsoShortNameByLocale(const Locale('En', 'US')),
+    expect(() => Countries.hkg.isoLocalizedShortName(const Locale('En', 'US')),
         throwsArgumentError);
   });
 }
