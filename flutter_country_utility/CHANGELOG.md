@@ -1,3 +1,7 @@
+## 3.0.1
+
+* refactor iso name by locale function name
+
 ## 3.0.0+2
 
 * update README.md

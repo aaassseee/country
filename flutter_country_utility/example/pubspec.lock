@@ -45,10 +45,10 @@ packages:
     dependency: transitive
     description:
       name: country
-      sha256: ab50fc42c2477ba410972ed618cfb7236ea89328bdf505a69933e73a2a2a8623
+      sha256: "61a68bab52915062c6dc77f5af89d6eb1abaff2dd9b1c06928479da64df0d2e6"
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.0"
+    version: "4.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -68,7 +68,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "3.0.0+2"
+    version: "3.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:

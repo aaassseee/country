@@ -126,7 +126,7 @@ const countryKGZ = Country(
     "is": "Kirgisistan",
     "it": "Kirghizistan",
     "iu": "Kyrgyzstan",
-    "ja": "キルギスタン",
+    "ja": "キルギス共和国",
     "ka": "ყირგიზეთი",
     "ki": "Kyrgyzstan",
     "kk": "Қырғызстан",

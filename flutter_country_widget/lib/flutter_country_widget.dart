@@ -1,7 +1,5 @@
 library flutter_country_widget;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:flutter_country_utility/flutter_country_utility.dart';
+
+export 'src/widget.dart';
