@@ -30,11 +30,20 @@ class CountryExample extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            CountryDropdownButton.countryName(
+            CountryDropdownButton.predefined(
+              type: CountryDropDownButtonType.name,
               onChanged: (value) {},
+              hint: const Text('Please select a country'),
             ),
-            CountryDropdownButton.countryCode(
+            CountryDropdownButton.predefined(
+              type: CountryDropDownButtonType.callingCode,
               onChanged: (value) {},
+              hint: const Text('Phone code'),
+            ),
+            CountryDropdownButton.predefined(
+              type: CountryDropDownButtonType.currency,
+              onChanged: (value) {},
+              hint: const Text('Currency'),
             ),
           ],
         ),
