@@ -763,7 +763,7 @@ const countryIND = Country(
     ),
     Subdivision(
       name: 'Chhattisgarh',
-      code: 'CT',
+      code: 'CG',
       geo: SubdivisionGeoData(
         latitude: 21.2786567,
         longitude: 81.8661442,
@@ -2449,8 +2449,8 @@ const countryIND = Country(
       type: 'state',
     ),
     Subdivision(
-      name: 'Orissa',
-      code: 'OR',
+      name: 'Odisha',
+      code: 'OD',
       geo: SubdivisionGeoData(
         latitude: 20.9516658,
         longitude: 85.0985236,
@@ -2913,7 +2913,7 @@ const countryIND = Country(
     ),
     Subdivision(
       name: 'तेलंगाना',
-      code: 'TG',
+      code: 'TS',
       geo: SubdivisionGeoData(
         latitude: null,
         longitude: null,
@@ -3283,7 +3283,7 @@ const countryIND = Country(
     ),
     Subdivision(
       name: 'उत्तराखण्ड',
-      code: 'UT',
+      code: 'UK',
       geo: SubdivisionGeoData(
         latitude: null,
         longitude: null,

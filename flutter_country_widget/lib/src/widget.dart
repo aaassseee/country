@@ -1,10 +1,124 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_country_utility/flutter_country_utility.dart';
 
+/// A builder to customize dropdown buttons.
+///
+/// Used by [CountryDropdownButton.itemBuilder] && [CountryDropdownButton.selectedItemBuilder].
 typedef CountryDropdownButtonItemBuilder = Widget Function(
     BuildContext context, Country country);
 
+/// Enum for pre-defined country dropdown layout types
+enum CountryDropDownButtonType {
+  name,
+  callingCode,
+  currency,
+}
+
+/// A Material Design button for selecting from a list of items.
+///
+/// A dropdown button lets the user select from a number of items. The button
+/// shows the currently selected item as well as an arrow that opens a menu for
+/// selecting another item.
+///
+/// ## Updating to [DropdownMenu]
+///
+/// There is a Material 3 version of this component,
+/// [DropdownMenu] that is preferred for applications that are configured
+/// for Material 3 (see [ThemeData.useMaterial3]).
+/// The [DropdownMenu] widget's visuals
+/// are a little bit different, see the Material 3 spec at
+/// <https://m3.material.io/components/menus/guidelines> for
+/// more details.
+///
+/// The [DropdownMenu] widget's API is also slightly different.
+/// To update from [DropdownButton] to [DropdownMenu], you will
+/// need to make the following changes:
+///
+/// 1. Instead of using [DropdownButton.items], which
+/// takes a list of [DropdownMenuItem]s, use
+/// [DropdownMenu.dropdownMenuEntries], which
+/// takes a list of [DropdownMenuEntry]'s.
+///
+/// 2. Instead of using [DropdownButton.onChanged],
+/// use [DropdownMenu.onSelected], which is also
+/// a callback that is called when the user selects an entry.
+///
+/// 3. In [DropdownMenu] it is not required to track
+/// the current selection in your app's state.
+/// So, instead of tracking the current selection in
+/// the [DropdownButton.value] property, you can set the
+/// [DropdownMenu.initialSelection] property to the
+/// item that should be selected before there is any user action.
+///
+/// 4. You may also need to make changes to the styling of the
+/// [DropdownMenu], see the properties in the [DropdownMenu]
+/// constructor for more details.
+///
+/// See the sample below for an example of migrating
+/// from [DropdownButton] to [DropdownMenu].
+///
+/// ## Using [DropdownButton]
+/// {@youtube 560 315 https://www.youtube.com/watch?v=ZzQ_PWrFihg}
+///
+/// One ancestor must be a [Material] widget and typically this is
+/// provided by the app's [Scaffold].
+///
+/// The type `T` is the type of the [value] that each dropdown item represents.
+/// All the entries in a given menu must represent values with consistent types.
+/// Typically, an enum is used. Each [DropdownMenuItem] in [items] must be
+/// specialized with that same type argument.
+///
+/// The [onChanged] callback should update a state variable that defines the
+/// dropdown's value. It should also call [State.setState] to rebuild the
+/// dropdown with the new value.
+///
+///
+/// {@tool dartpad}
+/// This sample shows a [DropdownButton] with a large arrow icon,
+/// purple text style, and bold purple underline, whose value is one of "One",
+/// "Two", "Free", or "Four".
+///
+/// ![](https://flutter.github.io/assets-for-api-docs/assets/material/dropdown_button.png)
+///
+/// ** See code in examples/api/lib/material/dropdown/dropdown_button.0.dart **
+/// {@end-tool}
+///
+/// If the [onChanged] callback is null or the list of [items] is null
+/// then the dropdown button will be disabled, i.e. its arrow will be
+/// displayed in grey and it will not respond to input. A disabled button
+/// will display the [disabledHint] widget if it is non-null. However, if
+/// [disabledHint] is null and [hint] is non-null, the [hint] widget will
+/// instead be displayed.
+///
+/// {@tool dartpad}
+/// This sample shows how you would rewrite the above [DropdownButton]
+/// to use the [DropdownMenu].
+///
+/// ** See code in examples/api/lib/material/dropdown_menu/dropdown_menu.1.dart **
+/// {@end-tool}
+///
+///
+/// See also:
+///
+///  * [DropdownButtonFormField], which integrates with the [Form] widget.
+///  * [DropdownMenuItem], the class used to represent the [items].
+///  * [DropdownButtonHideUnderline], which prevents its descendant dropdown buttons
+///    from displaying their underlines.
+///  * [ElevatedButton], [TextButton], ordinary buttons that trigger a single action.
+///  * <https://material.io/design/components/menus.html#dropdown-menu>
 class CountryDropdownButton extends StatefulWidget {
+  /// Creates a dropdown button.
+  ///
+  /// If [initialCountry] is null and the button is enabled, [hint] will be displayed
+  /// if it is non-null.
+  ///
+  /// If [initialCountry] is null and the button is disabled, [disabledHint] will be displayed
+  /// if it is non-null. If [disabledHint] is null, then [hint] will be displayed
+  /// if it is non-null.
+  ///
+  /// The [dropdownColor] argument specifies the background color of the
+  /// dropdown when it is open. If it is null, the current theme's
+  /// [ThemeData.canvasColor] will be used instead.
   const CountryDropdownButton({
     super.key,
     this.selectableCountries = Countries.values,
@@ -36,15 +150,18 @@ class CountryDropdownButton extends StatefulWidget {
     this.borderRadius,
   });
 
-  CountryDropdownButton.countryName({
+  /// Creates a pre-defined layout dropdown button with [CountryDropDownButtonType].
+  factory CountryDropdownButton.predefined({
     Key? key,
+    bool showFlagEmoji = true,
+    required CountryDropDownButtonType type,
     Iterable<Country> selectableCountries = Countries.values,
     Country? initialCountry,
     ValueChanged<Country?>? onChanged,
     Widget? hint,
     Widget? disabledHint,
     VoidCallback? onTap,
-    DropdownButtonBuilder? selectedItemBuilder,
+    CountryDropdownButtonItemBuilder? selectedItemBuilder,
     int elevation = 0,
     TextStyle? style,
     Widget? underline,
@@ -64,104 +181,85 @@ class CountryDropdownButton extends StatefulWidget {
     bool? enableFeedback,
     AlignmentGeometry alignment = AlignmentDirectional.centerStart,
     BorderRadius? borderRadius,
-  }) : this(
-          key: key,
-          selectableCountries: selectableCountries,
-          initialCountry: initialCountry,
-          itemBuilder: (context, country) => Text(
-              country.isoLocalizedShortName(Localizations.localeOf(context))),
-          onChanged: onChanged,
-          hint: hint,
-          disabledHint: disabledHint,
-          onTap: onTap,
-          selectedItemBuilder: selectedItemBuilder,
-          elevation: elevation,
-          style: style,
-          underline: underline,
-          icon: icon,
-          iconDisabledColor: iconDisabledColor,
-          iconEnabledColor: iconEnabledColor,
-          iconSize: iconSize,
-          isDense: isDense,
-          isExpanded: isExpanded,
-          itemHeight: itemHeight,
-          focusColor: focusColor,
-          focusNode: focusNode,
-          autofocus: autofocus,
-          dropdownColor: dropdownColor,
-          padding: padding,
-          menuMaxHeight: menuMaxHeight,
-          enableFeedback: enableFeedback,
-          alignment: alignment,
-          borderRadius: borderRadius,
-        );
+  }) =>
+      CountryDropdownButton(
+        key: key,
+        selectableCountries: selectableCountries,
+        initialCountry: initialCountry,
+        itemBuilder: (context, country) => switch (type) {
+          CountryDropDownButtonType.name => Text([
+              if (showFlagEmoji) country.flagEmoji,
+              country.isoLocalizedShortName(Localizations.localeOf(context)),
+            ].join(' ')),
+          CountryDropDownButtonType.callingCode => Text([
+              if (showFlagEmoji) country.flagEmoji,
+              country.countryCode,
+            ].join(' ')),
+          CountryDropDownButtonType.currency => Text([
+              if (showFlagEmoji) country.flagEmoji,
+              country.currencyCode,
+            ].join(' ')),
+        },
+        onChanged: onChanged,
+        hint: hint,
+        disabledHint: disabledHint,
+        onTap: onTap,
+        selectedItemBuilder: selectedItemBuilder,
+        elevation: elevation,
+        style: style,
+        underline: underline,
+        icon: icon,
+        iconDisabledColor: iconDisabledColor,
+        iconEnabledColor: iconEnabledColor,
+        iconSize: iconSize,
+        isDense: isDense,
+        isExpanded: isExpanded,
+        itemHeight: itemHeight,
+        focusColor: focusColor,
+        focusNode: focusNode,
+        autofocus: autofocus,
+        dropdownColor: dropdownColor,
+        padding: padding,
+        menuMaxHeight: menuMaxHeight,
+        enableFeedback: enableFeedback,
+        alignment: alignment,
+        borderRadius: borderRadius,
+      );
 
-  CountryDropdownButton.countryCode({
-    Key? key,
-    Iterable<Country> selectableCountries = Countries.values,
-    Country? initialCountry,
-    ValueChanged<Country?>? onChanged,
-    Widget? hint,
-    Widget? disabledHint,
-    VoidCallback? onTap,
-    DropdownButtonBuilder? selectedItemBuilder,
-    int elevation = 0,
-    TextStyle? style,
-    Widget? underline,
-    Widget? icon,
-    Color? iconDisabledColor,
-    Color? iconEnabledColor,
-    double iconSize = 24,
-    bool isDense = false,
-    bool isExpanded = false,
-    double itemHeight = kMinInteractiveDimension,
-    Color? focusColor,
-    FocusNode? focusNode,
-    bool autofocus = false,
-    Color? dropdownColor,
-    EdgeInsetsGeometry? padding,
-    double? menuMaxHeight,
-    bool? enableFeedback,
-    AlignmentGeometry alignment = AlignmentDirectional.centerStart,
-    BorderRadius? borderRadius,
-  }) : this(
-          key: key,
-          selectableCountries: selectableCountries,
-          initialCountry: initialCountry,
-          itemBuilder: (context, country) => Text(
-              '${country.flagEmoji} +${country.countryCode} ${country.isoLocalizedShortName(Localizations.localeOf(context))}'),
-          onChanged: onChanged,
-          hint: hint,
-          disabledHint: disabledHint,
-          onTap: onTap,
-          selectedItemBuilder: selectedItemBuilder,
-          elevation: elevation,
-          style: style,
-          underline: underline,
-          icon: icon,
-          iconDisabledColor: iconDisabledColor,
-          iconEnabledColor: iconEnabledColor,
-          iconSize: iconSize,
-          isDense: isDense,
-          isExpanded: isExpanded,
-          itemHeight: itemHeight,
-          focusColor: focusColor,
-          focusNode: focusNode,
-          autofocus: autofocus,
-          dropdownColor: dropdownColor,
-          padding: padding,
-          menuMaxHeight: menuMaxHeight,
-          enableFeedback: enableFeedback,
-          alignment: alignment,
-          borderRadius: borderRadius,
-        );
-
+  /// The list of items the user can select.
+  ///
+  /// If the [onChanged] callback is null or the list of items is null
+  /// then the dropdown button will be disabled, i.e. its arrow will be
+  /// displayed in grey and it will not respond to input.
   final Iterable<Country> selectableCountries;
 
+  /// The value of the initial selected [DropdownMenuItem].
+  ///
+  /// If [initialCountry] is null and the button is enabled, [hint] will be displayed
+  /// if it is non-null.
+  ///
+  /// If [initialCountry] is null and the button is disabled, [disabledHint] will be displayed
+  /// if it is non-null. If [disabledHint] is null, then [hint] will be displayed
+  /// if it is non-null.
   final Country? initialCountry;
 
+  /// The list of items the user can select.
+  ///
+  /// If the [onChanged] callback is null or the list of items is null
+  /// then the dropdown button will be disabled, i.e. its arrow will be
+  /// displayed in grey and it will not respond to input.
   final CountryDropdownButtonItemBuilder itemBuilder;
 
+  /// {@template flutter.material.dropdownButton.onChanged}
+  /// Called when the user selects an item.
+  ///
+  /// If the [onChanged] callback is null or the list of [DropdownButton.items]
+  /// is null then the dropdown button will be disabled, i.e. its arrow will be
+  /// displayed in grey and it will not respond to input. A disabled button
+  /// will display the [DropdownButton.disabledHint] widget if it is non-null.
+  /// If [DropdownButton.disabledHint] is also null but [DropdownButton.hint] is
+  /// non-null, [DropdownButton.hint] will instead be displayed.
+  /// {@endtemplate}
   final ValueChanged<Country?>? onChanged;
 
   /// A placeholder widget that is displayed by the dropdown button.
@@ -203,7 +301,7 @@ class CountryDropdownButton extends StatefulWidget {
   ///
   /// If this callback is null, the [DropdownMenuItem] from [items]
   /// that matches [value] will be displayed.
-  final DropdownButtonBuilder? selectedItemBuilder;
+  final CountryDropdownButtonItemBuilder? selectedItemBuilder;
 
   /// The z-coordinate at which to place the menu when open.
   ///
@@ -369,6 +467,8 @@ class _CountryDropdownButtonState extends State<CountryDropdownButton> {
   @override
   Widget build(BuildContext context) {
     final onChanged = widget.onChanged;
+    final selectedItemBuilder = widget.selectedItemBuilder;
+
     return DropdownButton<Country>(
       items: [
         for (final country in widget.selectableCountries)
@@ -385,7 +485,12 @@ class _CountryDropdownButtonState extends State<CountryDropdownButton> {
         if (onChanged == null) return;
         onChanged(value);
       },
-      selectedItemBuilder: widget.selectedItemBuilder,
+      selectedItemBuilder: selectedItemBuilder == null
+          ? null
+          : (context) => [
+                for (final country in widget.selectableCountries)
+                  selectedItemBuilder(context, country)
+              ],
       hint: widget.hint,
       disabledHint: widget.disabledHint,
       onTap: widget.onTap,

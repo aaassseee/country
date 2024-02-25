@@ -1,3 +1,8 @@
-## 0.0.1
+## 1.0.0+1
 
-* TODO: Describe initial release.
+* updated pubspec topics
+
+## 1.0.0
+
+* Added CountryDropdownButton
+* Initial release
