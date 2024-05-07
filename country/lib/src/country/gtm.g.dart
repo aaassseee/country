@@ -195,7 +195,7 @@ const countryGTM = Country(
   subdivision: [
     Subdivision(
       name: 'Alta Verapaz',
-      code: 'AV',
+      code: '16',
       geo: SubdivisionGeoData(
         latitude: 15.5942883,
         longitude: -90.14949879999999,
@@ -258,7 +258,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Baja Verapaz',
-      code: 'BV',
+      code: '15',
       geo: SubdivisionGeoData(
         latitude: 15.0787498,
         longitude: -90.4125181,
@@ -320,7 +320,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Chimaltenango',
-      code: 'CM',
+      code: '04',
       geo: SubdivisionGeoData(
         latitude: 14.662222,
         longitude: -90.820833,
@@ -382,7 +382,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Chiquimula',
-      code: 'CQ',
+      code: '20',
       geo: SubdivisionGeoData(
         latitude: 14.783333,
         longitude: -89.533333,
@@ -442,7 +442,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Escuintla',
-      code: 'ES',
+      code: '05',
       geo: SubdivisionGeoData(
         latitude: 14.3009389,
         longitude: -90.7882163,
@@ -503,7 +503,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Guatemala',
-      code: 'GU',
+      code: '01',
       geo: SubdivisionGeoData(
         latitude: 14.613333,
         longitude: -90.53527799999999,
@@ -567,7 +567,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Huehuetenango',
-      code: 'HU',
+      code: '13',
       geo: SubdivisionGeoData(
         latitude: 15.314722,
         longitude: -91.47611099999999,
@@ -628,7 +628,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Izabal',
-      code: 'IZ',
+      code: '18',
       geo: SubdivisionGeoData(
         latitude: 15.4036847,
         longitude: -89.1384441,
@@ -689,7 +689,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Jalapa',
-      code: 'JA',
+      code: '21',
       geo: SubdivisionGeoData(
         latitude: 14.5655154,
         longitude: -89.9253233,
@@ -750,7 +750,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Jutiapa',
-      code: 'JU',
+      code: '22',
       geo: SubdivisionGeoData(
         latitude: 14.282778,
         longitude: -89.8925,
@@ -812,7 +812,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Petén',
-      code: 'PE',
+      code: '17',
       geo: SubdivisionGeoData(
         latitude: 16.912033,
         longitude: -90.2995785,
@@ -875,7 +875,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'El Progreso',
-      code: 'PR',
+      code: '02',
       geo: SubdivisionGeoData(
         latitude: 14.86527,
         longitude: -90.02031699999999,
@@ -936,7 +936,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Quiché',
-      code: 'QC',
+      code: '14',
       geo: SubdivisionGeoData(
         latitude: 15.4983808,
         longitude: -90.9820668,
@@ -997,7 +997,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Quetzaltenango',
-      code: 'QZ',
+      code: '09',
       geo: SubdivisionGeoData(
         latitude: 14.833333,
         longitude: -91.516667,
@@ -1060,7 +1060,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Retalhuleu',
-      code: 'RE',
+      code: '11',
       geo: SubdivisionGeoData(
         latitude: 14.533333,
         longitude: -91.68333299999999,
@@ -1122,7 +1122,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Sacatepéquez',
-      code: 'SA',
+      code: '03',
       geo: SubdivisionGeoData(
         latitude: 14.6110576,
         longitude: -90.7152749,
@@ -1185,7 +1185,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'San Marcos',
-      code: 'SM',
+      code: '12',
       geo: SubdivisionGeoData(
         latitude: 14.9309569,
         longitude: -91.9099238,
@@ -1246,7 +1246,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Sololá',
-      code: 'SO',
+      code: '07',
       geo: SubdivisionGeoData(
         latitude: 14.773889,
         longitude: -91.1875,
@@ -1307,7 +1307,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Santa Rosa',
-      code: 'SR',
+      code: '06',
       geo: SubdivisionGeoData(
         latitude: 14.1928003,
         longitude: -90.37483540000001,
@@ -1370,7 +1370,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Suchitepéquez',
-      code: 'SU',
+      code: '10',
       geo: SubdivisionGeoData(
         latitude: 14.4215982,
         longitude: -91.4048249,
@@ -1431,7 +1431,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Totonicapán',
-      code: 'TO',
+      code: '08',
       geo: SubdivisionGeoData(
         latitude: 14.910833,
         longitude: -91.360556,
@@ -1492,7 +1492,7 @@ const countryGTM = Country(
     ),
     Subdivision(
       name: 'Zacapa',
-      code: 'ZA',
+      code: '19',
       geo: SubdivisionGeoData(
         latitude: 15.0784265,
         longitude: -89.436391,

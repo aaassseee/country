@@ -48,7 +48,14 @@ const countryBGR = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'BG',
-  unofficialNames: ['Bulgaria', 'Bulgarien', 'Bulgarie', 'ブルガリア', 'Bulgarije'],
+  unofficialNames: [
+    'Bulgaria',
+    'България',
+    'Bulgarien',
+    'Bulgarie',
+    'ブルガリア',
+    'Bulgarije'
+  ],
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}
