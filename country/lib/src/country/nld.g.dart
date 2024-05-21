@@ -36,7 +36,7 @@ const countryNLD = Country(
   isoLongName: 'The Kingdom of the Netherlands',
   isoShortName: 'Netherlands',
   languagesOfficial: ['nl'],
-  languagesSpoken: ['nl'],
+  languagesSpoken: ['nl', 'fy'],
   nationalDestinationCodeLengths: [2],
   nationalNumberLengths: [9],
   nationalPrefix: '0',
