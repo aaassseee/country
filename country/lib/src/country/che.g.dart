@@ -35,8 +35,8 @@ const countryCHE = Country(
   ioc: 'SUI',
   isoLongName: 'The Swiss Confederation',
   isoShortName: 'Switzerland',
-  languagesOfficial: ['de', 'fr', 'it'],
-  languagesSpoken: ['de', 'fr', 'it'],
+  languagesOfficial: ['de', 'fr', 'it', 'rm'],
+  languagesSpoken: ['de', 'fr', 'it', 'rm'],
   nationalDestinationCodeLengths: [2],
   nationalNumberLengths: [9, 10],
   nationalPrefix: '0',
@@ -62,8 +62,8 @@ const countryCHE = Country(
 {{postalcode}} {{city}}
 {{country}}''',
   vatRates: VatRates(
-    standard: 7.7,
-    reduced: [2.5, 3.7],
+    standard: 8.1,
+    reduced: [2.6, 3.8],
     superReduced: null,
     parking: null,
   ),

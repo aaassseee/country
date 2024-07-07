@@ -64,7 +64,8 @@ const countryGBR = Country(
     'Великобритания',
     'Velká Británie',
     'İngiltere',
-    'Великобританія'
+    'Великобританія',
+    'Great Britain'
   ],
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}

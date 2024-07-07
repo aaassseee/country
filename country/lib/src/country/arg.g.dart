@@ -36,7 +36,7 @@ const countryARG = Country(
   isoLongName: 'The Argentine Republic',
   isoShortName: 'Argentina',
   languagesOfficial: ['es', 'gn'],
-  languagesSpoken: ['es', 'gn'],
+  languagesSpoken: ['es', 'gn', 'qu'],
   nationalDestinationCodeLengths: [2],
   nationalNumberLengths: [8, 9],
   nationalPrefix: '0',

@@ -1,3 +1,7 @@
+## 4.1.6
+
+* updated generated country with new data
+
 ## 4.1.5
 
 * updated generated country with new data
