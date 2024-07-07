@@ -1,6 +1,6 @@
 name: flutter_country
 description: Flutter extension function on country, generated country class by using countries.
-version: 4.0.0
+version: 4.0.1
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/flutter_country
 issue_tracker: https://github.com/aaassseee/country/issues
@@ -19,12 +19,12 @@ dependencies:
 #  country:
 #    path:
 #      ../country
-  country: '>=4.0.0 <5.0.0'
+  country: '>=4.1.6 <5.0.0'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: '>=3.0.0 <4.0.0'
+  flutter_lints: ">=4.0.0 <5.0.0"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -43,7 +43,7 @@ const countryPRY = Country(
   nationality: 'Paraguayan',
   number: '600',
   postalCode: true,
-  postalCodeFormat: r'\d{4}',
+  postalCodeFormat: r'\d{6}',
   region: Region.americas,
   startOfWeek: Week.monday,
   subregion: 'South America',
