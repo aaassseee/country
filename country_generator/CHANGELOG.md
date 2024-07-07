@@ -1,3 +1,7 @@
+## 4.1.2
+
+* upgrade dependencies
+
 ## 4.1.1
 
 * changed generated country to static const for exposing to function default value

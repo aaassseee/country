@@ -13,11 +13,11 @@ dependencies:
   yaml: '>=3.0.0 <4.0.0'
   path: '>=1.8.0 <2.0.0'
   collection: '>=1.15.0 <2.0.0'
-  country: '>=4.0.0 <5.0.0'
+  country: '>=4.1.6 <5.0.0'
 
 dev_dependencies:
   build_test: '>=2.0.0 <3.0.0'
-  flutter_lints: '>=3.0.0 <4.0.0'
+  flutter_lints: ">=4.0.0 <5.0.0"
   test: '>=1.0.0 <2.0.0'
 
 #dependency_overrides:
