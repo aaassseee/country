@@ -53,7 +53,8 @@ const countryCOG = Country(
     'Kongo',
     'コンゴ共和国',
     'Congo [Republiek]',
-    'Congo, Republic of'
+    'Congo, Republic of',
+    'Congo (Brazzaville)'
   ],
   worldRegion: WorldRegion.emea,
   addressFormat: null,
