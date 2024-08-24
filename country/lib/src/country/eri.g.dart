@@ -5,7 +5,7 @@ const countryERI = Country(
   alpha3: 'ERI',
   continent: Continent.africa,
   countryCode: '291',
-  currencyCode: 'ETB',
+  currencyCode: 'ERN',
   gec: 'ER',
   geo: GeoData(
     coordinate: Coordinate(

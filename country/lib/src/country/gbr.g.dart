@@ -9340,7 +9340,7 @@ const countryGBR = Country(
         minLongitude: -0.4976634,
       ),
       translation: {
-        "en": "Peter",
+        "en": "Peterborough",
         "af": "Peterborough",
         "ar": "بيتربرة",
         "bn": "পিটারবার্গ",
