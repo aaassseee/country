@@ -56,7 +56,8 @@ const countryCOD = Country(
     'Congo [DRC]',
     'Congo (The Democratic Republic Of The)',
     'Democratic Republic of the Congo',
-    'Congo, Democratic Republic of'
+    'Congo, Democratic Republic of',
+    'Congo (Kinshasa)'
   ],
   worldRegion: WorldRegion.emea,
   addressFormat: null,

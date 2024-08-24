@@ -48,7 +48,7 @@ const countryMMR = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'MM',
-  unofficialNames: ['Myanmar (Burma)', 'ミャンマー'],
+  unofficialNames: ['Myanmar (Burma)', 'ミャンマー', 'Burma'],
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,
