@@ -1,6 +1,6 @@
 name: country
 description: Generated country class with country_generator using countries.
-version: 4.1.8
+version: 4.1.9
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/country
 issue_tracker: https://github.com/aaassseee/country/issues
