@@ -55,7 +55,7 @@ const countryFIN = Country(
 {{postalcode}} {{city}}
 {{country}}''',
   vatRates: VatRates(
-    standard: 24.0,
+    standard: 25.5,
     reduced: [10.0, 14.0],
     superReduced: null,
     parking: null,

@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:country/country.dart';
 
+@Deprecated('Use flutter_country_utility instead')
 extension CountryExtension on Country {
   /// Quick way to get country short name by dart:ui locale
   /// throws [ArgumentError] when could not find any country short name
