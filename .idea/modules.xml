@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/country/country.iml" filepath="$PROJECT_DIR$/country/country.iml" />
       <module fileurl="file://$PROJECT_DIR$/country_generator/country_generator.iml" filepath="$PROJECT_DIR$/country_generator/country_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/country/example/example.iml" filepath="$PROJECT_DIR$/country/example/example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flutter_country/flutter_country.iml" filepath="$PROJECT_DIR$/flutter_country/flutter_country.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_country_utility/flutter_country_utility.iml" filepath="$PROJECT_DIR$/flutter_country_utility/flutter_country_utility.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_country_widget/flutter_country_widget.iml" filepath="$PROJECT_DIR$/flutter_country_widget/flutter_country_widget.iml" />
     </modules>
