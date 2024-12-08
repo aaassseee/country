@@ -52,7 +52,7 @@ const countryPRI = Country(
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '1787',
   eeaMember: false,
   euMember: false,
   esmMember: false,
