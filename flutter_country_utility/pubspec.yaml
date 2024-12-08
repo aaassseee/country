@@ -1,6 +1,6 @@
 name: flutter_country_utility
 description: "Flutter extension function by using country, generated country class by using countries."
-version: 3.0.5
+version: 3.0.6
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/flutter_country
 issue_tracker: https://github.com/aaassseee/country/issues
@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
   collection: '>=1.0.0 <2.0.0'
-  country: '>=4.1.9 <5.0.0'
+  country: '>=4.1.10 <5.0.0'
 
 dev_dependencies:
   flutter_test:
