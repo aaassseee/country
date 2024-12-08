@@ -62,7 +62,7 @@ const countryVIR = Country(
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '1340',
   eeaMember: false,
   euMember: false,
   esmMember: false,

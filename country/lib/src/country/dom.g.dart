@@ -59,7 +59,7 @@ const countryDOM = Country(
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '1809',
   eeaMember: false,
   euMember: false,
   esmMember: false,

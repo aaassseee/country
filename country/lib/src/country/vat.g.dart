@@ -60,7 +60,7 @@ const countryVAT = Country(
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '379',
   eeaMember: false,
   euMember: false,
   esmMember: false,

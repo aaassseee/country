@@ -59,7 +59,7 @@ const countryUMI = Country(
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '246',
   eeaMember: false,
   euMember: false,
   esmMember: false,

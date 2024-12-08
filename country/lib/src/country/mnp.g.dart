@@ -59,7 +59,7 @@ const countryMNP = Country(
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,
-  nanpPrefix: null,
+  nanpPrefix: '1670',
   eeaMember: false,
   euMember: false,
   esmMember: false,
