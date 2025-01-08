@@ -48,6 +48,7 @@ const countrySHN = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'SH',
+  unMember: false,
   unofficialNames: [
     'Saint Helena',
     'Sankt Helena',
@@ -57,6 +58,7 @@ const countrySHN = Country(
     'Sint-Helena',
     'Saint Helena, Ascension and Tristan da Cunha'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

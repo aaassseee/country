@@ -48,7 +48,9 @@ const countryTHA = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'TH',
+  unMember: true,
   unofficialNames: ['Thailand', 'Thaïlande', 'Tailandia', 'タイ', 'ประเทศไทย'],
+  vehicleRegistrationCode: 'T',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: VatRates(

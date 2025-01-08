@@ -48,6 +48,7 @@ const countryEGY = Country(
   startOfWeek: Week.sunday,
   subregion: 'Northern Africa',
   unLocode: 'EG',
+  unMember: true,
   unofficialNames: [
     'Egypt',
     'مصر',
@@ -57,6 +58,7 @@ const countryEGY = Country(
     'エジプト',
     'Egypte'
   ],
+  vehicleRegistrationCode: 'EG',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

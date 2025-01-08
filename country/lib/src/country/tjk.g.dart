@@ -48,6 +48,7 @@ const countryTJK = Country(
   startOfWeek: Week.monday,
   subregion: 'Central Asia',
   unLocode: 'TJ',
+  unMember: true,
   unofficialNames: [
     'Tajikistan',
     'Tadschikistan',
@@ -56,6 +57,7 @@ const countryTJK = Country(
     'Tadzjikistan',
     'Tajikstan'
   ],
+  vehicleRegistrationCode: 'TJ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

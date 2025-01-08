@@ -48,6 +48,7 @@ const countryVIR = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'VI',
+  unMember: false,
   unofficialNames: [
     'Virgin Islands of the United States',
     'Amerikanische Jungferninseln',
@@ -59,6 +60,7 @@ const countryVIR = Country(
     'United States Virgin Islands',
     'U.S. Virgin Islands'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

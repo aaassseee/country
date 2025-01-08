@@ -48,7 +48,9 @@ const countryMLT = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'MT',
+  unMember: true,
   unofficialNames: ['Malta', 'Malte', 'マルタ'],
+  vehicleRegistrationCode: 'M',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(

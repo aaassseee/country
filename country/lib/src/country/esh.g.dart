@@ -48,6 +48,7 @@ const countryESH = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Africa',
   unLocode: 'EH',
+  unMember: false,
   unofficialNames: [
     'Western Sahara',
     'الصحراء الغربية',
@@ -56,6 +57,7 @@ const countryESH = Country(
     '西サハラ',
     'Westelijke Sahara'
   ],
+  vehicleRegistrationCode: 'WSA',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

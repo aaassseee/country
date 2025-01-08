@@ -48,7 +48,9 @@ const countryPRT = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'PT',
+  unMember: true,
   unofficialNames: ['Portugal', 'ポルトガル'],
+  vehicleRegistrationCode: 'P',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

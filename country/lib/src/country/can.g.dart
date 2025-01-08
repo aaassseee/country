@@ -49,7 +49,9 @@ const countryCAN = Country(
   startOfWeek: Week.sunday,
   subregion: 'Northern America',
   unLocode: 'CA',
+  unMember: true,
   unofficialNames: ['Canada', 'Kanada', 'Canadá', 'カナダ'],
+  vehicleRegistrationCode: 'CDN',
   worldRegion: WorldRegion.amer,
   addressFormat: '''{{recipient}}
 {{street}}

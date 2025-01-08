@@ -48,12 +48,14 @@ const countryMDG = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'MG',
+  unMember: true,
   unofficialNames: [
     'Madagascar',
     'Madagaskar',
     'the Republic of Madagascar',
     'マダガスカル'
   ],
+  vehicleRegistrationCode: 'RM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

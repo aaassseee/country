@@ -48,12 +48,14 @@ const countryPCN = Country(
   startOfWeek: Week.monday,
   subregion: 'Polynesia',
   unLocode: 'PN',
+  unMember: false,
   unofficialNames: [
     'Pitcairn',
     'ピトケアン',
     'Pitcairneilanden',
     'Pitcairn Islands'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

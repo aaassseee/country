@@ -48,6 +48,7 @@ const countrySWE = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'SE',
+  unMember: true,
   unofficialNames: [
     'Sweden',
     'Schweden',
@@ -56,6 +57,7 @@ const countrySWE = Country(
     'スウェーデン',
     'Zweden'
   ],
+  vehicleRegistrationCode: 'S',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

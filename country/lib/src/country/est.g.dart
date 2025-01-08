@@ -48,7 +48,9 @@ const countryEST = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'EE',
+  unMember: true,
   unofficialNames: ['Estonia', 'Estland', 'Estonie', 'エストニア'],
+  vehicleRegistrationCode: 'EST',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(

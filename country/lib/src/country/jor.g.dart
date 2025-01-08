@@ -48,6 +48,7 @@ const countryJOR = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'JO',
+  unMember: true,
   unofficialNames: [
     'Jordan',
     'الأردن',
@@ -57,6 +58,7 @@ const countryJOR = Country(
     'ヨルダン',
     'Jordanië'
   ],
+  vehicleRegistrationCode: 'JOR',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

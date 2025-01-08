@@ -48,6 +48,7 @@ const countryLBY = Country(
   startOfWeek: Week.sunday,
   subregion: 'Northern Africa',
   unLocode: 'LY',
+  unMember: true,
   unofficialNames: [
     'Libya',
     'ليبيا',
@@ -58,6 +59,7 @@ const countryLBY = Country(
     'Libië',
     'Libyan Arab Jamahiriya'
   ],
+  vehicleRegistrationCode: 'LAR',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

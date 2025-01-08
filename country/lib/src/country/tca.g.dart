@@ -48,6 +48,7 @@ const countryTCA = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'TC',
+  unMember: false,
   unofficialNames: [
     'Turks and Caicos Islands',
     'Turks- und Caicosinseln',
@@ -57,6 +58,7 @@ const countryTCA = Country(
     'Turks- en Caicoseilanden',
     'Turks and Caicos'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

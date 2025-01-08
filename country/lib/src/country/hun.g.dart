@@ -48,6 +48,7 @@ const countryHUN = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'HU',
+  unMember: true,
   unofficialNames: [
     'Hungary',
     'Ungarn',
@@ -56,6 +57,7 @@ const countryHUN = Country(
     'ハンガリー',
     'Hongarije'
   ],
+  vehicleRegistrationCode: 'H',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{city}}

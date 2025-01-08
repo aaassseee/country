@@ -26,7 +26,9 @@ class Country {
     required this.startOfWeek,
     required this.subregion,
     required this.unLocode,
+    required this.unMember,
     required this.unofficialNames,
+    this.vehicleRegistrationCode,
     required this.worldRegion,
     this.addressFormat,
     this.vatRates,
@@ -68,7 +70,9 @@ class Country {
         startOfWeek: Week.fromWireName(json['start_of_week']),
         subregion: json['subregion'],
         unLocode: json['un_locode'],
+        unMember: json['un_member'] ?? false,
         unofficialNames: List<String>.from(json['unofficial_names']),
+        vehicleRegistrationCode: json['vehicle_registration_code'],
         worldRegion: WorldRegion.fromWireName(json['world_region']),
         addressFormat: json['address_format'],
         vatRates: json['vat_rates'] == null
@@ -234,8 +238,14 @@ class Country {
   /// crossing points.
   final String unLocode;
 
+  /// If this country is a member of the United Nations
+  final bool unMember;
+
   /// Array of unofficial, slang names or aliases for this country
   final List<String> unofficialNames;
+
+  /// The vehicle registration code for this Country
+  final String? vehicleRegistrationCode;
 
   /// The World Region this country is in: [WorldRegion.amer]
   /// , [WorldRegion.apac] or [WorldRegion.emea]
@@ -287,7 +297,7 @@ class Country {
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unofficialNames: $unofficialNames, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
   }
 
   @override
@@ -320,7 +330,9 @@ class Country {
           startOfWeek == other.startOfWeek &&
           subregion == other.subregion &&
           unLocode == other.unLocode &&
+          unMember == other.unMember &&
           unofficialNames == other.unofficialNames &&
+          vehicleRegistrationCode == other.vehicleRegistrationCode &&
           worldRegion == other.worldRegion &&
           addressFormat == other.addressFormat &&
           vatRates == other.vatRates &&
@@ -360,7 +372,9 @@ class Country {
       startOfWeek.hashCode ^
       subregion.hashCode ^
       unLocode.hashCode ^
+      unMember.hashCode ^
       unofficialNames.hashCode ^
+      vehicleRegistrationCode.hashCode ^
       worldRegion.hashCode ^
       addressFormat.hashCode ^
       vatRates.hashCode ^

@@ -48,6 +48,7 @@ const countryNCL = Country(
   startOfWeek: Week.monday,
   subregion: 'Melanesia',
   unLocode: 'NC',
+  unMember: false,
   unofficialNames: [
     'New Caledonia',
     'Neukaledonien',
@@ -56,6 +57,7 @@ const countryNCL = Country(
     'ニューカレドニア',
     'Nieuw-Caledonië'
   ],
+  vehicleRegistrationCode: 'NCL',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryCZE = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'CZ',
+  unMember: true,
   unofficialNames: [
     'Czech Republic',
     'Tschechische Republik',
@@ -58,6 +59,7 @@ const countryCZE = Country(
     'Czechia',
     'Česká republika'
   ],
+  vehicleRegistrationCode: 'CZ',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

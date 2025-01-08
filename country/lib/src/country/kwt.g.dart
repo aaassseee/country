@@ -48,7 +48,9 @@ const countryKWT = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'KW',
+  unMember: true,
   unofficialNames: ['Kuwait', 'الكويت', 'Koweït', 'クウェート', 'Koeweit'],
+  vehicleRegistrationCode: 'KWT',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

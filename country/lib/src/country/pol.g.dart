@@ -48,7 +48,9 @@ const countryPOL = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'PL',
+  unMember: true,
   unofficialNames: ['Poland', 'Polen', 'Pologne', 'Polonia', 'ポーランド'],
+  vehicleRegistrationCode: 'PL',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

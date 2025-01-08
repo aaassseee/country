@@ -48,6 +48,7 @@ const countryFRO = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'FO',
+  unMember: false,
   unofficialNames: [
     'Faroe Islands',
     'Färöer-Inseln',
@@ -56,6 +57,7 @@ const countryFRO = Country(
     'フェロー諸島',
     'Faeröer'
   ],
+  vehicleRegistrationCode: 'FO',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

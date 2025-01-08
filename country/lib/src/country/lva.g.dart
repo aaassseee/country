@@ -48,6 +48,7 @@ const countryLVA = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'LV',
+  unMember: true,
   unofficialNames: [
     'Latvia',
     'Lettland',
@@ -56,6 +57,7 @@ const countryLVA = Country(
     'ラトビア',
     'Letland'
   ],
+  vehicleRegistrationCode: 'LV',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

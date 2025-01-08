@@ -48,6 +48,7 @@ const countryPHL = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'PH',
+  unMember: true,
   unofficialNames: [
     'Philippines',
     'Philippinen',
@@ -55,6 +56,7 @@ const countryPHL = Country(
     'フィリピン',
     'Filipijnen'
   ],
+  vehicleRegistrationCode: 'RP',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}} {{region_short}}

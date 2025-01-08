@@ -48,6 +48,7 @@ const countryTUN = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Africa',
   unLocode: 'TN',
+  unMember: true,
   unofficialNames: [
     'Tunisia',
     'تونس',
@@ -57,6 +58,7 @@ const countryTUN = Country(
     'チュニジア',
     'Tunesië'
   ],
+  vehicleRegistrationCode: 'TN',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

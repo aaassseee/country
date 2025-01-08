@@ -48,6 +48,7 @@ const countryGRC = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'GR',
+  unMember: true,
   unofficialNames: [
     'Greece',
     'Griechenland',
@@ -56,6 +57,7 @@ const countryGRC = Country(
     'ギリシャ',
     'Griekenland'
   ],
+  vehicleRegistrationCode: 'GR',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

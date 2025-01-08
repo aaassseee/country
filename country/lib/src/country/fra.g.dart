@@ -48,6 +48,7 @@ const countryFRA = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'FR',
+  unMember: true,
   unofficialNames: [
     'France',
     'Frankreich',
@@ -56,6 +57,7 @@ const countryFRA = Country(
     'Frankrijk',
     'Francia'
   ],
+  vehicleRegistrationCode: 'F',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

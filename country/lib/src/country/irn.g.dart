@@ -48,6 +48,7 @@ const countryIRN = Country(
   startOfWeek: Week.saturday,
   subregion: 'Southern Asia',
   unLocode: 'IR',
+  unMember: true,
   unofficialNames: [
     'Iran',
     'Irán',
@@ -55,6 +56,7 @@ const countryIRN = Country(
     'イラン・イスラム共和国',
     'Islamic Republic of Iran'
   ],
+  vehicleRegistrationCode: 'IR',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

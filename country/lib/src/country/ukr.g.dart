@@ -48,6 +48,7 @@ const countryUKR = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'UA',
+  unMember: true,
   unofficialNames: [
     'Ukraine',
     'Ucrania',
@@ -57,6 +58,7 @@ const countryUKR = Country(
     'Україна',
     'Украіна'
   ],
+  vehicleRegistrationCode: 'UA',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

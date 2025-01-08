@@ -48,7 +48,9 @@ const countryISR = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'IL',
+  unMember: true,
   unofficialNames: ['Israel', 'Israël', 'イスラエル'],
+  vehicleRegistrationCode: 'IL',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

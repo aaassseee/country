@@ -48,6 +48,7 @@ const countrySYR = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'SY',
+  unMember: true,
   unofficialNames: [
     'Syria',
     'سوريا',
@@ -58,6 +59,7 @@ const countrySYR = Country(
     'シリア・アラブ共和国',
     'Syrië'
   ],
+  vehicleRegistrationCode: 'SYR',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

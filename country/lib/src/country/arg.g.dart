@@ -48,6 +48,7 @@ const countryARG = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'AR',
+  unMember: true,
   unofficialNames: [
     'Argentina',
     'Argentinien',
@@ -55,6 +56,7 @@ const countryARG = Country(
     'アルゼンチン',
     'Argentinië'
   ],
+  vehicleRegistrationCode: 'RA',
   worldRegion: WorldRegion.amer,
   addressFormat: '''{{recipient}}
 {{street}}

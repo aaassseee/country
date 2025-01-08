@@ -48,6 +48,7 @@ const countryCOK = Country(
   startOfWeek: Week.monday,
   subregion: 'Polynesia',
   unLocode: 'CK',
+  unMember: false,
   unofficialNames: [
     'Cook Islands',
     'Cookinseln',
@@ -56,6 +57,7 @@ const countryCOK = Country(
     'クック諸島',
     'Cookeilanden'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

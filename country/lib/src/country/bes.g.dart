@@ -48,12 +48,14 @@ const countryBES = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'BQ',
+  unMember: false,
   unofficialNames: [
     'Bonaire, Sint Eustatius and Saba',
     'Caribbean Netherlands',
     'Caribisch Nederland',
     'ボネール、シント・ユースタティウスおよびサバ'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

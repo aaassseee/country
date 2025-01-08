@@ -48,6 +48,7 @@ const countryHMD = Country(
   startOfWeek: Week.monday,
   subregion: '',
   unLocode: 'HM',
+  unMember: false,
   unofficialNames: [
     'Heard and McDonald Islands',
     'Heard und die McDonaldinseln',
@@ -55,6 +56,7 @@ const countryHMD = Country(
     'Heard- en McDonaldeilanden',
     'Heard Island and McDonald Islands'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

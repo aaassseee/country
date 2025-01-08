@@ -48,12 +48,14 @@ const countryNPL = Country(
   startOfWeek: Week.sunday,
   subregion: 'Southern Asia',
   unLocode: 'NP',
+  unMember: true,
   unofficialNames: [
     'Nepal',
     'Népal',
     'the Federal Democratic Republic of Nepal',
     'ネパール'
   ],
+  vehicleRegistrationCode: 'NEP*',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

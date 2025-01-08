@@ -48,6 +48,7 @@ const countryMAR = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Africa',
   unLocode: 'MA',
+  unMember: true,
   unofficialNames: [
     'Morocco',
     'المغرب',
@@ -56,6 +57,7 @@ const countryMAR = Country(
     'Marruecos',
     'モロッコ'
   ],
+  vehicleRegistrationCode: 'MA',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryARE = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'AE',
+  unMember: true,
   unofficialNames: [
     'United Arab Emirates',
     'الإمارات العربية المتحدة',
@@ -57,6 +58,7 @@ const countryARE = Country(
     'アラブ首長国連邦',
     'Verenigde Arabische Emiraten'
   ],
+  vehicleRegistrationCode: 'UAE',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

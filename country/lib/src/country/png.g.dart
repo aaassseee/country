@@ -48,6 +48,7 @@ const countryPNG = Country(
   startOfWeek: Week.monday,
   subregion: 'Melanesia',
   unLocode: 'PG',
+  unMember: true,
   unofficialNames: [
     'Papua New Guinea',
     'Papua-Neuguinea',
@@ -56,6 +57,7 @@ const countryPNG = Country(
     'パプアニューギニア',
     'Papoea-Nieuw-Guinea'
   ],
+  vehicleRegistrationCode: 'PNG',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

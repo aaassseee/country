@@ -48,6 +48,7 @@ const countryCMR = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'CM',
+  unMember: true,
   unofficialNames: [
     'Cameroon',
     'Kamerun',
@@ -56,6 +57,7 @@ const countryCMR = Country(
     'カメルーン',
     'Kameroen'
   ],
+  vehicleRegistrationCode: 'CAM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

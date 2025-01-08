@@ -48,6 +48,7 @@ const countryIMN = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'IM',
+  unMember: false,
   unofficialNames: [
     'Isle of Man',
     'Insel Man',
@@ -55,6 +56,7 @@ const countryIMN = Country(
     'Isla de Man',
     'マン島'
   ],
+  vehicleRegistrationCode: 'GBM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

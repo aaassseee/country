@@ -48,6 +48,7 @@ const countryGRL = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern America',
   unLocode: 'GL',
+  unMember: false,
   unofficialNames: [
     'Greenland',
     'Grönland',
@@ -55,6 +56,7 @@ const countryGRL = Country(
     'Groenlandia',
     'グリーンランド'
   ],
+  vehicleRegistrationCode: 'KN',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

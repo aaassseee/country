@@ -48,6 +48,7 @@ const countrySLB = Country(
   startOfWeek: Week.monday,
   subregion: 'Melanesia',
   unLocode: 'SB',
+  unMember: true,
   unofficialNames: [
     'Solomon Islands',
     'Salomonen',
@@ -56,6 +57,7 @@ const countrySLB = Country(
     'ソロモン諸島',
     'Salomonseilanden'
   ],
+  vehicleRegistrationCode: 'SOL',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

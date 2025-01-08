@@ -48,6 +48,7 @@ const countryVAT = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'VA',
+  unMember: false,
   unofficialNames: [
     'Vatican City',
     'Vatikan',
@@ -57,6 +58,7 @@ const countryVAT = Country(
     'Vaticaanstad',
     'Vatican City State (Holy See)'
   ],
+  vehicleRegistrationCode: 'V',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

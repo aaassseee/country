@@ -48,6 +48,7 @@ const countryNLD = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'NL',
+  unMember: true,
   unofficialNames: [
     'Netherlands',
     'The Netherlands',
@@ -58,6 +59,7 @@ const countryNLD = Country(
     'Nederland',
     'Нидерландия'
   ],
+  vehicleRegistrationCode: 'NL',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

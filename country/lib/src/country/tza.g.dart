@@ -48,6 +48,7 @@ const countryTZA = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'TZ',
+  unMember: true,
   unofficialNames: [
     'Tanzania',
     'Tansania',
@@ -55,6 +56,7 @@ const countryTZA = Country(
     'タンザニア',
     'Tanzania United Republic'
   ],
+  vehicleRegistrationCode: 'EAT',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

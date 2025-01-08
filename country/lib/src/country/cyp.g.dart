@@ -48,7 +48,9 @@ const countryCYP = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'CY',
+  unMember: true,
   unofficialNames: ['Cyprus', 'Zypern', 'Chypre', 'Chipre', 'キプロス'],
+  vehicleRegistrationCode: 'CY',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(

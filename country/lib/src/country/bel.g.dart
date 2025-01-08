@@ -48,6 +48,7 @@ const countryBEL = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'BE',
+  unMember: true,
   unofficialNames: [
     'Belgium',
     'Belgien',
@@ -56,6 +57,7 @@ const countryBEL = Country(
     'ベルギー',
     'België'
   ],
+  vehicleRegistrationCode: 'B',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

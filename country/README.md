@@ -15,6 +15,7 @@ dependencies:
 ```
 
 ##### latest version
+
 [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)
 
 ### API
@@ -22,15 +23,19 @@ dependencies:
 ##### Short name by locale (flutter_country_utility depend on Flutter)
 
 ###### Install
+
 Replace country by installing the following lines in your pubspec.yaml file
 
 ```yaml
 flutter_country_utility: ^latest_version
 ```
+
 ##### latest version
+
 [![pub package](https://img.shields.io/pub/v/flutter_country_utility.svg)](https://pub.dartlang.org/packages/flutter_country_utility)
 
 e.g
+
 ```dart
 String getShortNameByLocale(Country country) {
   return country.getIsoShortNameByLocale(const Locale('zh', 'HK'));
@@ -40,6 +45,7 @@ String getShortNameByLocale(Country country) {
 #### Flag emoji
 
 e.g
+
 ```dart
 String getCountryFlagEmoji(Country country) {
   return country.flagEmoji;
@@ -49,6 +55,7 @@ String getCountryFlagEmoji(Country country) {
 #### All country
 
 e.g
+
 ```dart
 void printAllCountry() {
   for (final country in Countries.values) {
@@ -87,7 +94,9 @@ void printAllCountry() {
 | startOfWeek                    | &cross;  | starting day of the week                                                                         |
 | subregion                      | &cross;  | subegion this country is in                                                                      |
 | unLocode                       | &cross;  | UN/LOCODE prefix for this country                                                                |
+| unMember                       | &cross;  | is a member of the United Nations                                                                |
 | unofficialNames                | &cross;  | unofficial, slang names or aliases for this country                                              |
+| vehicleRegistrationCode        | &check;  | The vehicle registration code for this Country                                                   |
 | worldRegion                    | &cross;  | The World Region this country is in                                                              |
 | addressFormat                  | &check;  | template for formatting addresses                                                                |
 | vatRates                       | &check;  | value-added tax rate                                                                             |

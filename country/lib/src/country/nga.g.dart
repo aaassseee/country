@@ -48,12 +48,14 @@ const countryNGA = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'NG',
+  unMember: true,
   unofficialNames: [
     'Nigeria',
     'Nigéria',
     'the Federal Republic of Nigeria',
     'ナイジェリア'
   ],
+  vehicleRegistrationCode: 'NGR',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(

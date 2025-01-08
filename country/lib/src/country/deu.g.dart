@@ -48,6 +48,7 @@ const countryDEU = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'DE',
+  unMember: true,
   unofficialNames: [
     'Germany',
     'Deutschland',
@@ -56,6 +57,7 @@ const countryDEU = Country(
     'ドイツ',
     'Duitsland'
   ],
+  vehicleRegistrationCode: 'D',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

@@ -48,6 +48,7 @@ const countryASM = Country(
   startOfWeek: Week.monday,
   subregion: 'Polynesia',
   unLocode: 'AS',
+  unMember: false,
   unofficialNames: [
     'American Samoa',
     'Amerikanisch-Samoa',
@@ -56,6 +57,7 @@ const countryASM = Country(
     'アメリカ領サモア',
     'Amerikaans Samoa'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

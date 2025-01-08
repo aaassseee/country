@@ -48,6 +48,7 @@ const countryVGB = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'VG',
+  unMember: false,
   unofficialNames: [
     'British Virgin Islands',
     'Britische Jungferninseln',
@@ -57,6 +58,7 @@ const countryVGB = Country(
     'Britse Maagdeneilanden',
     'Virgin Islands (British)'
   ],
+  vehicleRegistrationCode: 'BVI',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

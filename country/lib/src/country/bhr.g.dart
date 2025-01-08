@@ -48,7 +48,9 @@ const countryBHR = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'BH',
+  unMember: true,
   unofficialNames: ['Bahrain', 'البحرين', 'Bahreïn', 'Bahrein', 'バーレーン'],
+  vehicleRegistrationCode: 'BRN',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

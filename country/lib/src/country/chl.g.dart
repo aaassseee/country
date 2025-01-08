@@ -48,7 +48,9 @@ const countryCHL = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'CL',
+  unMember: true,
   unofficialNames: ['Chile', 'チリ', 'Chili'],
+  vehicleRegistrationCode: 'RCH',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: VatRates(

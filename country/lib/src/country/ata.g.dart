@@ -48,6 +48,7 @@ const countryATA = Country(
   startOfWeek: Week.monday,
   subregion: '',
   unLocode: 'AQ',
+  unMember: false,
   unofficialNames: [
     'Antarctica',
     'Antarktis',
@@ -55,6 +56,7 @@ const countryATA = Country(
     'Antártida',
     '南極'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

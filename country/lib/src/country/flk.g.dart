@@ -48,6 +48,7 @@ const countryFLK = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'FK',
+  unMember: false,
   unofficialNames: [
     'Falkland Islands',
     'Falklandinseln',
@@ -56,6 +57,7 @@ const countryFLK = Country(
     'フォークランド（マルビナス）諸島',
     'Falklandeilanden [Islas Malvinas]'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

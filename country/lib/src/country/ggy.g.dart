@@ -48,6 +48,7 @@ const countryGGY = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'GG',
+  unMember: false,
   unofficialNames: [
     'Guernsey and Alderney',
     'Guernsey und Alderney',
@@ -56,6 +57,7 @@ const countryGGY = Country(
     'ガーンジー',
     'Guernsey'
   ],
+  vehicleRegistrationCode: 'GBA',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

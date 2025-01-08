@@ -48,6 +48,7 @@ const countryBRA = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'BR',
+  unMember: true,
   unofficialNames: [
     'Brazil',
     'Brasilien',
@@ -56,6 +57,7 @@ const countryBRA = Country(
     'ブラジル',
     'Brazilië'
   ],
+  vehicleRegistrationCode: 'BR',
   worldRegion: WorldRegion.amer,
   addressFormat: '''{{recipient}}
 {{street}}

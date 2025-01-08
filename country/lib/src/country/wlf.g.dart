@@ -48,6 +48,7 @@ const countryWLF = Country(
   startOfWeek: Week.monday,
   subregion: 'Polynesia',
   unLocode: 'WF',
+  unMember: false,
   unofficialNames: [
     'Wallis and Futuna',
     'Wallis und Futuna',
@@ -56,6 +57,7 @@ const countryWLF = Country(
     'ウォリス・フツナ',
     'Wallis en Futuna'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

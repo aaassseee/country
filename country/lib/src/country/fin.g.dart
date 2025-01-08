@@ -48,7 +48,9 @@ const countryFIN = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'FI',
+  unMember: true,
   unofficialNames: ['Finland', 'Finnland', 'Finlande', 'Finlandia', 'フィンランド'],
+  vehicleRegistrationCode: 'FIN',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

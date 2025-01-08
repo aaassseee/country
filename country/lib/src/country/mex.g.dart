@@ -48,7 +48,9 @@ const countryMEX = Country(
   startOfWeek: Week.monday,
   subregion: 'Central America',
   unLocode: 'MX',
+  unMember: true,
   unofficialNames: ['Mexico', 'Mexiko', 'Mexique', 'México', 'メキシコ'],
+  vehicleRegistrationCode: 'MEX',
   worldRegion: WorldRegion.amer,
   addressFormat: '''{{recipient}}
 {{street}}

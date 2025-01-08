@@ -48,6 +48,7 @@ const countrySAU = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'SA',
+  unMember: true,
   unofficialNames: [
     'Saudi Arabia',
     'Kingdom of Saudi Arabia',
@@ -58,6 +59,7 @@ const countrySAU = Country(
     'サウジアラビア',
     'Saoedi-Arabië'
   ],
+  vehicleRegistrationCode: 'KSA',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

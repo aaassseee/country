@@ -48,6 +48,7 @@ const countryNFK = Country(
   startOfWeek: Week.monday,
   subregion: 'Australia and New Zealand',
   unLocode: 'NF',
+  unMember: false,
   unofficialNames: [
     'Norfolk Island',
     'Norfolkinsel',
@@ -56,6 +57,7 @@ const countryNFK = Country(
     'ノーフォーク島',
     'Norfolkeiland'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

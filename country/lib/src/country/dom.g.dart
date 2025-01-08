@@ -48,6 +48,7 @@ const countryDOM = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'DO',
+  unMember: true,
   unofficialNames: [
     'Dominican Republic',
     'Dominikanische Republik',
@@ -56,6 +57,7 @@ const countryDOM = Country(
     'ドミニカ共和国',
     'Dominicaanse Republiek'
   ],
+  vehicleRegistrationCode: 'DOM',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

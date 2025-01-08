@@ -48,6 +48,7 @@ const countryUMI = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern America',
   unLocode: 'UM',
+  unMember: false,
   unofficialNames: [
     'United States Minor Outlying Islands',
     'US-Amerikanische Hoheitsgebiete',
@@ -56,6 +57,7 @@ const countryUMI = Country(
     '合衆国領有小離島',
     'Kleine afgelegen eilanden van de Verenigde Staten'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

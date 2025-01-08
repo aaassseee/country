@@ -48,6 +48,7 @@ const countryAZE = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'AZ',
+  unMember: true,
   unofficialNames: [
     'Azerbaijan',
     'Aserbaidschan',
@@ -56,6 +57,7 @@ const countryAZE = Country(
     'アゼルバイジャン',
     'Azerbeidzjan'
   ],
+  vehicleRegistrationCode: 'AZ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryROU = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'RO',
+  unMember: true,
   unofficialNames: [
     'Romania',
     'Rumänien',
@@ -56,6 +57,7 @@ const countryROU = Country(
     'ルーマニア',
     'Roemenië'
   ],
+  vehicleRegistrationCode: 'RO',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

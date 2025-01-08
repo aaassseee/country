@@ -48,6 +48,7 @@ const countryPSE = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'PS',
+  unMember: false,
   unofficialNames: [
     'Palestine',
     'فلسطين',
@@ -59,6 +60,7 @@ const countryPSE = Country(
     'Palestinian Territory Occupied',
     'Palestinian Authority'
   ],
+  vehicleRegistrationCode: 'WB',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

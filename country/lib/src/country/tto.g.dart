@@ -48,6 +48,7 @@ const countryTTO = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'TT',
+  unMember: true,
   unofficialNames: [
     'Trinidad and Tobago',
     'Trinidad und Tobago',
@@ -56,6 +57,7 @@ const countryTTO = Country(
     'トリニダード・トバゴ',
     'Trinidad en Tobago'
   ],
+  vehicleRegistrationCode: 'TT',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

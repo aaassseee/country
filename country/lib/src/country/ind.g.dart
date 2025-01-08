@@ -48,7 +48,9 @@ const countryIND = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Asia',
   unLocode: 'IN',
+  unMember: true,
   unofficialNames: ['India', 'Indien', 'Inde', 'インド'],
+  vehicleRegistrationCode: 'IND',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

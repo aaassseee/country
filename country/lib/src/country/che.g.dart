@@ -48,6 +48,7 @@ const countryCHE = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'CH',
+  unMember: true,
   unofficialNames: [
     'Switzerland',
     'Schweiz',
@@ -56,6 +57,7 @@ const countryCHE = Country(
     'スイス',
     'Zwitserland'
   ],
+  vehicleRegistrationCode: 'CH',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

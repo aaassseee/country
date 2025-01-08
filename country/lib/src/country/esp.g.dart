@@ -48,7 +48,9 @@ const countryESP = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'ES',
+  unMember: true,
   unofficialNames: ['Spain', 'Spanien', 'Espagne', 'España', 'スペイン', 'Spanje'],
+  vehicleRegistrationCode: 'E',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

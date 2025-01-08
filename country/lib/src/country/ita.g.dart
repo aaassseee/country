@@ -48,7 +48,9 @@ const countryITA = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'IT',
+  unMember: true,
   unofficialNames: ['Italy', 'Italien', 'Italie', 'Italia', 'イタリア', 'Italië'],
+  vehicleRegistrationCode: 'I',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

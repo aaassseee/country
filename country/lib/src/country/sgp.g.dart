@@ -48,7 +48,9 @@ const countrySGP = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'SG',
+  unMember: true,
   unofficialNames: ['Singapore', 'Singapur', 'Singapour', 'シンガポール'],
+  vehicleRegistrationCode: 'SGP',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}
