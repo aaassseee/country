@@ -48,7 +48,9 @@ const countryJPN = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'JP',
+  unMember: true,
   unofficialNames: ['Japan', 'Japon', 'Japón', '日本'],
+  vehicleRegistrationCode: 'J',
   worldRegion: WorldRegion.apac,
   addressFormat: '''〒{{postalcode}}
 {{region_short}}{{city}}{{street}}

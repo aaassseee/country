@@ -48,6 +48,7 @@ const countryTLS = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'TL',
+  unMember: true,
   unofficialNames: [
     'East Timor',
     'Timor-Leste',
@@ -56,6 +57,7 @@ const countryTLS = Country(
     '東ティモール',
     'Oost-Timor'
   ],
+  vehicleRegistrationCode: 'TL',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

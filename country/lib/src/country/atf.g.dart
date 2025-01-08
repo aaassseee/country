@@ -48,6 +48,7 @@ const countryATF = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'TF',
+  unMember: false,
   unofficialNames: [
     'French Southern Territories',
     'Französische Süd- und Antarktisgebiete',
@@ -57,6 +58,7 @@ const countryATF = Country(
     'Franse Gebieden in de zuidelijke Indische Oceaan',
     'French Southern and Antarctic Lands'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

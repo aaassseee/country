@@ -48,6 +48,7 @@ const countryGNB = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'GW',
+  unMember: true,
   unofficialNames: [
     'Guinea-Bissau',
     'Guinée-Bissau',
@@ -55,6 +56,7 @@ const countryGNB = Country(
     'Guinee-Bissau',
     'Guinea Bissau'
   ],
+  vehicleRegistrationCode: 'GUB',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

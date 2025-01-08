@@ -48,6 +48,7 @@ const countryPRK = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'KP',
+  unMember: true,
   unofficialNames: [
     'Korea (North)',
     'North Korea',
@@ -59,6 +60,7 @@ const countryPRK = Country(
     'Korea Democratic People\'s Republic',
     'Korea (Democratic People s Republic of)'
   ],
+  vehicleRegistrationCode: 'KP',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

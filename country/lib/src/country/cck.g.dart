@@ -48,12 +48,14 @@ const countryCCK = Country(
   startOfWeek: Week.monday,
   subregion: 'Australia and New Zealand',
   unLocode: 'CC',
+  unMember: false,
   unofficialNames: [
     'Cocos (Keeling) Islands',
     'Kokosinseln',
     'ココス（キーリング）諸島',
     'Cocoseilanden'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

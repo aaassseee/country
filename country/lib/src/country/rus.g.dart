@@ -48,6 +48,7 @@ const countryRUS = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'RU',
+  unMember: true,
   unofficialNames: [
     'Russia',
     'Russland',
@@ -58,6 +59,7 @@ const countryRUS = Country(
     'Россия',
     'Расія'
   ],
+  vehicleRegistrationCode: 'RUS',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{postalcode}} {{city}}

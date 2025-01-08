@@ -48,6 +48,7 @@ const countryCOM = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'KM',
+  unMember: true,
   unofficialNames: [
     'Comoros',
     'Union der Komoren',
@@ -55,6 +56,7 @@ const countryCOM = Country(
     'コモロ',
     'Comoren'
   ],
+  vehicleRegistrationCode: 'COM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

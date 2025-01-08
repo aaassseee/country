@@ -48,6 +48,7 @@ const countryBIH = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'BA',
+  unMember: true,
   unofficialNames: [
     'Bosnia and Herzegovina',
     'Bosnien und Herzegowina',
@@ -57,6 +58,7 @@ const countryBIH = Country(
     'Bosnië en Herzegovina',
     'Bosnia Herzegovina'
   ],
+  vehicleRegistrationCode: 'BIH',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

@@ -48,7 +48,9 @@ const countryHKG = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'HK',
+  unMember: false,
   unofficialNames: ['Hong Kong', '香港', 'Hongkong'],
+  vehicleRegistrationCode: 'HK',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

@@ -48,6 +48,7 @@ const countryPYF = Country(
   startOfWeek: Week.monday,
   subregion: 'Polynesia',
   unLocode: 'PF',
+  unMember: false,
   unofficialNames: [
     'French Polynesia',
     'Französisch-Polynesien',
@@ -56,6 +57,7 @@ const countryPYF = Country(
     'フランス領ポリネシア',
     'Frans-Polynesië'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryKHM = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'KH',
+  unMember: true,
   unofficialNames: [
     'Cambodia',
     'Kambodscha',
@@ -56,6 +57,7 @@ const countryKHM = Country(
     'カンボジア',
     'Cambodja'
   ],
+  vehicleRegistrationCode: 'K',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

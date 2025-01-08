@@ -48,6 +48,7 @@ const countryFSM = Country(
   startOfWeek: Week.monday,
   subregion: 'Micronesia',
   unLocode: 'FM',
+  unMember: true,
   unofficialNames: [
     'Micronesia',
     'Mikronesien',
@@ -55,6 +56,7 @@ const countryFSM = Country(
     'ミクロネシア連邦',
     'Micronesië'
   ],
+  vehicleRegistrationCode: 'FSM',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

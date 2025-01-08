@@ -48,6 +48,7 @@ const countryKNA = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'KN',
+  unMember: true,
   unofficialNames: [
     'Saint Kitts and Nevis',
     'Föderation St. Kitts und Nevis',
@@ -58,6 +59,7 @@ const countryKNA = Country(
     'St. Kitts and Nevis',
     'St Kitts and Nevis'
   ],
+  vehicleRegistrationCode: 'KAN',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

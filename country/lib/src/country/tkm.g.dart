@@ -48,6 +48,7 @@ const countryTKM = Country(
   startOfWeek: Week.monday,
   subregion: 'Central Asia',
   unLocode: 'TM',
+  unMember: true,
   unofficialNames: [
     'Turkmenistan',
     'Turkménistan',
@@ -55,6 +56,7 @@ const countryTKM = Country(
     'トルクメニスタン',
     'Turkmenia'
   ],
+  vehicleRegistrationCode: 'TM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

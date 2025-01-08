@@ -48,6 +48,7 @@ const countryVCT = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'VC',
+  unMember: true,
   unofficialNames: [
     'Saint Vincent and the Grenadines',
     'Saint Vincent und die Grenadinen',
@@ -58,6 +59,7 @@ const countryVCT = Country(
     'St. Vincent Grenadines',
     'St Vincent Grenadines'
   ],
+  vehicleRegistrationCode: 'WV',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

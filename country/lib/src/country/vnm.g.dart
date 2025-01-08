@@ -48,7 +48,9 @@ const countryVNM = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'VN',
+  unMember: true,
   unofficialNames: ['Vietnam', 'ベトナム', 'Viet Nam'],
+  vehicleRegistrationCode: 'VN',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

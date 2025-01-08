@@ -48,6 +48,7 @@ const countryMRT = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'MR',
+  unMember: true,
   unofficialNames: [
     'Mauritania',
     'موريتانيا',
@@ -56,6 +57,7 @@ const countryMRT = Country(
     'モーリタニア',
     'Mauritanië'
   ],
+  vehicleRegistrationCode: 'RIM',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

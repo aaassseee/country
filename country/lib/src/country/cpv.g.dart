@@ -48,6 +48,7 @@ const countryCPV = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'CV',
+  unMember: true,
   unofficialNames: [
     'Cape Verde',
     'Kap Verde',
@@ -56,6 +57,7 @@ const countryCPV = Country(
     'カーボベルデ',
     'Kaapverdië'
   ],
+  vehicleRegistrationCode: 'CV',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

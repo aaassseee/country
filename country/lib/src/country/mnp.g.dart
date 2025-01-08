@@ -48,6 +48,7 @@ const countryMNP = Country(
   startOfWeek: Week.monday,
   subregion: 'Micronesia',
   unLocode: 'MP',
+  unMember: false,
   unofficialNames: [
     'Northern Mariana Islands',
     'Nördliche Marianen',
@@ -56,6 +57,7 @@ const countryMNP = Country(
     '北マリアナ諸島',
     'Noordelijke Marianeneilanden'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

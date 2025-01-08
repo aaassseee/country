@@ -48,6 +48,7 @@ const countryIDN = Country(
   startOfWeek: Week.monday,
   subregion: 'South-Eastern Asia',
   unLocode: 'ID',
+  unMember: true,
   unofficialNames: [
     'Indonesia',
     'Indonesien',
@@ -55,6 +56,7 @@ const countryIDN = Country(
     'インドネシア',
     'Indonesië'
   ],
+  vehicleRegistrationCode: 'RI',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

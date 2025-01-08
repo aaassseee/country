@@ -48,7 +48,9 @@ const countryLBN = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'LB',
+  unMember: true,
   unofficialNames: ['Lebanon', 'لبنان', 'Libanon', 'Liban', 'Líbano', 'レバノン'],
+  vehicleRegistrationCode: 'RL',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

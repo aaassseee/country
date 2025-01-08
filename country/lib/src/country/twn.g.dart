@@ -48,7 +48,9 @@ const countryTWN = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'TW',
+  unMember: false,
   unofficialNames: ['Taiwan', 'Taiwán', '台灣', '臺灣', '台湾'],
+  vehicleRegistrationCode: 'RC',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

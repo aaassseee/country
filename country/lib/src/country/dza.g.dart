@@ -48,6 +48,7 @@ const countryDZA = Country(
   startOfWeek: Week.sunday,
   subregion: 'Northern Africa',
   unLocode: 'DZ',
+  unMember: true,
   unofficialNames: [
     'Algeria',
     'الجزائر',
@@ -57,6 +58,7 @@ const countryDZA = Country(
     'アルジェリア',
     'Algerije'
   ],
+  vehicleRegistrationCode: 'DZ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

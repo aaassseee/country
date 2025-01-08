@@ -48,6 +48,7 @@ const countryBLR = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'BY',
+  unMember: true,
   unofficialNames: [
     'Belarus',
     'Weißrussland',
@@ -57,6 +58,7 @@ const countryBLR = Country(
     'Wit-Rusland',
     'Беларусь'
   ],
+  vehicleRegistrationCode: 'BY',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

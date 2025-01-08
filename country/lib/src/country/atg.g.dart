@@ -48,6 +48,7 @@ const countryATG = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'AG',
+  unMember: true,
   unofficialNames: [
     'Antigua and Barbuda',
     'Antigua und Barbuda',
@@ -56,6 +57,7 @@ const countryATG = Country(
     'アンティグア・バーブーダ',
     'Antigua en Barbuda'
   ],
+  vehicleRegistrationCode: 'AG',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

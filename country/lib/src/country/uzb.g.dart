@@ -48,6 +48,7 @@ const countryUZB = Country(
   startOfWeek: Week.monday,
   subregion: 'Central Asia',
   unLocode: 'UZ',
+  unMember: true,
   unofficialNames: [
     'Uzbekistan',
     'Usbekistan',
@@ -56,6 +57,7 @@ const countryUZB = Country(
     'ウズベキスタン',
     'Oezbekistan'
   ],
+  vehicleRegistrationCode: 'UZ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,7 +48,9 @@ const countryYEM = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'YE',
+  unMember: true,
   unofficialNames: ['Yemen', 'اليمن', 'Jemen', 'Yémen', 'イエメン'],
+  vehicleRegistrationCode: 'YEM',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

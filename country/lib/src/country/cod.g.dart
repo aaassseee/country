@@ -48,6 +48,7 @@ const countryCOD = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'CD',
+  unMember: true,
   unofficialNames: [
     'Congo (Dem. Rep.)',
     'Kongo (Dem. Rep.)',
@@ -59,6 +60,7 @@ const countryCOD = Country(
     'Congo, Democratic Republic of',
     'Congo (Kinshasa)'
   ],
+  vehicleRegistrationCode: 'CGO',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

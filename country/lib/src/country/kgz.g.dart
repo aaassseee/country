@@ -48,6 +48,7 @@ const countryKGZ = Country(
   startOfWeek: Week.monday,
   subregion: 'Central Asia',
   unLocode: 'KG',
+  unMember: true,
   unofficialNames: [
     'Kyrgyzstan',
     'Kirgisistan',
@@ -57,6 +58,7 @@ const countryKGZ = Country(
     'Kirgizië',
     'Kyrgzstan'
   ],
+  vehicleRegistrationCode: 'KG',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryISL = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'IS',
+  unMember: true,
   unofficialNames: [
     'Iceland',
     'Island',
@@ -56,6 +57,7 @@ const countryISL = Country(
     'アイスランド',
     'IJsland'
   ],
+  vehicleRegistrationCode: 'IS',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

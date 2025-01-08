@@ -48,6 +48,7 @@ const countryGNQ = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'GQ',
+  unMember: true,
   unofficialNames: [
     'Equatorial Guinea',
     'Äquatorial-Guinea',
@@ -56,6 +57,7 @@ const countryGNQ = Country(
     '赤道ギニア',
     'Equatoriaal-Guinea'
   ],
+  vehicleRegistrationCode: 'GQ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

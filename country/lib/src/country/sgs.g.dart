@@ -48,6 +48,7 @@ const countrySGS = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'GS',
+  unMember: false,
   unofficialNames: [
     'South Georgia',
     'South Georgia and the South Sandwich Islands',
@@ -55,6 +56,7 @@ const countrySGS = Country(
     'サウスジョージア・サウスサンドウィッチ諸島',
     'Zuid-Georgia en Zuidelijke Sandwicheilanden'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

@@ -48,7 +48,9 @@ const countryQAT = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'QA',
+  unMember: true,
   unofficialNames: ['Qatar', 'قطر', 'Katar', 'カタール'],
+  vehicleRegistrationCode: 'Q',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

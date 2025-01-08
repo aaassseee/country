@@ -48,6 +48,7 @@ const countryNOR = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'NO',
+  unMember: true,
   unofficialNames: [
     'Norway',
     'Norwegen',
@@ -56,6 +57,7 @@ const countryNOR = Country(
     'ノルウェー',
     'Noorwegen'
   ],
+  vehicleRegistrationCode: 'N',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

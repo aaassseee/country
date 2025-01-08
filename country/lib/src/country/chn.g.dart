@@ -48,7 +48,9 @@ const countryCHN = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'CN',
+  unMember: true,
   unofficialNames: ['China', 'Chine', '中国'],
+  vehicleRegistrationCode: 'CHN*',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

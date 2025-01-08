@@ -48,6 +48,7 @@ const countryDNK = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'DK',
+  unMember: true,
   unofficialNames: [
     'Denmark',
     'Dänemark',
@@ -56,6 +57,7 @@ const countryDNK = Country(
     'デンマーク',
     'Denemarken'
   ],
+  vehicleRegistrationCode: 'DK',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

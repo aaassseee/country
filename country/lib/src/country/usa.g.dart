@@ -48,6 +48,7 @@ const countryUSA = Country(
   startOfWeek: Week.sunday,
   subregion: 'Northern America',
   unLocode: 'US',
+  unMember: true,
   unofficialNames: [
     'United States',
     'USA',
@@ -58,6 +59,7 @@ const countryUSA = Country(
     'Verenigde Staten',
     'Соединенные Штаты Америки'
   ],
+  vehicleRegistrationCode: 'USA',
   worldRegion: WorldRegion.amer,
   addressFormat: '''{{recipient}}
 {{street}}

@@ -48,7 +48,9 @@ const countryTUR = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Asia',
   unLocode: 'TR',
+  unMember: true,
   unofficialNames: ['Turkey', 'Türkei', 'Turquie', 'Turquía', 'トルコ', 'Turkije'],
+  vehicleRegistrationCode: 'TR',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

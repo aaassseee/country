@@ -48,6 +48,7 @@ const countryLCA = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'LC',
+  unMember: true,
   unofficialNames: [
     'Saint Lucia',
     'Saint-Lucie',
@@ -56,6 +57,7 @@ const countryLCA = Country(
     'St. Lucia',
     'St Lucia'
   ],
+  vehicleRegistrationCode: 'WL',
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

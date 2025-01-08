@@ -48,6 +48,7 @@ const countryCOG = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'CG',
+  unMember: true,
   unofficialNames: [
     'Congo',
     'Kongo',
@@ -56,6 +57,7 @@ const countryCOG = Country(
     'Congo, Republic of',
     'Congo (Brazzaville)'
   ],
+  vehicleRegistrationCode: 'RCB',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,6 +48,7 @@ const countryMHL = Country(
   startOfWeek: Week.monday,
   subregion: 'Micronesia',
   unLocode: 'MH',
+  unMember: true,
   unofficialNames: [
     'Marshall Islands',
     'Marshallinseln',
@@ -56,6 +57,7 @@ const countryMHL = Country(
     'マーシャル諸島',
     'Marshalleilanden'
   ],
+  vehicleRegistrationCode: 'MH',
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

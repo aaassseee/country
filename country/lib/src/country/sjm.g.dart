@@ -48,6 +48,7 @@ const countrySJM = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'SJ',
+  unMember: false,
   unofficialNames: [
     'Svalbard and Jan Mayen',
     'Svalbard und Jan Mayen',
@@ -56,6 +57,7 @@ const countrySJM = Country(
     'スヴァールバル諸島およびヤンマイエン島',
     'Svalbard en Jan Mayen'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

@@ -48,12 +48,14 @@ const countryCXR = Country(
   startOfWeek: Week.monday,
   subregion: 'Australia and New Zealand',
   unLocode: 'CX',
+  unMember: false,
   unofficialNames: [
     'Christmas Island',
     'Weihnachtsinsel',
     'クリスマス島',
     'Christmaseiland'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,

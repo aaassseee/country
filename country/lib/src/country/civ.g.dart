@@ -48,6 +48,7 @@ const countryCIV = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Africa',
   unLocode: 'CI',
+  unMember: true,
   unofficialNames: [
     'Côte D\'Ivoire',
     'Elfenbeinküste',
@@ -57,6 +58,7 @@ const countryCIV = Country(
     'Cote d Ivoire (Ivory Coast)',
     'Ivory Coast'
   ],
+  vehicleRegistrationCode: 'CI',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

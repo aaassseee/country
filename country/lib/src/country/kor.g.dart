@@ -48,6 +48,7 @@ const countryKOR = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Asia',
   unLocode: 'KR',
+  unMember: true,
   unofficialNames: [
     'South Korea',
     'Korea (South)',
@@ -58,6 +59,7 @@ const countryKOR = Country(
     'Zuid-Korea',
     'Korea (Republic of)'
   ],
+  vehicleRegistrationCode: 'ROK',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

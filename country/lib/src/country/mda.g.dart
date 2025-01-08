@@ -48,6 +48,7 @@ const countryMDA = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'MD',
+  unMember: true,
   unofficialNames: [
     'Moldova',
     'Moldawien',
@@ -57,6 +58,7 @@ const countryMDA = Country(
     'モルドバ共和国',
     'Moldavië'
   ],
+  vehicleRegistrationCode: 'MD',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

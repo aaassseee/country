@@ -48,6 +48,7 @@ const countryAUT = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'AT',
+  unMember: true,
   unofficialNames: [
     'Austria',
     'Österreich',
@@ -55,6 +56,7 @@ const countryAUT = Country(
     'オーストリア',
     'Oostenrijk'
   ],
+  vehicleRegistrationCode: 'A',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

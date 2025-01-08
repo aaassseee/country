@@ -48,6 +48,7 @@ const countryIRL = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'IE',
+  unMember: true,
   unofficialNames: [
     'Ireland',
     'Irland',
@@ -56,6 +57,7 @@ const countryIRL = Country(
     'アイルランド',
     'Ierland'
   ],
+  vehicleRegistrationCode: 'IRL',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

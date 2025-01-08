@@ -48,6 +48,7 @@ const countrySVK = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'SK',
+  unMember: true,
   unofficialNames: [
     'Slovakia',
     'Slowakei',
@@ -56,6 +57,7 @@ const countrySVK = Country(
     'スロバキア',
     'Slowakije'
   ],
+  vehicleRegistrationCode: 'SK',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

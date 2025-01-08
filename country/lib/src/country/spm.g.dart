@@ -48,6 +48,7 @@ const countrySPM = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern America',
   unLocode: 'PM',
+  unMember: false,
   unofficialNames: [
     'Saint Pierre and Miquelon',
     'Saint-Pierre und Miquelon',
@@ -56,6 +57,7 @@ const countrySPM = Country(
     'サンピエール島・ミクロン島',
     'Saint Pierre en Miquelon'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

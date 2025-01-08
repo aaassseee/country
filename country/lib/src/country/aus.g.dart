@@ -48,6 +48,7 @@ const countryAUS = Country(
   startOfWeek: Week.monday,
   subregion: 'Australia and New Zealand',
   unLocode: 'AU',
+  unMember: true,
   unofficialNames: [
     'Australia',
     'Australien',
@@ -56,6 +57,7 @@ const countryAUS = Country(
     'Australië',
     '澳洲'
   ],
+  vehicleRegistrationCode: 'AUS',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}
 {{street}}

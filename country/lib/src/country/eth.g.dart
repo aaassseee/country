@@ -48,6 +48,7 @@ const countryETH = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'ET',
+  unMember: true,
   unofficialNames: [
     'Ethiopia',
     'Äthiopien',
@@ -56,6 +57,7 @@ const countryETH = Country(
     'エチオピア',
     'Ethiopië'
   ],
+  vehicleRegistrationCode: 'ETH',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

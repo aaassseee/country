@@ -48,6 +48,7 @@ const countryCAF = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'CF',
+  unMember: true,
   unofficialNames: [
     'Central African Republic',
     'Zentralafrikanische Republik',
@@ -56,6 +57,7 @@ const countryCAF = Country(
     '中央アフリカ共和国',
     'Centraal-Afrikaanse Republiek'
   ],
+  vehicleRegistrationCode: 'RCA',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

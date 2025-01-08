@@ -48,6 +48,7 @@ const countryBGR = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Europe',
   unLocode: 'BG',
+  unMember: true,
   unofficialNames: [
     'Bulgaria',
     'България',
@@ -56,6 +57,7 @@ const countryBGR = Country(
     'ブルガリア',
     'Bulgarije'
   ],
+  vehicleRegistrationCode: 'BG',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

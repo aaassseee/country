@@ -48,6 +48,7 @@ const countrySTP = Country(
   startOfWeek: Week.monday,
   subregion: 'Middle Africa',
   unLocode: 'ST',
+  unMember: true,
   unofficialNames: [
     'São Tomé and Príncipe',
     'São Tomé und Príncipe',
@@ -56,6 +57,7 @@ const countrySTP = Country(
     'サントメ・プリンシペ',
     'Sao Tomé en Principe'
   ],
+  vehicleRegistrationCode: 'STP',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

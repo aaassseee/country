@@ -48,6 +48,7 @@ const countryMKD = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'MK',
+  unMember: true,
   unofficialNames: [
     'Macedonia',
     'Mazedonien',
@@ -59,6 +60,7 @@ const countryMKD = Country(
     'North Macedonia',
     'Macedonia (FYROM)'
   ],
+  vehicleRegistrationCode: 'NMK',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

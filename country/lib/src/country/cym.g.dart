@@ -48,6 +48,7 @@ const countryCYM = Country(
   startOfWeek: Week.monday,
   subregion: 'Caribbean',
   unLocode: 'KY',
+  unMember: false,
   unofficialNames: [
     'Cayman Islands',
     'Kaimaninseln',
@@ -56,6 +57,7 @@ const countryCYM = Country(
     'ケイマン諸島',
     'Caymaneilanden'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

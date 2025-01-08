@@ -48,6 +48,7 @@ const countryGUF = Country(
   startOfWeek: Week.monday,
   subregion: 'South America',
   unLocode: 'GF',
+  unMember: false,
   unofficialNames: [
     'French Guiana',
     'Französisch Guyana',
@@ -55,6 +56,7 @@ const countryGUF = Country(
     'フランス領ギアナ',
     'Frans-Guyana'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.amer,
   addressFormat: null,
   vatRates: null,

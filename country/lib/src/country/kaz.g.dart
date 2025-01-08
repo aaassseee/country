@@ -48,6 +48,7 @@ const countryKAZ = Country(
   startOfWeek: Week.monday,
   subregion: 'Central Asia',
   unLocode: 'KZ',
+  unMember: true,
   unofficialNames: [
     'Kazakhstan',
     'Kasachstan',
@@ -55,6 +56,7 @@ const countryKAZ = Country(
     'カザフスタン',
     'Kazachstan'
   ],
+  vehicleRegistrationCode: 'KZ',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: null,

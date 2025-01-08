@@ -49,6 +49,7 @@ const countryGBR = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'GB',
+  unMember: true,
   unofficialNames: [
     'United Kingdom',
     'The United Kingdom',
@@ -67,6 +68,7 @@ const countryGBR = Country(
     'Великобританія',
     'Great Britain'
   ],
+  vehicleRegistrationCode: 'UK',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

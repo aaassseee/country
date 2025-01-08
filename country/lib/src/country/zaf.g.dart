@@ -59,6 +59,7 @@ const countryZAF = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Africa',
   unLocode: 'ZA',
+  unMember: true,
   unofficialNames: [
     'South Africa',
     'Republik Südafrika',
@@ -67,6 +68,7 @@ const countryZAF = Country(
     '南アフリカ',
     'Zuid-Afrika'
   ],
+  vehicleRegistrationCode: 'ZA',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

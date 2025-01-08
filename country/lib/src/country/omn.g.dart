@@ -48,7 +48,9 @@ const countryOMN = Country(
   startOfWeek: Week.sunday,
   subregion: 'Western Asia',
   unLocode: 'OM',
+  unMember: true,
   unofficialNames: ['Oman', 'عمان', 'Omán', 'オマーン'],
+  vehicleRegistrationCode: 'OM',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

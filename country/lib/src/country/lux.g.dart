@@ -48,7 +48,9 @@ const countryLUX = Country(
   startOfWeek: Week.monday,
   subregion: 'Western Europe',
   unLocode: 'LU',
+  unMember: true,
   unofficialNames: ['Luxembourg', 'Luxemburg', 'Luxemburgo', 'ルクセンブルク'],
+  vehicleRegistrationCode: 'L',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

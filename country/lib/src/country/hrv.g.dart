@@ -48,6 +48,7 @@ const countryHRV = Country(
   startOfWeek: Week.monday,
   subregion: 'Southern Europe',
   unLocode: 'HR',
+  unMember: true,
   unofficialNames: [
     'Croatia',
     'Kroatien',
@@ -57,6 +58,7 @@ const countryHRV = Country(
     'Kroatië',
     'Croatia (Hrvatska)'
   ],
+  vehicleRegistrationCode: 'HR',
   worldRegion: WorldRegion.emea,
   addressFormat: '''{{recipient}}
 {{street}}

@@ -48,6 +48,7 @@ const countryLTU = Country(
   startOfWeek: Week.monday,
   subregion: 'Northern Europe',
   unLocode: 'LT',
+  unMember: true,
   unofficialNames: [
     'Lithuania',
     'Litauen',
@@ -58,6 +59,7 @@ const countryLTU = Country(
     'Літва',
     'Lietuva'
   ],
+  vehicleRegistrationCode: 'LT',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(

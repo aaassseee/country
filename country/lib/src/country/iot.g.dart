@@ -48,12 +48,14 @@ const countryIOT = Country(
   startOfWeek: Week.monday,
   subregion: 'Eastern Africa',
   unLocode: 'IO',
+  unMember: false,
   unofficialNames: [
     'British Indian Ocean Territory',
     'Britisches Territorium im Indischen Ozean',
     'イギリス領インド洋地域',
     'Britse Gebieden in de Indische Oceaan'
   ],
+  vehicleRegistrationCode: null,
   worldRegion: WorldRegion.apac,
   addressFormat: null,
   vatRates: null,
