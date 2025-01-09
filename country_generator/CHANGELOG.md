@@ -1,22 +1,27 @@
+## 5.0.0
+
+* added unMember and vehicleRegistrationCode
+* upgraded dependencies
+
 ## 4.1.6
 
-* upgrade dependencies
+* upgraded dependencies
 
 ## 4.1.5
 
-* upgrade dependencies
+* upgraded dependencies
 
 ## 4.1.4
 
-* upgrade dependencies
+* upgraded dependencies
 
 ## 4.1.3
 
-* upgrade dependencies
+* upgraded dependencies
 
 ## 4.1.2
 
-* upgrade dependencies
+* upgraded dependencies
 
 ## 4.1.1
 
@@ -34,12 +39,12 @@
 ## 4.0.0
 
 * support subdivision generation
-* upgrade country to '4.0.0'
+* upgraded country to '4.0.0'
 * read countries data from data folder instead of cache folder
 
 ## 3.0.0
 
-* upgrade country to '3.0.0'
+* upgraded country to '3.0.0'
 * read countries data from data folder instead of cache folder
 
 ## 2.0.1
@@ -48,17 +53,17 @@
 
 ## 2.0.0
 
-* upgrade country to '2.0.0'
+* upgraded country to '2.0.0'
 * deprecated longitudeDec
 
 ## 1.0.0
 
-* upgrade country to '1.0.0'
+* upgraded country to '1.0.0'
 * added Week class to string extension
 
 ## 0.0.4
 
-* upgrade country to '0.0.4'
+* upgraded country to '0.0.4'
 
 ## 0.0.3
 
