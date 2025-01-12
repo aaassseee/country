@@ -1,6 +1,6 @@
 name: flutter_country_widget
 description: "Flutter pre-defined widget by using country, generated country class by using countries."
-version: 1.0.5
+version: 2.0.0
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/flutter_country_widget
 issue_tracker: https://github.com/aaassseee/country/issues
@@ -10,18 +10,18 @@ topics:
   - countries
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=1.17.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_country_utility: ">=3.0.6 <4.0.0"
+  flutter_country_utility: '>=4.0.0 <5.0.0'
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ">=4.0.0 <5.0.0"
+  flutter_lints: '>=4.0.0 <5.0.0'
 
 #dependency_overrides:
 #  country:

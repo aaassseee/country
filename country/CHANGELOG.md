@@ -1,3 +1,8 @@
+## 5.0.0
+
+* added unMember and vehicleRegistrationCode
+* updated generated country with new data
+
 ## 4.1.10
 
 * updated generated country with new data

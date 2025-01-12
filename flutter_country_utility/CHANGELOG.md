@@ -1,3 +1,8 @@
+## 4.0.0
+
+* update dependencies
+    - added unMember and vehicleRegistrationCode
+
 ## 3.0.6
 
 * update dependencies
