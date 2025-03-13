@@ -64,9 +64,9 @@ const countrySVK = Country(
 {{postalcode}} {{city}}
 {{country}}''',
   vatRates: VatRates(
-    standard: 20.0,
-    reduced: [10.0],
-    superReduced: null,
+    standard: 23.0,
+    reduced: [19.0],
+    superReduced: 5.0,
     parking: null,
   ),
   nanpPrefix: null,

@@ -1,3 +1,8 @@
+## 5.0.1
+
+* sort generated data alphabetically
+* upgraded dependencies
+
 ## 5.0.0
 
 * added unMember and vehicleRegistrationCode
