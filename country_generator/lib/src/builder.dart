@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:build/build.dart';
+import 'package:collection/collection.dart';
 import 'package:country/country.dart';
 import 'package:country_generator/src/constant.dart';
 import 'package:country_generator/src/extension.dart';
@@ -124,6 +125,7 @@ class CountryGeneratorBuilder extends Builder {
     final translationFileList = translationFolder
         .listSync()
         .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .sortedBy((element) => element.uri.pathSegments.last)
         .cast<File>();
     for (final translationFile in translationFileList) {
       final locale = RegExp('countries-(.*?).yaml')
@@ -159,6 +161,7 @@ class CountryGeneratorBuilder extends Builder {
     final subdivisionFileList = subdivisionFolder
         .listSync()
         .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .sortedBy((element) => element.uri.pathSegments.last)
         .cast<File>();
     for (final subdivisionFile in subdivisionFileList) {
       final countryCode = subdivisionFile.uri.pathSegments.last.substring(0, 2);
@@ -192,6 +195,7 @@ class CountryGeneratorBuilder extends Builder {
     final countryFileList = countryFolder
         .listSync()
         .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .sortedBy((file) => file.uri.pathSegments.last)
         .cast<File>();
     for (final countryFile in countryFileList) {
       final countryCode = countryFile.uri.pathSegments.last.substring(0, 2);

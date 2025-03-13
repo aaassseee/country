@@ -62,7 +62,6 @@ const countryDNK = Country(
   addressFormat: '''{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
-{{region}}
 {{country}}''',
   vatRates: VatRates(
     standard: 25.0,
