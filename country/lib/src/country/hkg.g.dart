@@ -6,6 +6,7 @@ const countryHKG = Country(
   continent: Continent.asia,
   countryCode: '852',
   currencyCode: 'HKD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'HK',
   geo: GeoData(
     coordinate: Coordinate(

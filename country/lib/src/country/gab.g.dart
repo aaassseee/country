@@ -6,6 +6,7 @@ const countryGAB = Country(
   continent: Continent.africa,
   countryCode: '241',
   currencyCode: 'XAF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GB',
   geo: GeoData(
     coordinate: Coordinate(

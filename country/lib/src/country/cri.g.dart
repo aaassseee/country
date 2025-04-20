@@ -6,6 +6,7 @@ const countryCRI = Country(
   continent: Continent.northAmerica,
   countryCode: '506',
   currencyCode: 'CRC',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CS',
   geo: GeoData(
     coordinate: Coordinate(

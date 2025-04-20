@@ -6,6 +6,7 @@ const countryBRB = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'BBD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BB',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryBEL = Country(
   continent: Continent.europe,
   countryCode: '32',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -461,14 +462,7 @@ const countryBEL = Country(
     Subdivision(
       name: 'Vlaams Gewest',
       code: 'VLG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "الإقليم الفلامندي",
         "be": "Фламандскі рэгіён",
@@ -774,14 +768,7 @@ const countryBEL = Country(
     Subdivision(
       name: 'Wallonië',
       code: 'WAL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Wallonië",
         "ar": "والونيا",

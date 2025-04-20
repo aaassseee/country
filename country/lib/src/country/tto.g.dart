@@ -6,6 +6,7 @@ const countryTTO = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'TTD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TD',
   geo: GeoData(
     coordinate: Coordinate(
@@ -437,14 +438,7 @@ const countryTTO = Country(
     Subdivision(
       name: 'Mayaro-Rio Claro',
       code: 'MRC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ريو كلارو مايارو الإقليمية",
         "bn": "রিও ক্লারো-মায়ারো আঞ্চলিক কর্পোরেশন",
@@ -976,14 +970,7 @@ const countryTTO = Country(
     Subdivision(
       name: 'Tobago',
       code: 'TOB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "توباغو",
         "be": "Востраў Табага",

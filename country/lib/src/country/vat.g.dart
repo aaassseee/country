@@ -6,6 +6,7 @@ const countryVAT = Country(
   continent: Continent.europe,
   countryCode: '39',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'VT',
   geo: GeoData(
     coordinate: Coordinate(

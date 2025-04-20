@@ -6,6 +6,7 @@ const countryGTM = Country(
   continent: Continent.northAmerica,
   countryCode: '502',
   currencyCode: 'GTQ',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GT',
   geo: GeoData(
     coordinate: Coordinate(

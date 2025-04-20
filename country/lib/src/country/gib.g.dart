@@ -6,6 +6,7 @@ const countryGIB = Country(
   continent: Continent.europe,
   countryCode: '350',
   currencyCode: 'GIP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GI',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countrySGP = Country(
   continent: Continent.asia,
   countryCode: '65',
   currencyCode: 'SGD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SN',
   geo: GeoData(
     coordinate: Coordinate(

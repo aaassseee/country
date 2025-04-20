@@ -6,6 +6,7 @@ const countrySJM = Country(
   continent: Continent.europe,
   countryCode: '47',
   currencyCode: 'NOK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SV',
   geo: GeoData(
     coordinate: Coordinate(

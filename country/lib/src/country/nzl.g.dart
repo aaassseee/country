@@ -6,6 +6,7 @@ const countryNZL = Country(
   continent: Continent.australia,
   countryCode: '64',
   currencyCode: 'NZD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NZ',
   geo: GeoData(
     coordinate: Coordinate(

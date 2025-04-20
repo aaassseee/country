@@ -6,6 +6,7 @@ const countryGRC = Country(
   continent: Continent.europe,
   countryCode: '30',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GR',
   geo: GeoData(
     coordinate: Coordinate(
@@ -290,14 +291,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Anatolikí Makedonía kai Thráki',
       code: 'A',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقدونيا الشرقية وتراقيا",
         "az": "Şərqi Makedoniya və Trakya",
@@ -364,14 +358,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Kentrikí Makedonía',
       code: 'B',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقدونيا الوسطى",
         "az": "Orta Makedoniya",
@@ -439,14 +426,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Dytikí Makedonía',
       code: 'C',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقدونيا الغربية",
         "az": "Qərbi Makedoniya",
@@ -514,14 +494,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Ípeiros',
       code: 'D',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إبيروس",
         "be": "Эпір",
@@ -590,14 +563,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Thessalía',
       code: 'E',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ثيساليا",
         "be": "Фесалія",
@@ -669,14 +635,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Ionía Nísia',
       code: 'F',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "الجزر الأيونية",
         "be": "Перыферыя Іанічныя астравы",
@@ -721,14 +680,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Dytikí Elláda',
       code: 'G',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "غرب اليونان",
         "be": "Заходняя Грэцыя",
@@ -794,14 +746,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Stereá Elláda',
       code: 'H',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "وسط اليونان",
         "be": "Цэнтральная Грэцыя",
@@ -858,14 +803,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Attikí',
       code: 'I',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أتيكا",
         "be": "Атыка",
@@ -929,14 +867,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Pelopónnisos',
       code: 'J',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بيلوبونيز",
         "be": "Акруга Пелапанес",
@@ -1002,14 +933,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Vóreio Aigaío',
       code: 'K',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شمال إيجة",
         "be": "Паўночныя Эгейскія астравы",
@@ -1076,14 +1000,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Nótio Aigaío',
       code: 'L',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنوب إيجة",
         "be": "Паўднёвыя Эгейскія астравы",
@@ -1150,14 +1067,7 @@ const countryGRC = Country(
     Subdivision(
       name: 'Kríti',
       code: 'M',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Акруга Крыт",
         "ca": "Regió de Creta",

@@ -6,6 +6,7 @@ const countryBDI = Country(
   continent: Continent.africa,
   countryCode: '257',
   currencyCode: 'BIF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BY',
   geo: GeoData(
     coordinate: Coordinate(
@@ -277,14 +278,7 @@ const countryBDI = Country(
     Subdivision(
       name: 'province de Bujumbura rural',
       code: 'BL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بويمبورا الريفية",
         "bn": "বুজাম্বুরা রুরাল প্রদেশ",
@@ -338,14 +332,7 @@ const countryBDI = Country(
     Subdivision(
       name: 'province de Bujumbura Mairie',
       code: 'BM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بويومبورا مايري",
         "bn": "বুজুম্বুরা মাইরি প্রদেশ",
@@ -1141,14 +1128,7 @@ const countryBDI = Country(
     Subdivision(
       name: 'Province de Rumonge',
       code: 'RM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Rumonge",
         "en": "Rumonge",

@@ -6,6 +6,7 @@ const countryTUN = Country(
   continent: Continent.africa,
   countryCode: '216',
   currencyCode: 'TND',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TS',
   geo: GeoData(
     coordinate: Coordinate(

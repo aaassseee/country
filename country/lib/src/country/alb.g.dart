@@ -6,6 +6,7 @@ const countryALB = Country(
   continent: Continent.europe,
   countryCode: '355',
   currencyCode: 'ALL',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AL',
   geo: GeoData(
     coordinate: Coordinate(

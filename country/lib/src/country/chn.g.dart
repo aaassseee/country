@@ -6,6 +6,7 @@ const countryCHN = Country(
   continent: Continent.asia,
   countryCode: '86',
   currencyCode: 'CNY',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CH',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1226,14 +1227,7 @@ const countryCHN = Country(
     Subdivision(
       name: 'Xianggang (zh) **',
       code: 'HK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Hong Kong",
         "zh": "香港",

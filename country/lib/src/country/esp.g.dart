@@ -6,6 +6,7 @@ const countryESP = Country(
   continent: Continent.europe,
   countryCode: '34',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SP',
   geo: GeoData(
     coordinate: Coordinate(
@@ -438,14 +439,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Andalucía',
       code: 'AN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Andalusië",
         "ar": "منطقة أندلوسيا",
@@ -524,14 +518,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Aragón',
       code: 'AR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة أراغـون",
         "az": "Araqon",
@@ -607,14 +594,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Principado de Asturias',
       code: 'AS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Asturië",
         "ar": "منطقة أستورياس",
@@ -1234,14 +1214,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Cantabria',
       code: 'CB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة كانتابريا",
         "az": "Kantabriya",
@@ -1486,14 +1459,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Castilla y León',
       code: 'CL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Kastilië en León",
         "ar": "منطقة قـشتالة وليون",
@@ -1566,14 +1532,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Castilla-La Mancha',
       code: 'CM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة كاستيا لا مانتشا",
         "az": "Kastiliya – La-Mança",
@@ -1643,14 +1602,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Canary Islands',
       code: 'CN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Canary Islands",
         "ccp": "𑄇𑄳𑄠𑄚𑄢𑄨 𑄃𑄨𑄌𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴𑄥𑄴",
@@ -1959,14 +1911,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Cataluña',
       code: 'CT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Katalonië",
         "am": "ካታሎኒያ",
@@ -2128,14 +2073,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Extremadura',
       code: 'EX',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Extremadura",
         "ar": "منطقة إكستـريمادورا",
@@ -2210,14 +2148,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Galicia',
       code: 'GA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Galicië",
         "ar": "منطقة غاليسيا",
@@ -2754,14 +2685,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Islas Baleares',
       code: 'IB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Baleariese Eilande",
         "ar": "منطقة جزر البليار",
@@ -3332,14 +3256,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Región de Murcia',
       code: 'MC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة مرسية",
         "az": "Mursiya",
@@ -3415,14 +3332,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Comunidad de Madrid',
       code: 'MD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة مدريد",
         "be": "аўтаномная супольнасць Мадрыд",
@@ -3690,14 +3600,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Navarra',
       code: 'NC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة نافارا",
         "az": "Navarra",
@@ -4115,14 +4018,7 @@ const countryESP = Country(
     Subdivision(
       name: 'País Vasco',
       code: 'PV',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Outonome Gemeenskap van die Baskeland",
         "ar": "منطقة إقليم الباسك",
@@ -4197,14 +4093,7 @@ const countryESP = Country(
     Subdivision(
       name: 'La Rioja',
       code: 'RI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة لا ريوخا²",
         "az": "Rioxa²",
@@ -5179,14 +5068,7 @@ const countryESP = Country(
     Subdivision(
       name: 'Comunidad Valenciana',
       code: 'VC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة بلنسية",
         "be": "аўтаномная супольнасць Валенсія",

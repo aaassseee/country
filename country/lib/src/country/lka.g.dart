@@ -6,6 +6,7 @@ const countryLKA = Country(
   continent: Continent.asia,
   countryCode: '94',
   currencyCode: 'LKR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'බස්නාහිර පළාත, ශ් රී ලංකාව',
       code: '1',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Западна провинция",
         "de": "Westprovinz",
@@ -408,14 +402,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'මධ්‍යම පළාත, ශ්‍රී ලංකාව',
       code: '2',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централна провинция (Шри Ланка)",
         "ca": "Província Central",
@@ -612,14 +599,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'දකුණු පළාත',
       code: '3',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Южна провинция",
         "de": "Südprovinz",
@@ -827,14 +807,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'උතුරු පළාත',
       code: '4',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Северна провинция",
         "de": "Nordprovinz",
@@ -1130,14 +1103,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'නැගෙනහිර පළාත, ශ් රී ලංකාව',
       code: '5',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Източна провинция",
         "de": "Ostprovinz",
@@ -1321,14 +1287,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'වයඹ පළාත, ශ්‍රී ලංකාව',
       code: '6',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Северозападна провинция",
         "de": "Nordwestprovinz",
@@ -1477,14 +1436,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'උතුරු මැද පළාත',
       code: '7',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Северна централна провинция",
         "de": "Nördliche Zentralprovinz",
@@ -1621,14 +1573,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'ඌව පළාත',
       code: '8',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Ува",
         "ca": "Província de Uva",
@@ -1767,14 +1712,7 @@ const countryLKA = Country(
     Subdivision(
       name: 'සබරගමුව පළාත',
       code: '9',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Сабарагамува",
         "ca": "Província de Sabaragamuwa",

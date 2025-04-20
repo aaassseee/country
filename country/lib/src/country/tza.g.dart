@@ -6,6 +6,7 @@ const countryTZA = Country(
   continent: Continent.africa,
   countryCode: '255',
   currencyCode: 'TZS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TZ',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1955,14 +1956,7 @@ const countryTZA = Country(
     Subdivision(
       name: 'Mkoa wa Geita',
       code: '27',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم جيتا",
         "bn": "গীতা অঞ্চল",
@@ -2017,14 +2011,7 @@ const countryTZA = Country(
     Subdivision(
       name: 'Mkoa wa Katavi',
       code: '28',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم كاتافي",
         "bn": "কাটাভি অঞ্চল",
@@ -2078,14 +2065,7 @@ const countryTZA = Country(
     Subdivision(
       name: 'Mkoa wa Njombe',
       code: '29',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم نجومبي",
         "bn": "জম্বে অঞ্চল",
@@ -2139,14 +2119,7 @@ const countryTZA = Country(
     Subdivision(
       name: 'Mkoa wa Simiyu',
       code: '30',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "اقليم سيميو",
         "bn": "সিমিয়ো অঞ্চল",

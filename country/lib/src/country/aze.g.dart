@@ -6,6 +6,7 @@ const countryAZE = Country(
   continent: Continent.asia,
   countryCode: '994',
   currencyCode: 'AZN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AJ',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1714,14 +1715,7 @@ const countryAZE = Country(
     Subdivision(
       name: 'Göygöl',
       code: 'GYG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Göygöl",
         "cs": "Göygöl",
@@ -2025,14 +2019,7 @@ const countryAZE = Country(
     Subdivision(
       name: 'Kəngərli',
       code: 'KAN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كنجة",
         "az": "Kəngərli",
@@ -2620,14 +2607,7 @@ const countryAZE = Country(
     Subdivision(
       name: 'Naxçıvan',
       code: 'NV',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Nachitsjewan",
         "ar": "نخجوان",
@@ -3879,14 +3859,7 @@ const countryAZE = Country(
     Subdivision(
       name: 'Şabran (rayon)',
       code: 'SBN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة شابران",
         "az": "Şabran (rayon)",
@@ -4272,14 +4245,7 @@ const countryAZE = Country(
     Subdivision(
       name: 'Şirvan',
       code: 'SR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شيروان",
         "az": "Şirvan",

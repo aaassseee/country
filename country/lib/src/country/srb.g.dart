@@ -6,6 +6,7 @@ const countrySRB = Country(
   continent: Continent.europe,
   countryCode: '381',
   currencyCode: 'RSD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -2044,14 +2045,7 @@ const countrySRB = Country(
     Subdivision(
       name: 'Kosovo-Pomoravlje',
       code: '29',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Kosovo-Pomoravlje",
         "ca": "Districte de Kosovo-Pomoravlje",
@@ -2079,14 +2073,7 @@ const countrySRB = Country(
     Subdivision(
       name: 'Косово и Метохија',
       code: 'KM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Косава і Мятохія",
         "ca": "Província autònoma de Kosovo i Metòkhia",
@@ -2132,14 +2119,7 @@ const countrySRB = Country(
     Subdivision(
       name: 'Војводина',
       code: 'VO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Vojvodina",
         "ar": "فويفودينا",

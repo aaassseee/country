@@ -6,6 +6,7 @@ const countryALA = Country(
   continent: Continent.europe,
   countryCode: '358',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: null,
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryALA = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'Åland',
   isoShortName: 'Åland Islands',
@@ -39,7 +40,7 @@ const countryALA = Country(
   languagesSpoken: ['sv'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Swedish',
   number: '248',
   postalCode: true,

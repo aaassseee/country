@@ -6,6 +6,7 @@ const countryMTQ = Country(
   continent: Continent.northAmerica,
   countryCode: '596',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MB',
   geo: GeoData(
     coordinate: Coordinate(

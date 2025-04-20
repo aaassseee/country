@@ -6,6 +6,7 @@ const countryKEN = Country(
   continent: Continent.africa,
   countryCode: '254',
   currencyCode: 'KES',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Baringo',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Baringo County",
         "en": "Baringo",
@@ -239,14 +233,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Bomet',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Bomet County",
         "en": "Bomet",
@@ -277,14 +264,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Bungoma',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Bungoma County",
         "en": "Bungoma",
@@ -315,14 +295,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Busia',
       code: '04',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Busia County",
         "en": "Busia",
@@ -354,14 +327,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Elgeyo/Marakwet',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Elgeyo-Marakwet County",
         "en": "Elgeyo-Marakwet",
@@ -389,14 +355,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Embu',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Embu County",
         "en": "Embu",
@@ -428,14 +387,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Garissa',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Comtat de Garissa",
         "de": "Garissa County",
@@ -468,14 +420,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Homa Bay',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Homa Bay County",
         "en": "Homa Bay",
@@ -505,14 +450,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Isiolo',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Isiolo County",
         "en": "Isiolo",
@@ -543,14 +481,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kajiado',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kajiado County",
         "en": "Kajiado",
@@ -585,14 +516,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kakamega',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kakamega County",
         "en": "Kakamega",
@@ -623,14 +547,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kericho',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kericho County",
         "en": "Kericho",
@@ -660,14 +577,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kiambu',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kiambu County",
         "en": "Kiambu",
@@ -699,14 +609,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kilifi',
       code: '14',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kilifi County",
         "en": "Kilifi",
@@ -737,14 +640,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kirinyaga',
       code: '15',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kirinyaga County",
         "en": "Kirinyaga",
@@ -777,14 +673,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kisii',
       code: '16',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kisii County",
         "en": "Kisii",
@@ -817,14 +706,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kisumu',
       code: '17',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة كيزيمو",
         "de": "Kisumu County",
@@ -857,14 +739,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kitui',
       code: '18',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "da": "Kitui",
         "de": "Kitui County",
@@ -896,14 +771,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Kwale',
       code: '19',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Kwale County",
         "en": "Kwale",
@@ -933,14 +801,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Laikipia',
       code: '20',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Лаикипиа",
         "de": "Laikipia County",
@@ -974,14 +835,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Lamu',
       code: '21',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte de Lamu",
         "en": "Lamu",
@@ -1014,14 +868,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Machakos',
       code: '22',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Machakos District",
         "en": "Machakos",
@@ -1054,14 +901,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Makueni',
       code: '23',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Makueni District",
         "en": "Makueni",
@@ -1091,14 +931,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Mandera',
       code: '24',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Mandera District",
         "en": "Mandera",
@@ -1128,14 +961,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Marsabit',
       code: '25',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Marsabit District",
         "en": "Marsabit",
@@ -1166,14 +992,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Meru',
       code: '26',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Meru",
         "es": "Condado de Meru",
@@ -1204,14 +1023,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Migori',
       code: '27',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Migori District",
         "en": "Migori",
@@ -1244,14 +1056,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Mombasa',
       code: '28',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Mombasa District",
         "en": "Mombasa",
@@ -1285,14 +1090,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Murang’a',
       code: '29',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Murang’a District",
         "en": "Murang’a",
@@ -1382,14 +1180,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Nakuru',
       code: '31',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Nakuru District",
         "en": "Nakuru",
@@ -1424,14 +1215,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Nandi',
       code: '32',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Nandi District",
         "en": "Nandi",
@@ -1467,14 +1251,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Narok',
       code: '33',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Narok District",
         "en": "Narok",
@@ -1504,14 +1281,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Nyamira',
       code: '34',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Nyamira District",
         "en": "Nyamira",
@@ -1541,14 +1311,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Nyandarua',
       code: '35',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Nyandarua District",
         "en": "Nyandarua",
@@ -1579,14 +1342,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Nyeri',
       code: '36',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Nyeri District",
         "en": "Nyeri",
@@ -1619,14 +1375,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Samburu',
       code: '37',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Самбуру",
         "de": "Samburu District",
@@ -1657,14 +1406,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Siaya',
       code: '38',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Siaya County",
         "en": "Siaya",
@@ -1696,14 +1438,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Taita-Taveta',
       code: '39',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Taita-Taveta",
         "es": "Taita-Taveta",
@@ -1732,14 +1467,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Tana River',
       code: '40',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Tana River District",
         "en": "Tana River",
@@ -1770,14 +1498,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Tharaka-Nithi',
       code: '41',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Tharaka-Nithi",
         "es": "Condado de Tharaka-Nithi",
@@ -1807,14 +1528,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Trans-Nzoia',
       code: '42',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Trans-Nzoia District",
         "en": "Trans Nzoia",
@@ -1844,14 +1558,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Turkana',
       code: '43',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Turkana District",
         "en": "Turkana",
@@ -1885,14 +1592,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Uasin Gishu',
       code: '44',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Uasin Gishu District",
         "en": "Uasin Gishu",
@@ -1924,14 +1624,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Vihiga',
       code: '45',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Вихига",
         "de": "Vihiga District",
@@ -1963,14 +1656,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'Wajir',
       code: '46',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Wajir District",
         "en": "Wajir",
@@ -2002,14 +1688,7 @@ const countryKEN = Country(
     Subdivision(
       name: 'West Pokot',
       code: '47',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "West Pokot District",
         "en": "West Pokot",

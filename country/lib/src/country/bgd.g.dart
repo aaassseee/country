@@ -6,6 +6,7 @@ const countryBGD = Country(
   continent: Continent.asia,
   countryCode: '880',
   currencyCode: 'BDT',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -865,14 +866,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'Gopalganj zila',
       code: '17',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Gopalganj",
         "bn": "গোপালগঞ্জ জেলা",
@@ -1660,14 +1654,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'Magura zila',
       code: '37',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Magura",
         "bn": "মাগুরা জেলা",
@@ -2572,14 +2559,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'Sirajganj zila',
       code: '59',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Sirajganj",
         "bn": "সিরাজগঞ্জ জেলা",
@@ -2827,14 +2807,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'বরিশাল বিভাগ',
       code: 'A',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة باريسال",
         "bg": "Барисал",
@@ -2883,14 +2856,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'চট্টগ্রাম বিভাগ',
       code: 'B',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة تشيتاغونغ",
         "bg": "Читагонг",
@@ -2942,14 +2908,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'ঢাকা বিভাগ',
       code: 'C',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة داكا",
         "bg": "Дака",
@@ -3009,14 +2968,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'খুলনা বিভাগ',
       code: 'D',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "قسم خولنا",
         "bg": "Кхулна",
@@ -3071,14 +3023,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'রাজশাহী বিভাগ',
       code: 'E',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Раджшахи",
         "bn": "রাজশাহী বিভাগ",
@@ -3123,14 +3068,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'রংপুর বিভাগ',
       code: 'F',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Рангпур²",
         "bg": "Рангпур",
@@ -3177,14 +3115,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'সিলেট বিভাগ',
       code: 'G',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Силхет",
         "bn": "সিলেট বিভাগ",
@@ -3229,14 +3160,7 @@ const countryBGD = Country(
     Subdivision(
       name: 'ময়মনসিংহ বিভাগ',
       code: 'H',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bn": "ময়মনসিংহ বিভাগ",
         "de": "Maimansingh²",

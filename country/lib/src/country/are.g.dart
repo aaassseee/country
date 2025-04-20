@@ -6,6 +6,7 @@ const countryARE = Country(
   continent: Continent.asia,
   countryCode: '971',
   currencyCode: 'AED',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AE',
   geo: GeoData(
     coordinate: Coordinate(

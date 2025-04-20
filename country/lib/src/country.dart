@@ -7,9 +7,10 @@ class Country {
     required this.continent,
     required this.countryCode,
     required this.currencyCode,
+    required this.distanceUnit,
     this.gec,
     required this.geo,
-    required this.internationalPrefix,
+    this.internationalPrefix,
     this.ioc,
     required this.isoLongName,
     required this.isoShortName,
@@ -17,14 +18,14 @@ class Country {
     required this.languagesSpoken,
     required this.nationalDestinationCodeLengths,
     required this.nationalNumberLengths,
-    required this.nationalPrefix,
-    required this.nationality,
+    this.nationalPrefix,
+    this.nationality,
     required this.number,
     required this.postalCode,
     this.postalCodeFormat,
-    required this.region,
+    this.region,
     required this.startOfWeek,
-    required this.subregion,
+    this.subregion,
     required this.unLocode,
     required this.unMember,
     required this.unofficialNames,
@@ -50,23 +51,26 @@ class Country {
         continent: Continent.fromWireName(json['continent']),
         countryCode: json['country_code'],
         currencyCode: json['currency_code'],
+        distanceUnit: DistanceUnit.fromWireName(json['distance_unit']),
         gec: json['gec'],
         geo: GeoData.fromJson(json['geo']),
         internationalPrefix: json['international_prefix'],
         ioc: json['ioc'],
         isoLongName: json['iso_long_name'],
         isoShortName: json['iso_short_name'],
-        languagesOfficial: List<String>.from(json['languages_official']),
-        languagesSpoken: List<String>.from(json['languages_spoken']),
+        languagesOfficial: List<String>.from(json['languages_official'] ?? []),
+        languagesSpoken: List<String>.from(json['languages_spoken'] ?? []),
         nationalDestinationCodeLengths:
-            List<int>.from(json['national_destination_code_lengths']),
-        nationalNumberLengths: List<int>.from(json['national_number_lengths']),
+            List<int>.from(json['national_destination_code_lengths'] ?? []),
+        nationalNumberLengths:
+            List<int>.from(json['national_number_lengths'] ?? []),
         nationalPrefix: json['national_prefix'],
         nationality: json['nationality'],
         number: json['number'],
         postalCode: json['postal_code'],
         postalCodeFormat: json['postal_code_format'],
-        region: Region.fromWireName(json['region']),
+        region:
+            json['region'] == null ? null : Region.fromWireName(json['region']),
         startOfWeek: Week.fromWireName(json['start_of_week']),
         subregion: json['subregion'],
         unLocode: json['un_locode'],
@@ -121,6 +125,9 @@ class Country {
   /// relationships between individual currencies and their minor units.
   final String currencyCode;
 
+  /// Country Distance Unit (miles/kilometres)
+  final DistanceUnit distanceUnit;
+
   /// The FIPS 10-4 standard, Countries, Dependencies, Areas of Special
   /// Sovereignty, and Their Principal Administrative Divisions, was a list of
   /// two-letter country codes that were used by the U.S. Government for
@@ -147,7 +154,7 @@ class Country {
   ///
   /// It is now called an IDD prefix (international direct dialing) – a country
   /// will typically have an NDD prefix as well (national direct dialing).
-  final String internationalPrefix;
+  final String? internationalPrefix;
 
   /// The International Olympic Committee (IOC) uses three-letter abbreviation
   /// country codes to refer to each group of athletes that participate in
@@ -194,14 +201,14 @@ class Country {
   final List<int> nationalNumberLengths;
 
   /// The phone prefix used in this country for dialing national numbers
-  final String nationalPrefix;
+  final String? nationalPrefix;
 
   /// Nationality is a legal identification of a person in international law,
   /// establishing the person as a subject, a national, of a sovereign state.
   ///
   /// It affords the state jurisdiction over the person and affords the person
   /// the protection of the state against other states.
-  final String nationality;
+  final String? nationality;
 
   /// The ISO 3166-1 numeric code for this country
   final String number;
@@ -219,14 +226,14 @@ class Country {
 
   /// The Region this country is in. Approximately matches the United Nations
   /// geoscheme
-  final Region region;
+  final Region? region;
 
   /// The starting day of the week
   final Week startOfWeek;
 
   /// The Subegion this country is in. Approximately matches the United Nations
   /// geoscheme's Subregions
-  final String subregion;
+  final String? subregion;
 
   /// The UN/LOCODE prefix for this country
   ///
@@ -297,7 +304,7 @@ class Country {
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, distanceUnit: $distanceUnit, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
   }
 
   @override
@@ -397,6 +404,62 @@ class Country {
       countryCode.codeUnitAt(1) + 127365,
     ]);
   }
+}
+
+/// A class for storing information of distance unit
+class DistanceUnit {
+  /// Creates distance unit
+  const DistanceUnit._(this.wireName);
+
+  /// Creates distance unit with a decoded json object from [countries](https://github.com/countries/countries)
+  factory DistanceUnit.fromWireName(String wireName) {
+    switch (wireName) {
+      case kilometresWireName:
+        return kilometres;
+
+      case milesWireName:
+        return miles;
+
+      default:
+        throw ArgumentError('UnSupported wireName: $wireName');
+    }
+  }
+
+  /// Actual value from json
+  final String wireName;
+
+  /// Value of [kilometres] in json
+  static const kilometresWireName = 'KM';
+
+  /// Value of [miles] in json
+  static const milesWireName = 'MI';
+
+  /// Constant value of the [kilometres] enum
+  static const kilometres = DistanceUnit._(kilometresWireName);
+
+  /// Constant value of the [miles] enum
+  static const miles = DistanceUnit._(milesWireName);
+
+  /// All values with [DistanceUnit]
+  static get values => [
+        kilometres,
+        miles,
+      ];
+
+  @override
+  String toString() {
+    return 'DistanceUnit{wireName: $wireName}';
+  }
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Region &&
+          runtimeType == other.runtimeType &&
+          wireName == other.wireName;
+
+  @override
+  int get hashCode => wireName.hashCode;
 }
 
 /// A class for storing information of coordinate
@@ -569,7 +632,7 @@ class VatRates {
   /// Creates VAT rates with a decoded json object from [countries](https://github.com/countries/countries)
   factory VatRates.fromJson(Map<String, dynamic> json) => VatRates(
         standard: json['standard'].toDouble(),
-        reduced: List.from(json['reduced'])
+        reduced: List.from(json['reduced'] ?? [])
             .map((e) => e.toDouble())
             .cast<double>()
             .toList(),

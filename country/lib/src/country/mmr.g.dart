@@ -6,6 +6,7 @@ const countryMMR = Country(
   continent: Continent.asia,
   countryCode: '95',
   currencyCode: 'MMK',
+  distanceUnit: DistanceUnit.miles,
   gec: 'BM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1118,14 +1119,7 @@ const countryMMR = Country(
     Subdivision(
       name: 'နေပြည်တော် ပြည်ထောင်စုနယ်မြေ',
       code: '18',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Unionsterritorium Naypyidaw",
         "en": "Naypyidaw",

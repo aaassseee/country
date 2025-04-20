@@ -6,6 +6,7 @@ const countrySOM = Country(
   continent: Continent.africa,
   countryCode: '252',
   currencyCode: 'SOS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SO',
   geo: GeoData(
     coordinate: Coordinate(

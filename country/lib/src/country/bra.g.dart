@@ -6,6 +6,7 @@ const countryBRA = Country(
   continent: Continent.southAmerica,
   countryCode: '55',
   currencyCode: 'BRL',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BR',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryESH = Country(
   continent: Continent.africa,
   countryCode: '212',
   currencyCode: 'MAD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'WI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryESH = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Sahrawi Arab Democratic Republic',
   isoShortName: 'Western Sahara',
@@ -39,7 +40,7 @@ const countryESH = Country(
   languagesSpoken: ['es', 'fr'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Sahrawi',
   number: '732',
   postalCode: true,

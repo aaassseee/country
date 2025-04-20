@@ -6,6 +6,7 @@ const countryATF = Country(
   continent: Continent.africa,
   countryCode: '262',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FS',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryATF = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The French Southern and Antarctic Lands',
   isoShortName: 'French Southern Territories',
@@ -39,7 +40,7 @@ const countryATF = Country(
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'French',
   number: '260',
   postalCode: false,

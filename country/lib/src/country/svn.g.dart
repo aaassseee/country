@@ -6,6 +6,7 @@ const countrySVN = Country(
   continent: Continent.europe,
   countryCode: '386',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -11933,14 +11934,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Apače',
       code: '195',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Apače",
         "en": "Apače",
@@ -11971,14 +11965,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Cirkulane',
       code: '196',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Cirkulane",
         "en": "Cirkulane",
@@ -12005,14 +11992,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Kostanjevica na Krki',
       code: '197',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Kostanjevica na Krki",
         "en": "Kostanjevica na Krki",
@@ -12041,14 +12021,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Makole',
       code: '198',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Makole",
         "de": "Makole",
@@ -12079,14 +12052,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Mokronog - Trebelno',
       code: '199',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Mokronog-Trebelno",
         "de": "Mokronog-Trebelno",
@@ -12117,14 +12083,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Poljčane',
       code: '200',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Poljčane",
         "de": "Poljčane",
@@ -12156,14 +12115,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Renče - Vogrsko',
       code: '201',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Renče-Vogrsko",
         "de": "Renče-Vogrsko",
@@ -12196,14 +12148,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Središče ob Dravi',
       code: '202',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Središče ob Dravi",
         "de": "Središče ob Dravi",
@@ -12235,14 +12180,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Straža',
       code: '203',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Straža",
         "de": "Straža",
@@ -12273,14 +12211,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Sveta Trojica v Slovenskih goricah',
       code: '204',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Sveta Trojica v Slovenskih goricah",
         "de": "Sveta Trojica v Slovenskih goricah",
@@ -12312,14 +12243,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Sveti Tomaž',
       code: '205',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Sveti Tomaž",
         "de": "Sveti Tomaž",
@@ -12349,14 +12273,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Šmarješke Toplice',
       code: '206',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Šmarješke Toplice",
         "en": "Šmarješke Toplice",
@@ -12381,14 +12298,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Gorje',
       code: '207',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Gorje",
         "de": "Gorje",
@@ -12421,14 +12331,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Log - Dragomer',
       code: '208',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Log-Dragomer",
         "de": "Log-Dragomer",
@@ -12462,14 +12365,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Rečica ob Savinji',
       code: '209',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Rečica ob Savinji",
         "de": "Rečica ob Savinji",
@@ -12500,14 +12396,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Sveti Jurij v Slovenskih goricah',
       code: '210',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Sveti Jurij v Slovenskih goricah",
         "de": "Sveti Jurij v Slovenskih goricah",
@@ -12541,14 +12430,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Šentrupert',
       code: '211',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Občina Šentrupert",
         "de": "Šentrupert",
@@ -12580,14 +12462,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Mirna',
       code: '212',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Mirna",
         "en": "Mirna",
@@ -12615,14 +12490,7 @@ const countrySVN = Country(
     Subdivision(
       name: 'Občina Ankaran',
       code: '213',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Ankaran",
         "bg": "Анкаран",

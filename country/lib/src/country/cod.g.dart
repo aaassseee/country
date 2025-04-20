@@ -6,6 +6,7 @@ const countryCOD = Country(
   continent: Continent.africa,
   countryCode: '243',
   currencyCode: 'CDF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -280,14 +281,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Bas-Uele',
       code: 'BU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Ніжняе Уэле",
         "bg": "Ба Уеле",
@@ -384,14 +378,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Haut-Katanga',
       code: 'HK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Верхняя Катанга",
         "bg": "О Катанга",
@@ -430,14 +417,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Haut-Lomami',
       code: 'HL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Верхняе Ламамі",
         "bg": "О Ломами",
@@ -474,14 +454,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Haut-Uele',
       code: 'HU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Верхняе Уэле",
         "bg": "О Уеле",
@@ -517,14 +490,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Ituri',
       code: 'IT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Ituri",
         "ja": "イトゥリ州",
@@ -536,14 +502,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Lulua',
       code: 'KC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Лулуа",
         "bg": "Лулуа",
@@ -640,14 +599,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Kwango',
       code: 'KG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Кванго",
         "bg": "Кванго",
@@ -686,14 +638,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Kwilu',
       code: 'KL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Квілу",
         "bg": "Квилу",
@@ -829,14 +774,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Kasaï',
       code: 'KS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Kasaï",
         "fr": "Kasaï",
@@ -861,14 +799,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Kabinda',
       code: 'LO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Ламамі",
         "bg": "Ломами",
@@ -904,14 +835,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Lualaba',
       code: 'LU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Луалаба",
         "bg": "Луалаба",
@@ -1012,14 +936,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Mai-Ndombe',
       code: 'MN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Маі-Ндамбэ",
         "bg": "Ме Ндомбе",
@@ -1053,14 +970,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Mongala',
       code: 'MO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Мангала",
         "bg": "Монгала",
@@ -1162,14 +1072,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Nord-Ubangi',
       code: 'NU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Паўночнае Убангі",
         "bg": "Нор Убанги",
@@ -1203,14 +1106,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Sankuru',
       code: 'SA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Санкуру",
         "bg": "Санкуру",
@@ -1314,14 +1210,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Sud-Ubangi',
       code: 'SU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Паўднёвае Убангі",
         "bg": "Сюд Убанги",
@@ -1355,14 +1244,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Tanganyika',
       code: 'TA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Танганьіка",
         "bg": "Танганика",
@@ -1399,14 +1281,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Tshopo',
       code: 'TO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Чапо",
         "bg": "Чопо",
@@ -1442,14 +1317,7 @@ const countryCOD = Country(
     Subdivision(
       name: 'Tshuapa',
       code: 'TU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Правінцыя Чуапа",
         "bg": "Чуапа",

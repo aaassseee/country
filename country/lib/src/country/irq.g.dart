@@ -6,6 +6,7 @@ const countryIRQ = Country(
   continent: Continent.asia,
   countryCode: '964',
   currencyCode: 'IQD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IZ',
   geo: GeoData(
     coordinate: Coordinate(
@@ -806,14 +807,7 @@ const countryIRQ = Country(
     Subdivision(
       name: 'كركوك',
       code: 'KI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كركوك",
         "az": "Kərkük",
@@ -871,14 +865,7 @@ const countryIRQ = Country(
     Subdivision(
       name: 'إقليم كردستان',
       code: 'KR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم كردستان",
         "en": "Kurdistan",

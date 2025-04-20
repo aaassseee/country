@@ -6,6 +6,7 @@ const countryBHR = Country(
   continent: Continent.asia,
   countryCode: '973',
   currencyCode: 'BHD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BA',
   geo: GeoData(
     coordinate: Coordinate(

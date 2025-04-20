@@ -53,9 +53,10 @@ extension CountryClassStringExtension on Country {
       continent: ${continent.toClassString()},
       countryCode: '${countryCode..replaceAll('\'', '\\\'')}',
       currencyCode: '${currencyCode..replaceAll('\'', '\\\'')}',
+      distanceUnit: ${distanceUnit.toClassString()},
       gec: ${gec == null ? null : '\'${gec!.replaceAll('\'', '\\\'')}\''},
       geo: ${geo.toClassString()},
-      internationalPrefix: '${internationalPrefix..replaceAll('\'', '\\\'')}',
+      internationalPrefix: ${internationalPrefix == null ? null : '\'${internationalPrefix!.replaceAll('\'', '\\\'')}\''},
       ioc: ${ioc == null ? null : '\'${ioc!.replaceAll('\'', '\\\'')}\''},
       isoLongName: '${isoLongName.replaceAll('\'', '\\\'')}',
       isoShortName: '${isoShortName.replaceAll('\'', '\\\'')}',
@@ -63,14 +64,14 @@ extension CountryClassStringExtension on Country {
       languagesSpoken: ${languagesSpoken.toClassString()},
       nationalDestinationCodeLengths: ${nationalDestinationCodeLengths.toClassString()},
       nationalNumberLengths: ${nationalNumberLengths.toClassString()},
-      nationalPrefix: '${nationalPrefix..replaceAll('\'', '\\\'')}',
-      nationality: '${nationality..replaceAll('\'', '\\\'')}',
+      nationalPrefix: ${nationalPrefix == null ? null : '\'${nationalPrefix!.replaceAll('\'', '\\\'')}\''},
+      nationality: ${nationality == null ? null : '\'${nationality!.replaceAll('\'', '\\\'')}\''},
       number: '${number..replaceAll('\'', '\\\'')}',
       postalCode: $postalCode,
       postalCodeFormat: ${postalCodeFormat == null ? null : 'r\'${postalCodeFormat!.replaceAll('\'', '\\\'')}\''},
-      region: ${region.toClassString()},
+      region: ${region?.toClassString()},
       startOfWeek: ${startOfWeek.toClassString()},
-      subregion: '${subregion..replaceAll('\'', '\\\'')}',
+      subregion: ${subregion == null ? null : '\'${subregion!.replaceAll('\'', '\\\'')}\''},
       unLocode: '${unLocode..replaceAll('\'', '\\\'')}',
       unMember: $unMember,
       unofficialNames: ${unofficialNames.toClassString()},
@@ -88,6 +89,22 @@ extension CountryClassStringExtension on Country {
       isoShortNameByLocale: ${json.encode(isoShortNameByLocale)},
       subdivision: ${subdivision.toClassString()},
       )''';
+  }
+}
+
+/// Extension class for generating class string with [DistanceUnit]
+extension DistanceUnitClassStringExtension on DistanceUnit {
+  String toClassString() {
+    switch (wireName) {
+      case DistanceUnit.kilometresWireName:
+        return 'DistanceUnit.kilometres';
+
+      case DistanceUnit.milesWireName:
+        return 'DistanceUnit.miles';
+
+      default:
+        throw ArgumentError('Unsupported wireName: $wireName');
+    }
   }
 }
 

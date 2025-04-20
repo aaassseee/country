@@ -6,6 +6,7 @@ const countrySVK = Country(
   continent: Continent.europe,
   countryCode: '421',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LO',
   geo: GeoData(
     coordinate: Coordinate(

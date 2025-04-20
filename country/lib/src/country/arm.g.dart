@@ -6,6 +6,7 @@ const countryARM = Country(
   continent: Continent.asia,
   countryCode: '374',
   currencyCode: 'AMD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryARM = Country(
     Subdivision(
       name: 'Aragacotn',
       code: 'AG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Aragatsotn",
         "ar": "محافظة آراغاتسوتن",
@@ -527,14 +521,7 @@ const countryARM = Country(
     Subdivision(
       name: 'Gegark\'unik\'',
       code: 'GR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Gegharkunik",
         "ar": "محافظة غغاركونيك",

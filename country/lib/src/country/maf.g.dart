@@ -6,6 +6,7 @@ const countryMAF = Country(
   continent: Continent.northAmerica,
   countryCode: '590',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RN',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryMAF = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Collectivity of Saint-Martin',
   isoShortName: 'Saint Martin (French part)',
@@ -39,7 +40,7 @@ const countryMAF = Country(
   languagesSpoken: ['en', 'fr', 'nl'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'French',
   number: '663',
   postalCode: true,

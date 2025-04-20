@@ -6,6 +6,7 @@ const countryYEM = Country(
   continent: Continent.asia,
   countryCode: '967',
   currencyCode: 'YER',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'YM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1120,14 +1121,7 @@ const countryYEM = Country(
     Subdivision(
       name: 'محافظة ريمة',
       code: 'RA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة ريمة",
         "bg": "Райма",
@@ -1182,14 +1176,7 @@ const countryYEM = Country(
     Subdivision(
       name: 'صنعاء',
       code: 'SA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Sanaa",
         "am": "ሳና",
@@ -1456,14 +1443,7 @@ const countryYEM = Country(
     Subdivision(
       name: 'محافظة أرخبيل سقطرى',
       code: 'SU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة أرخبيل سقطرى",
         "de": "Gouvernement Sokotra",

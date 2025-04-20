@@ -6,6 +6,7 @@ const countryDZA = Country(
   continent: Continent.africa,
   countryCode: '213',
   currencyCode: 'DZD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -101,7 +102,7 @@ const countryDZA = Country(
     "el": "Αλγερία",
     "en": "Algeria",
     "eo": "Alĝerio",
-    "es": "Algeria",
+    "es": "Argelia",
     "et": "Alžeeria",
     "eu": "Aljeria",
     "fa": "الجزایر",

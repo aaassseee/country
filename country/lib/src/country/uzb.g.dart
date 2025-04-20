@@ -6,6 +6,7 @@ const countryUZB = Country(
   continent: Continent.asia,
   countryCode: '998',
   currencyCode: 'UZS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'UZ',
   geo: GeoData(
     coordinate: Coordinate(

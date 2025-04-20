@@ -6,6 +6,7 @@ const countryASM = Country(
   continent: Continent.australia,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'AQ',
   geo: GeoData(
     coordinate: Coordinate(

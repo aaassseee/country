@@ -6,6 +6,7 @@ const countryTCD = Country(
   continent: Continent.africa,
   countryCode: '235',
   currencyCode: 'XAF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CD',
   geo: GeoData(
     coordinate: Coordinate(
@@ -259,14 +260,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'بحر الغزال',
       code: 'BG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بحر الغزال",
         "bg": "Бар ел Газел",
@@ -319,14 +313,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'منطقة بوركو',
       code: 'BO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة بوركو",
         "bn": "বুরকু অঞ্চল",
@@ -441,14 +428,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'إنيدي الشرقية',
       code: 'EE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Ennedi-Est",
         "fr": "Ennedi Est",
@@ -471,14 +451,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'إنيدي الغربية',
       code: 'EO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Ennedi-Ouest",
         "es": "Ennedi Ouest",
@@ -1319,14 +1292,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'منطقة سيلا',
       code: 'SI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة سيلا",
         "bg": "Сила",
@@ -1436,14 +1402,7 @@ const countryTCD = Country(
     Subdivision(
       name: 'منطقة تبستي',
       code: 'TI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة تبستي",
         "bg": "Тибести",

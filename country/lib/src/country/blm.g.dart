@@ -6,6 +6,7 @@ const countryBLM = Country(
   continent: Continent.northAmerica,
   countryCode: '590',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TB',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryBLM = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Collectivity of Saint-Barthélemy',
   isoShortName: 'Saint Barthélemy',
@@ -39,7 +40,7 @@ const countryBLM = Country(
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Saint Barthélemy Islander',
   number: '652',
   postalCode: true,

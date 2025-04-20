@@ -6,6 +6,7 @@ const countryGLP = Country(
   continent: Continent.northAmerica,
   countryCode: '590',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GP',
   geo: GeoData(
     coordinate: Coordinate(

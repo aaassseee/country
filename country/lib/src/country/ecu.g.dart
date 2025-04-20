@@ -6,6 +6,7 @@ const countryECU = Country(
   continent: Continent.southAmerica,
   countryCode: '593',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'EC',
   geo: GeoData(
     coordinate: Coordinate(

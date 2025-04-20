@@ -6,6 +6,7 @@ const countrySEN = Country(
   continent: Continent.africa,
   countryCode: '221',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -386,14 +387,7 @@ const countrySEN = Country(
     Subdivision(
       name: 'Kaffrine',
       code: 'KA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "اقليم كفرين",
         "bn": "ক্যাফ্রিন",
@@ -507,14 +501,7 @@ const countrySEN = Country(
     Subdivision(
       name: 'Kédougou',
       code: 'KE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كيدوغو",
         "bn": "কেদুগো",
@@ -746,14 +733,7 @@ const countrySEN = Country(
     Subdivision(
       name: 'Sédhiou',
       code: 'SE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سيدهيو",
         "bn": "সেধিউ",

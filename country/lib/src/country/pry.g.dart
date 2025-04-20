@@ -6,6 +6,7 @@ const countryPRY = Country(
   continent: Continent.southAmerica,
   countryCode: '595',
   currencyCode: 'PYG',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PA',
   geo: GeoData(
     coordinate: Coordinate(

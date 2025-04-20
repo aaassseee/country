@@ -6,6 +6,7 @@ const countryMDV = Country(
   continent: Continent.asia,
   countryCode: '960',
   currencyCode: 'MVR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MV',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryMDV = Country(
     Subdivision(
       name: 'Ariatholhu Dhekunuburi',
       code: '00',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أليف دال أتول",
         "bn": "আলিফ ধাল আতোল",

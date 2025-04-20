@@ -6,6 +6,7 @@ const countryVEN = Country(
   continent: Continent.southAmerica,
   countryCode: '58',
   currencyCode: 'VES',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'VE',
   geo: GeoData(
     coordinate: Coordinate(

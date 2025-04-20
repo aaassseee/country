@@ -6,6 +6,7 @@ const countryLSO = Country(
   continent: Continent.africa,
   countryCode: '266',
   currencyCode: 'LSL',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LT',
   geo: GeoData(
     coordinate: Coordinate(

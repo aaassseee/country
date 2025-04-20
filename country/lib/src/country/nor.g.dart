@@ -6,6 +6,7 @@ const countryNOR = Country(
   continent: Continent.europe,
   countryCode: '47',
   currencyCode: 'NOK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NO',
   geo: GeoData(
     coordinate: Coordinate(
@@ -533,14 +534,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Svalbard (Arctic Region)',
       code: '21',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Svalbard",
         "ar": "سفالبارد",
@@ -624,14 +618,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Jan Mayen (Arctic Region)',
       code: '22',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Jan Mayen",
         "ar": "جان ماين",
@@ -708,14 +695,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Viken',
       code: '30',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ast": "Viken",
         "be-tarask": "Вікен",
@@ -755,14 +735,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Innlandet',
       code: '34',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "aa": "Innlandet",
         "af": "Innlandet",
@@ -1003,14 +976,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Vestfold og Telemark',
       code: '38',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ast": "Vestfold og Telemark",
         "cs": "Vestfold og Telemark",
@@ -1049,14 +1015,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Agder',
       code: '42',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Agder",
         "ast": "Agder",
@@ -1101,14 +1060,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Vestland',
       code: '46',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Vestland",
         "ast": "Vestland",
@@ -1144,14 +1096,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Trøndelag',
       code: '50',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ang": "Þrondham",
         "ar": "تروندلاغ",
@@ -1218,14 +1163,7 @@ const countryNOR = Country(
     Subdivision(
       name: 'Troms og Finnmark',
       code: '54',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ast": "Troms og Finnmark",
         "cs": "Troms a Finnmark",

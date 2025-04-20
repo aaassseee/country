@@ -6,6 +6,7 @@ const countryQAT = Country(
   continent: Continent.asia,
   countryCode: '974',
   currencyCode: 'QAR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'QA',
   geo: GeoData(
     coordinate: Coordinate(
@@ -619,14 +620,7 @@ const countryQAT = Country(
     Subdivision(
       name: 'بلدية الضعاين',
       code: 'ZA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية الضعاين",
         "bn": "আল দায়েন",

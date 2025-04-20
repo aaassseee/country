@@ -6,6 +6,7 @@ const countryGRD = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'GJ',
   geo: GeoData(
     coordinate: Coordinate(

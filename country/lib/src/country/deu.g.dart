@@ -6,6 +6,7 @@ const countryDEU = Country(
   continent: Continent.europe,
   countryCode: '49',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GM',
   geo: GeoData(
     coordinate: Coordinate(

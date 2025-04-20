@@ -6,6 +6,7 @@ const countryVCT = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'VC',
   geo: GeoData(
     coordinate: Coordinate(

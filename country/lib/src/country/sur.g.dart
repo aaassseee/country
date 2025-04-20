@@ -6,6 +6,7 @@ const countrySUR = Country(
   continent: Continent.southAmerica,
   countryCode: '597',
   currencyCode: 'SRD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NS',
   geo: GeoData(
     coordinate: Coordinate(

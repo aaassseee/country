@@ -6,6 +6,7 @@ const countryPSE = Country(
   continent: Continent.asia,
   countryCode: '970',
   currencyCode: 'ILS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'WE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -208,14 +209,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة بيت لحم',
       code: 'BTH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة بيت لحم",
         "bn": "বেথেলহাম গভর্নোরেট",
@@ -267,14 +261,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'الوسطى',
       code: 'DEB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "الوسطى",
         "bn": "দেইর আল-বালাহ গভর্নোরেট",
@@ -324,14 +311,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة غزة',
       code: 'GZA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة غزة",
         "ca": "Governació de Gaza",
@@ -366,14 +346,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة الخليل',
       code: 'HBN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة الخليل",
         "bn": "হেবরন গভর্নোরেট",
@@ -425,14 +398,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'القدس',
       code: 'JEM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "القدس",
         "ca": "Governació de Jerusalem",
@@ -466,14 +432,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'جنين',
       code: 'JEN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنين",
         "ca": "Governació de Jenin",
@@ -508,14 +467,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'أريحا',
       code: 'JRH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أريحا",
         "ca": "Governació de Jericó",
@@ -547,14 +499,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة خان يونس',
       code: 'KYS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة خان يونس",
         "ca": "Governació de Khan Yunis",
@@ -588,14 +533,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة نابلس',
       code: 'NBS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة نابلس",
         "be": "Наблус",
@@ -648,14 +586,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'شمال غزة',
       code: 'NGZ',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شمال غزة",
         "bn": "উত্তর গাজা গভর্নোরেট",
@@ -707,14 +638,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة قلقيلية',
       code: 'QQA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة قلقيلية",
         "bn": "কাল্কিলিয়া গভর্নোরেট",
@@ -766,14 +690,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'رام الله والبيرة',
       code: 'RBH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "رام الله والبيرة",
         "bn": "রামাল্লাহ ও আল-বিরেহ গভর্নোরেট",
@@ -824,14 +741,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة رفح الفلسطينية',
       code: 'RFH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة رفح الفلسطينية",
         "ca": "Governació de Rafah",
@@ -866,14 +776,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة سلفيت',
       code: 'SLT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة سلفيت",
         "bn": "সালফিত গভর্নোরেট",
@@ -924,14 +827,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة طوباس',
       code: 'TBS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة طوباس",
         "ca": "Governació de Tubas",
@@ -966,14 +862,7 @@ const countryPSE = Country(
     Subdivision(
       name: 'محافظة طولكرم',
       code: 'TKM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة طولكرم",
         "bn": "তুল্কারম গভর্নোরেট",

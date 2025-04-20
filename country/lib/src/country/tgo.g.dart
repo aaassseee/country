@@ -6,6 +6,7 @@ const countryTGO = Country(
   continent: Continent.africa,
   countryCode: '228',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TO',
   geo: GeoData(
     coordinate: Coordinate(

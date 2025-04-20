@@ -6,6 +6,7 @@ const countryLBN = Country(
   continent: Continent.asia,
   countryCode: '961',
   currencyCode: 'LBP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -201,14 +202,7 @@ const countryLBN = Country(
     Subdivision(
       name: 'محافظة عكار',
       code: 'AK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة عكار",
         "de": "Gouvernement Akkar",
@@ -238,14 +232,7 @@ const countryLBN = Country(
     Subdivision(
       name: 'Loubnâne ech Chemâli',
       code: 'AS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "North",
         "ar": "الشمال",
@@ -366,14 +353,7 @@ const countryLBN = Country(
     Subdivision(
       name: 'محافظة بعلبك الهرمل',
       code: 'BH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة بعلبك الهرمل",
         "de": "Gouvernement Baalbek-Hermel",
@@ -460,14 +440,7 @@ const countryLBN = Country(
     Subdivision(
       name: 'Loubnâne ej Jnoûbi',
       code: 'JA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "South",
         "ar": "محافظة الجنوب",

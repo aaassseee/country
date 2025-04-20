@@ -6,6 +6,7 @@ const countryMAR = Country(
   continent: Continent.africa,
   countryCode: '212',
   currencyCode: 'MAD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MO',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1900,14 +1901,7 @@ const countryMAR = Country(
     Subdivision(
       name: 'عمالة إنزكان آيت ملول',
       code: 'INE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "عمالة إنزكان آيت ملول",
         "ca": "Prefectura d’Inezgane-Aït Melloul",
@@ -2399,14 +2393,7 @@ const countryMAR = Country(
     Subdivision(
       name: 'مراكش',
       code: 'MMD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Marrakesj",
         "ar": "مراكش",
@@ -2473,14 +2460,7 @@ const countryMAR = Country(
     Subdivision(
       name: 'مراكش²',
       code: 'MMN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Marrakesj²",
         "ar": "مراكش²",
@@ -2547,14 +2527,7 @@ const countryMAR = Country(
     Subdivision(
       name: 'المحمدية',
       code: 'MOH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المحمدية",
         "az": "Məhəmmədiyyə",
@@ -2891,14 +2864,7 @@ const countryMAR = Country(
     Subdivision(
       name: 'الرباط',
       code: 'RAB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Rabat",
         "am": "ራባት",

@@ -6,6 +6,7 @@ const countryKGZ = Country(
   continent: Continent.asia,
   countryCode: '996',
   currencyCode: 'KGS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -447,14 +448,7 @@ const countryKGZ = Country(
     Subdivision(
       name: 'Ош',
       code: 'GO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أوش",
         "az": "Oş",

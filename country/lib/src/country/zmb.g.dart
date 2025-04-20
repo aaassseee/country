@@ -6,6 +6,7 @@ const countryZMB = Country(
   continent: Continent.africa,
   countryCode: '260',
   currencyCode: 'ZMW',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ZA',
   geo: GeoData(
     coordinate: Coordinate(
@@ -770,14 +771,7 @@ const countryZMB = Country(
     Subdivision(
       name: 'Muchinga',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة موتشينغا",
         "bn": "মোসিঙ্গা প্রদেশ",

@@ -6,6 +6,7 @@ const countrySLV = Country(
   continent: Continent.northAmerica,
   countryCode: '503',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ES',
   geo: GeoData(
     coordinate: Coordinate(

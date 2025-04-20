@@ -6,6 +6,7 @@ const countryIND = Country(
   continent: Continent.asia,
   countryCode: '91',
   currencyCode: 'INR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IN',
   geo: GeoData(
     coordinate: Coordinate(
@@ -2916,14 +2917,7 @@ const countryIND = Country(
     Subdivision(
       name: 'तेलंगाना',
       code: 'TS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "تيلانغانا",
         "as": "তেলেংগানা",
@@ -3286,14 +3280,7 @@ const countryIND = Country(
     Subdivision(
       name: 'उत्तराखण्ड',
       code: 'UK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أوتاراخند",
         "as": "উত্তৰাখণ্ড",

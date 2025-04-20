@@ -6,6 +6,7 @@ const countryMEX = Country(
   continent: Continent.northAmerica,
   countryCode: '52',
   currencyCode: 'MXN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MX',
   geo: GeoData(
     coordinate: Coordinate(

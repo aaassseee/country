@@ -6,6 +6,7 @@ const countryREU = Country(
   continent: Continent.africa,
   countryCode: '262',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RE',
   geo: GeoData(
     coordinate: Coordinate(

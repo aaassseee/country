@@ -6,6 +6,7 @@ const countryVUT = Country(
   continent: Continent.australia,
   countryCode: '678',
   currencyCode: 'VUV',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NH',
   geo: GeoData(
     coordinate: Coordinate(

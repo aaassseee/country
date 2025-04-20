@@ -6,6 +6,7 @@ const countryGNQ = Country(
   continent: Continent.africa,
   countryCode: '240',
   currencyCode: 'XAF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'EK',
   geo: GeoData(
     coordinate: Coordinate(

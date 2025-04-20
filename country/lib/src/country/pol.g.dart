@@ -6,6 +6,7 @@ const countryPOL = Country(
   continent: Continent.europe,
   countryCode: '48',
   currencyCode: 'PLN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PL',
   geo: GeoData(
     coordinate: Coordinate(

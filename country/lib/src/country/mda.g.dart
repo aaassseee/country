@@ -6,6 +6,7 @@ const countryMDA = Country(
   continent: Continent.europe,
   countryCode: '373',
   currencyCode: 'MDL',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MD',
   geo: GeoData(
     coordinate: Coordinate(
@@ -206,14 +207,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Anenii Noi',
       code: 'AN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة أنيني نوي",
         "bg": "Новоаненски район",
@@ -352,14 +346,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Bender [Tighina]',
       code: 'BD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Bender",
         "ar": "بيندر، مولدوفيا",
@@ -440,14 +427,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Briceni',
       code: 'BR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بريسيني",
         "bg": "Бриченски район",
@@ -505,14 +485,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Basarabeasca',
       code: 'BS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة باسارابيسكا",
         "bg": "Бесарабски район",
@@ -629,14 +602,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Călărași',
       code: 'CL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كالاراسي",
         "be": "Каларашскі раён",
@@ -692,14 +658,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Cimișlia',
       code: 'CM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة تشيميشليا",
         "bg": "Чимишлийски район",
@@ -752,14 +711,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Criuleni',
       code: 'CR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كريوليني",
         "bg": "Криуленски район",
@@ -812,14 +764,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Căușeni',
       code: 'CS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كوسيني",
         "bg": "Каушенски район",
@@ -874,14 +819,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Cantemir',
       code: 'CT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كانتيمير",
         "bg": "Кантемирски район",
@@ -1029,14 +967,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Dondușeni',
       code: 'DO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة دوندوسيني",
         "bg": "Дондушенски район",
@@ -1089,14 +1020,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Drochia',
       code: 'DR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة دروتشيا",
         "bg": "Дрокиевски район",
@@ -1151,14 +1075,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Dubăsari',
       code: 'DU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة دوباساري",
         "bg": "Дубосарски район",
@@ -1273,14 +1190,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Fălești',
       code: 'FA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة فاليستي",
         "bg": "Фалещки район",
@@ -1334,14 +1244,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Florești',
       code: 'FL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة فلوريستي",
         "be": "Фларэшцкі раён",
@@ -1396,14 +1299,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Gagauzia, Unitate Teritoriala Autonoma (UTAG)',
       code: 'GA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Gagauzia",
         "af": "Gagausië",
@@ -1475,14 +1371,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Glodeni',
       code: 'GL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة غلوديني",
         "bg": "Голденски район",
@@ -1536,14 +1425,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Hîncești',
       code: 'HI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة هينسيستي",
         "bg": "Хънчещки район",
@@ -1598,14 +1480,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Ialoveni',
       code: 'IA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة إيلوفيني",
         "bg": "Яловенски район",
@@ -1659,14 +1534,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Leova',
       code: 'LE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ليوفا",
         "bg": "Леовски район",
@@ -1719,14 +1587,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Nisporeni',
       code: 'NI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نيسبوريني",
         "bg": "Ниспоренски район",
@@ -1779,14 +1640,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Ocnița',
       code: 'OC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة أونيتا",
         "bg": "Окницки район",
@@ -1901,14 +1755,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Rezina',
       code: 'RE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ريزاينا",
         "bg": "Резински район",
@@ -1961,14 +1808,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Rîșcani',
       code: 'RI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة روشكاني",
         "bg": "Ръшкански район",
@@ -2022,14 +1862,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Șoldănești',
       code: 'SD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة شولدانيشتي",
         "bg": "Шолданещки район",
@@ -2084,14 +1917,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Sîngerei',
       code: 'SI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة سونجري",
         "bg": "Сънджерейски район",
@@ -2144,14 +1970,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Stînga Nistrului, unitatea teritoriala din',
       code: 'SN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Transnistria",
         "be":
@@ -2245,14 +2064,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Strășeni',
       code: 'ST',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ستراسيني",
         "be": "Страшэнскі раён",
@@ -2305,14 +2117,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Ștefan Vodă',
       code: 'SV',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ستيفان فودا",
         "bg": "Щефанводски район",
@@ -2428,14 +2233,7 @@ const countryMDA = Country(
     Subdivision(
       name: 'Telenești',
       code: 'TE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة تيلينيشتي",
         "bg": "Телнещки район",

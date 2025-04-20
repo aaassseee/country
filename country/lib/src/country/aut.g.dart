@@ -6,6 +6,7 @@ const countryAUT = Country(
   continent: Continent.europe,
   countryCode: '43',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AU',
   geo: GeoData(
     coordinate: Coordinate(

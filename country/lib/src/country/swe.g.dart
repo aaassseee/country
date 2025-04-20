@@ -6,6 +6,7 @@ const countrySWE = Country(
   continent: Continent.europe,
   countryCode: '46',
   currencyCode: 'SEK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SW',
   geo: GeoData(
     coordinate: Coordinate(

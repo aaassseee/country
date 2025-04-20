@@ -6,6 +6,7 @@ const countryTKL = Country(
   continent: Continent.australia,
   countryCode: '690',
   currencyCode: 'NZD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TL',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryOMN = Country(
   continent: Continent.asia,
   countryCode: '968',
   currencyCode: 'OMR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MU',
   geo: GeoData(
     coordinate: Coordinate(
@@ -202,14 +203,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة جنوب الباطنة',
       code: 'BJ',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة جنوب الباطنة",
         "bn": "আল বাতিনাহ দক্ষিন গভর্নোরেট",
@@ -256,14 +250,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة شمال الباطنة',
       code: 'BS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة شمال الباطنة",
         "cs": "Severní al-Batína",
@@ -293,14 +280,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة البريمي',
       code: 'BU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة البريمي",
         "bn": "আল বুরাইমি গভর্নোরেট",
@@ -537,14 +517,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة جنوب الشرقية',
       code: 'SJ',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة جنوب الشرقية",
         "bn": "আশ শারকিয়া দক্ষিন গভর্নোরেট",
@@ -594,14 +567,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة شمال الشرقية',
       code: 'SS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة شمال الشرقية",
         "bn": "আশ শারকিয়াহ গভর্নোরেট",
@@ -764,14 +730,7 @@ const countryOMN = Country(
     Subdivision(
       name: 'محافظة ظفار',
       code: 'ZU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة ظفار",
         "bn": "ধোফার গভর্নোরেট",

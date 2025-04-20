@@ -6,6 +6,7 @@ const countryBEN = Country(
   continent: Continent.africa,
   countryCode: '229',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BN',
   geo: GeoData(
     coordinate: Coordinate(

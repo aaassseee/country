@@ -6,6 +6,7 @@ const countryABW = Country(
   continent: Continent.northAmerica,
   countryCode: '297',
   currencyCode: 'AWG',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AA',
   geo: GeoData(
     coordinate: Coordinate(
