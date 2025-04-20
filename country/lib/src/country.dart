@@ -304,7 +304,7 @@ class Country {
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, distanceUnit: $distanceUnit, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, distanceUnit: $distanceUnit, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
   }
 
   @override
@@ -317,6 +317,7 @@ class Country {
           continent == other.continent &&
           countryCode == other.countryCode &&
           currencyCode == other.currencyCode &&
+          distanceUnit == other.distanceUnit &&
           gec == other.gec &&
           geo == other.geo &&
           internationalPrefix == other.internationalPrefix &&
@@ -360,6 +361,7 @@ class Country {
       continent.hashCode ^
       countryCode.hashCode ^
       currencyCode.hashCode ^
+      distanceUnit.hashCode ^
       gec.hashCode ^
       geo.hashCode ^
       internationalPrefix.hashCode ^
