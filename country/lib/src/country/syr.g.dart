@@ -6,6 +6,7 @@ const countrySYR = Country(
   continent: Continent.asia,
   countryCode: '963',
   currencyCode: 'SYP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SY',
   geo: GeoData(
     coordinate: Coordinate(

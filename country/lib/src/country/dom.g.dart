@@ -6,6 +6,7 @@ const countryDOM = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'DOP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'DR',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1968,14 +1969,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Santo Domingo',
       code: '32',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة سانتو دومينغو",
         "bn": "স্যান্টো ডোমিঙ্গ প্রদেশ",
@@ -2026,14 +2020,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Cibao Nordeste',
       code: '33',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Cibao Nordeste",
         "ccp": "𑄥𑄨𑄝𑄃𑄮 𑄚𑄧𑄢𑄴𑄓𑄬𑄌𑄴𑄑𑄬",
@@ -2044,14 +2031,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Cibao Noroeste',
       code: '34',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Cibao Noroeste",
         "ccp": "𑄥𑄨𑄝𑄃𑄮 𑄚𑄧𑄢𑄧𑄠𑄬𑄌𑄴𑄑𑄬",
@@ -2062,14 +2042,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Cibao Norte',
       code: '35',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Cibao Norte",
         "ccp": "𑄥𑄨𑄝𑄃𑄮 𑄚𑄧𑄢𑄴𑄑𑄬",
@@ -2080,14 +2053,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Cibao Sur',
       code: '36',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Cibao Sur",
         "ccp": "𑄥𑄨𑄝𑄃𑄮 𑄥𑄢𑄴",
@@ -2098,14 +2064,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'El Valle',
       code: '37',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "El Valle",
         "ccp": "𑄃𑄬𑄣𑄴 𑄞𑄣𑄬",
@@ -2116,14 +2075,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Enriquillo',
       code: '38',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Enriquillo",
         "ccp": "𑄃𑄬𑄚𑄴𑄢𑄨𑄇𑄪𑄃𑄨𑄣𑄮",
@@ -2134,42 +2086,21 @@ const countryDOM = Country(
     Subdivision(
       name: 'Higüamo',
       code: '39',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "Higüamo", "ccp": "𑄦𑄭𑄉𑄪𑄠𑄟𑄮", "ja": "イグアモ地域"},
       type: 'region',
     ),
     Subdivision(
       name: 'Ozama',
       code: '40',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "Ozama", "ccp": "𑄃𑄧𑄎𑄟", "ja": "オサマ地域"},
       type: 'region',
     ),
     Subdivision(
       name: 'Valdesia',
       code: '41',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Valdesia",
         "ccp": "𑄞𑄧𑄣𑄴𑄓𑄬𑄥𑄨𑄠",
@@ -2180,14 +2111,7 @@ const countryDOM = Country(
     Subdivision(
       name: 'Yuma',
       code: '42',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "Yuma", "ccp": "𑄃𑄨𑄠𑄟", "ja": "ユマ地域"},
       type: 'region',
     )

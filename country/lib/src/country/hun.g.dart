@@ -6,6 +6,7 @@ const countryHUN = Country(
   continent: Continent.europe,
   countryCode: '36',
   currencyCode: 'HUF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'HU',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryGGY = Country(
   continent: Continent.europe,
   countryCode: '44',
   currencyCode: 'GBP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GK',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryGGY = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Bailiwick of Guernsey',
   isoShortName: 'Guernsey',
@@ -39,7 +40,7 @@ const countryGGY = Country(
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Channel Islander',
   number: '831',
   postalCode: true,

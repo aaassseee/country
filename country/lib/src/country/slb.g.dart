@@ -6,6 +6,7 @@ const countrySLB = Country(
   continent: Continent.australia,
   countryCode: '677',
   currencyCode: 'SBD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BP',
   geo: GeoData(
     coordinate: Coordinate(

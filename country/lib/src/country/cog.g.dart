@@ -6,6 +6,7 @@ const countryCOG = Country(
   continent: Continent.africa,
   countryCode: '242',
   currencyCode: 'XAF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CF',
   geo: GeoData(
     coordinate: Coordinate(
@@ -496,14 +497,7 @@ const countryCOG = Country(
     Subdivision(
       name: 'Pointe-Noire',
       code: '16',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Pointe-Noire",
         "ceb": "Pointe-Noire (distrito)",

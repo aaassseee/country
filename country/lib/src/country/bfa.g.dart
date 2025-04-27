@@ -6,6 +6,7 @@ const countryBFA = Country(
   continent: Continent.africa,
   countryCode: '226',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'UV',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Boucle du Mouhoun',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Букъл дю Муун",
         "da": "Boucle du Mouhoun",
@@ -246,14 +240,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Cascades',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Каскадес",
         "da": "Cascades",
@@ -295,14 +282,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Centre',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централен регион",
         "da": "Centre",
@@ -345,14 +325,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Centre-Est',
       code: '04',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централно-източен регион",
         "da": "Centre-Est",
@@ -393,14 +366,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Centre-Nord',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централно-северен регион",
         "da": "Centre-Nord",
@@ -443,14 +409,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Centre-Ouest',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централно-западен регион",
         "da": "Centre-Ouest",
@@ -492,14 +451,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Centre-Sud',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Централно-южен регион",
         "da": "Centre-Sud",
@@ -540,14 +492,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Est',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Източен регион",
         "da": "Est",
@@ -588,14 +533,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Hauts-Bassins',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "От Басен",
         "da": "Hauts-Bassins",
@@ -638,14 +576,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Nord',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Regió Nord",
         "da": "Nord",
@@ -687,14 +618,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Plateau-Central',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Плато Сентрал",
         "da": "Plateau-Central",
@@ -736,14 +660,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Sahel',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Саел",
         "da": "Sahel",
@@ -784,14 +701,7 @@ const countryBFA = Country(
     Subdivision(
       name: 'Sud-Ouest',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Югозападен регион",
         "da": "Sud-Ouest",

@@ -75,9 +75,10 @@ void printAllCountry() {
 | continent                      | &cross;  | country belongs                                                                                  |
 | countryCode                    | &cross;  | telephone number prefixes                                                                        |
 | currencyCode                   | &cross;  | alpha codes and numeric codes for the representation of currencies                               |
+| distanceUnit                   | &cross;  | distance unit                                                                                    |
 | gec                            | &check;  | two-letter country codes that were used by the U.S. Government                                   |
 | geo                            | &cross;  | GeoData. latitude, longitude and boundary information                                            |
-| internationalPrefix            | &cross;  | trunk prefix used to select an international telephone circuit for placing an international call |
+| internationalPrefix            | &check;  | trunk prefix used to select an international telephone circuit for placing an international call |
 | ioc                            | &check;  | three-letter abbreviation country codes to refer to each group of athletes                       |
 | isoLongName                    | &cross;  | full name                                                                                        |
 | isoShortName                   | &cross;  | short name                                                                                       |
@@ -85,14 +86,14 @@ void printAllCountry() {
 | languagesSpoken                | &cross;  | spoken languages                                                                                 |
 | nationalDestinationCodeLengths | &cross;  | lengths of National Destination Code                                                             |
 | nationalNumberLengths          | &cross;  | lengths of phone number                                                                          |
-| nationalPrefix                 | &cross;  | phone prefix used in this country for dialing national numbers                                   |
-| nationality                    | &cross;  | identification of a person in international law                                                  |
+| nationalPrefix                 | &check;  | phone prefix used in this country for dialing national numbers                                   |
+| nationality                    | &check;  | identification of a person in international law                                                  |
 | number                         | &cross;  | numeric code of country                                                                          |
 | postalCode                     | &cross;  | is this country uses postal codes in addresses                                                   |
 | postalCodeFormat               | &check;  | regex for valid postal codes                                                                     |
-| region                         | &cross;  | region this country is in                                                                        |
+| region                         | &check;  | region this country is in                                                                        |
 | startOfWeek                    | &cross;  | starting day of the week                                                                         |
-| subregion                      | &cross;  | subegion this country is in                                                                      |
+| subregion                      | &check;  | subregion this country is in                                                                     |
 | unLocode                       | &cross;  | UN/LOCODE prefix for this country                                                                |
 | unMember                       | &cross;  | is a member of the United Nations                                                                |
 | unofficialNames                | &cross;  | unofficial, slang names or aliases for this country                                              |
@@ -106,6 +107,12 @@ void printAllCountry() {
 | esmMember                      | &check;  | is a member of the European Single Market                                                        |
 | altCurrency                    | &check;  | complementary currency                                                                           |
 | isoShortNameByLanguage         | &cross;  | Map for storing country short name by locale                                                     |
+
+#### DistanceUnit(enum class)
+
+| Parameter | Nullable | Description            |
+|-----------|:--------:|------------------------|
+| wireName  | &cross;  | Actual value from json |
 
 #### GeoData
 

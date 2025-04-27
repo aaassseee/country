@@ -6,6 +6,7 @@ const countryMNE = Country(
   continent: Continent.europe,
   countryCode: '382',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MJ',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1419,14 +1420,7 @@ const countryMNE = Country(
     Subdivision(
       name: 'Општина Гусиње',
       code: '22',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Гусине (община)",
         "ccp": "𑄉𑄪𑄥𑄨𑄚𑄴𑄎𑄬",
@@ -1450,14 +1444,7 @@ const countryMNE = Country(
     Subdivision(
       name: 'Општина Петњица',
       code: '23',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Петница (община)",
         "ccp": "𑄛𑄬𑄑𑄚𑄴𑄎𑄨𑄇",

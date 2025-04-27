@@ -6,6 +6,7 @@ const countryUGA = Country(
   continent: Continent.africa,
   countryCode: '256',
   currencyCode: 'UGX',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'UG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1138,14 +1139,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Buikwe',
       code: '117',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بويكوي",
         "bn": "বুইকওয়ে জেলা",
@@ -1194,14 +1188,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Bukomansibi',
       code: '118',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بوكومانسيمبي",
         "bn": "বুকোমান্সিম্বি জেলা",
@@ -1250,14 +1237,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Butambala',
       code: '119',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بوتمبالا",
         "bn": "বোতামবালা জেলা",
@@ -1308,14 +1288,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Buvuma',
       code: '120',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بوفوما",
         "bn": "বুভুমা জেলা",
@@ -1366,14 +1339,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Gomba',
       code: '121',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة غومبا",
         "bn": "গোম্বা জেলা",
@@ -1424,14 +1390,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kalungu',
       code: '122',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كالونغو",
         "bn": "কালোঙ্গো জেলা",
@@ -1482,14 +1441,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kyankwanzi',
       code: '123',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كيانكوانزي",
         "bn": "কিয়ানকাঊয়ানজি জেলা",
@@ -1540,14 +1492,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Lwengo',
       code: '124',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة لوينغو",
         "bn": "লেঙ্গো জেলা",
@@ -2992,14 +2937,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Bulambuli',
       code: '225',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بولامبولي",
         "bn": "বুলামবুলি জেলা",
@@ -3048,14 +2986,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Buyende',
       code: '226',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بويندي",
         "bn": "বায়েন্ডি জেলা",
@@ -3103,14 +3034,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kibuku',
       code: '227',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كيبوكو",
         "bn": "কিবুকো জেলা",
@@ -3159,14 +3083,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kween',
       code: '228',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كوين",
         "bn": "কিন জেলা",
@@ -3216,14 +3133,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Luuka',
       code: '229',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ضاحية لوكا",
         "bn": "লুকা জেলা",
@@ -3273,14 +3183,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Namayingo',
       code: '230',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نامايينغو",
         "bn": "নামাইংগো জেলা",
@@ -3328,14 +3231,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Ngora',
       code: '231',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نغورا",
         "bn": "নাগোরা জেলা",
@@ -3384,14 +3280,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Serere',
       code: '232',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة سيرير",
         "bn": "সেরে জেলা",
@@ -4692,14 +4581,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Agago',
       code: '322',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة أغاجو",
         "bn": "আগাগো জেলা",
@@ -4747,14 +4629,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Alebtong',
       code: '323',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ايبتونغ",
         "bn": "আলেবটং জেলা",
@@ -4802,14 +4677,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Amudat',
       code: '324',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة أمودات",
         "bn": "আমুদাত জেলা",
@@ -4857,14 +4725,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kole',
       code: '325',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ضاحية كول",
         "bn": "কোলে জেলা",
@@ -4912,14 +4773,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Lamwo',
       code: '326',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة لامو",
         "bn": "লামৌ জেলা",
@@ -4967,14 +4821,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Napak',
       code: '327',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ناباك",
         "bn": "নাপাক জেলা",
@@ -5023,14 +4870,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Nwoya',
       code: '328',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نويا",
         "bn": "নৌইয়া জেলা",
@@ -5079,14 +4919,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Otuke',
       code: '329',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة أوتوك",
         "bn": "ওতুকে জেলা",
@@ -5134,14 +4967,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Zombo²',
       code: '330',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة زومبو",
         "bn": "জোম্বো জেলা",
@@ -5190,14 +5016,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Zombo',
       code: '331',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Zombo",
         "ja": "オモロ県",
@@ -6339,14 +6158,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Buhweju',
       code: '420',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بوهيويو",
         "bn": "বুওয়েজু জেলা",
@@ -6393,14 +6205,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kiryandongo',
       code: '421',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كيرياندونغو",
         "bn": "কিরিয়ান্দুং জেলা",
@@ -6447,14 +6252,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Kyegegwa',
       code: '422',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كيجيغوا",
         "bn": "কিজেগউয়া জেলা",
@@ -6502,14 +6300,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Mitooma',
       code: '423',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم ميتووما",
         "bn": "মিতোমা জেলা",
@@ -6557,14 +6348,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Ntoroko',
       code: '424',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نتوروكو",
         "bn": "নুরোকু জেলা",
@@ -6612,14 +6396,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Rubirizi',
       code: '425',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة روبيريزي",
         "bn": "রুবিরজি জেলা",
@@ -6667,14 +6444,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Sheema',
       code: '426',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة شيما",
         "bn": "সিমা জেলা",
@@ -6882,14 +6652,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Central',
       code: 'C',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Zentraluganda",
         "el": "Κεντρική Ουγκάντα",
@@ -6928,14 +6691,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Eastern',
       code: 'E',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "el": "Ανατολική Ουγκάντα",
         "en": "Eastern",
@@ -6972,14 +6728,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Northern',
       code: 'N',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "el": "Βόρεια Ουγκάντα",
         "en": "Northern",
@@ -7014,14 +6763,7 @@ const countryUGA = Country(
     Subdivision(
       name: 'Western',
       code: 'W',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "el": "Δυτική Ουγκάντα",
         "en": "Western",

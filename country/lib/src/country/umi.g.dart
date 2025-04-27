@@ -6,6 +6,7 @@ const countryUMI = Country(
   continent: Continent.australia,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: null,
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryUMI = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'United States Minor Outlying Islands',
   isoShortName: 'United States Minor Outlying Islands',
@@ -39,7 +40,7 @@ const countryUMI = Country(
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'American',
   number: '581',
   postalCode: true,

@@ -6,6 +6,7 @@ const countryGUM = Country(
   continent: Continent.australia,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'GQ',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryAIA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AV',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryNCL = Country(
   continent: Continent.australia,
   countryCode: '687',
   currencyCode: 'XPF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NC',
   geo: GeoData(
     coordinate: Coordinate(

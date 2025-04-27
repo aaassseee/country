@@ -6,6 +6,7 @@ const countryCIV = Country(
   continent: Continent.africa,
   countryCode: '225',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IV',
   geo: GeoData(
     coordinate: Coordinate(
@@ -206,14 +207,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Abidjan',
       code: 'AB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Abidjan",
         "ar": "أبيدجان",
@@ -304,14 +298,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District du Bas-Sassandra',
       code: 'BS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة باس-ساساندرا",
         "bn": "বাস সাসান্ড্রা জেলা",
@@ -359,14 +346,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District de la Comoé',
       code: 'CM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Comoé",
         "en": "Comoé",
@@ -392,14 +372,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Denguélé',
       code: 'DN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة دينغويلي",
         "bn": "ডেনগোয়েলে জেলা",
@@ -448,14 +421,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Gôh-Djiboua',
       code: 'GD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Gôh-Djiboua",
         "en": "Gôh-Djiboua",
@@ -480,14 +446,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District des Lacs',
       code: 'LC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Lacs",
         "en": "Lacs²",
@@ -511,14 +470,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District des Lagunes',
       code: 'LG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Lagunes",
         "en": "Lagunes²",
@@ -541,14 +493,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District des Montagnes',
       code: 'MG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Montagnes",
         "en": "Montagnes",
@@ -572,14 +517,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District du Sassandra-Marahoué',
       code: 'SM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Sassandra-Marahoué",
         "en": "Sassandra-Marahoué",
@@ -602,14 +540,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Savanes',
       code: 'SV',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة سافانس",
         "bn": "সাবানেস জেলা",
@@ -658,14 +589,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Vallée du Bandama',
       code: 'VB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة فالي دو باندما",
         "bn": "ভালি দো বান্দামা জেলা",
@@ -713,14 +637,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'District du Woroba',
       code: 'WR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Woroba",
         "en": "Woroba",
@@ -745,14 +662,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Yamoussoukro',
       code: 'YM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Yamoussoukro",
         "am": "ያሙሱክሮ",
@@ -844,14 +754,7 @@ const countryCIV = Country(
     Subdivision(
       name: 'Zanzan',
       code: 'ZZ',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Zanzan²",
         "uk": "Район Занзан",

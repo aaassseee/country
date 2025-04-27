@@ -6,6 +6,7 @@ const countryIRL = Country(
   continent: Continent.europe,
   countryCode: '353',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'EI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1018,14 +1019,7 @@ const countryIRL = Country(
     Subdivision(
       name: 'Leinster',
       code: 'L',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "no": "Leinster",
         "ar": "لاينستر",

@@ -6,6 +6,7 @@ const countryBGR = Country(
   continent: Continent.europe,
   countryCode: '359',
   currencyCode: 'BGN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BU',
   geo: GeoData(
     coordinate: Coordinate(

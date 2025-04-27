@@ -6,6 +6,7 @@ const countryMLT = Country(
   continent: Continent.europe,
   countryCode: '356',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MT',
   geo: GeoData(
     coordinate: Coordinate(

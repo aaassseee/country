@@ -6,6 +6,7 @@ const countrySYC = Country(
   continent: Continent.africa,
   countryCode: '248',
   currencyCode: 'SCR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1490,14 +1491,7 @@ const countrySYC = Country(
     Subdivision(
       name: 'Les Mamelles',
       code: '24',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "لس ماميلس",
         "bn": "লেস মামেলস",
@@ -1547,14 +1541,7 @@ const countrySYC = Country(
     Subdivision(
       name: 'Roche Caïman',
       code: '25',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "روتش كايمان",
         "bn": "রোচ কাইম্যান",

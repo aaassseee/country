@@ -6,6 +6,7 @@ const countryCAN = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'CAD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CA',
   geo: GeoData(
     coordinate: Coordinate(

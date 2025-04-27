@@ -6,6 +6,7 @@ const countryAND = Country(
   continent: Continent.europe,
   countryCode: '376',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AN',
   geo: GeoData(
     coordinate: Coordinate(

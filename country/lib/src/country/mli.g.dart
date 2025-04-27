@@ -6,6 +6,7 @@ const countryMLI = Country(
   continent: Continent.africa,
   countryCode: '223',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ML',
   geo: GeoData(
     coordinate: Coordinate(

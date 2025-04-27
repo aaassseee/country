@@ -6,6 +6,7 @@ const countryCXR = Country(
   continent: Continent.asia,
   countryCode: '61',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KT',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryTUV = Country(
   continent: Continent.australia,
   countryCode: '688',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TV',
   geo: GeoData(
     coordinate: Coordinate(

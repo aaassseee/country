@@ -6,6 +6,7 @@ const countryDJI = Country(
   continent: Continent.africa,
   countryCode: '253',
   currencyCode: 'DJF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'DJ',
   geo: GeoData(
     coordinate: Coordinate(

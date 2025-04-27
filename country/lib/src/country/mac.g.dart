@@ -6,6 +6,7 @@ const countryMAC = Country(
   continent: Continent.asia,
   countryCode: '853',
   currencyCode: 'MOP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MC',
   geo: GeoData(
     coordinate: Coordinate(

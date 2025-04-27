@@ -6,6 +6,7 @@ const countryVNM = Country(
   continent: Continent.asia,
   countryCode: '84',
   currencyCode: 'VND',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'VM',
   geo: GeoData(
     coordinate: Coordinate(

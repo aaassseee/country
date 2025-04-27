@@ -6,6 +6,7 @@ const countryKHM = Country(
   continent: Continent.asia,
   countryCode: '855',
   currencyCode: 'KHR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CB',
   geo: GeoData(
     coordinate: Coordinate(
@@ -910,14 +911,7 @@ const countryKHM = Country(
     Subdivision(
       name: 'Baat Dambang [Batdâmbâng]',
       code: '2',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Battambang",
         "ar": "محافظة باتامبانغ",
@@ -1275,14 +1269,7 @@ const countryKHM = Country(
     Subdivision(
       name: 'Tbong Khmum',
       code: '25',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Tbong Khmum",
         "ccp": "𑄝𑄧𑄁 𑄟𑄟𑄴",

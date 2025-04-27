@@ -6,6 +6,7 @@ const countryTON = Country(
   continent: Continent.australia,
   countryCode: '676',
   currencyCode: 'TOP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TN',
   geo: GeoData(
     coordinate: Coordinate(

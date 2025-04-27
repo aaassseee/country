@@ -6,6 +6,7 @@ const countryNGA = Country(
   continent: Continent.africa,
   countryCode: '234',
   currencyCode: 'NGN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NI',
   geo: GeoData(
     coordinate: Coordinate(

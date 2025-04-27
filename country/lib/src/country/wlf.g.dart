@@ -6,6 +6,7 @@ const countryWLF = Country(
   continent: Continent.australia,
   countryCode: '681',
   currencyCode: 'XPF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'WF',
   geo: GeoData(
     coordinate: Coordinate(
@@ -205,14 +206,7 @@ const countryWLF = Country(
     Subdivision(
       name: 'Alo',
       code: 'AL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Alo",
         "ar": "ألو",
@@ -276,14 +270,7 @@ const countryWLF = Country(
     Subdivision(
       name: 'Sigave',
       code: 'SG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Sigave",
         "ar": "مدينة سيغاف",
@@ -344,14 +331,7 @@ const countryWLF = Country(
     Subdivision(
       name: 'Uvea',
       code: 'UV',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أوفيا",
         "bn": "উভা",

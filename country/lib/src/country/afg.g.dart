@@ -6,6 +6,7 @@ const countryAFG = Country(
   continent: Continent.asia,
   countryCode: '93',
   currencyCode: 'AFN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AF',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1707,14 +1708,7 @@ const countryAFG = Country(
     Subdivision(
       name: 'لوګر ولايت',
       code: 'LOG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ولاية لوكر",
         "az": "Lövgər vilayəti",
@@ -2523,14 +2517,7 @@ const countryAFG = Country(
     Subdivision(
       name: 'روزګان ولايت',
       code: 'URU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ولاية أروزكان",
         "az": "Uruzgan",

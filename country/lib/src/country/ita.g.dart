@@ -6,6 +6,7 @@ const countryITA = Country(
   continent: Continent.europe,
   countryCode: '39',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IT',
   geo: GeoData(
     coordinate: Coordinate(

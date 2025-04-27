@@ -6,6 +6,7 @@ const countryCYM = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'KYD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'CJ',
   geo: GeoData(
     coordinate: Coordinate(

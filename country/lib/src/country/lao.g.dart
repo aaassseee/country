@@ -6,6 +6,7 @@ const countryLAO = Country(
   continent: Continent.asia,
   countryCode: '856',
   currencyCode: 'LAK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LA',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1217,14 +1218,7 @@ const countryLAO = Country(
     Subdivision(
       name: 'ແຂວງໄຊສົມບູນ',
       code: 'XS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Provinz Saysomboun",
         "en": "Xaisomboun",

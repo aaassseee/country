@@ -6,6 +6,7 @@ const countryERI = Country(
   continent: Continent.africa,
   countryCode: '291',
   currencyCode: 'ERN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ER',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryJAM = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'JMD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'JM',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countrySSD = Country(
   continent: Continent.africa,
   countryCode: '211',
   currencyCode: 'SSP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'OD',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'شمال بحر الغزال',
       code: 'BN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شمال بحر الغزال",
         "bg": "Северен Бахър ал Газал",
@@ -262,14 +256,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'غرب بحر الغزال',
       code: 'BW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "غرب بحر الغزال",
         "bg": "Западен Бахър ал Газал",
@@ -325,14 +312,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'وسط الاستوائية',
       code: 'EC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "وسط الاستوائية",
         "bg": "Централна Екватория",
@@ -391,14 +371,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'شرق الاستوائية',
       code: 'EE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شرق الاستوائية",
         "bg": "Източна Екватория",
@@ -454,14 +427,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'غرب الاستوائية',
       code: 'EW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "غرب الاستوائية",
         "bg": "Западна Екватория",
@@ -516,14 +482,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'جونقلي',
       code: 'JG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جونقلي",
         "bg": "Джонглей",
@@ -581,14 +540,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'البحيرات',
       code: 'LK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "البحيرات",
         "bg": "Езерна провинция",
@@ -645,14 +597,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'أعالي النيل',
       code: 'NU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أعالي النيل",
         "be": "Штат Верхні Ніл",
@@ -711,14 +656,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'الوحدة',
       code: 'UY',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "الوحدة",
         "bg": "Единство",
@@ -774,14 +712,7 @@ const countrySSD = Country(
     Subdivision(
       name: 'واراب',
       code: 'WR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "واراب",
         "bg": "Уараб",

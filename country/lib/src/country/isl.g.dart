@@ -6,6 +6,7 @@ const countryISL = Country(
   continent: Continent.europe,
   countryCode: '354',
   currencyCode: 'ISK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IC',
   geo: GeoData(
     coordinate: Coordinate(

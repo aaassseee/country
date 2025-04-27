@@ -6,6 +6,7 @@ const countryIDN = Country(
   continent: Continent.asia,
   countryCode: '62',
   currencyCode: 'IDR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ID',
   geo: GeoData(
     coordinate: Coordinate(

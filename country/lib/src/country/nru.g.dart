@@ -6,6 +6,7 @@ const countryNRU = Country(
   continent: Continent.australia,
   countryCode: '674',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NR',
   geo: GeoData(
     coordinate: Coordinate(

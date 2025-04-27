@@ -6,6 +6,7 @@ const countryHRV = Country(
   continent: Continent.europe,
   countryCode: '385',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'HR',
   geo: GeoData(
     coordinate: Coordinate(

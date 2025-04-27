@@ -6,6 +6,7 @@ const countryPER = Country(
   continent: Continent.southAmerica,
   countryCode: '51',
   currencyCode: 'PEN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PE',
   geo: GeoData(
     coordinate: Coordinate(

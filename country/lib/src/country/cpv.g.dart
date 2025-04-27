@@ -6,6 +6,7 @@ const countryCPV = Country(
   continent: Continent.africa,
   countryCode: '238',
   currencyCode: 'CVE',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CV',
   geo: GeoData(
     coordinate: Coordinate(
@@ -205,14 +206,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Ilhas de Barlavento',
       code: 'B',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Illes de Barlavento",
         "cs": "Barlavento",
@@ -420,14 +414,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Santa Catarina do Fogo',
       code: 'CF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سانتا كاتارينا دو فوجو",
         "bn": "স্যান্টা ক্যাটারিনা দো ফোগো",
@@ -803,14 +790,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Ribeira Brava',
       code: 'RB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ريبيرا برافا",
         "bn": "রিবেইরা ব্রাভা",
@@ -913,14 +893,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Ribeira Grande de Santiago',
       code: 'RS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ريبيرا غراندي دي سانتياغو، الرأس الأخضر",
         "bg": "Рибейра Гранде де Сантяго",
@@ -969,14 +942,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Ilhas de Sotavento',
       code: 'S',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزر سوتافينتو",
         "ca": "Illes de Sotavento",
@@ -1181,14 +1147,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'São Miguel',
       code: 'SM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Сао Мигел",
         "ca": "São Miguel",
@@ -1232,14 +1191,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'São Lourenço dos Órgãos',
       code: 'SO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ساو لورينسو دوس أورغاوس",
         "bn": "সেন্ট লরেন্স দোস অরগ্যাস",
@@ -1287,14 +1239,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'São Salvador do Mundo',
       code: 'SS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ساو سلفادور دو موندو",
         "bg": "Сао Салвадор до Мундо",
@@ -1454,14 +1399,7 @@ const countryCPV = Country(
     Subdivision(
       name: 'Tarrafal de São Nicolau',
       code: 'TS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "تارفال دي ساو نيكولاو",
         "bn": "ত্ররাফাল দে সাও নিকোলাউ",

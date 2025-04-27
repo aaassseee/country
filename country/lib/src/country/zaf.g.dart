@@ -6,6 +6,7 @@ const countryZAF = Country(
   continent: Continent.africa,
   countryCode: '27',
   currencyCode: 'ZAR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SF',
   geo: GeoData(
     coordinate: Coordinate(

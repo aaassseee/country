@@ -6,6 +6,7 @@ const countryCMR = Country(
   continent: Continent.africa,
   countryCode: '237',
   currencyCode: 'XAF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CM',
   geo: GeoData(
     coordinate: Coordinate(

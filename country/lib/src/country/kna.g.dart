@@ -6,6 +6,7 @@ const countryKNA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'SC',
   geo: GeoData(
     coordinate: Coordinate(
@@ -968,14 +969,7 @@ const countryKNA = Country(
     Subdivision(
       name: 'Saint Kitts',
       code: 'K',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سانت كيتس",
         "be": "Востраў Сент-Кітс",
@@ -1029,14 +1023,7 @@ const countryKNA = Country(
     Subdivision(
       name: 'Nevis',
       code: 'N',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "نيفيس",
         "be": "Востраў Невіс",

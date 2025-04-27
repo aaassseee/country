@@ -6,6 +6,7 @@ const countryCHL = Country(
   continent: Continent.southAmerica,
   countryCode: '56',
   currencyCode: 'CLP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CI',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryMHL = Country(
   continent: Continent.australia,
   countryCode: '692',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -634,14 +635,7 @@ const countryMHL = Country(
     Subdivision(
       name: 'Ralik Chain',
       code: 'L',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "راليك تشين",
         "bn": "রালিকচেইন",
@@ -1137,14 +1131,7 @@ const countryMHL = Country(
     Subdivision(
       name: 'Ratak Chain',
       code: 'T',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سلسلة راتاك",
         "bn": "রাতাক চেইন",

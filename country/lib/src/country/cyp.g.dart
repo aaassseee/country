@@ -6,6 +6,7 @@ const countryCYP = Country(
   continent: Continent.asia,
   countryCode: '357',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CY',
   geo: GeoData(
     coordinate: Coordinate(

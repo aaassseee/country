@@ -6,6 +6,7 @@ const countryGBR = Country(
   continent: Continent.europe,
   countryCode: '44',
   currencyCode: 'GBP',
+  distanceUnit: DistanceUnit.miles,
   gec: 'UK',
   geo: GeoData(
     coordinate: Coordinate(
@@ -226,14 +227,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Armagh City, Banbridge and Craigavon',
       code: 'ABC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Armagh, Banbridge and Craigavon",
         "en": "Armagh, Banbridge and Craigavon",
@@ -536,14 +530,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Ards and North Down',
       code: 'AND',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Ards and North Down",
         "en": "Ards and North Down",
@@ -571,14 +558,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Antrim and Newtownabbey',
       code: 'ANN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Antrim and Newtownabbey",
         "en": "Antrim and Newtownabbey",
@@ -1974,14 +1954,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Central Bedfordshire',
       code: 'CBF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "da": "Central Bedfordshire",
         "de": "Central Bedfordshire",
@@ -2019,14 +1992,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Causeway Coast and Glens',
       code: 'CCG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Causeway Coast and Glens",
         "en": "Causeway Coast and Glens",
@@ -2109,14 +2075,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Cheshire East',
       code: 'CHE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Усходні Чэшыр",
         "de": "Cheshire East",
@@ -2152,14 +2111,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Cheshire West and Chester',
       code: 'CHW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Cheshire West and Chester",
         "en": "Cheshire West and Chester",
@@ -2941,14 +2893,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Denbighshire [Sir Ddinbych GB-DDB]',
       code: 'DEN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Denbighshire",
         "be": "графства Дэнбішыр",
@@ -3407,14 +3352,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Derry and Strabane',
       code: 'DRS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Derry and Strabane",
         "en": "Derry and Strabane",
@@ -3982,14 +3920,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'England',
       code: 'ENG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Engeland",
         "am": "እንግሊዝ",
@@ -4527,14 +4458,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Fermanagh and Omagh',
       code: 'FMO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Fermanagh and Omagh",
         "en": "Fermanagh and Omagh",
@@ -6385,14 +6309,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Lisburn and Castlereagh',
       code: 'LBC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Lisburn and Castlereagh",
         "en": "Lisburn and Castlereagh",
@@ -7276,14 +7193,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Mid and East Antrim',
       code: 'MEA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Mid and East Antrim",
         "en": "Mid and East Antrim",
@@ -7623,14 +7533,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Mid Ulster',
       code: 'MUL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Mid Ulster",
         "en": "Mid Ulster",
@@ -8075,14 +7978,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Northern Ireland',
       code: 'NIR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Noord-Ierland",
         "am": "ስሜን አየርላንድ",
@@ -8274,14 +8170,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Newry, Mourne and Down',
       code: 'NMD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Newry, Mourne and Down",
         "en": "Newry, Mourne and Down",
@@ -10045,14 +9934,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Scotland',
       code: 'SCT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Skotland",
         "am": "ስኮትላንድ",
@@ -12485,14 +12367,7 @@ const countryGBR = Country(
     Subdivision(
       name: 'Wales',
       code: 'WLS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Wales",
         "am": "ዌልስ",

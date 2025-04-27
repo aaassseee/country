@@ -6,6 +6,7 @@ const countryMRT = Country(
   continent: Continent.africa,
   countryCode: '222',
   currencyCode: 'MRU',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MR',
   geo: GeoData(
     coordinate: Coordinate(
@@ -895,14 +896,7 @@ const countryMRT = Country(
     Subdivision(
       name: 'Nouakchott Ouest',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Nouakchott Ouest",
         "ja": "ヌアクショット西",
@@ -920,14 +914,7 @@ const countryMRT = Country(
     Subdivision(
       name: 'نواكشوط الشمالية',
       code: '14',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Nouakchott Nord",
         "ja": "ヌアクショット北",
@@ -947,14 +934,7 @@ const countryMRT = Country(
     Subdivision(
       name: 'نواكشوط الجنوبية',
       code: '15',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Nouakchott Sud",
         "ja": "ヌアクショット南",

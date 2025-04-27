@@ -6,6 +6,7 @@ const countryLVA = Country(
   continent: Continent.europe,
   countryCode: '371',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LG',
   geo: GeoData(
     coordinate: Coordinate(
@@ -214,14 +215,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Aizkraukles novads',
       code: '002',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية إيزكروكل",
         "be": "Айзкраўкльскі край",
@@ -276,14 +270,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Alūksnes novads',
       code: '007',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية ألوكسنه",
         "be": "Алуксненскі край",
@@ -337,14 +324,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Ādažu novads',
       code: '011',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية آداجي",
         "be": "Адажскі край",
@@ -401,14 +381,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Balvu novads',
       code: '015',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية بالفي",
         "be": "Балвскі край",
@@ -462,14 +435,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Bauskas novads',
       code: '016',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية بوسكا",
         "be": "Баўскі край",
@@ -523,14 +489,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Cēsu novads',
       code: '022',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية تسيسس",
         "be": "Цэсіскі край",
@@ -585,14 +544,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Dobeles novads',
       code: '026',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية دوبيل",
         "bn": "ডোবেল পৌরসভা",
@@ -646,14 +598,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Gulbenes novads',
       code: '033',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية غولبين",
         "be": "Гулбенскі край",
@@ -707,14 +652,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Jelgavas novads',
       code: '041',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية جيلغافا",
         "bn": "জেল্গাভা পৌরসভা",
@@ -768,14 +706,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Jēkabpils novads',
       code: '042',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية جوكابيلز",
         "bn": "জেকাবপিলস পৌরসভা",
@@ -830,14 +761,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Krāslavas novads',
       code: '047',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية كراسلافا",
         "be": "Краслаўскі край",
@@ -891,14 +815,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Kuldīgas novads',
       code: '050',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية كولديغا",
         "be": "Кулдыгскі край",
@@ -953,14 +870,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Ķekavas novads',
       code: '052',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية كيكافا",
         "bn": "কেকাভা পৌরসভা",
@@ -1015,14 +925,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Limbažu novads',
       code: '054',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية ليمباجي",
         "bn": "লিম্বাজি পৌরসভা",
@@ -1076,14 +979,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Līvānu novads',
       code: '056',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية ليفاني",
         "bn": "লিভানি পৌরসভা",
@@ -1138,14 +1034,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Ludzas novads',
       code: '058',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية لودزا",
         "be": "Лудзенскі край",
@@ -1262,14 +1151,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Mārupes novads',
       code: '062',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية ماروب",
         "bn": "মারুপ পৌরসভা",
@@ -1325,14 +1207,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Ogres novads',
       code: '067',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية أوغري",
         "bn": "ওগ্রে পৌরসভা",
@@ -1387,14 +1262,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Olaines novads',
       code: '068',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية أولاين",
         "bn": "ওলাইন পৌরসভা",
@@ -1449,14 +1317,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Preiļu novads',
       code: '073',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية بريلي",
         "bn": "প্রেইলি পৌরসভা",
@@ -1511,14 +1372,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Rēzeknes novads',
       code: '077',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية ريزكنه",
         "bn": "রেজেকনি পৌরসভা",
@@ -1573,14 +1427,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Ropažu novads',
       code: '080',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية روباجي",
         "bn": "রোপাজা পৌরসভা",
@@ -1635,14 +1482,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Salaspils novads',
       code: '087',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية سالاسبيلز",
         "bn": "সালাস্পিলস পৌরসভা",
@@ -1759,14 +1599,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Saulkrastu novads',
       code: '089',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية سولكراستي",
         "bn": "সল্ক্রাস্তি পৌরসভা",
@@ -1821,14 +1654,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Siguldas novads',
       code: '091',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية سيغولدا",
         "bn": "সিগুল্ডা পৌরসভা",
@@ -1883,14 +1709,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Smiltenes novads',
       code: '094',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية سميلتين",
         "bn": "স্মিল্টেন পৌরসভা",
@@ -2071,14 +1890,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Valkas novads',
       code: '101',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية فالكا",
         "be": "Валцкі край",
@@ -2133,14 +1945,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Varakļānu novads',
       code: '102',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلدية فاراكاياني",
         "bn": "ভারাক্লানি পৌরসভা",
@@ -2257,14 +2062,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Augšdaugavas novads',
       code: '111',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "lv": "Augšdaugavas novads",
         "en": "Augšdaugavas novads",
@@ -2279,14 +2077,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Dienvidkurzemes Novads',
       code: '112',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "lv": "Dienvidkurzemes Novads",
         "en": "Dienvidkurzemes Novads",
@@ -2300,14 +2091,7 @@ const countryLVA = Country(
     Subdivision(
       name: 'Valmieras Novads',
       code: '113',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "lv": "Valmieras Novads",
         "en": "Valmieras Novads",

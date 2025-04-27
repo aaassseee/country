@@ -6,6 +6,7 @@ const countryLIE = Country(
   continent: Continent.europe,
   countryCode: '423',
   currencyCode: 'CHF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LS',
   geo: GeoData(
     coordinate: Coordinate(

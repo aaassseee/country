@@ -6,6 +6,7 @@ const countryNIU = Country(
   continent: Continent.australia,
   countryCode: '683',
   currencyCode: 'NZD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NE',
   geo: GeoData(
     coordinate: Coordinate(

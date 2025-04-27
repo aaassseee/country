@@ -6,6 +6,7 @@ const countryCOM = Country(
   continent: Continent.africa,
   countryCode: '269',
   currencyCode: 'KMF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CN',
   geo: GeoData(
     coordinate: Coordinate(

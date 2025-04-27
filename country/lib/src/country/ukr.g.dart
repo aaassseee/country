@@ -6,6 +6,7 @@ const countryUKR = Country(
   continent: Continent.europe,
   countryCode: '380',
   currencyCode: 'UAH',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'UP',
   geo: GeoData(
     coordinate: Coordinate(

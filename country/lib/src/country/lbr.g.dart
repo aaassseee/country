@@ -6,6 +6,7 @@ const countryLBR = Country(
   continent: Continent.africa,
   countryCode: '231',
   currencyCode: 'LRD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'LI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -561,14 +562,7 @@ const countryLBR = Country(
     Subdivision(
       name: 'Gbarpolu',
       code: 'GP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة غباربولو",
         "be": "Гбарпалу",
@@ -924,14 +918,7 @@ const countryLBR = Country(
     Subdivision(
       name: 'River Gee',
       code: 'RG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ريفر جي",
         "be": "Рывер-Гі",

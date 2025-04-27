@@ -6,6 +6,7 @@ const countryKIR = Country(
   continent: Continent.australia,
   countryCode: '686',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KR',
   geo: GeoData(
     coordinate: Coordinate(

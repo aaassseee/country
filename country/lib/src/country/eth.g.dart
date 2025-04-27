@@ -6,6 +6,7 @@ const countryETH = Country(
   continent: Continent.africa,
   countryCode: '251',
   currencyCode: 'ETB',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ET',
   geo: GeoData(
     coordinate: Coordinate(

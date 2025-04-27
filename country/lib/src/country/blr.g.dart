@@ -6,6 +6,7 @@ const countryBLR = Country(
   continent: Continent.europe,
   countryCode: '375',
   currencyCode: 'BYN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BO',
   geo: GeoData(
     coordinate: Coordinate(
@@ -279,14 +280,7 @@ const countryBLR = Country(
     Subdivision(
       name: 'Мінск',
       code: 'HM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Minsk",
         "am": "ሚንስክ",
@@ -451,14 +445,7 @@ const countryBLR = Country(
     Subdivision(
       name: 'Hrodzenskaya voblasts\' (be) Grodnenskaya oblast\' (ru)',
       code: 'HR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Hrodna",
         "ar": "أوبلاست جردونه",
@@ -524,14 +511,7 @@ const countryBLR = Country(
     Subdivision(
       name: 'Mahilyowskaya voblasts\' (be) Mogilevskaya oblast\' (ru)',
       code: 'MA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Magileu",
         "ar": "موغيليوف أوبلاست",
@@ -677,14 +657,7 @@ const countryBLR = Country(
     Subdivision(
       name: 'Vitsyebskaya voblasts\' (be) Vitebskaya oblast\' (ru)',
       code: 'VI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Vitebsk",
         "ar": "فيتسبك أوبلاست",

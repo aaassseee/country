@@ -6,6 +6,7 @@ const countryPRI = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RQ',
   geo: GeoData(
     coordinate: Coordinate(

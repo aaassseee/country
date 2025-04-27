@@ -6,6 +6,7 @@ const countryNIC = Country(
   continent: Continent.northAmerica,
   countryCode: '505',
   currencyCode: 'NIO',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NU',
   geo: GeoData(
     coordinate: Coordinate(

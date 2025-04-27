@@ -6,6 +6,7 @@ const countryIMN = Country(
   continent: Continent.europe,
   countryCode: '44',
   currencyCode: 'GBP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryIMN = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Isle of Man',
   isoShortName: 'Isle of Man',
@@ -39,7 +40,7 @@ const countryIMN = Country(
   languagesSpoken: ['en', 'gv'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Manx',
   number: '833',
   postalCode: true,

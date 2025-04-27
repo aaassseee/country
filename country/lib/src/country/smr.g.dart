@@ -6,6 +6,7 @@ const countrySMR = Country(
   continent: Continent.europe,
   countryCode: '378',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SM',
   geo: GeoData(
     coordinate: Coordinate(

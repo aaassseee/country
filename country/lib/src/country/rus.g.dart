@@ -6,6 +6,7 @@ const countryRUS = Country(
   continent: Continent.europe,
   countryCode: '7',
   currencyCode: 'RUB',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RS',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryTUR = Country(
   continent: Continent.europe,
   countryCode: '90',
   currencyCode: 'TRY',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TU',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryGUF = Country(
   continent: Continent.southAmerica,
   countryCode: '594',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FG',
   geo: GeoData(
     coordinate: Coordinate(

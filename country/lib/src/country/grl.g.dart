@@ -6,6 +6,7 @@ const countryGRL = Country(
   continent: Continent.northAmerica,
   countryCode: '299',
   currencyCode: 'DKK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GL',
   geo: GeoData(
     coordinate: Coordinate(
@@ -243,14 +244,7 @@ const countryGRL = Country(
     Subdivision(
       name: 'Kujalleq',
       code: 'KU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كوياليك",
         "be": "Куялек",
@@ -309,14 +303,7 @@ const countryGRL = Country(
     Subdivision(
       name: 'Qeqqata',
       code: 'QE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كيكاتا",
         "bn": "কুয়েকাটা",
@@ -407,14 +394,7 @@ const countryGRL = Country(
     Subdivision(
       name: 'Sermersooq',
       code: 'SM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سيرمرسوك",
         "bn": "সার্মারসুক",

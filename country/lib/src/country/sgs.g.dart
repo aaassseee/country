@@ -6,6 +6,7 @@ const countrySGS = Country(
   continent: Continent.antarctica,
   countryCode: '500',
   currencyCode: 'GBP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SX',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countrySGS = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'South Georgia and the South Sandwich Islands',
   isoShortName: 'South Georgia and the South Sandwich Islands',
@@ -39,7 +40,7 @@ const countrySGS = Country(
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'South Georgia and the South Sandwich Islander',
   number: '239',
   postalCode: true,

@@ -6,6 +6,7 @@ const countryNFK = Country(
   continent: Continent.australia,
   countryCode: '672',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NF',
   geo: GeoData(
     coordinate: Coordinate(
