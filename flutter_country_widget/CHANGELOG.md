@@ -1,6 +1,12 @@
 ## 2.0.1
 
 * update dependencies
+  - added distanceUnit
+  - changed nullable with internationalPrefix, nationalPrefix, nationality, region, subregion
+
+## 2.0.1
+
+* update dependencies
 
 ## 2.0.0
 
