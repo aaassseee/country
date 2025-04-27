@@ -6,6 +6,7 @@ const countryUSA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'US',
   geo: GeoData(
     coordinate: Coordinate(

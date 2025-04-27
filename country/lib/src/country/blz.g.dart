@@ -6,6 +6,7 @@ const countryBLZ = Country(
   continent: Continent.northAmerica,
   countryCode: '501',
   currencyCode: 'BZD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'BH',
   geo: GeoData(
     coordinate: Coordinate(

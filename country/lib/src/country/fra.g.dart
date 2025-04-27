@@ -6,6 +6,7 @@ const countryFRA = Country(
   continent: Continent.europe,
   countryCode: '33',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FR',
   geo: GeoData(
     coordinate: Coordinate(
@@ -8111,14 +8112,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Martinique',
       code: '972',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Martinique",
         "ccp": "𑄟𑄢𑄴𑄑𑄨𑄚𑄨𑄇𑄴",
@@ -8421,14 +8415,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Clipperton',
       code: 'CP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Clipperton Island",
         "ccp": "𑄇𑄳𑄣𑄨𑄛𑄢𑄴𑄑𑄧𑄚𑄴 𑄃𑄨𑄌𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴",
@@ -8662,14 +8649,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Île-de-France',
       code: 'IDF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Île-de-France",
         "ar": "إيل دو فرانس",
@@ -8744,14 +8724,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Saint-Martin',
       code: 'MF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "St. Martin",
         "fr": "Saint-Martin",
@@ -9080,14 +9053,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Pays de la Loire',
       code: 'PDL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Pays-de-la-Loire",
         "af": "Pays de la Loire",
@@ -9161,14 +9127,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Polynésie française',
       code: 'PF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "French Polynesia",
         "fr": "Polynésie française",
@@ -9180,14 +9139,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Saint-Pierre-et-Miquelon',
       code: 'PM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "St. Pierre & Miquelon",
         "fr": "Saint Pierre et Miquelon",
@@ -9199,14 +9151,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Terres Australes Françaises',
       code: 'TF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "French Southern Territories",
         "fr": "Terres australes et antarctiques françaises",
@@ -9218,14 +9163,7 @@ const countryFRA = Country(
     Subdivision(
       name: 'Wallis-et-Futuna',
       code: 'WF',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Wallis & Futuna",
         "ccp": "𑄤𑄣𑄳𑄦𑄨𑄌𑄴 & 𑄜𑄨𑄅𑄪𑄑𑄚",

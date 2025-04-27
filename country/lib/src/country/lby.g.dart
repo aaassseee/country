@@ -6,6 +6,7 @@ const countryLBY = Country(
   continent: Continent.africa,
   countryCode: '218',
   currencyCode: 'LYD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LY',
   geo: GeoData(
     coordinate: Coordinate(
@@ -520,14 +521,7 @@ const countryLBY = Country(
     Subdivision(
       name: 'Al Jabal al Gharbī',
       code: 'JG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Jabal al Gharbi",
         "ar": "شعبية الجبل الغربي",
@@ -1340,14 +1334,7 @@ const countryLBY = Country(
     Subdivision(
       name: 'Wādī ash Shāţiʾ',
       code: 'WS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Wadi al Shatii",
         "ar": "شعبية وادي الشاطئ",

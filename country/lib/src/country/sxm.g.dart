@@ -6,6 +6,7 @@ const countrySXM = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'ANG',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NN',
   geo: GeoData(
     coordinate: Coordinate(

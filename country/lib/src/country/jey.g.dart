@@ -6,6 +6,7 @@ const countryJEY = Country(
   continent: Continent.europe,
   countryCode: '44',
   currencyCode: 'GBP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'JE',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryJEY = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The Bailiwick of Jersey',
   isoShortName: 'Jersey',
@@ -39,7 +40,7 @@ const countryJEY = Country(
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Channel Islander',
   number: '832',
   postalCode: true,

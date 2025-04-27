@@ -6,6 +6,7 @@ const countryBOL = Country(
   continent: Continent.southAmerica,
   countryCode: '591',
   currencyCode: 'BOB',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BL',
   geo: GeoData(
     coordinate: Coordinate(

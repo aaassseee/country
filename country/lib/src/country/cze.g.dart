@@ -6,6 +6,7 @@ const countryCZE = Country(
   continent: Continent.europe,
   countryCode: '420',
   currencyCode: 'CZK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'EZ',
   geo: GeoData(
     coordinate: Coordinate(

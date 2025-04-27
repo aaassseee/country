@@ -6,6 +6,7 @@ const countrySDN = Country(
   continent: Continent.africa,
   countryCode: '249',
   currencyCode: 'SDG',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SU',
   geo: GeoData(
     coordinate: Coordinate(
@@ -248,14 +249,7 @@ const countrySDN = Country(
     Subdivision(
       name: 'Sharq Dārfūr',
       code: 'DE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ولاية شرق دارفور",
         "en": "East Darfur",

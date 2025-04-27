@@ -6,6 +6,7 @@ const countryNLD = Country(
   continent: Continent.europe,
   countryCode: '31',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NL',
   geo: GeoData(
     coordinate: Coordinate(
@@ -215,28 +216,14 @@ const countryNLD = Country(
     Subdivision(
       name: 'Aruba',
       code: 'AW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "Aruba", "ccp": "𑄃𑄢𑄪𑄝", "ja": "アルバ"},
       type: 'country',
     ),
     Subdivision(
       name: 'Bonaire',
       code: 'BQ1',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Bonaire",
         "ar": "بونير",
@@ -311,14 +298,7 @@ const countryNLD = Country(
     Subdivision(
       name: 'Saba',
       code: 'BQ2',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Saba",
         "ar": "سابا",
@@ -384,14 +364,7 @@ const countryNLD = Country(
     Subdivision(
       name: 'Sint Eustatius',
       code: 'BQ3',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Sint Eustatius",
         "ar": "سينت أوستاتيوس",
@@ -462,14 +435,7 @@ const countryNLD = Country(
     Subdivision(
       name: 'Curaçao',
       code: 'CW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "Curaçao", "ccp": "𑄇𑄨𑄅𑄪𑄢𑄇𑄃𑄮", "ja": "キュラソー島"},
       type: 'country',
     ),
@@ -1226,14 +1192,7 @@ const countryNLD = Country(
     Subdivision(
       name: 'Sint Maarten',
       code: 'SX',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Sint Maarten",
         "ccp": "𑄥𑄨𑄠𑄚𑄴𑄑𑄴 𑄟𑄢𑄴𑄑𑄬𑄚𑄴",

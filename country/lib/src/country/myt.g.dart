@@ -6,6 +6,7 @@ const countryMYT = Country(
   continent: Continent.africa,
   countryCode: '262',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MF',
   geo: GeoData(
     coordinate: Coordinate(

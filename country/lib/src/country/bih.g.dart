@@ -6,6 +6,7 @@ const countryBIH = Country(
   continent: Continent.europe,
   countryCode: '387',
   currencyCode: 'BAM',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BK',
   geo: GeoData(
     coordinate: Coordinate(
@@ -280,14 +281,7 @@ const countryBIH = Country(
     Subdivision(
       name: 'Brčko Distrikt',
       code: 'BRC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة برتشو",
         "be": "Акруга Брчко",

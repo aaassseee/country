@@ -6,6 +6,7 @@ const countryHTI = Country(
   continent: Continent.northAmerica,
   countryCode: '509',
   currencyCode: 'HTG',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'HA',
   geo: GeoData(
     coordinate: Coordinate(
@@ -486,14 +487,7 @@ const countryHTI = Country(
     Subdivision(
       name: 'Nippes',
       code: 'NI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إدارة نيبيس",
         "bn": "নিপেস",

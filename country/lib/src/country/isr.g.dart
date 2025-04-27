@@ -6,6 +6,7 @@ const countryISR = Country(
   continent: Continent.asia,
   countryCode: '972',
   currencyCode: 'ILS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IS',
   geo: GeoData(
     coordinate: Coordinate(

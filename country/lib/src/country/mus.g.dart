@@ -6,6 +6,7 @@ const countryMUS = Country(
   continent: Continent.africa,
   countryCode: '230',
   currencyCode: 'MUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MP',
   geo: GeoData(
     coordinate: Coordinate(

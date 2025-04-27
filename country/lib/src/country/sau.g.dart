@@ -6,6 +6,7 @@ const countrySAU = Country(
   continent: Continent.asia,
   countryCode: '966',
   currencyCode: 'SAR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SA',
   geo: GeoData(
     coordinate: Coordinate(

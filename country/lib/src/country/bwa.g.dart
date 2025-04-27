@@ -6,6 +6,7 @@ const countryBWA = Country(
   continent: Continent.africa,
   countryCode: '267',
   currencyCode: 'BWP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BC',
   geo: GeoData(
     coordinate: Coordinate(
@@ -263,14 +264,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Chobe',
       code: 'CH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Chobe District",
         "en": "Chobe",
@@ -295,14 +289,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Francistown',
       code: 'FR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Francistown",
         "ar": "فرانسيس",
@@ -365,14 +352,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Gaborone',
       code: 'GA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Gaborone",
         "am": "ጋበሮኔ",
@@ -525,14 +505,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Jwaneng',
       code: 'JW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Jwaneng",
         "ar": "غوانينغ",
@@ -771,14 +744,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Lobatse',
       code: 'LO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Lobatse",
         "ar": "لوباتس",
@@ -1080,14 +1046,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Selibe Phikwe',
       code: 'SP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Selebi-Phikwe",
         "ar": "سيليبي-فيكوي",
@@ -1139,14 +1098,7 @@ const countryBWA = Country(
     Subdivision(
       name: 'Sowa Town',
       code: 'ST',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Sowa, Botswana",
         "ar": "سوا، بوتسوانا",

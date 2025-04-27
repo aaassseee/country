@@ -6,6 +6,7 @@ const countryLTU = Country(
   continent: Continent.europe,
   countryCode: '370',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LH',
   geo: GeoData(
     coordinate: Coordinate(
@@ -212,14 +213,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Akmenės rajono savivaldybė',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Акмянскі раён",
         "ca": "Districte municipal d’Akmenė",
@@ -252,14 +246,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Alytaus miesto savivaldybė',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Stadtgemeinde Alytus",
         "el": "Δήμος Πόλης Αλύτους",
@@ -282,14 +269,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Alytaus rajono savivaldybė',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Алітускі раён",
         "ca": "Districte municipal d’Alytus",
@@ -327,14 +307,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Anykščių rajono savivaldybė',
       code: '04',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Anikşçyay rayonu",
         "be": "Анікшчайскі раён",
@@ -370,14 +343,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Birštono savivaldybė',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Municipi de Birštonas",
         "cs": "okres Birštonas",
@@ -409,14 +375,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Biržų rajono savivaldybė',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Біржаўскі раён",
         "ca": "Districte municipal de Biržai",
@@ -453,14 +412,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Druskininkų savivaldybė',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Друскенінкайскае самакіраванне",
         "ca": "Municipi de Druskininkai",
@@ -491,14 +443,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Elektrėnų savivaldybė',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Municipi d’Elektrėnai",
         "de": "Gemeinde Elektrėnai",
@@ -532,14 +477,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Ignalinos rajono savivaldybė',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Ігналінскі раён",
         "ca": "Districte municipal d’Ignalina",
@@ -573,14 +511,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Jonavos rajono savivaldybė',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Ёнаўскі раён",
         "ca": "Districte municipal de Jonava",
@@ -615,14 +546,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Joniškio rajono savivaldybė',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Joniškis",
         "de": "Rajongemeinde Joniškis",
@@ -653,14 +577,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Jurbarko rajono savivaldybė',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Jurbarkas",
         "de": "Rajongemeinde Jurbarkas",
@@ -693,14 +610,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kaišiadorių rajono savivaldybė',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Kaišiadorys",
         "de": "Rajongemeinde Kaišiadorys",
@@ -734,14 +644,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kalvarijos savivaldybė',
       code: '14',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Кальварыйскае самакіраванне",
         "ca": "Municipi de Kalvarija",
@@ -773,14 +676,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kauno miesto savivaldybė',
       code: '15',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Каўнаскае гарадское самакіраванне",
         "cs": "Kaunas",
@@ -808,14 +704,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kauno rajono savivaldybė',
       code: '16',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Каўнаскі раён",
         "ca": "Districte municipal de Kaunas",
@@ -851,14 +740,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kazlų Rūdos savivaldybė',
       code: '17',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Municipi de Kazlų Rūda",
         "de": "Kazlų Rūda",
@@ -890,14 +772,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kėdainių rajono savivaldybė',
       code: '18',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Кейданскі раён",
         "ca": "Districte municipal de Kėdainiai",
@@ -931,14 +806,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kelmės rajono savivaldybė',
       code: '19',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Кяльмскі раён",
         "ca": "Districte municipal de Kelmė",
@@ -969,14 +837,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Klaipėdos miesto savivaldybė',
       code: '20',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Stadtgemeinde Klaipėda",
         "en": "Klaipėdos Municipality",
@@ -993,14 +854,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Klaipėdos rajono savivaldybė',
       code: '21',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Клайпедскі раён",
         "ca": "Districte municipal de Klaipėda",
@@ -1035,14 +889,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kretingos rajono savivaldybė',
       code: '22',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Крацінгскі раён",
         "ca": "Districte municipal de Kretinga",
@@ -1076,14 +923,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Kupiškio rajono savivaldybė',
       code: '23',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Купішкскі раён",
         "ca": "Districte municipal de Kupiškis",
@@ -1117,14 +957,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Lazdijų rajono savivaldybė',
       code: '24',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Lazdijai",
         "de": "Rajongemeinde Lazdijai",
@@ -1160,14 +993,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Marijampolės savivaldybė',
       code: '25',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Марыямпальскае самакіраванне",
         "ca": "Municipi de Marijampolė",
@@ -1197,14 +1023,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Mažeikių rajono savivaldybė',
       code: '26',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Мажэйкейскі раён",
         "ca": "Districte municipal de Mažeikiai",
@@ -1236,14 +1055,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Molėtų rajono savivaldybė',
       code: '27',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Molėtai",
         "de": "Rajongemeinde Molėtai",
@@ -1277,14 +1089,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Neringos savivaldybė',
       code: '28',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Gemeinde Neringa",
         "en": "Neringa",
@@ -1314,14 +1119,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Pagėgių savivaldybė',
       code: '29',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Пагегейскае самакіраванне",
         "ca": "Municipi de Pagėgiai",
@@ -1352,14 +1150,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Pakruojo rajono savivaldybė',
       code: '30',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Пакруойскі раён",
         "ca": "Districte municipal de Pakruojis",
@@ -1393,14 +1184,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Palangos miesto savivaldybė',
       code: '31',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Stadtgemeinde Palanga",
         "en": "Palanga",
@@ -1419,14 +1203,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Panevėžio miesto savivaldybė',
       code: '32',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Stadtgemeinde Panevėžys",
         "el": "Δήμος Πόλης Πανεβεζίς",
@@ -1448,14 +1225,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Panevėžio rajono savivaldybė',
       code: '33',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Паневежыскі раён",
         "ca": "Districte municipal de Panevėžys",
@@ -1489,14 +1259,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Pasvalio rajono savivaldybė',
       code: '34',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Пасваліскі раён",
         "ca": "Districte municipal de Pasvalys",
@@ -1530,14 +1293,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Plungės rajono savivaldybė',
       code: '35',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Plungė",
         "de": "Rajongemeinde Plungė",
@@ -1571,14 +1327,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Prienų rajono savivaldybė',
       code: '36',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Прэнайскі раён",
         "ca": "Districte municipal de Prienai",
@@ -1611,14 +1360,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Radviliškio rajono savivaldybė',
       code: '37',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Радзівілішкаўскі раён",
         "ca": "Districte municipal de Radviliškis",
@@ -1653,14 +1395,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Raseinių rajono savivaldybė',
       code: '38',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Расяйнейскі раён",
         "ca": "Districte municipal de Raseiniai",
@@ -1694,14 +1429,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Rietavo savivaldybė',
       code: '39',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Municipi de Rietavas",
         "de": "Rietavas",
@@ -1734,14 +1462,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Rokiškio rajono savivaldybė',
       code: '40',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Рокішкіскі раён",
         "ca": "Districte municipal de Rokiškis",
@@ -1774,14 +1495,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šakių rajono savivaldybė',
       code: '41',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Šakiai",
         "de": "Rajongemeinde Šakiai",
@@ -1812,14 +1526,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šalčininkų rajono savivaldybė',
       code: '42',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Šalčininkai",
         "de": "Rajongemeinde Šalčininkai",
@@ -1854,14 +1561,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šiaulių miesto savivaldybė',
       code: '43',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "da": "Šiauliai bykommune",
         "de": "Stadtgemeinde Šiauliai",
@@ -1881,14 +1581,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šiaulių rajono savivaldybė',
       code: '44',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Шаўляйскі раён",
         "ca": "Districte municipal de Šiauliai",
@@ -1921,14 +1614,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šilalės rajono savivaldybė',
       code: '45',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Šilalė",
         "de": "Rajongemeinde Šilalė",
@@ -1960,14 +1646,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Šilutės rajono savivaldybė',
       code: '46',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Шылуцкі раён",
         "ca": "Districte municipal de Šilutė",
@@ -2001,14 +1680,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Širvintų rajono savivaldybė',
       code: '47',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Шырвінцкі раён",
         "ca": "Districte municipal de Širvintos",
@@ -2043,14 +1715,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Skuodo rajono savivaldybė',
       code: '48',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Skuodas",
         "cs": "Okres Skuodas",
@@ -2082,14 +1747,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Švenčionių rajono savivaldybė',
       code: '49',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بلدية سفينيتشونيس",
         "be": "Свянцянскі раён",
@@ -2124,14 +1782,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Tauragės rajono savivaldybė',
       code: '50',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Таўрагскі раён",
         "ca": "Districte municipal de Tauragė",
@@ -2163,14 +1814,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Telšių rajono savivaldybė',
       code: '51',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Цяльшайскі раён",
         "ca": "Districte municipal de Telšiai",
@@ -2203,14 +1847,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Trakų rajono savivaldybė',
       code: '52',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Тракайскі раён",
         "ca": "Districte municipal de Trakai",
@@ -2242,14 +1879,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Ukmergės rajono savivaldybė',
       code: '53',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Укмяргскі раён",
         "ca": "Districte municipal d’Ukmergė",
@@ -2283,14 +1913,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Utenos rajono savivaldybė',
       code: '54',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal d’Utena",
         "de": "Rajongemeinde Utena",
@@ -2321,14 +1944,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Varėnos rajono savivaldybė',
       code: '55',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Варэнскі раён",
         "ca": "Districte municipal de Varėna",
@@ -2362,14 +1978,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Vilkaviškio rajono savivaldybė',
       code: '56',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Districte municipal de Vilkaviškis",
         "de": "Rajongemeinde Vilkaviškis",
@@ -2401,14 +2010,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Vilniaus miesto savivaldybė',
       code: '57',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Вільнюскае гарадское самакіраванне",
         "ca": "Ciutat municipal de Vílnius",
@@ -2437,14 +2039,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Vilniaus rajono savivaldybė',
       code: '58',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Вільнюскі раён",
         "ca": "Districte municipal de Vílnius",
@@ -2480,14 +2075,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Visagino savivaldybė',
       code: '59',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Municipi de Visaginas",
         "de": "Gemeinde Visaginas",
@@ -2516,14 +2104,7 @@ const countryLTU = Country(
     Subdivision(
       name: 'Zarasų rajono savivaldybė',
       code: '60',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Зарасайскі раён",
         "ca": "Districte municipal de Zarasai",

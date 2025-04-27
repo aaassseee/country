@@ -5,7 +5,8 @@ const countrySLE = Country(
   alpha3: 'SLE',
   continent: Continent.africa,
   countryCode: '232',
-  currencyCode: 'SLL',
+  currencyCode: 'SLE',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SL',
   geo: GeoData(
     coordinate: Coordinate(

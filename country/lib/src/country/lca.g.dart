@@ -6,6 +6,7 @@ const countryLCA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'ST',
   geo: GeoData(
     coordinate: Coordinate(
@@ -205,14 +206,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Anse la Raye',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "حي أنس لا راي",
         "bn": "আন্স লা রায়ে কোয়ার্টার",
@@ -261,14 +255,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Castries',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Castries",
         "en": "Castries",
@@ -298,14 +285,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Choiseul',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Choiseul",
         "en": "Choiseul",
@@ -333,14 +313,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Dennery',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "حي دينيري",
         "bn": "ডেনিরি কোয়ার্টার",
@@ -388,14 +361,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Gros Islet',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "حي غروس إسليت",
         "bn": "গ্রোস ইজলেট কোয়ার্টার",
@@ -444,14 +410,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Laborie',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "حي لابوري",
         "bn": "লেবুরি কোয়ার্টার",
@@ -499,14 +458,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Micoud',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "حي ميكود",
         "bn": "মাইকড কোয়ার্টার",
@@ -553,14 +505,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Soufrière',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Soufrière",
         "en": "Soufrière",
@@ -590,14 +535,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Vieux Fort',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "فيو فورت",
         "bn": "ভিয়ক্স ফোর্ট কোয়ার্টার",
@@ -645,14 +583,7 @@ const countryLCA = Country(
     Subdivision(
       name: 'Canaries',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزر الكناري",
         "bn": "কানারাইসে",

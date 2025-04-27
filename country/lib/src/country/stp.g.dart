@@ -5,7 +5,8 @@ const countrySTP = Country(
   alpha3: 'STP',
   continent: Continent.africa,
   countryCode: '239',
-  currencyCode: 'STD',
+  currencyCode: 'STN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TP',
   geo: GeoData(
     coordinate: Coordinate(

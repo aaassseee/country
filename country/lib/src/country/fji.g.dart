@@ -6,6 +6,7 @@ const countryFJI = Country(
   continent: Continent.australia,
   countryCode: '679',
   currencyCode: 'FJD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FJ',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Ba',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Ba (Provinz)",
         "en": "Ba",
@@ -237,14 +231,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Bua',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Bua",
         "fr": "province de Bua",
@@ -273,14 +260,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Cakaudrove',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كاكاودروف",
         "en": "Cakaudrove",
@@ -309,14 +289,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Kadavu',
       code: '04',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Kadavu",
         "es": "Kadavu",
@@ -344,14 +317,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Lau',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Lau",
         "fr": "province de Lau",
@@ -377,14 +343,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Lomaiviti',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Lomaiviti",
         "es": "Lomaiviti",
@@ -412,14 +371,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Macuata',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Macuata",
         "es": "Macuata",
@@ -447,14 +399,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Nadroga-Navosa',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Nadroga-Navosa",
         "es": "Nadroga-Navosa",
@@ -482,14 +427,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Naitasiri',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Naitasiri",
         "es": "Naitasiri",
@@ -518,14 +456,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Namosi',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Namosi",
         "es": "Namosi",
@@ -553,14 +484,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Ra',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Ra",
         "es": "Ra",
@@ -589,14 +513,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Rewa',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Rewa",
         "es": "Rewa (Fiyi)",
@@ -625,14 +542,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Serua',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Serua",
         "es": "Serua",
@@ -662,14 +572,7 @@ const countryFJI = Country(
     Subdivision(
       name: 'Tailevu',
       code: '14',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "da": "Tailevu Province",
         "en": "Tailevu",

@@ -6,6 +6,7 @@ const countrySPM = Country(
   continent: Continent.northAmerica,
   countryCode: '508',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SB',
   geo: GeoData(
     coordinate: Coordinate(

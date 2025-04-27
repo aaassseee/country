@@ -6,6 +6,7 @@ const countryHND = Country(
   continent: Continent.northAmerica,
   countryCode: '504',
   currencyCode: 'HNL',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'HO',
   geo: GeoData(
     coordinate: Coordinate(

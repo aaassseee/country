@@ -6,6 +6,7 @@ const countryZWE = Country(
   continent: Continent.africa,
   countryCode: '263',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'ZI',
   geo: GeoData(
     coordinate: Coordinate(

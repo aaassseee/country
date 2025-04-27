@@ -6,6 +6,7 @@ const countryATG = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AC',
   geo: GeoData(
     coordinate: Coordinate(
@@ -622,14 +623,7 @@ const countryATG = Country(
     Subdivision(
       name: 'Redonda',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ريدوندا",
         "be": "Востраў Рэдонда",

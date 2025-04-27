@@ -6,6 +6,7 @@ const countryTJK = Country(
   continent: Continent.asia,
   countryCode: '992',
   currencyCode: 'TJS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -205,14 +206,7 @@ const countryTJK = Country(
     Subdivision(
       name: 'Dushanbe',
       code: 'DU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Doesjanbe",
         "am": "ዱሻንቤ",
@@ -441,14 +435,7 @@ const countryTJK = Country(
     Subdivision(
       name: 'Nohiyahoi Tobei Jumhurí',
       code: 'RA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعات التبعية الجمهوري",
         "bg": "Райони на централно подчинение в Таджикистан",

@@ -6,6 +6,7 @@ const countryMOZ = Country(
   continent: Continent.africa,
   countryCode: '258',
   currencyCode: 'MZN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MZ',
   geo: GeoData(
     coordinate: Coordinate(

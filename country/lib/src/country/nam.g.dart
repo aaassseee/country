@@ -6,6 +6,7 @@ const countryNAM = Country(
   continent: Continent.africa,
   countryCode: '264',
   currencyCode: 'NAD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'WA',
   geo: GeoData(
     coordinate: Coordinate(

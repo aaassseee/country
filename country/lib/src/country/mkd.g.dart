@@ -6,6 +6,7 @@ const countryMKD = Country(
   continent: Continent.europe,
   countryCode: '389',
   currencyCode: 'MKD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MK',
   geo: GeoData(
     coordinate: Coordinate(

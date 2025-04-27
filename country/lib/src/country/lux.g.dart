@@ -6,6 +6,7 @@ const countryLUX = Country(
   continent: Continent.europe,
   countryCode: '352',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'LU',
   geo: GeoData(
     coordinate: Coordinate(
@@ -479,14 +480,7 @@ const countryLUX = Country(
     Subdivision(
       name: 'Lëtzebuerg',
       code: 'LU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Люксембург",
         "ca": "Cantó de Luxemburg",

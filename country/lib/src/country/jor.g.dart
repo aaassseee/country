@@ -6,6 +6,7 @@ const countryJOR = Country(
   continent: Continent.asia,
   countryCode: '962',
   currencyCode: 'JOD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'JO',
   geo: GeoData(
     coordinate: Coordinate(

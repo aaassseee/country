@@ -6,6 +6,7 @@ const countryMCO = Country(
   continent: Continent.europe,
   countryCode: '377',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MN',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'La Colle',
       code: 'CL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "La Còla",
         "de": "La Colle",
@@ -233,14 +227,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'La Condamine',
       code: 'CO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Ла-Кандамін",
         "ca": "La Condamina",
@@ -280,14 +267,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Fontvieille',
       code: 'FO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Fòntvielha",
         "de": "Fontvieille",
@@ -328,28 +308,14 @@ const countryMCO = Country(
     Subdivision(
       name: 'La Gare',
       code: 'GA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {"en": "La Gare", "ccp": "𑄣 𑄉𑄢𑄬", "ru": "Ла Га"},
       type: 'quarter',
     ),
     Subdivision(
       name: 'jardin exotique de Monaco',
       code: 'JE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Exotischer Garten von Monaco",
         "en": "Jardin Exotique de Monaco",
@@ -370,14 +336,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Larvotto/Bas Moulins',
       code: 'LA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Larvot e Molins Bas",
         "de": "Larvotto",
@@ -406,14 +365,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Malbousquet',
       code: 'MA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Malbousquet",
         "ccp": "𑄟𑄣𑄴𑄝𑄯𑄇𑄮𑄠𑄬𑄖𑄴",
@@ -425,14 +377,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Monte-Carlo',
       code: 'MC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Monte Carlo",
         "ar": "مونت كارلو",
@@ -505,14 +450,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Moneghetti',
       code: 'MG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bg": "Монегхети",
         "ca": "Moneguet",
@@ -541,14 +479,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Monaco-Ville',
       code: 'MO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "موناكو فيل",
         "az": "Monako Vill",
@@ -594,14 +525,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Moulins',
       code: 'MU',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Moulins",
         "ccp": "𑄟𑄯𑄣𑄨𑄚𑄴",
@@ -614,14 +538,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Port Hercule',
       code: 'PH',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Port Hercule",
         "en": "Port Hercules",
@@ -641,14 +558,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'église Sainte-Dévote',
       code: 'SD',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Sainte-Dévote Chapel",
         "es": "iglesia de Santa Devota",
@@ -666,14 +576,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'La Source',
       code: 'SO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "La Source",
         "ccp": "𑄣 𑄥𑄮𑄢𑄴𑄌𑄴",
@@ -684,14 +587,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Spélugues',
       code: 'SP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Spélugues",
         "ccp": "𑄌𑄳𑄛𑄬𑄣𑄨𑄅𑄪𑄉𑄌𑄴",
@@ -703,14 +599,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'La Rousse',
       code: 'SR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "La Rossa e Sant Roman",
         "de": "La Rousse",
@@ -735,14 +624,7 @@ const countryMCO = Country(
     Subdivision(
       name: 'Vallon de la Rousse',
       code: 'VR',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Vallon de la Rousse",
         "nl": "La Rousse",

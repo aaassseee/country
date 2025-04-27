@@ -6,6 +6,7 @@ const countryPCN = Country(
   continent: Continent.australia,
   countryCode: '64',
   currencyCode: 'NZD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PC',
   geo: GeoData(
     coordinate: Coordinate(

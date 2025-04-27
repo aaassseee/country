@@ -6,6 +6,7 @@ const countryDMA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'DO',
   geo: GeoData(
     coordinate: Coordinate(

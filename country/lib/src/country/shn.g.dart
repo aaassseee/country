@@ -6,6 +6,7 @@ const countrySHN = Country(
   continent: Continent.africa,
   countryCode: '290',
   currencyCode: 'SHP',
+  distanceUnit: DistanceUnit.miles,
   gec: 'SH',
   geo: GeoData(
     coordinate: Coordinate(
@@ -295,14 +296,7 @@ const countrySHN = Country(
     Subdivision(
       name: 'Saint Helena',
       code: 'HL',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Sint Helena",
         "am": "ሴይንት ህሊና ደሴት",

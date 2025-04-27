@@ -6,6 +6,7 @@ const countryWSM = Country(
   continent: Continent.australia,
   countryCode: '685',
   currencyCode: 'WST',
+  distanceUnit: DistanceUnit.miles,
   gec: 'WS',
   geo: GeoData(
     coordinate: Coordinate(

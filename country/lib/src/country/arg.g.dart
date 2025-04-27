@@ -6,6 +6,7 @@ const countryARG = Country(
   continent: Continent.southAmerica,
   countryCode: '54',
   currencyCode: 'ARS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AR',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryJPN = Country(
   continent: Continent.asia,
   countryCode: '81',
   currencyCode: 'JPY',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'JA',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryIOT = Country(
   continent: Continent.asia,
   countryCode: '246',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IO',
   geo: GeoData(
     coordinate: Coordinate(
@@ -31,7 +32,7 @@ const countryIOT = Country(
       ),
     ),
   ),
-  internationalPrefix: '',
+  internationalPrefix: null,
   ioc: null,
   isoLongName: 'The British Indian Ocean Territory',
   isoShortName: 'British Indian Ocean Territory',
@@ -39,7 +40,7 @@ const countryIOT = Country(
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
-  nationalPrefix: '',
+  nationalPrefix: null,
   nationality: 'Indian',
   number: '086',
   postalCode: true,

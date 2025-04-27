@@ -6,6 +6,7 @@ const countryTWN = Country(
   continent: Continent.asia,
   countryCode: '886',
   currencyCode: 'TWD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TW',
   geo: GeoData(
     coordinate: Coordinate(
@@ -784,14 +785,7 @@ const countryTWN = Country(
     Subdivision(
       name: '金門縣',
       code: 'KIN',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كنمن",
         "az": "Szinmınsyundao",
@@ -851,14 +845,7 @@ const countryTWN = Country(
     Subdivision(
       name: '連江縣',
       code: 'LIE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Okres Lien-ťiang",
         "en": "Lienchiang",
@@ -1003,14 +990,7 @@ const countryTWN = Country(
     Subdivision(
       name: 'New Taipei',
       code: 'NWT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "New Taipei",
         "ccp": "𑄚𑄨𑄅𑄪 𑄑𑄭𑄛𑄬",

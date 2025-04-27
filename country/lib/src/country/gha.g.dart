@@ -6,6 +6,7 @@ const countryGHA = Country(
   continent: Continent.africa,
   countryCode: '233',
   currencyCode: 'GHS',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GH',
   geo: GeoData(
     coordinate: Coordinate(

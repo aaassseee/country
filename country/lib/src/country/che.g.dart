@@ -6,6 +6,7 @@ const countryCHE = Country(
   continent: Continent.europe,
   countryCode: '41',
   currencyCode: 'CHF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'SZ',
   geo: GeoData(
     coordinate: Coordinate(

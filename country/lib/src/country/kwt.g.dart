@@ -6,6 +6,7 @@ const countryKWT = Country(
   continent: Continent.asia,
   countryCode: '965',
   currencyCode: 'KWD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KU',
   geo: GeoData(
     coordinate: Coordinate(

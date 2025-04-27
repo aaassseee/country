@@ -6,6 +6,7 @@ const countryPAN = Country(
   continent: Continent.northAmerica,
   countryCode: '507',
   currencyCode: 'PAB',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PM',
   geo: GeoData(
     coordinate: Coordinate(
@@ -261,14 +262,7 @@ const countryPAN = Country(
     Subdivision(
       name: 'Panamá Oeste',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "cs": "Západní Panama",
         "de": "Provinz Panamá Oeste",
@@ -794,14 +788,7 @@ const countryPAN = Country(
     Subdivision(
       name: 'Emberá-Wounaan',
       code: 'EM',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "كوماركا امبيرا-وونان",
         "bg": "Ембера",
@@ -916,14 +903,7 @@ const countryPAN = Country(
     Subdivision(
       name: 'Ngäbe-Buglé',
       code: 'NB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "نجوب-بولجي كوماركا",
         "bg": "Нгьобе-Бугле",

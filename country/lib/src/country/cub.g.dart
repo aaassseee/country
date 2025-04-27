@@ -6,6 +6,7 @@ const countryCUB = Country(
   continent: Continent.northAmerica,
   countryCode: '53',
   currencyCode: 'CUP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CU',
   geo: GeoData(
     coordinate: Coordinate(

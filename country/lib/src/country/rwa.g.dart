@@ -6,6 +6,7 @@ const countryRWA = Country(
   continent: Continent.africa,
   countryCode: '250',
   currencyCode: 'RWF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RW',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryNPL = Country(
   continent: Continent.asia,
   countryCode: '977',
   currencyCode: 'NPR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NP',
   geo: GeoData(
     coordinate: Coordinate(
@@ -207,14 +208,7 @@ const countryNPL = Country(
     Subdivision(
       name: 'मध्यमाञ्चल विकास क्षेत्र',
       code: '1',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المنطقة التنموية الوسطى",
         "bg": "Мадхяманчал",
@@ -250,14 +244,7 @@ const countryNPL = Country(
     Subdivision(
       name: 'मध्य-पश्चिमाञ्चल विकास क्षेत्र',
       code: '2',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المنطقة التنموية الغربية الوسطى",
         "bn": "মধ্য-পশ্চিমাঞ্চল বিকাস ক্ষেত্র, নেপাল",
@@ -290,14 +277,7 @@ const countryNPL = Country(
     Subdivision(
       name: 'पश्चिमाञ्चल विकास क्षेत्र',
       code: '3',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المنطقة التنموية الغربية",
         "be": "Заходні рэгіён",
@@ -333,14 +313,7 @@ const countryNPL = Country(
     Subdivision(
       name: 'पूर्वाञ्चल विकास क्षेत्र',
       code: '4',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المنطقة التنموية الشرقية",
         "bn": "পূর্বাঞ্চল বিকাস ক্ষেত্র",
@@ -374,14 +347,7 @@ const countryNPL = Country(
     Subdivision(
       name: 'सुदूर-पश्चिमाञ्चल विकास क्षेत्र',
       code: '5',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "المنطقة التنموية الغربية البعيدة",
         "bn": "সুদূর পশ্চিমাঞ্চল বিকাস ক্ষেত্র, নেপাল",

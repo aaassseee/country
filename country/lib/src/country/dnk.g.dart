@@ -6,6 +6,7 @@ const countryDNK = Country(
   continent: Continent.europe,
   countryCode: '45',
   currencyCode: 'DKK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'DA',
   geo: GeoData(
     coordinate: Coordinate(

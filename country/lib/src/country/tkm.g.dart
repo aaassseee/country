@@ -6,6 +6,7 @@ const countryTKM = Country(
   continent: Continent.asia,
   countryCode: '993',
   currencyCode: 'TMT',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TX',
   geo: GeoData(
     coordinate: Coordinate(
@@ -536,14 +537,7 @@ const countryTKM = Country(
     Subdivision(
       name: 'Aşgabat',
       code: 'S',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Asjchabat",
         "am": "አሽጋባት",

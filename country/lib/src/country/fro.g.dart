@@ -6,6 +6,7 @@ const countryFRO = Country(
   continent: Continent.europe,
   countryCode: '298',
   currencyCode: 'DKK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FO',
   geo: GeoData(
     coordinate: Coordinate(

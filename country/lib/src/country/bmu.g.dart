@@ -6,6 +6,7 @@ const countryBMU = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'BMD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BD',
   geo: GeoData(
     coordinate: Coordinate(

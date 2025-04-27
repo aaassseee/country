@@ -6,6 +6,7 @@ const countryAUS = Country(
   continent: Continent.australia,
   countryCode: '61',
   currencyCode: 'AUD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AS',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryNER = Country(
   continent: Continent.africa,
   countryCode: '227',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'NG',
   geo: GeoData(
     coordinate: Coordinate(

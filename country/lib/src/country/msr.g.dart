@@ -6,6 +6,7 @@ const countryMSR = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'XCD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MH',
   geo: GeoData(
     coordinate: Coordinate(

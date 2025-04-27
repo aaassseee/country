@@ -6,6 +6,7 @@ const countryPYF = Country(
   continent: Continent.australia,
   countryCode: '689',
   currencyCode: 'XPF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FP',
   geo: GeoData(
     coordinate: Coordinate(

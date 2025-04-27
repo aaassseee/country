@@ -6,6 +6,7 @@ const countryFLK = Country(
   continent: Continent.southAmerica,
   countryCode: '500',
   currencyCode: 'FKP',
+  distanceUnit: DistanceUnit.miles,
   gec: 'FK',
   geo: GeoData(
     coordinate: Coordinate(

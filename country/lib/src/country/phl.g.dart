@@ -6,6 +6,7 @@ const countryPHL = Country(
   continent: Continent.asia,
   countryCode: '63',
   currencyCode: 'PHP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'RP',
   geo: GeoData(
     coordinate: Coordinate(
@@ -277,14 +278,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Ilocos',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Regió d’Ilocos",
         "de": "Ilocos Region",
@@ -332,14 +326,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Cagayan Valley',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Vall de Cagayan",
         "de": "Cagayan Valley",
@@ -387,14 +374,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Central Luzon',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Luzon Central",
         "de": "Central Luzon",
@@ -441,14 +421,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Bicol',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Regió de Bicol",
         "de": "Bicol Region",
@@ -494,14 +467,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Western Visayas',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Visayas Occidentals",
         "de": "Western Visayas",
@@ -549,14 +515,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Central Visayas',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Visayas Centrals",
         "de": "Central Visayas",
@@ -601,14 +560,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Eastern Visayas',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Усходнія Вісаі",
         "ca": "Visayas Orientals",
@@ -655,14 +607,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Zamboanga Peninsula',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Península de Zamboanga",
         "de": "Zamboanga Peninsula",
@@ -709,14 +654,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Northern Mindanao',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Mindanao Septentrional",
         "de": "Northern Mindanao",
@@ -760,14 +698,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Davao',
       code: '11',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "bn": "দাভাও অঞ্চল",
         "ca": "Regió de Davao",
@@ -810,14 +741,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Soccsksargen',
       code: '12',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "SOCCSKSARGEN",
         "cs": "Soccsksargen",
@@ -856,14 +780,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Caraga',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Caraga",
         "de": "Caraga",
@@ -905,14 +822,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Muslim Mindanao',
       code: '14',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Müsəlman Mindanao muxtar regionu",
         "be": "Аўтаномны рэгіён у Мусульманскім Мінданаа",
@@ -963,14 +873,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Cordillera Administrative',
       code: '15',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "Regió Administrativa de la Cordillera",
         "de": "Cordillera Administrative Region",
@@ -1013,14 +916,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Calabarzon',
       code: '40',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ca": "CALABARZON",
         "de": "Calabarzon",
@@ -1068,14 +964,7 @@ const countryPHL = Country(
     Subdivision(
       name: 'Mimaropa',
       code: '41',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ميماروبا",
         "ca": "MIMAROPA",

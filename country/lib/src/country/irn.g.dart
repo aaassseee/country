@@ -6,6 +6,7 @@ const countryIRN = Country(
   continent: Continent.asia,
   countryCode: '98',
   currencyCode: 'IRR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'IR',
   geo: GeoData(
     coordinate: Coordinate(
@@ -2354,14 +2355,7 @@ const countryIRN = Country(
     Subdivision(
       name: 'استان البرز',
       code: '30',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة ألبرز",
         "az": "Əlburz ostanı",

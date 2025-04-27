@@ -6,6 +6,7 @@ const countryTLS = Country(
   continent: Continent.asia,
   countryCode: '670',
   currencyCode: 'IDR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TT',
   geo: GeoData(
     coordinate: Coordinate(

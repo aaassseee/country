@@ -6,6 +6,7 @@ const countryKOR = Country(
   continent: Continent.asia,
   countryCode: '82',
   currencyCode: 'KRW',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KS',
   geo: GeoData(
     coordinate: Coordinate(
@@ -891,14 +892,7 @@ const countryKOR = Country(
     Subdivision(
       name: 'Gang\'weondo [Kang-won-do]',
       code: '42',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Gangwon",
         "ar": "مقاطعة غانغوون",
@@ -964,14 +958,7 @@ const countryKOR = Country(
     Subdivision(
       name: 'Chungcheongbugdo [Ch\'ungch\'ongbuk-do]',
       code: '43',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "North Chungcheong",
         "ar": "تشنغتشونغ الشمالية",
@@ -1105,14 +1092,7 @@ const countryKOR = Country(
     Subdivision(
       name: 'Jeonrabugdo[Chollabuk-do]',
       code: '45',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "North Jeolla",
         "ar": "مقاطعة جولا الشمالية",
@@ -1176,14 +1156,7 @@ const countryKOR = Country(
     Subdivision(
       name: 'Jeonranamdo [Chollanam-do]',
       code: '46',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "South Jeolla",
         "ar": "مقاطعة جولا الجنوبية",
@@ -1468,14 +1441,7 @@ const countryKOR = Country(
     Subdivision(
       name: '세종특별자치시',
       code: '50',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مدينة سيجونغ",
         "bn": "সেজং শহর",

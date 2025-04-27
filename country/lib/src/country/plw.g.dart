@@ -6,6 +6,7 @@ const countryPLW = Country(
   continent: Continent.australia,
   countryCode: '680',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PS',
   geo: GeoData(
     coordinate: Coordinate(

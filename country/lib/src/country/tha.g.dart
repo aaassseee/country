@@ -6,6 +6,7 @@ const countryTHA = Country(
   continent: Continent.asia,
   countryCode: '66',
   currencyCode: 'THB',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'TH',
   geo: GeoData(
     coordinate: Coordinate(
@@ -1915,14 +1916,7 @@ const countryTHA = Country(
     Subdivision(
       name: 'จังหวัดบึงกาฬ',
       code: '38',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بوينغ كان",
         "bn": "বুয়েং কান",

@@ -6,6 +6,7 @@ const countryPAK = Country(
   continent: Continent.asia,
   countryCode: '92',
   currencyCode: 'PKR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PK',
   geo: GeoData(
     coordinate: Coordinate(
@@ -279,14 +280,7 @@ const countryPAK = Country(
     Subdivision(
       name: 'Gilgit-Baltistan',
       code: 'GB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "غلغت-بلتستان",
         "bg": "Северна провинция",
@@ -477,14 +471,7 @@ const countryPAK = Country(
     Subdivision(
       name: 'Khyber Pakhtunkhwa',
       code: 'KP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "خیبر بختونخوا",
         "bg": "Северозападна погранична провинция",

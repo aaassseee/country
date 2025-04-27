@@ -6,6 +6,7 @@ const countryMWI = Country(
   continent: Continent.africa,
   countryCode: '265',
   currencyCode: 'MWK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'MI',
   geo: GeoData(
     coordinate: Coordinate(
@@ -324,14 +325,7 @@ const countryMWI = Country(
     Subdivision(
       name: 'Central',
       code: 'C',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Mərkəz bölgəsi",
         "bg": "Централен регион",
@@ -1282,14 +1276,7 @@ const countryMWI = Country(
     Subdivision(
       name: 'Northern',
       code: 'N',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Şimal bölgəsi",
         "bg": "Северен регион",
@@ -1393,14 +1380,7 @@ const countryMWI = Country(
     Subdivision(
       name: 'Neno',
       code: 'NE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة نينو",
         "az": "Neno",
@@ -1818,14 +1798,7 @@ const countryMWI = Country(
     Subdivision(
       name: 'Southern',
       code: 'S',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "az": "Cənub bölgəsi",
         "bg": "Южен регион",

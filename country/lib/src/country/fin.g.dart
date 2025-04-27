@@ -6,6 +6,7 @@ const countryFIN = Country(
   continent: Continent.europe,
   countryCode: '358',
   currencyCode: 'EUR',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'FI',
   geo: GeoData(
     coordinate: Coordinate(

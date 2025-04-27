@@ -6,6 +6,7 @@ const countryGMB = Country(
   continent: Continent.africa,
   countryCode: '220',
   currencyCode: 'GMD',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GA',
   geo: GeoData(
     coordinate: Coordinate(

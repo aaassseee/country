@@ -6,6 +6,7 @@ const countryKAZ = Country(
   continent: Continent.asia,
   countryCode: '7',
   currencyCode: 'KZT',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KZ',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryTCA = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'USD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'TK',
   geo: GeoData(
     coordinate: Coordinate(

@@ -6,6 +6,7 @@ const countryPRK = Country(
   continent: Continent.asia,
   countryCode: '850',
   currencyCode: 'KPW',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'KN',
   geo: GeoData(
     coordinate: Coordinate(
@@ -208,14 +209,7 @@ const countryPRK = Country(
     Subdivision(
       name: '평양직할시',
       code: '01',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "af": "Pjongjang",
         "am": "ፕዮንግያንግ",
@@ -309,14 +303,7 @@ const countryPRK = Country(
     Subdivision(
       name: '평안남도',
       code: '02',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بيونغان الجنوبية",
         "bg": "Южен Пхьонан",
@@ -375,14 +362,7 @@ const countryPRK = Country(
     Subdivision(
       name: '평안북도',
       code: '03',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بيونغان الشمالية",
         "bg": "Северен Пхьонан",
@@ -442,14 +422,7 @@ const countryPRK = Country(
     Subdivision(
       name: '자강도',
       code: '04',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "تشاغانغ",
         "bg": "Чаган",
@@ -510,14 +483,7 @@ const countryPRK = Country(
     Subdivision(
       name: '황해남도',
       code: '05',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنوب مقاطعة هوانغاي",
         "bg": "Южен Хванхе",
@@ -577,14 +543,7 @@ const countryPRK = Country(
     Subdivision(
       name: '황해북도',
       code: '06',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "هوانغهاي الشمالية",
         "bg": "Северен Хванхе",
@@ -644,14 +603,7 @@ const countryPRK = Country(
     Subdivision(
       name: '강원도',
       code: '07',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة كانغوون",
         "bg": "Кануън",
@@ -712,14 +664,7 @@ const countryPRK = Country(
     Subdivision(
       name: '함경남도',
       code: '08',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "محافظة هامغيونغ الجنوبية",
         "bg": "Южен Хамгьон",
@@ -779,14 +724,7 @@ const countryPRK = Country(
     Subdivision(
       name: '함경북도',
       code: '09',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "منطقة شمال هامغيونغ",
         "bg": "Северен Хамгьон",
@@ -839,14 +777,7 @@ const countryPRK = Country(
     Subdivision(
       name: '량강도',
       code: '10',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة ريانغانغ",
         "bg": "Рянган",
@@ -905,14 +836,7 @@ const countryPRK = Country(
     Subdivision(
       name: '라선특별시',
       code: '13',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "راسون",
         "bg": "Расън",

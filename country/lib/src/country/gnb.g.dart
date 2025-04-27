@@ -6,6 +6,7 @@ const countryGNB = Country(
   continent: Continent.africa,
   countryCode: '245',
   currencyCode: 'XOF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PU',
   geo: GeoData(
     coordinate: Coordinate(
@@ -589,14 +590,7 @@ const countryGNB = Country(
     Subdivision(
       name: 'Leste',
       code: 'L',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Leste",
         "ccp": "𑄣𑄬𑄌𑄴𑄑𑄬",
@@ -612,14 +606,7 @@ const countryGNB = Country(
     Subdivision(
       name: 'Norte',
       code: 'N',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Norte",
         "ccp": "𑄚𑄧𑄢𑄴𑄑𑄬",
@@ -753,14 +740,7 @@ const countryGNB = Country(
     Subdivision(
       name: 'Sul',
       code: 'S',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "en": "Sul",
         "ccp": "𑄥𑄣𑄴",

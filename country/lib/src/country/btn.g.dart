@@ -6,6 +6,7 @@ const countryBTN = Country(
   continent: Continent.asia,
   countryCode: '975',
   currencyCode: 'BTN',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'BT',
   geo: GeoData(
     coordinate: Coordinate(

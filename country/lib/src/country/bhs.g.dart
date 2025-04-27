@@ -6,6 +6,7 @@ const countryBHS = Country(
   continent: Continent.northAmerica,
   countryCode: '1',
   currencyCode: 'BSD',
+  distanceUnit: DistanceUnit.miles,
   gec: 'BF',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Acklins',
       code: 'AK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "أكلينز",
         "bn": "এক্লিংস",
@@ -318,14 +312,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Black Point',
       code: 'BP',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "بلاك بوينت",
         "bn": "ব্ল্যাক পয়েন্ট",
@@ -373,14 +360,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Berry Islands',
       code: 'BY',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزر بيري",
         "bn": "বেরি দ্বীপপুঞ্জ",
@@ -431,14 +411,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Central Eleuthera',
       code: 'CE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سينترال إليوثيرا",
         "bn": "সেন্ট্রাল এলিউথেরা",
@@ -549,14 +522,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Crooked Island',
       code: 'CK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزيرة كروكد",
         "bn": "ক্রুকেড আইল্যান্ড",
@@ -607,14 +573,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Central Abaco',
       code: 'CO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سنترال أباكو",
         "bn": "সেন্ট্রারাাল আবাকু",
@@ -664,14 +623,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Central Andros',
       code: 'CS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سنترال أندروس",
         "bn": "সেন্ট্রারাল এন্ড্রোস",
@@ -718,14 +670,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'East Grand Bahama',
       code: 'EG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شرق غراند بهاما",
         "bn": "ইস্ট গ্র্যান্ড বাহামা",
@@ -894,14 +839,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Grand Cay',
       code: 'GC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جراند كاي",
         "bn": "গ্রান্ড কে",
@@ -1008,14 +946,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Hope Town',
       code: 'HT',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "هوب تاون",
         "bn": "হোপ টাউন",
@@ -1184,14 +1115,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Mangrove Cay',
       code: 'MC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مانغروف كاي",
         "bn": "ম্যানগ্রোভ কে",
@@ -1292,14 +1216,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Moore’s Island',
       code: 'MI',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزيرة مور",
         "da": "Moore’s Island",
@@ -1345,14 +1262,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'North Eleuthera',
       code: 'NE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إليوثيرا الشمالية",
         "bn": "নর্থ এলিউথেরা",
@@ -1400,14 +1310,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'North Abaco',
       code: 'NO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شمال أباكو",
         "bn": "উত্তর অ্যাবাকো",
@@ -1477,14 +1380,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'North Andros',
       code: 'NS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "شمال أندروس",
         "bn": "উত্তর আন্ড্রস",
@@ -1532,14 +1428,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Rum Cay',
       code: 'RC',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "روم كاي",
         "bn": "রাম কে",
@@ -1646,14 +1535,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'South Andros',
       code: 'SA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنوب أندروس",
         "bn": "দক্ষিন আন্ড্রস",
@@ -1702,14 +1584,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'South Eleuthera',
       code: 'SE',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنوب إليوثيرا",
         "bn": "সাউথ এলিয়টেরা",
@@ -1758,14 +1633,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'South Abaco',
       code: 'SO',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جنوب أباكو",
         "bn": "দক্ষিন অ্যাবাকো",
@@ -1815,14 +1683,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'San Salvador',
       code: 'SS',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "جزيرة سان سلفادور",
         "be": "Востраў Сан-Сальвадор",
@@ -1877,14 +1738,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'Spanish Wells',
       code: 'SW',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "سبانش، ويلز",
         "bn": "স্প্যানিশ ওয়েলস",
@@ -1932,14 +1786,7 @@ const countryBHS = Country(
     Subdivision(
       name: 'West Grand Bahama',
       code: 'WG',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "ويست غراند بهاما",
         "bn": "পশ্চিম গ্রান্ড বাহামা",

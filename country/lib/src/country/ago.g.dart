@@ -6,6 +6,7 @@ const countryAGO = Country(
   continent: Continent.africa,
   countryCode: '244',
   currencyCode: 'AOA',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'AO',
   geo: GeoData(
     coordinate: Coordinate(

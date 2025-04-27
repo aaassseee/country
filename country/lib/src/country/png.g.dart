@@ -6,6 +6,7 @@ const countryPNG = Country(
   continent: Continent.australia,
   countryCode: '675',
   currencyCode: 'PGK',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'PP',
   geo: GeoData(
     coordinate: Coordinate(
@@ -631,14 +632,7 @@ const countryPNG = Country(
     Subdivision(
       name: 'Hela',
       code: 'HLA',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Hela Province",
         "en": "Hela",
@@ -668,14 +662,7 @@ const countryPNG = Country(
     Subdivision(
       name: 'Jiwaka',
       code: 'JWK',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "de": "Jiwaka Province",
         "en": "Jiwaka",
@@ -1170,14 +1157,7 @@ const countryPNG = Country(
     Subdivision(
       name: 'Bougainville',
       code: 'NSB',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة بوغانفيل ذات الحكم الذاتي",
         "bg": "Автономен регион Бугенвил",

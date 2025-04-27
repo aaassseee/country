@@ -6,6 +6,7 @@ const countryCOL = Country(
   continent: Continent.southAmerica,
   countryCode: '57',
   currencyCode: 'COP',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'CO',
   geo: GeoData(
     coordinate: Coordinate(

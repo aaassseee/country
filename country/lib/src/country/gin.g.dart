@@ -6,6 +6,7 @@ const countryGIN = Country(
   continent: Continent.africa,
   countryCode: '224',
   currencyCode: 'GNF',
+  distanceUnit: DistanceUnit.kilometres,
   gec: 'GV',
   geo: GeoData(
     coordinate: Coordinate(
@@ -198,14 +199,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Boké',
       code: 'B',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم بوكيه",
         "be": "Рэгіён Баке",
@@ -553,14 +547,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Kindia',
       code: 'D',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم كينديا",
         "be": "Рэгіён Кіндыя",
@@ -831,14 +818,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Faranah',
       code: 'F',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Рэгіён Фарана",
         "bg": "Фарана",
@@ -1106,14 +1086,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Kankan',
       code: 'K',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم كانكان",
         "be": "Рэгіён Канкан",
@@ -1512,14 +1485,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Labé',
       code: 'L',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "be": "Рэгіён Лабэ",
         "bg": "Лабе",
@@ -1718,14 +1684,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Mamou',
       code: 'M',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "مقاطعة مامو",
         "be": "Рэгіён Маму",
@@ -1971,14 +1930,7 @@ const countryGIN = Country(
     Subdivision(
       name: 'Région de Nzérékoré',
       code: 'N',
-      geo: SubdivisionGeoData(
-        latitude: null,
-        longitude: null,
-        maxLatitude: null,
-        maxLongitude: null,
-        minLatitude: null,
-        minLongitude: null,
-      ),
+      geo: null,
       translation: {
         "ar": "إقليم نزيريكوري",
         "be": "Рэгіён Нзерэкарэ",
