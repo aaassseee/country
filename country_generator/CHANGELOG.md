@@ -1,3 +1,10 @@
+## 6.0.0
+
+* upgraded dependencies
+* updated generator with new structure
+    - added distanceUnit
+    - changed nullable with internationalPrefix, nationalPrefix, nationality, region, subregion
+
 ## 5.0.1
 
 * sort generated data alphabetically
