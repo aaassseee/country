@@ -35,7 +35,7 @@ const countryFRO = Country(
   internationalPrefix: '00',
   ioc: 'FRO',
   isoLongName: 'The Faroe Islands',
-  isoShortName: 'Faroe Islands',
+  isoShortName: 'Faroe Islands (the)',
   languagesOfficial: ['fo'],
   languagesSpoken: ['fo'],
   nationalDestinationCodeLengths: [2],

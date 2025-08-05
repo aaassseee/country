@@ -35,7 +35,7 @@ const countryCOG = Country(
   internationalPrefix: '00',
   ioc: 'CGO',
   isoLongName: 'The Republic of the Congo',
-  isoShortName: 'Congo',
+  isoShortName: 'Congo (the)',
   languagesOfficial: ['fr', 'ln'],
   languagesSpoken: ['fr', 'ln'],
   nationalDestinationCodeLengths: [2],

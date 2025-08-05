@@ -35,7 +35,7 @@ const countryUSA = Country(
   internationalPrefix: '011',
   ioc: 'USA',
   isoLongName: 'The United States of America',
-  isoShortName: 'United States of America',
+  isoShortName: 'United States of America (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

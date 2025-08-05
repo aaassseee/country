@@ -35,7 +35,7 @@ const countryLAO = Country(
   internationalPrefix: '00',
   ioc: 'LAO',
   isoLongName: 'The Lao People\'s Democratic Republic',
-  isoShortName: 'Lao People\'s Democratic Republic',
+  isoShortName: 'Lao People\'s Democratic Republic (the)',
   languagesOfficial: ['lo'],
   languagesSpoken: ['lo'],
   nationalDestinationCodeLengths: [2],

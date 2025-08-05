@@ -35,7 +35,7 @@ const countryNER = Country(
   internationalPrefix: '00',
   ioc: 'NIG',
   isoLongName: 'The Republic of the Niger',
-  isoShortName: 'Niger',
+  isoShortName: 'Niger (the)',
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

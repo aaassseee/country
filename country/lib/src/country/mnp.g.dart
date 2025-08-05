@@ -35,7 +35,7 @@ const countryMNP = Country(
   internationalPrefix: '011',
   ioc: null,
   isoLongName: 'The Commonwealth of the Northern Mariana Islands',
-  isoShortName: 'Northern Mariana Islands',
+  isoShortName: 'Northern Mariana Islands (the)',
   languagesOfficial: ['en', 'ch'],
   languagesSpoken: ['en', 'ch'],
   nationalDestinationCodeLengths: [3],

@@ -706,7 +706,7 @@ const countryZAF = Country(
       type: 'province',
     ),
     Subdivision(
-      name: 'North-West',
+      name: 'North West',
       code: 'NW',
       geo: SubdivisionGeoData(
         latitude: -26.6638599,

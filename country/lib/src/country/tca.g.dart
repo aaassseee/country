@@ -35,7 +35,7 @@ const countryTCA = Country(
   internationalPrefix: '011',
   ioc: null,
   isoLongName: 'The Turks and Caicos Islands',
-  isoShortName: 'Turks and Caicos Islands',
+  isoShortName: 'Turks and Caicos Islands (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

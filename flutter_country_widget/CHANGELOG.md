@@ -1,4 +1,9 @@
-## 2.0.1
+## 3.0.1
+
+* update dependencies
+* updated generated country with new data
+
+## 3.0.0
 
 * update dependencies
   - added distanceUnit

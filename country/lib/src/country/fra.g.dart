@@ -8810,7 +8810,7 @@ const countryFRA = Country(
       type: 'metropolitan_region',
     ),
     Subdivision(
-      name: 'New Caledonia',
+      name: 'Nouvelle-Calédonie',
       code: 'NC',
       geo: SubdivisionGeoData(
         latitude: 35.7595731,

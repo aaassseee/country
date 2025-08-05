@@ -35,7 +35,7 @@ const countryMDA = Country(
   internationalPrefix: '00',
   ioc: 'MDA',
   isoLongName: 'The Republic of Moldova',
-  isoShortName: 'Moldova (Republic of)',
+  isoShortName: 'Moldova (the Republic of)',
   languagesOfficial: ['ro'],
   languagesSpoken: ['ro'],
   nationalDestinationCodeLengths: [2],

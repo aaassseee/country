@@ -35,7 +35,7 @@ const countryCOD = Country(
   internationalPrefix: '00',
   ioc: 'COD',
   isoLongName: 'The Democratic Republic of the Congo',
-  isoShortName: 'Congo (Democratic Republic of the)',
+  isoShortName: 'Congo (the Democratic Republic of the)',
   languagesOfficial: ['fr', 'ln', 'kg', 'sw', 'lu'],
   languagesSpoken: ['fr', 'ln', 'kg', 'sw', 'lu'],
   nationalDestinationCodeLengths: [2],

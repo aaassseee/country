@@ -35,7 +35,7 @@ const countryVAT = Country(
   internationalPrefix: '00',
   ioc: null,
   isoLongName: 'The Holy See',
-  isoShortName: 'Holy See',
+  isoShortName: 'Holy See (the)',
   languagesOfficial: ['it', 'la'],
   languagesSpoken: ['it', 'la'],
   nationalDestinationCodeLengths: [3],

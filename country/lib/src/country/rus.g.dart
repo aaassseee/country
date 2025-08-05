@@ -35,7 +35,7 @@ const countryRUS = Country(
   internationalPrefix: '810',
   ioc: 'RUS',
   isoLongName: 'The Russian Federation',
-  isoShortName: 'Russian Federation',
+  isoShortName: 'Russian Federation (the)',
   languagesOfficial: ['ru'],
   languagesSpoken: ['ru'],
   nationalDestinationCodeLengths: [3],

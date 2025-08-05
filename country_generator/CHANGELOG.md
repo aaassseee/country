@@ -1,3 +1,8 @@
+## 6.0.1
+
+* update dependencies
+* updated generated country with new data
+
 ## 6.0.0
 
 * upgraded dependencies
