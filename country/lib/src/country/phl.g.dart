@@ -35,7 +35,7 @@ const countryPHL = Country(
   internationalPrefix: '00',
   ioc: 'PHI',
   isoLongName: 'The Republic of the Philippines',
-  isoShortName: 'Philippines',
+  isoShortName: 'Philippines (the)',
   languagesOfficial: ['tl', 'en'],
   languagesSpoken: ['tl', 'en'],
   nationalDestinationCodeLengths: [2],

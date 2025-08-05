@@ -35,7 +35,7 @@ const countryCOM = Country(
   internationalPrefix: '00',
   ioc: 'COM',
   isoLongName: 'The Union of the Comoros',
-  isoShortName: 'Comoros',
+  isoShortName: 'Comoros (the)',
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

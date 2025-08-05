@@ -35,7 +35,7 @@ const countryARE = Country(
   internationalPrefix: '00',
   ioc: 'UAE',
   isoLongName: 'The United Arab Emirates',
-  isoShortName: 'United Arab Emirates',
+  isoShortName: 'United Arab Emirates (the)',
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

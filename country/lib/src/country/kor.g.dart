@@ -35,7 +35,7 @@ const countryKOR = Country(
   internationalPrefix: '001',
   ioc: 'KOR',
   isoLongName: 'The Republic of Korea',
-  isoShortName: 'Korea (Republic of)',
+  isoShortName: 'Korea (the Republic of)',
   languagesOfficial: ['ko'],
   languagesSpoken: ['ko'],
   nationalDestinationCodeLengths: [2],

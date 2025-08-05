@@ -35,7 +35,7 @@ const countryIOT = Country(
   internationalPrefix: null,
   ioc: null,
   isoLongName: 'The British Indian Ocean Territory',
-  isoShortName: 'British Indian Ocean Territory',
+  isoShortName: 'British Indian Ocean Territory (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],

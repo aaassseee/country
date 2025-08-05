@@ -35,7 +35,7 @@ const countryCYM = Country(
   internationalPrefix: '011',
   ioc: 'CAY',
   isoLongName: 'The Cayman Islands',
-  isoShortName: 'Cayman Islands',
+  isoShortName: 'Cayman Islands (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

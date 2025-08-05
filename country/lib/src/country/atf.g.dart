@@ -35,7 +35,7 @@ const countryATF = Country(
   internationalPrefix: null,
   ioc: null,
   isoLongName: 'The French Southern and Antarctic Lands',
-  isoShortName: 'French Southern Territories',
+  isoShortName: 'French Southern Territories (the)',
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [],

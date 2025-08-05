@@ -35,7 +35,7 @@ const countryCOK = Country(
   internationalPrefix: '00',
   ioc: 'COK',
   isoLongName: 'The Cook Islands',
-  isoShortName: 'Cook Islands',
+  isoShortName: 'Cook Islands (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

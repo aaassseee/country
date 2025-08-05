@@ -160,7 +160,7 @@ const countrySGP = Country(
     "pl": "Singapur",
     "ps": "سينګاپور",
     "pt": "Singapura",
-    "pt_BR": "Cingapura",
+    "pt_BR": "Singapura",
     "ro": "Singapore",
     "ru": "Сингапур",
     "rw": "Singapore",

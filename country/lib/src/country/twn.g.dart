@@ -35,7 +35,7 @@ const countryTWN = Country(
   internationalPrefix: '002',
   ioc: 'TPE',
   isoLongName: 'Taiwan, Province of China',
-  isoShortName: 'Taiwan, Province of China',
+  isoShortName: 'Taiwan (Province of China)',
   languagesOfficial: ['zh'],
   languagesSpoken: ['zh'],
   nationalDestinationCodeLengths: [2],

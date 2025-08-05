@@ -35,7 +35,7 @@ const countryMHL = Country(
   internationalPrefix: '00',
   ioc: 'MHL',
   isoLongName: 'The Republic of the Marshall Islands',
-  isoShortName: 'Marshall Islands',
+  isoShortName: 'Marshall Islands (the)',
   languagesOfficial: ['en', 'mh'],
   languagesSpoken: ['en', 'mh'],
   nationalDestinationCodeLengths: [2],

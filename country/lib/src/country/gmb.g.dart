@@ -35,7 +35,7 @@ const countryGMB = Country(
   internationalPrefix: '00',
   ioc: 'GAM',
   isoLongName: 'The Republic of The Gambia',
-  isoShortName: 'Gambia',
+  isoShortName: 'Gambia (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

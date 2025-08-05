@@ -5,7 +5,7 @@ const countryCUW = Country(
   alpha3: 'CUW',
   continent: Continent.northAmerica,
   countryCode: '599',
-  currencyCode: 'ANG',
+  currencyCode: 'XCG',
   distanceUnit: DistanceUnit.kilometres,
   gec: 'UC',
   geo: GeoData(

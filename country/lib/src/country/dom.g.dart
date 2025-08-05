@@ -35,7 +35,7 @@ const countryDOM = Country(
   internationalPrefix: '011',
   ioc: 'DOM',
   isoLongName: 'The Dominican Republic',
-  isoShortName: 'Dominican Republic',
+  isoShortName: 'Dominican Republic (the)',
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [3],

@@ -35,7 +35,7 @@ const countryCAF = Country(
   internationalPrefix: '00',
   ioc: 'CAF',
   isoLongName: 'The Central African Republic',
-  isoShortName: 'Central African Republic',
+  isoShortName: 'Central African Republic (the)',
   languagesOfficial: ['fr', 'sg'],
   languagesSpoken: ['fr', 'sg'],
   nationalDestinationCodeLengths: [2],

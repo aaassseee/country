@@ -35,7 +35,7 @@ const countryBHS = Country(
   internationalPrefix: '011',
   ioc: 'BAH',
   isoLongName: 'The Commonwealth of The Bahamas',
-  isoShortName: 'Bahamas',
+  isoShortName: 'Bahamas (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

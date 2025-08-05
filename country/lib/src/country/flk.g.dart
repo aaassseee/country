@@ -35,7 +35,7 @@ const countryFLK = Country(
   internationalPrefix: '00',
   ioc: null,
   isoLongName: 'The Falkland Islands',
-  isoShortName: 'Falkland Islands (Malvinas)',
+  isoShortName: 'Falkland Islands (the) [Malvinas]',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

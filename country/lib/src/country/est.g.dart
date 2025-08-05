@@ -55,8 +55,8 @@ const countryEST = Country(
   worldRegion: WorldRegion.emea,
   addressFormat: null,
   vatRates: VatRates(
-    standard: 22.0,
-    reduced: [9.0],
+    standard: 24.0,
+    reduced: [13.0, 9.0],
     superReduced: null,
     parking: null,
   ),

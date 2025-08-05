@@ -35,7 +35,7 @@ const countryUMI = Country(
   internationalPrefix: null,
   ioc: null,
   isoLongName: 'United States Minor Outlying Islands',
-  isoShortName: 'United States Minor Outlying Islands',
+  isoShortName: 'United States Minor Outlying Islands (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],

@@ -35,7 +35,7 @@ const countryPRK = Country(
   internationalPrefix: '00',
   ioc: 'PRK',
   isoLongName: 'The Democratic People\'s Republic of Korea',
-  isoShortName: 'Korea (Democratic People\'s Republic of)',
+  isoShortName: 'Korea (the Democratic People\'s Republic of)',
   languagesOfficial: ['ko'],
   languagesSpoken: ['ko'],
   nationalDestinationCodeLengths: [2],

@@ -35,7 +35,7 @@ const countryCCK = Country(
   internationalPrefix: '0011',
   ioc: null,
   isoLongName: 'The Territory of Cocos (Keeling) Islands',
-  isoShortName: 'Cocos (Keeling) Islands',
+  isoShortName: 'Cocos (Keeling) Islands (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

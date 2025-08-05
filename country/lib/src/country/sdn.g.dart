@@ -35,7 +35,7 @@ const countrySDN = Country(
   internationalPrefix: '00',
   ioc: 'SUD',
   isoLongName: 'The Republic of the Sudan',
-  isoShortName: 'Sudan',
+  isoShortName: 'Sudan (the)',
   languagesOfficial: ['ar', 'en'],
   languagesSpoken: ['ar', 'en'],
   nationalDestinationCodeLengths: [2],
