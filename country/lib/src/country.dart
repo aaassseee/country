@@ -443,7 +443,7 @@ class DistanceUnit {
   static const miles = DistanceUnit._(milesWireName);
 
   /// All values with [DistanceUnit]
-  static get values => [
+  static List<DistanceUnit> get values => [
         kilometres,
         miles,
       ];
@@ -766,7 +766,7 @@ class Continent {
   static const southAmerica = Continent._(southAmericaWireName);
 
   /// All values with [Continent]
-  static get values => [
+  static List<Continent> get values => [
         africa,
         antarctica,
         asia,
@@ -872,7 +872,7 @@ class Region {
   static const oceania = Region._(oceaniaWireName);
 
   /// All values with [Region]
-  static get values => [
+  static List<Region> get values => [
         europe,
         asia,
         americas,
@@ -977,7 +977,7 @@ class Week {
   static const sunday = Week._(sundayWireName);
 
   /// All values with [Week]
-  static get values => [
+  static List<Week> get values => [
         monday,
         tuesday,
         wednesday,
@@ -1047,7 +1047,7 @@ class WorldRegion {
   static const emea = WorldRegion._(emeaWireName);
 
   /// All values with [WorldRegion]
-  static get values => [
+  static List<WorldRegion> get values => [
         amer,
         apac,
         emea,
