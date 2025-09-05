@@ -51,6 +51,7 @@ const countryPRK = Country(
   unLocode: 'KP',
   unMember: true,
   unofficialNames: [
+    'Korea (Democratic People\'s Republic of)',
     'Korea (North)',
     'North Korea',
     'Nordkorea',

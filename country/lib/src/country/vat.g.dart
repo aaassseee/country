@@ -52,6 +52,7 @@ const countryVAT = Country(
   unMember: false,
   unofficialNames: [
     'Vatican City',
+    'Holy See',
     'Vatikan',
     'Cité du Vatican',
     'Ciudad del Vaticano',

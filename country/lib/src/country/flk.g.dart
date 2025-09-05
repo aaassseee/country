@@ -52,6 +52,7 @@ const countryFLK = Country(
   unMember: false,
   unofficialNames: [
     'Falkland Islands',
+    'Falkland Islands [Malvinas]',
     'Falklandinseln',
     'Îles Malouines',
     'Islas Malvinas',

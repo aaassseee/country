@@ -51,12 +51,12 @@ const countryCOD = Country(
   unLocode: 'CD',
   unMember: true,
   unofficialNames: [
+    'Congo (Democratic Republic of the)',
     'Congo (Dem. Rep.)',
     'Kongo (Dem. Rep.)',
     'Congo (Rep. Dem.)',
     'コンゴ民主共和国',
     'Congo [DRC]',
-    'Congo (The Democratic Republic Of The)',
     'Democratic Republic of the Congo',
     'Congo, Democratic Republic of',
     'Congo (Kinshasa)'

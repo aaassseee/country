@@ -50,7 +50,7 @@ const countryGMB = Country(
   subregion: 'Western Africa',
   unLocode: 'GM',
   unMember: true,
-  unofficialNames: ['The Gambia', 'ガンビア'],
+  unofficialNames: ['Gambia', 'The Gambia', 'ガンビア'],
   vehicleRegistrationCode: 'WAG',
   worldRegion: WorldRegion.emea,
   addressFormat: null,
