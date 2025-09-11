@@ -1,7 +1,10 @@
+## 5.0.2
+
+* update dependencies
+
 ## 5.0.1
 
 * update dependencies
-* updated generated country with new data
 
 ## 5.0.0
 
