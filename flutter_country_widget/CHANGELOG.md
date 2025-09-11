@@ -1,7 +1,10 @@
+## 3.0.2
+
+* update dependencies
+
 ## 3.0.1
 
 * update dependencies
-* updated generated country with new data
 
 ## 3.0.0
 
