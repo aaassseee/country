@@ -50,7 +50,7 @@ const countryBHS = Country(
   subregion: 'Caribbean',
   unLocode: 'BS',
   unMember: true,
-  unofficialNames: ['The Bahamas', 'バハマ'],
+  unofficialNames: ['Bahamas', 'The Bahamas', 'バハマ'],
   vehicleRegistrationCode: 'BS',
   worldRegion: WorldRegion.amer,
   addressFormat: null,

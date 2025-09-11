@@ -52,6 +52,7 @@ const countryRUS = Country(
   unMember: true,
   unofficialNames: [
     'Russia',
+    'Russian Federation',
     'Russland',
     'Russie',
     'Rusia',

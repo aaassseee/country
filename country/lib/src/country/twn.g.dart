@@ -50,7 +50,14 @@ const countryTWN = Country(
   subregion: 'Eastern Asia',
   unLocode: 'TW',
   unMember: false,
-  unofficialNames: ['Taiwan', 'Taiwán', '台灣', '臺灣', '台湾'],
+  unofficialNames: [
+    'Taiwan, Province of China',
+    'Taiwan',
+    'Taiwán',
+    '台灣',
+    '臺灣',
+    '台湾'
+  ],
   vehicleRegistrationCode: 'RC',
   worldRegion: WorldRegion.apac,
   addressFormat: '''{{recipient}}

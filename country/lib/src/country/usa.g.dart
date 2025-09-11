@@ -52,6 +52,7 @@ const countryUSA = Country(
   unMember: true,
   unofficialNames: [
     'United States',
+    'United States of America',
     'USA',
     'Vereinigte Staaten von Amerika',
     'États-Unis',

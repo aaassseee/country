@@ -54,6 +54,7 @@ const countryGBR = Country(
   unofficialNames: [
     'United Kingdom',
     'The United Kingdom',
+    'United Kingdom of Great Britain and Northern Ireland',
     'England',
     'Großbritannien',
     'Vereinigtes Königreich',

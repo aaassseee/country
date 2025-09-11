@@ -55,6 +55,7 @@ const countryMDA = Country(
     'Moldawien',
     'Moldavie',
     'Moldavia',
+    'Moldova (Republic of)',
     'the Republic of Moldova',
     'モルドバ共和国',
     'Moldavië'
