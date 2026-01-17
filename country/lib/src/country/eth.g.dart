@@ -36,6 +36,7 @@ const countryETH = Country(
   ioc: 'ETH',
   isoLongName: 'The Federal Democratic Republic of Ethiopia',
   isoShortName: 'Ethiopia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['am'],
   languagesSpoken: ['am'],
   nationalDestinationCodeLengths: [2],

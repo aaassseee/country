@@ -36,6 +36,7 @@ const countryHKG = Country(
   ioc: 'HKG',
   isoLongName: 'The Hong Kong Special Administrative Region of China',
   isoShortName: 'Hong Kong',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'zh'],
   languagesSpoken: ['en', 'zh'],
   nationalDestinationCodeLengths: [2],

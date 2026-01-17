@@ -36,6 +36,7 @@ const countrySUR = Country(
   ioc: 'SUR',
   isoLongName: 'The Republic of Suriname',
   isoShortName: 'Suriname',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl'],
   languagesSpoken: ['nl'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryMWI = Country(
   ioc: 'MAW',
   isoLongName: 'The Republic of Malawi',
   isoShortName: 'Malawi',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ny'],
   languagesSpoken: ['en', 'ny'],
   nationalDestinationCodeLengths: [2],

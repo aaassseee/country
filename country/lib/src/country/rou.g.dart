@@ -36,6 +36,7 @@ const countryROU = Country(
   ioc: 'ROU',
   isoLongName: 'Romania',
   isoShortName: 'Romania',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ro'],
   languagesSpoken: ['ro'],
   nationalDestinationCodeLengths: [2],
@@ -65,8 +66,8 @@ const countryROU = Country(
 {{postalcode}} {{city}}
 {{country}}''',
   vatRates: VatRates(
-    standard: 19.0,
-    reduced: [5.0, 9.0],
+    standard: 21.0,
+    reduced: [11.0],
     superReduced: null,
     parking: null,
   ),

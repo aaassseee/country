@@ -36,6 +36,7 @@ const countryLUX = Country(
   ioc: 'LUX',
   isoLongName: 'The Grand Duchy of Luxembourg',
   isoShortName: 'Luxembourg',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'de', 'lb'],
   languagesSpoken: ['fr', 'de', 'lb'],
   nationalDestinationCodeLengths: [2],

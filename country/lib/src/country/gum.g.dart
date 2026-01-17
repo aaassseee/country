@@ -36,6 +36,7 @@ const countryGUM = Country(
   ioc: 'GUM',
   isoLongName: 'The Territory of Guam',
   isoShortName: 'Guam',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ch', 'es'],
   languagesSpoken: ['en', 'ch', 'es'],
   nationalDestinationCodeLengths: [3],

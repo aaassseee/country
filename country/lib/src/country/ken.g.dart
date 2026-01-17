@@ -36,6 +36,7 @@ const countryKEN = Country(
   ioc: 'KEN',
   isoLongName: 'The Republic of Kenya',
   isoShortName: 'Kenya',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'sw'],
   languagesSpoken: ['en', 'sw'],
   nationalDestinationCodeLengths: [2],

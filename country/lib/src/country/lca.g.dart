@@ -36,6 +36,7 @@ const countryLCA = Country(
   ioc: 'LCA',
   isoLongName: 'Saint Lucia',
   isoShortName: 'Saint Lucia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

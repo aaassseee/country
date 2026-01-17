@@ -36,6 +36,7 @@ const countryTCD = Country(
   ioc: 'CHA',
   isoLongName: 'The Republic of Chad',
   isoShortName: 'Chad',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

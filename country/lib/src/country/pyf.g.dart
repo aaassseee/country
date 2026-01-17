@@ -36,6 +36,7 @@ const countryPYF = Country(
   ioc: null,
   isoLongName: 'French Polynesia',
   isoShortName: 'French Polynesia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

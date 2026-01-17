@@ -36,6 +36,7 @@ const countrySXM = Country(
   ioc: null,
   isoLongName: 'Sint Maarten',
   isoShortName: 'Sint Maarten (Dutch part)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl', 'en'],
   languagesSpoken: ['nl', 'en'],
   nationalDestinationCodeLengths: [3],

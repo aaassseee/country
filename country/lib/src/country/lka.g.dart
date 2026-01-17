@@ -36,6 +36,7 @@ const countryLKA = Country(
   ioc: 'SRI',
   isoLongName: 'The Democratic Socialist Republic of Sri Lanka',
   isoShortName: 'Sri Lanka',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['si', 'ta'],
   languagesSpoken: ['si', 'ta'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryBOL = Country(
   ioc: 'BOL',
   isoLongName: 'The Plurinational State of Bolivia',
   isoShortName: 'Bolivia (Plurinational State of)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es', 'ay', 'qu'],
   languagesSpoken: ['es', 'ay', 'qu'],
   nationalDestinationCodeLengths: [2],

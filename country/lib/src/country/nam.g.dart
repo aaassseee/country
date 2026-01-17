@@ -36,6 +36,7 @@ const countryNAM = Country(
   ioc: 'NAM',
   isoLongName: 'The Republic of Namibia',
   isoShortName: 'Namibia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'af'],
   languagesSpoken: ['en', 'af'],
   nationalDestinationCodeLengths: [2],

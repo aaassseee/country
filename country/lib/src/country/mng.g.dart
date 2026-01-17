@@ -36,6 +36,7 @@ const countryMNG = Country(
   ioc: 'MGL',
   isoLongName: 'Mongolia',
   isoShortName: 'Mongolia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['mn'],
   languagesSpoken: ['mn'],
   nationalDestinationCodeLengths: [2],

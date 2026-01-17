@@ -36,6 +36,7 @@ const countryCAN = Country(
   ioc: 'CAN',
   isoLongName: 'Canada',
   isoShortName: 'Canada',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fr'],
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [3],

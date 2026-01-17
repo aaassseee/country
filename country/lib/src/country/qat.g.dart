@@ -36,6 +36,7 @@ const countryQAT = Country(
   ioc: 'QAT',
   isoLongName: 'The State of Qatar',
   isoShortName: 'Qatar',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

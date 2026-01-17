@@ -36,6 +36,7 @@ const countryMEX = Country(
   ioc: 'MEX',
   isoLongName: 'The United Mexican States',
   isoShortName: 'Mexico',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

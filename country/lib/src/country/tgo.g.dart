@@ -36,6 +36,7 @@ const countryTGO = Country(
   ioc: 'TOG',
   isoLongName: 'The Togolese Republic',
   isoShortName: 'Togo',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryBRA = Country(
   ioc: 'BRA',
   isoLongName: 'The Federative Republic of Brazil',
   isoShortName: 'Brazil',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

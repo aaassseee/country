@@ -36,6 +36,7 @@ const countryVGB = Country(
   ioc: 'IVB',
   isoLongName: 'The Virgin Islands',
   isoShortName: 'Virgin Islands (British)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

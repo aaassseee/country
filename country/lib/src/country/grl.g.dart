@@ -36,6 +36,7 @@ const countryGRL = Country(
   ioc: null,
   isoLongName: 'Kalaallit Nunaat',
   isoShortName: 'Greenland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['kl'],
   languagesSpoken: ['kl'],
   nationalDestinationCodeLengths: [2],

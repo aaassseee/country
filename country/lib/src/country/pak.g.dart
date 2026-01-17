@@ -36,6 +36,7 @@ const countryPAK = Country(
   ioc: 'PAK',
   isoLongName: 'The Islamic Republic of Pakistan',
   isoShortName: 'Pakistan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ur'],
   languagesSpoken: ['en', 'ur'],
   nationalDestinationCodeLengths: [2],

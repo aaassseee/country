@@ -36,6 +36,7 @@ const countryMCO = Country(
   ioc: 'MON',
   isoLongName: 'The Principality of Monaco',
   isoShortName: 'Monaco',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

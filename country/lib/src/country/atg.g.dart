@@ -36,6 +36,7 @@ const countryATG = Country(
   ioc: 'ANT',
   isoLongName: 'Antigua and Barbuda',
   isoShortName: 'Antigua and Barbuda',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

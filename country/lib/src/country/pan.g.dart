@@ -36,6 +36,7 @@ const countryPAN = Country(
   ioc: 'PAN',
   isoLongName: 'The Republic of Panamá',
   isoShortName: 'Panama',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

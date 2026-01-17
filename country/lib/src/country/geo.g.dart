@@ -36,6 +36,7 @@ const countryGEO = Country(
   ioc: 'GEO',
   isoLongName: 'Georgia',
   isoShortName: 'Georgia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ka'],
   languagesSpoken: ['ka'],
   nationalDestinationCodeLengths: [2],

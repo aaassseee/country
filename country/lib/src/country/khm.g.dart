@@ -36,6 +36,7 @@ const countryKHM = Country(
   ioc: 'CAM',
   isoLongName: 'The Kingdom of Cambodia',
   isoShortName: 'Cambodia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['km'],
   languagesSpoken: ['km'],
   nationalDestinationCodeLengths: [2],

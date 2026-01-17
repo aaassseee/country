@@ -36,6 +36,7 @@ const countryGNQ = Country(
   ioc: 'GEQ',
   isoLongName: 'The Republic of Equatorial Guinea',
   isoShortName: 'Equatorial Guinea',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es', 'fr'],
   languagesSpoken: ['es', 'fr'],
   nationalDestinationCodeLengths: [2],

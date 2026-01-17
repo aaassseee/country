@@ -36,6 +36,7 @@ const countryPRT = Country(
   ioc: 'POR',
   isoLongName: 'The Portuguese Republic',
   isoShortName: 'Portugal',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

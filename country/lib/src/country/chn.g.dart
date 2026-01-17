@@ -36,6 +36,7 @@ const countryCHN = Country(
   ioc: 'CHN',
   isoLongName: 'The People\'s Republic of China',
   isoShortName: 'China',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['zh'],
   languagesSpoken: ['zh'],
   nationalDestinationCodeLengths: [2],

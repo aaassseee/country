@@ -36,6 +36,7 @@ const countryDMA = Country(
   ioc: 'DMA',
   isoLongName: 'The Commonwealth of Dominica',
   isoShortName: 'Dominica',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

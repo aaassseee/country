@@ -36,6 +36,7 @@ const countryFIN = Country(
   ioc: 'FIN',
   isoLongName: 'The Republic of Finland',
   isoShortName: 'Finland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fi', 'sv'],
   languagesSpoken: ['fi', 'sv'],
   nationalDestinationCodeLengths: [2],

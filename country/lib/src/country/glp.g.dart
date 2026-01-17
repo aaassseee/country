@@ -36,6 +36,7 @@ const countryGLP = Country(
   ioc: null,
   isoLongName: 'Guadeloupe',
   isoShortName: 'Guadeloupe',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [3],

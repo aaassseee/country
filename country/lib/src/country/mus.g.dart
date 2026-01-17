@@ -36,6 +36,7 @@ const countryMUS = Country(
   ioc: 'MRI',
   isoLongName: 'The Republic of Mauritius',
   isoShortName: 'Mauritius',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

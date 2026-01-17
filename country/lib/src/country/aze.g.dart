@@ -36,6 +36,7 @@ const countryAZE = Country(
   ioc: 'AZE',
   isoLongName: 'The Republic of Azerbaijan',
   isoShortName: 'Azerbaijan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['az', 'hy'],
   languagesSpoken: ['az', 'hy'],
   nationalDestinationCodeLengths: [2],

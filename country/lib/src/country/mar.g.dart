@@ -36,6 +36,7 @@ const countryMAR = Country(
   ioc: 'MAR',
   isoLongName: 'The Kingdom of Morocco',
   isoShortName: 'Morocco',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryPRY = Country(
   ioc: 'PAR',
   isoLongName: 'The Republic of Paraguay',
   isoShortName: 'Paraguay',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es', 'gn'],
   languagesSpoken: ['es', 'gn'],
   nationalDestinationCodeLengths: [2],

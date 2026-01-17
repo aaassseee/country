@@ -36,6 +36,7 @@ const countryCXR = Country(
   ioc: null,
   isoLongName: 'The Territory of Christmas Island',
   isoShortName: 'Christmas Island',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'zh', 'ms'],
   languagesSpoken: ['en', 'zh', 'ms'],
   nationalDestinationCodeLengths: [],

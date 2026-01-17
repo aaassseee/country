@@ -36,6 +36,7 @@ const countryESH = Country(
   ioc: null,
   isoLongName: 'The Sahrawi Arab Democratic Republic',
   isoShortName: 'Western Sahara',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es', 'fr'],
   languagesSpoken: ['es', 'fr'],
   nationalDestinationCodeLengths: [],

@@ -36,6 +36,7 @@ const countryVNM = Country(
   ioc: 'VIE',
   isoLongName: 'The Socialist Republic of Viet Nam',
   isoShortName: 'Viet Nam',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['vi'],
   languagesSpoken: ['vi'],
   nationalDestinationCodeLengths: [2],

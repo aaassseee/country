@@ -36,6 +36,7 @@ const countryFJI = Country(
   ioc: 'FIJ',
   isoLongName: 'The Republic of Fiji',
   isoShortName: 'Fiji',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fj', 'hi'],
   languagesSpoken: ['en', 'fj', 'hi', 'ur'],
   nationalDestinationCodeLengths: [2],

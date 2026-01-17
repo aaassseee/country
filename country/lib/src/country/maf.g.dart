@@ -36,6 +36,7 @@ const countryMAF = Country(
   ioc: null,
   isoLongName: 'The Collectivity of Saint-Martin',
   isoShortName: 'Saint Martin (French part)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fr', 'nl'],
   languagesSpoken: ['en', 'fr', 'nl'],
   nationalDestinationCodeLengths: [],

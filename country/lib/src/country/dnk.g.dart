@@ -36,6 +36,7 @@ const countryDNK = Country(
   ioc: 'DEN',
   isoLongName: 'The Kingdom of Denmark',
   isoShortName: 'Denmark',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['da'],
   languagesSpoken: ['da'],
   nationalDestinationCodeLengths: [2],

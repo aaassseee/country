@@ -36,6 +36,7 @@ const countryAND = Country(
   ioc: 'AND',
   isoLongName: 'The Principality of Andorra',
   isoShortName: 'Andorra',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ca'],
   languagesSpoken: ['ca'],
   nationalDestinationCodeLengths: [2],

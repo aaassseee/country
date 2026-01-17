@@ -36,6 +36,7 @@ const countryIRN = Country(
   ioc: 'IRI',
   isoLongName: 'The Islamic Republic of Iran',
   isoShortName: 'Iran (Islamic Republic of)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fa'],
   languagesSpoken: ['fa'],
   nationalDestinationCodeLengths: [2],

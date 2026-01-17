@@ -36,6 +36,7 @@ const countryDEU = Country(
   ioc: 'GER',
   isoLongName: 'The Federal Republic of Germany',
   isoShortName: 'Germany',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['de'],
   languagesSpoken: ['de'],
   nationalDestinationCodeLengths: [2, 3, 4, 5],

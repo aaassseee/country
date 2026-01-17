@@ -36,6 +36,7 @@ const countryZMB = Country(
   ioc: 'ZAM',
   isoLongName: 'The Republic of Zambia',
   isoShortName: 'Zambia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

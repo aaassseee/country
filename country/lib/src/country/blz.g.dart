@@ -36,6 +36,7 @@ const countryBLZ = Country(
   ioc: 'BIZ',
   isoLongName: 'Belize',
   isoShortName: 'Belize',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'es'],
   languagesSpoken: ['en', 'es'],
   nationalDestinationCodeLengths: [2],

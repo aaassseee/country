@@ -36,6 +36,7 @@ const countrySVN = Country(
   ioc: 'SLO',
   isoLongName: 'The Republic of Slovenia',
   isoShortName: 'Slovenia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sl'],
   languagesSpoken: ['sl'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryDJI = Country(
   ioc: 'DJI',
   isoLongName: 'The Republic of Djibouti',
   isoShortName: 'Djibouti',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryIND = Country(
   ioc: 'IND',
   isoLongName: 'The Republic of India',
   isoShortName: 'India',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['hi', 'en'],
   languagesSpoken: ['hi', 'en'],
   nationalDestinationCodeLengths: [2],

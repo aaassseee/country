@@ -36,6 +36,7 @@ const countryLIE = Country(
   ioc: 'LIE',
   isoLongName: 'The Principality of Liechtenstein',
   isoShortName: 'Liechtenstein',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['de'],
   languagesSpoken: ['de'],
   nationalDestinationCodeLengths: [2],

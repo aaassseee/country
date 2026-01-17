@@ -36,6 +36,7 @@ const countrySLB = Country(
   ioc: 'SOL',
   isoLongName: 'The Solomon Islands',
   isoShortName: 'Solomon Islands',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

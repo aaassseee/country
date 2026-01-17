@@ -36,6 +36,7 @@ const countryUGA = Country(
   ioc: 'UGA',
   isoLongName: 'The Republic of Uganda',
   isoShortName: 'Uganda',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'sw'],
   languagesSpoken: ['en', 'sw'],
   nationalDestinationCodeLengths: [2],

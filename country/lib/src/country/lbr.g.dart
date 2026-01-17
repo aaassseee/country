@@ -36,6 +36,7 @@ const countryLBR = Country(
   ioc: 'LBR',
   isoLongName: 'The Republic of Liberia',
   isoShortName: 'Liberia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

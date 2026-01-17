@@ -36,6 +36,7 @@ const countryARM = Country(
   ioc: 'ARM',
   isoLongName: 'The Republic of Armenia',
   isoShortName: 'Armenia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['hy'],
   languagesSpoken: ['hy', 'ru'],
   nationalDestinationCodeLengths: [2],

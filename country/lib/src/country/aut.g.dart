@@ -36,6 +36,7 @@ const countryAUT = Country(
   ioc: 'AUT',
   isoLongName: 'The Republic of Austria',
   isoShortName: 'Austria',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['de'],
   languagesSpoken: ['de'],
   nationalDestinationCodeLengths: [1, 2, 3],

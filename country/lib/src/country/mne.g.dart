@@ -36,6 +36,7 @@ const countryMNE = Country(
   ioc: 'MNE',
   isoLongName: 'Montenegro',
   isoShortName: 'Montenegro',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sr', 'bs', 'sq', 'hr'],
   languagesSpoken: ['sr', 'bs', 'sq', 'hr'],
   nationalDestinationCodeLengths: [2],

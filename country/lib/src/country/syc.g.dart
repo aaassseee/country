@@ -36,6 +36,7 @@ const countrySYC = Country(
   ioc: 'SEY',
   isoLongName: 'The Republic of Seychelles',
   isoShortName: 'Seychelles',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'en'],
   languagesSpoken: ['fr', 'en'],
   nationalDestinationCodeLengths: [2],

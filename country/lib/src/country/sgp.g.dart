@@ -36,6 +36,7 @@ const countrySGP = Country(
   ioc: 'SGP',
   isoLongName: 'The Republic of Singapore',
   isoShortName: 'Singapore',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ms', 'ta'],
   languagesSpoken: ['en', 'ms', 'ta'],
   nationalDestinationCodeLengths: [2],

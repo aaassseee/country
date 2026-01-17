@@ -36,6 +36,7 @@ const countryMTQ = Country(
   ioc: null,
   isoLongName: 'Martinique',
   isoShortName: 'Martinique',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countrySAU = Country(
   ioc: 'KSA',
   isoLongName: 'The Kingdom of Saudi Arabia',
   isoShortName: 'Saudi Arabia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

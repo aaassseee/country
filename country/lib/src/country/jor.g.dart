@@ -36,6 +36,7 @@ const countryJOR = Country(
   ioc: 'JOR',
   isoLongName: 'The Hashemite Kingdom of Jordan',
   isoShortName: 'Jordan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

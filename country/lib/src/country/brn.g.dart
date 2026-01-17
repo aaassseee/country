@@ -36,6 +36,7 @@ const countryBRN = Country(
   ioc: 'BRU',
   isoLongName: 'The Nation of Brunei, the Abode of Peace',
   isoShortName: 'Brunei Darussalam',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ms'],
   languagesSpoken: ['ms'],
   nationalDestinationCodeLengths: [2],

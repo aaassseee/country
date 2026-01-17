@@ -36,6 +36,7 @@ const countryISL = Country(
   ioc: 'ISL',
   isoLongName: 'Iceland',
   isoShortName: 'Iceland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['is'],
   languagesSpoken: ['is'],
   nationalDestinationCodeLengths: [2],

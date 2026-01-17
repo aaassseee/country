@@ -36,6 +36,7 @@ const countryVCT = Country(
   ioc: 'VIN',
   isoLongName: 'Saint Vincent and the Grenadines',
   isoShortName: 'Saint Vincent and the Grenadines',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

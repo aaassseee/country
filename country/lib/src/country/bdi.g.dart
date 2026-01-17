@@ -36,6 +36,7 @@ const countryBDI = Country(
   ioc: 'BDI',
   isoLongName: 'The Republic of Burundi',
   isoShortName: 'Burundi',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'rn'],
   languagesSpoken: ['fr', 'rn'],
   nationalDestinationCodeLengths: [2],

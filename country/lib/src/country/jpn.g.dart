@@ -36,6 +36,7 @@ const countryJPN = Country(
   ioc: 'JPN',
   isoLongName: 'Japan',
   isoShortName: 'Japan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ja'],
   languagesSpoken: ['ja'],
   nationalDestinationCodeLengths: [2],
