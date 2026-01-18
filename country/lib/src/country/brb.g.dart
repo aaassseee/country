@@ -36,6 +36,7 @@ const countryBRB = Country(
   ioc: 'BAR',
   isoLongName: 'Barbados',
   isoShortName: 'Barbados',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

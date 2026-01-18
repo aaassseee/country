@@ -36,6 +36,7 @@ const countryALB = Country(
   ioc: 'ALB',
   isoLongName: 'The Republic of Albania',
   isoShortName: 'Albania',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sq'],
   languagesSpoken: ['sq'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countrySHN = Country(
   ioc: null,
   isoLongName: 'Saint Helena, Ascension and Tristan da Cunha',
   isoShortName: 'Saint Helena, Ascension and Tristan da Cunha',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

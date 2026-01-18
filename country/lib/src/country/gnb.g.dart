@@ -36,6 +36,7 @@ const countryGNB = Country(
   ioc: 'GBS',
   isoLongName: 'The Republic of Guinea-Bissau',
   isoShortName: 'Guinea-Bissau',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

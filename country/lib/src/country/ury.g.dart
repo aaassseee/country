@@ -36,6 +36,7 @@ const countryURY = Country(
   ioc: 'URU',
   isoLongName: 'The Oriental Republic of Uruguay',
   isoShortName: 'Uruguay',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

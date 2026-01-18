@@ -36,6 +36,7 @@ const countryITA = Country(
   ioc: 'ITA',
   isoLongName: 'The Italian Republic',
   isoShortName: 'Italy',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['it'],
   languagesSpoken: ['it'],
   nationalDestinationCodeLengths: [3],

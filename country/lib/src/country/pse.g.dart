@@ -36,6 +36,7 @@ const countryPSE = Country(
   ioc: 'PLE',
   isoLongName: 'The State of Palestine',
   isoShortName: 'Palestine, State of',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'he', 'en'],
   languagesSpoken: ['ar', 'he', 'en'],
   nationalDestinationCodeLengths: [2],

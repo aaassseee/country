@@ -36,6 +36,7 @@ const countryERI = Country(
   ioc: 'ERI',
   isoLongName: 'The State of Eritrea',
   isoShortName: 'Eritrea',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ar', 'ti'],
   languagesSpoken: ['en', 'ar', 'ti'],
   nationalDestinationCodeLengths: [2],

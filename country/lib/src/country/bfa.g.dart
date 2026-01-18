@@ -36,6 +36,7 @@ const countryBFA = Country(
   ioc: 'BUR',
   isoLongName: 'Burkina Faso',
   isoShortName: 'Burkina Faso',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'ff'],
   languagesSpoken: ['fr', 'ff'],
   nationalDestinationCodeLengths: [2],

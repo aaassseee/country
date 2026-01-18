@@ -36,6 +36,7 @@ const countryPOL = Country(
   ioc: 'POL',
   isoLongName: 'The Republic of Poland',
   isoShortName: 'Poland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pl'],
   languagesSpoken: ['pl'],
   nationalDestinationCodeLengths: [2],

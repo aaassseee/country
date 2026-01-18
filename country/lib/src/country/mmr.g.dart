@@ -36,6 +36,7 @@ const countryMMR = Country(
   ioc: 'MYA',
   isoLongName: 'The Republic of the Union of Myanmar',
   isoShortName: 'Myanmar',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['my'],
   languagesSpoken: ['my'],
   nationalDestinationCodeLengths: [2],

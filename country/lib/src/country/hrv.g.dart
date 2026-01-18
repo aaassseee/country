@@ -36,6 +36,7 @@ const countryHRV = Country(
   ioc: 'CRO',
   isoLongName: 'The Republic of Croatia',
   isoShortName: 'Croatia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['hr'],
   languagesSpoken: ['hr'],
   nationalDestinationCodeLengths: [2],

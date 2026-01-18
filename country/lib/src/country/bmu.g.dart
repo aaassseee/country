@@ -36,6 +36,7 @@ const countryBMU = Country(
   ioc: 'BER',
   isoLongName: 'Bermuda',
   isoShortName: 'Bermuda',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

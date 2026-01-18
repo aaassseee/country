@@ -36,6 +36,7 @@ const countryEST = Country(
   ioc: 'EST',
   isoLongName: 'The Republic of Estonia',
   isoShortName: 'Estonia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['et'],
   languagesSpoken: ['et'],
   nationalDestinationCodeLengths: [2],

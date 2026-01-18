@@ -36,6 +36,7 @@ const countryPLW = Country(
   ioc: 'PLW',
   isoLongName: 'The Republic of Palau',
   isoShortName: 'Palau',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

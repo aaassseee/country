@@ -36,6 +36,7 @@ const countryATA = Country(
   ioc: null,
   isoLongName: 'Antarctica',
   isoShortName: 'Antarctica',
+  isoShortNameLowerCase: null,
   languagesOfficial: [],
   languagesSpoken: [],
   nationalDestinationCodeLengths: [],

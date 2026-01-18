@@ -36,6 +36,7 @@ const countryTTO = Country(
   ioc: 'TRI',
   isoLongName: 'The Republic of Trinidad and Tobago',
   isoShortName: 'Trinidad and Tobago',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

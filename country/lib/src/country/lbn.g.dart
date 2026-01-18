@@ -36,6 +36,7 @@ const countryLBN = Country(
   ioc: 'LBN',
   isoLongName: 'The Lebanese Republic',
   isoShortName: 'Lebanon',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

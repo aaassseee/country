@@ -36,6 +36,7 @@ const countryGIB = Country(
   ioc: null,
   isoLongName: 'Gibraltar',
   isoShortName: 'Gibraltar',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

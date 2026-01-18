@@ -36,6 +36,7 @@ const countryNOR = Country(
   ioc: 'NOR',
   isoLongName: 'The Kingdom of Norway',
   isoShortName: 'Norway',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nb', 'nn'],
   languagesSpoken: ['nb', 'nn'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryYEM = Country(
   ioc: 'YEM',
   isoLongName: 'The Republic of Yemen',
   isoShortName: 'Yemen',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

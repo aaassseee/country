@@ -36,6 +36,7 @@ const countrySEN = Country(
   ioc: 'SEN',
   isoLongName: 'The Republic of Senegal',
   isoShortName: 'Senegal',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

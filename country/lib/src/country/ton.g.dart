@@ -36,6 +36,7 @@ const countryTON = Country(
   ioc: 'TGA',
   isoLongName: 'The Kingdom of Tonga',
   isoShortName: 'Tonga',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'to'],
   languagesSpoken: ['en', 'to'],
   nationalDestinationCodeLengths: [2],

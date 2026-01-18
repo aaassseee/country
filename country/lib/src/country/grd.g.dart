@@ -36,6 +36,7 @@ const countryGRD = Country(
   ioc: 'GRN',
   isoLongName: 'Grenada',
   isoShortName: 'Grenada',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

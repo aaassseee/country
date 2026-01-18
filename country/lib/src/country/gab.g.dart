@@ -36,6 +36,7 @@ const countryGAB = Country(
   ioc: 'GAB',
   isoLongName: 'The Gabonese Republic',
   isoShortName: 'Gabon',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

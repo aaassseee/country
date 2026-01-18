@@ -36,6 +36,7 @@ const countryECU = Country(
   ioc: 'ECU',
   isoLongName: 'The Republic of Ecuador',
   isoShortName: 'Ecuador',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryCUW = Country(
   ioc: null,
   isoLongName: 'The Country of Curaçao',
   isoShortName: 'Curaçao',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl'],
   languagesSpoken: ['nl'],
   nationalDestinationCodeLengths: [2],

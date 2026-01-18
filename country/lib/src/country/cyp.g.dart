@@ -36,6 +36,7 @@ const countryCYP = Country(
   ioc: 'CYP',
   isoLongName: 'The Republic of Cyprus',
   isoShortName: 'Cyprus',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['el', 'tr', 'hy'],
   languagesSpoken: ['el', 'tr', 'hy'],
   nationalDestinationCodeLengths: [2],

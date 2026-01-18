@@ -36,6 +36,7 @@ const countrySSD = Country(
   ioc: null,
   isoLongName: 'The Republic of South Sudan',
   isoShortName: 'South Sudan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'en'],
   languagesSpoken: ['ar', 'en'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryNRU = Country(
   ioc: 'NRU',
   isoLongName: 'The Republic of Nauru',
   isoShortName: 'Nauru',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'na'],
   languagesSpoken: ['en', 'na'],
   nationalDestinationCodeLengths: [2],

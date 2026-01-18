@@ -36,6 +36,7 @@ const countryNGA = Country(
   ioc: 'NGR',
   isoLongName: 'The Federal Republic of Nigeria',
   isoShortName: 'Nigeria',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

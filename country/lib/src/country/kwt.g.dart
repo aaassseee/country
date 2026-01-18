@@ -36,6 +36,7 @@ const countryKWT = Country(
   ioc: 'KUW',
   isoLongName: 'The State of Kuwait',
   isoShortName: 'Kuwait',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

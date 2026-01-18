@@ -36,6 +36,7 @@ const countryMYT = Country(
   ioc: null,
   isoLongName: 'The Department of Mayotte',
   isoShortName: 'Mayotte',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

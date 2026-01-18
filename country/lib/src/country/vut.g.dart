@@ -36,6 +36,7 @@ const countryVUT = Country(
   ioc: 'VAN',
   isoLongName: 'The Republic of Vanuatu',
   isoShortName: 'Vanuatu',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['bi', 'en', 'fr'],
   languagesSpoken: ['bi', 'en', 'fr'],
   nationalDestinationCodeLengths: [2],

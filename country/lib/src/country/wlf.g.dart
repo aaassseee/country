@@ -36,6 +36,7 @@ const countryWLF = Country(
   ioc: null,
   isoLongName: 'The Territory of the Wallis and Futuna Islands',
   isoShortName: 'Wallis and Futuna',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryHUN = Country(
   ioc: 'HUN',
   isoLongName: 'Hungary',
   isoShortName: 'Hungary',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['hu'],
   languagesSpoken: ['hu'],
   nationalDestinationCodeLengths: [2],

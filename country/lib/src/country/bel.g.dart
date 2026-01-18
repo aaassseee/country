@@ -36,6 +36,7 @@ const countryBEL = Country(
   ioc: 'BEL',
   isoLongName: 'The Kingdom of Belgium',
   isoShortName: 'Belgium',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl', 'fr', 'de'],
   languagesSpoken: ['nl', 'fr', 'de'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryBLM = Country(
   ioc: null,
   isoLongName: 'The Collectivity of Saint-Barthélemy',
   isoShortName: 'Saint Barthélemy',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [],

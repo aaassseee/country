@@ -36,6 +36,7 @@ const countryAFG = Country(
   ioc: 'AFG',
   isoLongName: 'The Islamic Republic of Afghanistan',
   isoShortName: 'Afghanistan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ps', 'uz', 'tk'],
   languagesSpoken: ['ps', 'uz', 'tk'],
   nationalDestinationCodeLengths: [2],

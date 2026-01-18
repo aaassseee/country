@@ -36,6 +36,7 @@ const countryGTM = Country(
   ioc: 'GUA',
   isoLongName: 'The Republic of Guatemala',
   isoShortName: 'Guatemala',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

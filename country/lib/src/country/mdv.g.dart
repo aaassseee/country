@@ -36,6 +36,7 @@ const countryMDV = Country(
   ioc: 'MDV',
   isoLongName: 'The Republic of Maldives',
   isoShortName: 'Maldives',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['dv'],
   languagesSpoken: ['dv'],
   nationalDestinationCodeLengths: [2],

@@ -14,6 +14,7 @@ class Country {
     this.ioc,
     required this.isoLongName,
     required this.isoShortName,
+    this.isoShortNameLowerCase,
     required this.languagesOfficial,
     required this.languagesSpoken,
     required this.nationalDestinationCodeLengths,
@@ -58,6 +59,7 @@ class Country {
         ioc: json['ioc'],
         isoLongName: json['iso_long_name'],
         isoShortName: json['iso_short_name'],
+        isoShortNameLowerCase: json['iso_short_name_lower_case'],
         languagesOfficial: List<String>.from(json['languages_official'] ?? []),
         languagesSpoken: List<String>.from(json['languages_spoken'] ?? []),
         nationalDestinationCodeLengths:
@@ -175,6 +177,9 @@ class Country {
   /// codes for the names of countries, dependent territories, and special areas
   /// of geographical interest.
   final String isoShortName;
+
+  /// The lowercase version of the ISO short name.
+  final String? isoShortNameLowerCase;
 
   /// An official language is a language given a special status in a particular
   /// country, state, or other jurisdiction.
@@ -304,7 +309,7 @@ class Country {
 
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, distanceUnit: $distanceUnit, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, distanceUnit: $distanceUnit, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, isoShortNameLowerCase: $isoShortNameLowerCase, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
   }
 
   @override
@@ -324,6 +329,7 @@ class Country {
           ioc == other.ioc &&
           isoLongName == other.isoLongName &&
           isoShortName == other.isoShortName &&
+          isoShortNameLowerCase == other.isoShortNameLowerCase &&
           languagesOfficial == other.languagesOfficial &&
           languagesSpoken == other.languagesSpoken &&
           nationalDestinationCodeLengths ==
@@ -368,6 +374,7 @@ class Country {
       ioc.hashCode ^
       isoLongName.hashCode ^
       isoShortName.hashCode ^
+      isoShortNameLowerCase.hashCode ^
       languagesOfficial.hashCode ^
       languagesSpoken.hashCode ^
       nationalDestinationCodeLengths.hashCode ^

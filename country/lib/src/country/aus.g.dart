@@ -36,6 +36,7 @@ const countryAUS = Country(
   ioc: 'AUS',
   isoLongName: 'The Commonwealth of Australia',
   isoShortName: 'Australia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

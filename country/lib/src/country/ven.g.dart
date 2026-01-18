@@ -36,6 +36,7 @@ const countryVEN = Country(
   ioc: 'VEN',
   isoLongName: 'The Bolivarian Republic of Venezuela',
   isoShortName: 'Venezuela (Bolivarian Republic of)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

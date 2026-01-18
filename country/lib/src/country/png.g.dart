@@ -36,6 +36,7 @@ const countryPNG = Country(
   ioc: 'PNG',
   isoLongName: 'The Independent State of Papua New Guinea',
   isoShortName: 'Papua New Guinea',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

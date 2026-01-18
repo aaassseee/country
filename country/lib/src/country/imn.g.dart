@@ -36,6 +36,7 @@ const countryIMN = Country(
   ioc: null,
   isoLongName: 'The Isle of Man',
   isoShortName: 'Isle of Man',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'gv'],
   languagesSpoken: ['en', 'gv'],
   nationalDestinationCodeLengths: [],

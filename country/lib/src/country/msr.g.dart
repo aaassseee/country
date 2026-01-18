@@ -36,6 +36,7 @@ const countryMSR = Country(
   ioc: null,
   isoLongName: 'Montserrat',
   isoShortName: 'Montserrat',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryTLS = Country(
   ioc: 'TLS',
   isoLongName: 'The Democratic Republic of Timor-Leste',
   isoShortName: 'Timor-Leste',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

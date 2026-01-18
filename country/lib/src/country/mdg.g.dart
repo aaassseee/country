@@ -36,6 +36,7 @@ const countryMDG = Country(
   ioc: 'MAD',
   isoLongName: 'The Republic of Madagascar',
   isoShortName: 'Madagascar',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'mg'],
   languagesSpoken: ['fr', 'mg'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryBGD = Country(
   ioc: 'BAN',
   isoLongName: 'The People\'s Republic of Bangladesh',
   isoShortName: 'Bangladesh',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['bn'],
   languagesSpoken: ['bn'],
   nationalDestinationCodeLengths: [2],

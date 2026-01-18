@@ -35,7 +35,9 @@ const countryGBR = Country(
   internationalPrefix: '00',
   ioc: 'GBR',
   isoLongName: 'The United Kingdom of Great Britain and Northern Ireland',
-  isoShortName: 'United Kingdom of Great Britain and Northern Ireland (the)',
+  isoShortName: 'United Kingdom of Great Britain and Northern Ireland',
+  isoShortNameLowerCase:
+      'United Kingdom of Great Britain and Northern Ireland (the)',
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

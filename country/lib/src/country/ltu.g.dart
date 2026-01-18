@@ -36,6 +36,7 @@ const countryLTU = Country(
   ioc: 'LTU',
   isoLongName: 'The Republic of Lithuania',
   isoShortName: 'Lithuania',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['lt'],
   languagesSpoken: ['lt'],
   nationalDestinationCodeLengths: [2],

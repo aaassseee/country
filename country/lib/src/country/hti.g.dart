@@ -36,6 +36,7 @@ const countryHTI = Country(
   ioc: 'HAI',
   isoLongName: 'The Republic of Haiti',
   isoShortName: 'Haiti',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'ht'],
   languagesSpoken: ['fr', 'ht'],
   nationalDestinationCodeLengths: [2],

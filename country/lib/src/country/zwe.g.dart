@@ -36,6 +36,7 @@ const countryZWE = Country(
   ioc: 'ZIM',
   isoLongName: 'The Republic of Zimbabwe',
   isoShortName: 'Zimbabwe',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'sn', 'nd'],
   languagesSpoken: ['en', 'sn', 'nd'],
   nationalDestinationCodeLengths: [2],

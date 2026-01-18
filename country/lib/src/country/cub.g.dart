@@ -36,6 +36,7 @@ const countryCUB = Country(
   ioc: 'CUB',
   isoLongName: 'The Republic of Cuba',
   isoShortName: 'Cuba',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

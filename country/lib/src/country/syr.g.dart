@@ -36,6 +36,7 @@ const countrySYR = Country(
   ioc: 'SYR',
   isoLongName: 'The Syrian Arab Republic',
   isoShortName: 'Syrian Arab Republic',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

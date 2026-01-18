@@ -36,6 +36,7 @@ const countryAGO = Country(
   ioc: 'ANG',
   isoLongName: 'The Republic of Angola',
   isoShortName: 'Angola',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

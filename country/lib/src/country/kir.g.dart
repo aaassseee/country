@@ -36,6 +36,7 @@ const countryKIR = Country(
   ioc: 'KIR',
   isoLongName: 'The Republic of Kiribati',
   isoShortName: 'Kiribati',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

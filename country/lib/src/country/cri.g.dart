@@ -36,6 +36,7 @@ const countryCRI = Country(
   ioc: 'CRC',
   isoLongName: 'The Republic of Costa Rica',
   isoShortName: 'Costa Rica',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

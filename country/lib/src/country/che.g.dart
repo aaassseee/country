@@ -36,6 +36,7 @@ const countryCHE = Country(
   ioc: 'SUI',
   isoLongName: 'The Swiss Confederation',
   isoShortName: 'Switzerland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['de', 'fr', 'it', 'rm'],
   languagesSpoken: ['de', 'fr', 'it', 'rm'],
   nationalDestinationCodeLengths: [2],

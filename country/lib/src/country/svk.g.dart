@@ -36,6 +36,7 @@ const countrySVK = Country(
   ioc: 'SVK',
   isoLongName: 'The Slovak Republic',
   isoShortName: 'Slovakia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sk'],
   languagesSpoken: ['sk'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryNCL = Country(
   ioc: null,
   isoLongName: 'New Caledonia',
   isoShortName: 'New Caledonia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

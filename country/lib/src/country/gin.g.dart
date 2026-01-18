@@ -36,6 +36,7 @@ const countryGIN = Country(
   ioc: 'GUI',
   isoLongName: 'The Republic of Guinea',
   isoShortName: 'Guinea',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr', 'ff'],
   languagesSpoken: ['fr', 'ff'],
   nationalDestinationCodeLengths: [2],

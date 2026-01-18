@@ -36,6 +36,7 @@ const countryTUN = Country(
   ioc: 'TUN',
   isoLongName: 'The Republic of Tunisia',
   isoShortName: 'Tunisia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

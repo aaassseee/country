@@ -36,6 +36,7 @@ const countryTUR = Country(
   ioc: 'TUR',
   isoLongName: 'The Republic of Türkiye',
   isoShortName: 'Türkiye',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['tr'],
   languagesSpoken: ['tr'],
   nationalDestinationCodeLengths: [2],

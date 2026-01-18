@@ -36,6 +36,7 @@ const countrySOM = Country(
   ioc: 'SOM',
   isoLongName: 'The Federal Republic of Somalia',
   isoShortName: 'Somalia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['so', 'ar'],
   languagesSpoken: ['so', 'ar'],
   nationalDestinationCodeLengths: [2],

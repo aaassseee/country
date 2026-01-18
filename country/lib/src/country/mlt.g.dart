@@ -36,6 +36,7 @@ const countryMLT = Country(
   ioc: 'MLT',
   isoLongName: 'The Republic of Malta',
   isoShortName: 'Malta',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['mt', 'en'],
   languagesSpoken: ['mt', 'en'],
   nationalDestinationCodeLengths: [2],

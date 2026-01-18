@@ -36,6 +36,7 @@ const countryMYS = Country(
   ioc: 'MAS',
   isoLongName: 'Malaysia',
   isoShortName: 'Malaysia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ms', 'en'],
   languagesSpoken: ['ms', 'en'],
   nationalDestinationCodeLengths: [2],

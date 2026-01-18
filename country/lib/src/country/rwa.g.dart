@@ -36,6 +36,7 @@ const countryRWA = Country(
   ioc: 'RWA',
   isoLongName: 'The Republic of Rwanda',
   isoShortName: 'Rwanda',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['rw', 'en', 'fr'],
   languagesSpoken: ['rw', 'en', 'fr'],
   nationalDestinationCodeLengths: [2],

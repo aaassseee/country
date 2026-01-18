@@ -36,6 +36,7 @@ const countryPER = Country(
   ioc: 'PER',
   isoLongName: 'The Republic of Perú',
   isoShortName: 'Peru',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

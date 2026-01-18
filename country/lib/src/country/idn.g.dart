@@ -36,6 +36,7 @@ const countryIDN = Country(
   ioc: 'INA',
   isoLongName: 'The Republic of Indonesia',
   isoShortName: 'Indonesia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['id'],
   languagesSpoken: ['id'],
   nationalDestinationCodeLengths: [2],
