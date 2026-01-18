@@ -1,6 +1,6 @@
 name: country_generator
 description: A generator for generating country object from countries json.
-version: 6.0.2
+version: 6.0.3
 homepage: https://github.com/aaassseee/country
 repository: https://github.com/aaassseee/country/tree/master/country_generator
 issue_tracker: https://github.com/aaassseee/country/issues
@@ -11,7 +11,7 @@ environment:
 dependencies:
   build: '>=2.0.0 <3.0.0'
   collection: '>=1.15.0 <2.0.0'
-  country: '>=6.0.0 <7.0.0'
+  country: '>=6.0.3 <7.0.0'
   path: '>=1.9.0 <2.0.0'
   yaml: '>=3.0.0 <4.0.0'
 
