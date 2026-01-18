@@ -36,6 +36,7 @@ const countryBES = Country(
   ioc: null,
   isoLongName: 'Bonaire, Sint Eustatius and Saba',
   isoShortName: 'Bonaire, Sint Eustatius and Saba',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl', 'en'],
   languagesSpoken: ['nl', 'en'],
   nationalDestinationCodeLengths: [2],

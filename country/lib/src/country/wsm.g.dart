@@ -36,6 +36,7 @@ const countryWSM = Country(
   ioc: 'SAM',
   isoLongName: 'The Independent State of Samoa',
   isoShortName: 'Samoa',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sm', 'en'],
   languagesSpoken: ['sm', 'en'],
   nationalDestinationCodeLengths: [2],

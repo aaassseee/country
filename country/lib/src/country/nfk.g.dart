@@ -36,6 +36,7 @@ const countryNFK = Country(
   ioc: null,
   isoLongName: 'The Territory of Norfolk Island',
   isoShortName: 'Norfolk Island',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

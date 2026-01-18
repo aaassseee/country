@@ -36,6 +36,7 @@ const countryCHL = Country(
   ioc: 'CHI',
   isoLongName: 'The Republic of Chile',
   isoShortName: 'Chile',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

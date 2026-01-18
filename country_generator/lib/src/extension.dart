@@ -60,6 +60,7 @@ extension CountryClassStringExtension on Country {
       ioc: ${ioc == null ? null : '\'${ioc!.replaceAll('\'', '\\\'')}\''},
       isoLongName: '${isoLongName.replaceAll('\'', '\\\'')}',
       isoShortName: '${isoShortName.replaceAll('\'', '\\\'')}',
+      isoShortNameLowerCase: ${isoShortNameLowerCase == null ? null : '\'${isoShortNameLowerCase!.replaceAll('\'', '\\\'')}\''},
       languagesOfficial: ${languagesOfficial.toClassString()},
       languagesSpoken: ${languagesSpoken.toClassString()},
       nationalDestinationCodeLengths: ${nationalDestinationCodeLengths.toClassString()},

@@ -36,6 +36,7 @@ const countryBVT = Country(
   ioc: null,
   isoLongName: 'Bouvet Island',
   isoShortName: 'Bouvet Island',
+  isoShortNameLowerCase: null,
   languagesOfficial: [],
   languagesSpoken: [],
   nationalDestinationCodeLengths: [],

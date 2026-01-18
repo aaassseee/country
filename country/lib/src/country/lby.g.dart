@@ -36,6 +36,7 @@ const countryLBY = Country(
   ioc: 'LBA',
   isoLongName: 'The State of Libya',
   isoShortName: 'Libya',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

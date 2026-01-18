@@ -36,6 +36,7 @@ const countryNIC = Country(
   ioc: 'NCA',
   isoLongName: 'The Republic of Nicaragua',
   isoShortName: 'Nicaragua',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

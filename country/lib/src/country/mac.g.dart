@@ -36,6 +36,7 @@ const countryMAC = Country(
   ioc: null,
   isoLongName: 'The Macao Special Administrative Region of China',
   isoShortName: 'Macao',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['zh', 'pt'],
   languagesSpoken: ['zh', 'pt'],
   nationalDestinationCodeLengths: [2],

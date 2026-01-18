@@ -36,6 +36,7 @@ const countryGUY = Country(
   ioc: 'GUY',
   isoLongName: 'The Co-operative Republic of Guyana',
   isoShortName: 'Guyana',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

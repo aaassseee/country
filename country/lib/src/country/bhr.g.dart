@@ -36,6 +36,7 @@ const countryBHR = Country(
   ioc: 'BRN',
   isoLongName: 'The Kingdom of Bahrain',
   isoShortName: 'Bahrain',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

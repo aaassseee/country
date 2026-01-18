@@ -36,6 +36,7 @@ const countrySMR = Country(
   ioc: 'SMR',
   isoLongName: 'The Republic of San Marino',
   isoShortName: 'San Marino',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['it'],
   languagesSpoken: ['it'],
   nationalDestinationCodeLengths: [2],

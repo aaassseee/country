@@ -36,6 +36,7 @@ const countrySTP = Country(
   ioc: 'STP',
   isoLongName: 'The Democratic Republic of São Tomé and Príncipe',
   isoShortName: 'Sao Tome and Principe',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

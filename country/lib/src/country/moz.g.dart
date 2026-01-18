@@ -36,6 +36,7 @@ const countryMOZ = Country(
   ioc: 'MOZ',
   isoLongName: 'The Republic of Mozambique',
   isoShortName: 'Mozambique',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['pt'],
   languagesSpoken: ['pt'],
   nationalDestinationCodeLengths: [2],

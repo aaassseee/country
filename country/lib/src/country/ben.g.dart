@@ -36,6 +36,7 @@ const countryBEN = Country(
   ioc: 'BEN',
   isoLongName: 'The Republic of Benin',
   isoShortName: 'Benin',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

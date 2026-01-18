@@ -36,6 +36,7 @@ const countryKAZ = Country(
   ioc: 'KAZ',
   isoLongName: 'The Republic of Kazakhstan',
   isoShortName: 'Kazakhstan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['kk', 'ru'],
   languagesSpoken: ['kk', 'ru'],
   nationalDestinationCodeLengths: [3],

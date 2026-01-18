@@ -36,6 +36,7 @@ const countryCIV = Country(
   ioc: 'CIV',
   isoLongName: 'The Republic of Côte d\'Ivoire',
   isoShortName: 'Côte d\'Ivoire',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

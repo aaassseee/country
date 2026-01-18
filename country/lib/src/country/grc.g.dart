@@ -36,6 +36,7 @@ const countryGRC = Country(
   ioc: 'GRE',
   isoLongName: 'The Hellenic Republic',
   isoShortName: 'Greece',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['el'],
   languagesSpoken: ['el'],
   nationalDestinationCodeLengths: [2],

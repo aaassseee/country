@@ -36,6 +36,7 @@ const countryKNA = Country(
   ioc: 'SKN',
   isoLongName: 'Saint Kitts and Nevis',
   isoShortName: 'Saint Kitts and Nevis',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryOMN = Country(
   ioc: 'OMA',
   isoLongName: 'The Sultanate of Oman',
   isoShortName: 'Oman',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

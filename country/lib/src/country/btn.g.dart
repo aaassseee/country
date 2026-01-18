@@ -36,6 +36,7 @@ const countryBTN = Country(
   ioc: 'BHU',
   isoLongName: 'The Kingdom of Bhutan',
   isoShortName: 'Bhutan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['dz'],
   languagesSpoken: ['dz'],
   nationalDestinationCodeLengths: [2],

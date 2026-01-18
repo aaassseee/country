@@ -36,6 +36,7 @@ const countryVIR = Country(
   ioc: 'ISV',
   isoLongName: 'The Virgin Islands of the United States',
   isoShortName: 'Virgin Islands (U.S.)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryASM = Country(
   ioc: 'ASA',
   isoLongName: 'The Territory of American Samoa',
   isoShortName: 'American Samoa',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'sm'],
   languagesSpoken: ['en', 'sm'],
   nationalDestinationCodeLengths: [3],

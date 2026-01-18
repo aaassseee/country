@@ -36,6 +36,7 @@ const countryCOL = Country(
   ioc: 'COL',
   isoLongName: 'The Republic of Colombia',
   isoShortName: 'Colombia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

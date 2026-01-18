@@ -36,6 +36,7 @@ const countryNIU = Country(
   ioc: null,
   isoLongName: 'Niue',
   isoShortName: 'Niue',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

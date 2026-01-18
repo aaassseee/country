@@ -36,6 +36,7 @@ const countryEGY = Country(
   ioc: 'EGY',
   isoLongName: 'The Arab Republic of Egypt',
   isoShortName: 'Egypt',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

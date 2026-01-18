@@ -36,6 +36,7 @@ const countrySGS = Country(
   ioc: null,
   isoLongName: 'South Georgia and the South Sandwich Islands',
   isoShortName: 'South Georgia and the South Sandwich Islands',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],

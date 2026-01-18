@@ -36,6 +36,7 @@ const countryFRA = Country(
   ioc: 'FRA',
   isoLongName: 'The French Republic',
   isoShortName: 'France',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [1],

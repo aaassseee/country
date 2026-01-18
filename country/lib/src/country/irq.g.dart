@@ -36,6 +36,7 @@ const countryIRQ = Country(
   ioc: 'IRQ',
   isoLongName: 'The Republic of Iraq',
   isoShortName: 'Iraq',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

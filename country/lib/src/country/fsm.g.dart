@@ -36,6 +36,7 @@ const countryFSM = Country(
   ioc: 'FSM',
   isoLongName: 'The Federated States of Micronesia',
   isoShortName: 'Micronesia (Federated States of)',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryUKR = Country(
   ioc: 'UKR',
   isoLongName: 'Ukraine',
   isoShortName: 'Ukraine',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['uk'],
   languagesSpoken: ['uk'],
   nationalDestinationCodeLengths: [2],

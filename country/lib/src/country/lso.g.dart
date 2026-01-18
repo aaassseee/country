@@ -36,6 +36,7 @@ const countryLSO = Country(
   ioc: 'LES',
   isoLongName: 'The Kingdom of Lesotho',
   isoShortName: 'Lesotho',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'st'],
   languagesSpoken: ['en', 'st'],
   nationalDestinationCodeLengths: [2],

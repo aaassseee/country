@@ -36,6 +36,7 @@ const countryTKL = Country(
   ioc: null,
   isoLongName: 'Tokelau',
   isoShortName: 'Tokelau',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

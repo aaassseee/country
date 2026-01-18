@@ -36,6 +36,7 @@ const countrySLV = Country(
   ioc: 'ESA',
   isoLongName: 'The Republic of El Salvador',
   isoShortName: 'El Salvador',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

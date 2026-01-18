@@ -36,6 +36,7 @@ const countryGUF = Country(
   ioc: null,
   isoLongName: 'Guyane',
   isoShortName: 'French Guiana',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryMLI = Country(
   ioc: 'MLI',
   isoLongName: 'The Republic of Mali',
   isoShortName: 'Mali',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryGHA = Country(
   ioc: 'GHA',
   isoLongName: 'The Republic of Ghana',
   isoShortName: 'Ghana',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

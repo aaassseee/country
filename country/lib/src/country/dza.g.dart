@@ -36,6 +36,7 @@ const countryDZA = Country(
   ioc: 'ALG',
   isoLongName: 'The People\'s Democratic Republic of Algeria',
   isoShortName: 'Algeria',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar'],
   languagesSpoken: ['ar'],
   nationalDestinationCodeLengths: [2],

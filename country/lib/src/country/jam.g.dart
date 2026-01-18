@@ -36,6 +36,7 @@ const countryJAM = Country(
   ioc: 'JAM',
   isoLongName: 'Jamaica',
   isoShortName: 'Jamaica',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryESP = Country(
   ioc: 'ESP',
   isoLongName: 'The Kingdom of Spain',
   isoShortName: 'Spain',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es', 'ca', 'gl', 'eu', 'an', 'ast', 'fax', 'rif', 'rmq'],
   nationalDestinationCodeLengths: [2],

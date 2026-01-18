@@ -36,6 +36,7 @@ const countrySJM = Country(
   ioc: null,
   isoLongName: 'Svalbard and Jan Mayen',
   isoShortName: 'Svalbard and Jan Mayen',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['no'],
   languagesSpoken: ['no'],
   nationalDestinationCodeLengths: [2],

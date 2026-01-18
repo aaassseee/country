@@ -36,6 +36,7 @@ const countryNZL = Country(
   ioc: 'NZL',
   isoLongName: 'New Zealand',
   isoShortName: 'New Zealand',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [1],

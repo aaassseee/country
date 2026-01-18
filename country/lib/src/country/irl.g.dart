@@ -36,6 +36,7 @@ const countryIRL = Country(
   ioc: 'IRL',
   isoLongName: 'Ireland',
   isoShortName: 'Ireland',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'ga'],
   languagesSpoken: ['en', 'ga'],
   nationalDestinationCodeLengths: [2],

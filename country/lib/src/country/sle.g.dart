@@ -36,6 +36,7 @@ const countrySLE = Country(
   ioc: 'SLE',
   isoLongName: 'The Republic of Sierra Leone',
   isoShortName: 'Sierra Leone',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

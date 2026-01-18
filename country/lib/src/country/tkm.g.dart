@@ -36,6 +36,7 @@ const countryTKM = Country(
   ioc: 'TKM',
   isoLongName: 'Turkmenistan',
   isoShortName: 'Turkmenistan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['tk'],
   languagesSpoken: ['tk', 'ru'],
   nationalDestinationCodeLengths: [2],

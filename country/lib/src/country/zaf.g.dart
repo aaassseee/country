@@ -36,6 +36,7 @@ const countryZAF = Country(
   ioc: 'RSA',
   isoLongName: 'The Republic of South Africa',
   isoShortName: 'South Africa',
+  isoShortNameLowerCase: null,
   languagesOfficial: [
     'af',
     'en',

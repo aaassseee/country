@@ -36,6 +36,7 @@ const countryPCN = Country(
   ioc: null,
   isoLongName: 'The Pitcairn, Henderson, Ducie and Oeno Islands',
   isoShortName: 'Pitcairn',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],

@@ -36,6 +36,7 @@ const countryAIA = Country(
   ioc: null,
   isoLongName: 'Anguilla',
   isoShortName: 'Anguilla',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [3],

@@ -36,6 +36,7 @@ const countryKGZ = Country(
   ioc: 'KGZ',
   isoLongName: 'The Kyrgyz Republic',
   isoShortName: 'Kyrgyzstan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ky', 'ru'],
   languagesSpoken: ['ky', 'ru'],
   nationalDestinationCodeLengths: [2],

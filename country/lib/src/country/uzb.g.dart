@@ -36,6 +36,7 @@ const countryUZB = Country(
   ioc: 'UZB',
   isoLongName: 'The Republic of Uzbekistan',
   isoShortName: 'Uzbekistan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['uz'],
   languagesSpoken: ['uz', 'ru'],
   nationalDestinationCodeLengths: [2],

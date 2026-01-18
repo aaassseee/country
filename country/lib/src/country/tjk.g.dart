@@ -36,6 +36,7 @@ const countryTJK = Country(
   ioc: 'TJK',
   isoLongName: 'The Republic of Tajikistan',
   isoShortName: 'Tajikistan',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['tg', 'ru'],
   languagesSpoken: ['tg', 'ru'],
   nationalDestinationCodeLengths: [2],

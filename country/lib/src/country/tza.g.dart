@@ -36,6 +36,7 @@ const countryTZA = Country(
   ioc: 'TAN',
   isoLongName: 'The United Republic of Tanzania',
   isoShortName: 'Tanzania, United Republic of',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sw', 'en'],
   languagesSpoken: ['sw', 'en'],
   nationalDestinationCodeLengths: [2],

@@ -36,6 +36,7 @@ const countryCMR = Country(
   ioc: 'CMR',
   isoLongName: 'The Republic of Cameroon',
   isoShortName: 'Cameroon',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fr'],
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [2],

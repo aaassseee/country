@@ -36,6 +36,7 @@ const countryABW = Country(
   ioc: 'ARU',
   isoLongName: 'Aruba',
   isoShortName: 'Aruba',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['nl'],
   languagesSpoken: ['nl'],
   nationalDestinationCodeLengths: [2],

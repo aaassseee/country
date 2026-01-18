@@ -36,6 +36,7 @@ const countrySWE = Country(
   ioc: 'SWE',
   isoLongName: 'The Kingdom of Sweden',
   isoShortName: 'Sweden',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sv'],
   languagesSpoken: ['sv'],
   nationalDestinationCodeLengths: [2],

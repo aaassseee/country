@@ -36,6 +36,7 @@ const countryHMD = Country(
   ioc: null,
   isoLongName: 'The Territory of Heard Island and McDonald Islands',
   isoShortName: 'Heard Island and McDonald Islands',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [],

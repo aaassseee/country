@@ -36,6 +36,7 @@ const countryHND = Country(
   ioc: 'HON',
   isoLongName: 'The Republic of Honduras',
   isoShortName: 'Honduras',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es'],
   languagesSpoken: ['es'],
   nationalDestinationCodeLengths: [2],

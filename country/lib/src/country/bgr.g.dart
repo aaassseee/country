@@ -5,7 +5,7 @@ const countryBGR = Country(
   alpha3: 'BGR',
   continent: Continent.europe,
   countryCode: '359',
-  currencyCode: 'BGN',
+  currencyCode: 'EUR',
   distanceUnit: DistanceUnit.kilometres,
   gec: 'BU',
   geo: GeoData(
@@ -36,6 +36,7 @@ const countryBGR = Country(
   ioc: 'BUL',
   isoLongName: 'The Republic of Bulgaria',
   isoShortName: 'Bulgaria',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['bg'],
   languagesSpoken: ['bg'],
   nationalDestinationCodeLengths: [2],

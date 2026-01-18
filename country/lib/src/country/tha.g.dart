@@ -36,6 +36,7 @@ const countryTHA = Country(
   ioc: 'THA',
   isoLongName: 'The Kingdom of Thailand',
   isoShortName: 'Thailand',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['th'],
   languagesSpoken: ['th'],
   nationalDestinationCodeLengths: [2],

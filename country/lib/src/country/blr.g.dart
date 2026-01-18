@@ -36,6 +36,7 @@ const countryBLR = Country(
   ioc: 'BLR',
   isoLongName: 'The Republic of Belarus',
   isoShortName: 'Belarus',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['be', 'ru'],
   languagesSpoken: ['be', 'ru'],
   nationalDestinationCodeLengths: [2],

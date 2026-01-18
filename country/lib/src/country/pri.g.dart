@@ -36,6 +36,7 @@ const countryPRI = Country(
   ioc: 'PUR',
   isoLongName: 'The Commonwealth of Puerto Rico',
   isoShortName: 'Puerto Rico',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['es', 'en'],
   languagesSpoken: ['es', 'en'],
   nationalDestinationCodeLengths: [3],

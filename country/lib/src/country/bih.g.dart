@@ -36,6 +36,7 @@ const countryBIH = Country(
   ioc: 'BIH',
   isoLongName: 'Bosnia and Herzegovina',
   isoShortName: 'Bosnia and Herzegovina',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['bs', 'hr', 'sr'],
   languagesSpoken: ['bs', 'hr', 'sr'],
   nationalDestinationCodeLengths: [2],

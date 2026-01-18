@@ -36,6 +36,7 @@ const countryBWA = Country(
   ioc: 'BOT',
   isoLongName: 'The Republic of Botswana',
   isoShortName: 'Botswana',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'tn'],
   languagesSpoken: ['en', 'tn'],
   nationalDestinationCodeLengths: [2],

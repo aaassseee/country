@@ -36,6 +36,7 @@ const countryREU = Country(
   ioc: null,
   isoLongName: 'Réunion',
   isoShortName: 'Réunion',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

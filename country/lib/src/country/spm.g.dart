@@ -36,6 +36,7 @@ const countrySPM = Country(
   ioc: null,
   isoLongName: 'The Overseas Collectivity of Saint-Pierre and Miquelon',
   isoShortName: 'Saint Pierre and Miquelon',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],

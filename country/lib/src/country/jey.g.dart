@@ -36,6 +36,7 @@ const countryJEY = Country(
   ioc: null,
   isoLongName: 'The Bailiwick of Jersey',
   isoShortName: 'Jersey',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fr'],
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [],

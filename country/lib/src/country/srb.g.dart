@@ -36,6 +36,7 @@ const countrySRB = Country(
   ioc: 'SRB',
   isoLongName: 'The Republic of Serbia',
   isoShortName: 'Serbia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['sr'],
   languagesSpoken: ['sr'],
   nationalDestinationCodeLengths: [2],

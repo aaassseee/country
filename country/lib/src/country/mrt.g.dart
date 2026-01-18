@@ -36,6 +36,7 @@ const countryMRT = Country(
   ioc: 'MTN',
   isoLongName: 'The Islamic Republic of Mauritania',
   isoShortName: 'Mauritania',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],

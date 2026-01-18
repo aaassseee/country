@@ -36,6 +36,7 @@ const countryTUV = Country(
   ioc: 'TUV',
   isoLongName: 'Tuvalu',
   isoShortName: 'Tuvalu',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en'],
   languagesSpoken: ['en'],
   nationalDestinationCodeLengths: [2],

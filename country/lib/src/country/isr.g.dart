@@ -36,6 +36,7 @@ const countryISR = Country(
   ioc: 'ISR',
   isoLongName: 'The State of Israel',
   isoShortName: 'Israel',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['he', 'ar'],
   languagesSpoken: ['he', 'ar'],
   nationalDestinationCodeLengths: [2],

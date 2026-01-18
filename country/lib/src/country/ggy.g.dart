@@ -36,6 +36,7 @@ const countryGGY = Country(
   ioc: null,
   isoLongName: 'The Bailiwick of Guernsey',
   isoShortName: 'Guernsey',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['en', 'fr'],
   languagesSpoken: ['en', 'fr'],
   nationalDestinationCodeLengths: [],

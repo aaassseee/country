@@ -36,6 +36,7 @@ const countryLVA = Country(
   ioc: 'LAT',
   isoLongName: 'The Republic of Latvia',
   isoShortName: 'Latvia',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['lv'],
   languagesSpoken: ['lv'],
   nationalDestinationCodeLengths: [2],

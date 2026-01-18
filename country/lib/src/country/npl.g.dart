@@ -36,6 +36,7 @@ const countryNPL = Country(
   ioc: 'NEP',
   isoLongName: 'The Federal Democratic Republic of Nepal',
   isoShortName: 'Nepal',
+  isoShortNameLowerCase: null,
   languagesOfficial: ['ne'],
   languagesSpoken: ['ne', 'mai', 'bho', 'new', 'urd'],
   nationalDestinationCodeLengths: [2],
