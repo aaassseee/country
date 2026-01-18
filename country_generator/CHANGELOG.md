@@ -1,3 +1,7 @@
+## 6.0.2
+
+* added support for isoShortNameLowerCase field
+
 ## 6.0.1
 
 * update dependencies
