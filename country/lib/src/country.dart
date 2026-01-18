@@ -23,7 +23,7 @@ class Country {
     this.nationality,
     required this.number,
     required this.postalCode,
-    required this.postalCodeFormat,
+    this.postalCodeFormat,
     this.region,
     required this.startOfWeek,
     this.subregion,
