@@ -9,10 +9,12 @@ using [countries](https://github.com/countries/countries).
 
 ## Package
 
-| Plugin                                                   | Pub                                                                                                                       |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [country](./country)                                     | [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)                     |
-| [country_generator](./country_generator)                 | [![pub package](https://img.shields.io/pub/v/country_generator.svg)](https://pub.dartlang.org/packages/country_generator) |
+| Plugin                                             | Pub                                                                                                                                   |
+|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| [country](country)                                 | [![pub package](https://img.shields.io/pub/v/country.svg)](https://pub.dartlang.org/packages/country)                                 |
+| [country_generator](country_generator)             | [![pub package](https://img.shields.io/pub/v/country_generator.svg)](https://pub.dartlang.org/packages/country_generator)             |
+| [flutter_country_utility](flutter_country_utility) | [![pub package](https://img.shields.io/pub/v/flutter_country_utility.svg)](https://pub.dartlang.org/packages/flutter_country_utility) |
+| [flutter_country_widget](flutter_country_widget)   | [![pub package](https://img.shields.io/pub/v/flutter_country_widget.svg)](https://pub.dartlang.org/packages/flutter_country_widget)   |
 
 ## Maintainer
 

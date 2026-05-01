@@ -1,3 +1,8 @@
+## 6.0.4
+
+* update dependencies
+* updated generated country with new data
+
 ## 6.0.3
 
 * added isoShortNameLowerCase field
