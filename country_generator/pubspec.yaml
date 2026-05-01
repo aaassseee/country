@@ -6,7 +6,7 @@ repository: https://github.com/aaassseee/country/tree/master/country_generator
 issue_tracker: https://github.com/aaassseee/country/issues
 
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   build: '>=4.0.0 <5.0.0'
