@@ -196,5 +196,4 @@ const countryPRI = Country(
     "zh_TW": "波多黎各",
     "zu": "Puerto Rico"
   },
-  subdivision: [],
 );

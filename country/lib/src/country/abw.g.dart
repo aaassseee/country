@@ -196,5 +196,4 @@ const countryABW = Country(
     "zh_TW": "阿魯巴",
     "zu": "Aruba"
   },
-  subdivision: [],
 );

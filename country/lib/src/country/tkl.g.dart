@@ -196,5 +196,4 @@ const countryTKL = Country(
     "zh_TW": "托克勞",
     "zu": "Tokelau"
   },
-  subdivision: [],
 );

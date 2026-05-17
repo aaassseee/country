@@ -203,5 +203,4 @@ const countryGGY = Country(
     "zh_TW": "根息島",
     "zu": "Guernsey"
   },
-  subdivision: [],
 );

@@ -202,5 +202,4 @@ const countryHMD = Country(
     "zh_TW": "赫德島及麥當勞群島",
     "zu": "Heard Island and McDonald Islands"
   },
-  subdivision: [],
 );

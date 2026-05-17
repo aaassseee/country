@@ -196,5 +196,4 @@ const countryALA = Country(
     "zh_TW": "奧蘭群島",
     "zu": "Åland Islands"
   },
-  subdivision: [],
 );

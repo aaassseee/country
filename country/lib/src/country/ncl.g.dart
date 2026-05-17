@@ -203,5 +203,4 @@ const countryNCL = Country(
     "zh_TW": "新喀里多尼亞",
     "zu": "New Caledonia"
   },
-  subdivision: [],
 );

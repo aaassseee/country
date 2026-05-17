@@ -196,5 +196,4 @@ const countryMAC = Country(
     "zh_TW": "澳門",
     "zu": "Macao"
   },
-  subdivision: [],
 );

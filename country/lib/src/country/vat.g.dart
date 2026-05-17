@@ -205,5 +205,4 @@ const countryVAT = Country(
     "zh_TW": "教廷 (梵蒂岡城市國)",
     "zu": "Holy See (Vatican City State)"
   },
-  subdivision: [],
 );

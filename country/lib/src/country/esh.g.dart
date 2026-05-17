@@ -203,5 +203,4 @@ const countryESH = Country(
     "zh_TW": "西撒哈拉",
     "zu": "Western Sahara"
   },
-  subdivision: [],
 );

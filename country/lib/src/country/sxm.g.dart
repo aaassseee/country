@@ -196,5 +196,4 @@ const countrySXM = Country(
     "zh_TW": "聖馬丁 (荷屬)",
     "zu": "Sint Maarten (Dutch part)"
   },
-  subdivision: [],
 );

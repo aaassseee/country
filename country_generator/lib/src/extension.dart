@@ -88,7 +88,6 @@ extension CountryClassStringExtension on Country {
       g7Member: $g7Member,
       g20Member: $g20Member,
       isoShortNameByLocale: ${json.encode(isoShortNameByLocale)},
-      subdivision: ${subdivision.toClassString()},
       )''';
   }
 }
@@ -259,37 +258,5 @@ extension WorldRegionClassStringExtension on WorldRegion {
       default:
         throw ArgumentError('Unsupported wireName: $wireName');
     }
-  }
-}
-
-extension SubdivisionGeoDataClassStringExtension on SubdivisionGeoData {
-  String toClassString() {
-    return '''SubdivisionGeoData(
-          latitude: $latitude,
-          longitude: $longitude,
-          maxLatitude: $maxLatitude,
-          maxLongitude: $maxLongitude,
-          minLatitude: $minLatitude,
-          minLongitude: $minLongitude,
-          )''';
-  }
-}
-
-extension SubdivisionClassStringExtension on Subdivision {
-  String toClassString() {
-    return '''Subdivision(
-              name: '${name.replaceAll('\'', '\\\'')}',
-              code: '$code',
-              geo: ${geo?.toClassString()},
-              translation: ${json.encode(translation)},
-              type: '$type',
-              )''';
-  }
-}
-
-/// Extension class for generating class string with [List<int>]
-extension ListSubdivisionExtension on List<Subdivision> {
-  String toClassString() {
-    return '[${map((e) => e.toClassString()).join(',')}]';
   }
 }

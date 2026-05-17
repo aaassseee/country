@@ -196,5 +196,4 @@ const countryNIU = Country(
     "zh_TW": "紐埃",
     "zu": "Niue"
   },
-  subdivision: [],
 );

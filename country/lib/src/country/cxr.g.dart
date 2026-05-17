@@ -201,5 +201,4 @@ const countryCXR = Country(
     "zh_TW": "聖誕島",
     "zu": "Christmas Island"
   },
-  subdivision: [],
 );

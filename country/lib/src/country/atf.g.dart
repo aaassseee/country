@@ -204,5 +204,4 @@ const countryATF = Country(
     "zh_TW": "法屬南部領地",
     "zu": "French Southern Territories"
   },
-  subdivision: [],
 );

@@ -204,5 +204,4 @@ const countryFLK = Country(
     "zh_TW": "福克蘭群島 (馬維娜斯)",
     "zu": "Falkland Islands (Malvinas)"
   },
-  subdivision: [],
 );

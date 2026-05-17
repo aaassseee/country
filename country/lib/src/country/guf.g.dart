@@ -202,5 +202,4 @@ const countryGUF = Country(
     "zh_TW": "法屬蓋亞那",
     "zu": "French Guiana"
   },
-  subdivision: [],
 );

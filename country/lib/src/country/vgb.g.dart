@@ -204,5 +204,4 @@ const countryVGB = Country(
     "zh_TW": "英屬維京群島",
     "zu": "Virgin Islands, British"
   },
-  subdivision: [],
 );

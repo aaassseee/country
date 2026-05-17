@@ -196,5 +196,4 @@ const countryMTQ = Country(
     "zh_TW": "馬丁尼克",
     "zu": "Martinique"
   },
-  subdivision: [],
 );

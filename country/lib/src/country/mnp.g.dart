@@ -203,5 +203,4 @@ const countryMNP = Country(
     "zh_TW": "北馬里亞納群島",
     "zu": "Northern Mariana Islands"
   },
-  subdivision: [],
 );

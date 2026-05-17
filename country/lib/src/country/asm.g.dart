@@ -203,5 +203,4 @@ const countryASM = Country(
     "zh_TW": "美屬薩摩亞",
     "zu": "American Samoa"
   },
-  subdivision: [],
 );

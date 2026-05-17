@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "country_subdivision_example"
+  ],
+  "packages": [
+    {
+      "name": "country_subdivision_example",
+      "version": "0.0.0",
+      "dependencies": [
+        "country_subdivision"
+      ],
+      "devDependencies": []
+    },
+    {
+      "name": "country_subdivision",
+      "version": "0.0.1",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}

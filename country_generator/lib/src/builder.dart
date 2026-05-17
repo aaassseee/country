@@ -26,6 +26,7 @@ class CountryGeneratorBuilder extends Builder {
       // load pubspec settings
       final pubspec = loadYaml(pubspecFile.readAsStringSync()) as Map?;
       final config = pubspec?['country_generator'];
+      final generate = config?['generate'] ?? 'country';
       final sourceFolderPath = config?['sourceFolder'] ?? 'countries';
       final outputFolderPath = config?['outputFolder'] ?? 'lib/gen';
 
@@ -36,10 +37,17 @@ class CountryGeneratorBuilder extends Builder {
             'Missing folder on ${dataFolder.absolute.path}');
       }
 
+      if (generate == 'country_subdivision') {
+        _buildCountrySubdivision(
+          pubspecFile: pubspecFile,
+          dataFolder: dataFolder,
+          outputFolderPath: outputFolderPath,
+        );
+        return;
+      }
+
       final translationMap = _readTranslationData(dataFolder);
-      final subdivisionData = _readSubdivisionData(dataFolder);
-      final countryList =
-          _readCountryData(dataFolder, translationMap, subdivisionData);
+      final countryList = _readCountryData(dataFolder, translationMap);
 
       final outputFile = File(normalize(
           join(pubspecFile.parent.path, outputFolderPath, outputFilePath)));
@@ -109,8 +117,209 @@ class CountryGeneratorBuilder extends Builder {
   /// <https://github.com/dart-lang/build/blob/master/docs/writing_an_aggregate_builder.md>
   @override
   Map<String, List<String>> get buildExtensions => const {
-        r'$lib$': ['country.g.dart']
+        r'$lib$': ['country.g.dart', 'country_subdivision.g.dart']
       };
+
+  void _buildCountrySubdivision({
+    required File pubspecFile,
+    required Directory dataFolder,
+    required String outputFolderPath,
+  }) {
+    final countryFolder =
+        Directory(normalize(join(dataFolder.absolute.path, countryFolderPath)));
+    if (!countryFolder.existsSync()) {
+      throw FileSystemException(
+          'Missing country folder on ${countryFolder.absolute.path}');
+    }
+
+    final subdivisionFolder = Directory(
+        normalize(join(dataFolder.absolute.path, subdivisionFolderPath)));
+    if (!subdivisionFolder.existsSync()) {
+      throw FileSystemException(
+          'Missing subdivision folder on ${subdivisionFolder.absolute.path}');
+    }
+
+    final subdivisionFileList = subdivisionFolder
+        .listSync()
+        .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
+        .sortedBy((file) => file.uri.pathSegments.last)
+        .cast<File>();
+
+    var subdivisionImportOutput = '';
+    var subdivisionClassOutput = '';
+    var subdivisionValuesOutput = '';
+    var subdivisionByCountryOutput = '';
+
+    for (final subdivisionFile in subdivisionFileList) {
+      final countryCode = subdivisionFile.uri.pathSegments.last.substring(0, 2);
+      final countryCodeLower = countryCode.toLowerCase();
+      final countryAlpha3Lower =
+          _countryAlpha3(countryFolder, countryCode).toLowerCase();
+      final subdivisionData =
+          (loadYamlNode(subdivisionFile.readAsStringSync(), recover: true)
+                  as YamlMap)
+              .toMap();
+
+      subdivisionImportOutput +=
+          'import \'country_subdivision/$countryCodeLower.g.dart\';\n';
+
+      final countrySubdivisionFile = File(normalize(join(
+          pubspecFile.parent.path,
+          outputFolderPath,
+          'country_subdivision/$countryCodeLower.g.dart')));
+      if (!countrySubdivisionFile.existsSync()) {
+        countrySubdivisionFile.createSync(recursive: true);
+      }
+
+      var countrySubdivisionOutput =
+          'import \'../country_subdivision.dart\';\n';
+      var countrySubdivisionAlpha2Output = '';
+      for (final MapEntry(key: code, value: value) in subdivisionData.entries) {
+        final subdivisionCode = code.toString();
+        final variableName =
+            _countrySubdivisionVariableName(countryCode, subdivisionCode);
+        final subdivision = Map<String, dynamic>.from(value as Map);
+        countrySubdivisionOutput += [
+          '',
+          'const $variableName = CountrySubdivision(',
+          '  countryCode: \'$countryCode\',',
+          '  code: \'${_escapeDartString((subdivision['code'] ?? subdivisionCode).toString())}\',',
+          '  name: \'${_escapeDartString(subdivision['name'].toString())}\',',
+          '  unofficialNames: ${_stringListClassString(subdivision['unofficial_names'])},',
+          '  geo: ${_subdivisionGeoClassString(subdivision['geo'])},',
+          '  translations: ${_stringMapClassString(subdivision['translations'])},',
+          '  type: ${_nullableStringClassString(subdivision['type'])},',
+          ');',
+        ].join('\n');
+
+        countrySubdivisionAlpha2Output += '        $variableName,\n';
+        subdivisionValuesOutput += '        $variableName,\n';
+      }
+
+      countrySubdivisionFile.writeAsStringSync(countrySubdivisionOutput);
+
+      subdivisionClassOutput += [
+        '  /// Country subdivisions for $countryCode.',
+        '  static const List<CountrySubdivision> $countryAlpha3Lower = [',
+        countrySubdivisionAlpha2Output,
+        '      ];',
+        '',
+      ].join('\n');
+
+      subdivisionByCountryOutput +=
+          '        \'$countryCode\': $countryAlpha3Lower,\n';
+    }
+
+    final outputFile = File(normalize(join(pubspecFile.parent.path,
+        outputFolderPath, 'country_subdivision.g.dart')));
+    if (!outputFile.existsSync()) {
+      outputFile.createSync(recursive: true);
+    }
+
+    final output = [
+      'import \'country_subdivision.dart\';',
+      '',
+      subdivisionImportOutput,
+      '',
+      '/// Class for storing all country subdivision objects.',
+      'class CountrySubdivisions {',
+      '  /// Private constructor for preventing object construction.',
+      '  CountrySubdivisions._();',
+      '',
+      subdivisionClassOutput,
+      '  /// All country subdivisions.',
+      '  static const List<CountrySubdivision> values = [',
+      subdivisionValuesOutput,
+      '      ];',
+      '',
+      '  /// Country subdivisions grouped by ISO 3166-1 alpha-2 country code.',
+      '  static const Map<String, List<CountrySubdivision>> byCountryCode = {',
+      subdivisionByCountryOutput,
+      '      };',
+      '',
+      '  /// Returns subdivisions for [countryCode].',
+      '  static List<CountrySubdivision> byCountry(String countryCode) {',
+      '    return byCountryCode[countryCode.toUpperCase()] ?? const [];',
+      '  }',
+      '',
+      '  /// Returns the subdivision matching [countryCode] and [code], or `null`.',
+      '  static CountrySubdivision? maybeByCode(String countryCode, String code) {',
+      '    for (final subdivision in byCountry(countryCode)) {',
+      '      if (subdivision.code == code) return subdivision;',
+      '    }',
+      '    return null;',
+      '  }',
+      '',
+      '  /// Returns the subdivision matching [countryCode] and [code].',
+      '  static CountrySubdivision byCode(String countryCode, String code) {',
+      '    final subdivision = maybeByCode(countryCode, code);',
+      '    if (subdivision == null) {',
+      '      throw ArgumentError(\'Unsupported subdivision code: \$countryCode-\$code\');',
+      '    }',
+      '    return subdivision;',
+      '  }',
+      '}',
+    ].join('\n');
+
+    outputFile.writeAsStringSync(output);
+  }
+
+  String _countrySubdivisionVariableName(String countryCode, String code) {
+    final normalizedCode =
+        code.replaceAll(RegExp('[^a-zA-Z0-9]'), '').toLowerCase();
+    return 'countrySubdivision${countryCode.toUpperCase()}${normalizedCode[0].toUpperCase()}${normalizedCode.substring(1)}';
+  }
+
+  String _countryAlpha3(Directory countryFolder, String countryCode) {
+    final countryFile = File(normalize(
+      join(countryFolder.absolute.path, '${countryCode.toUpperCase()}.yaml'),
+    ));
+    if (!countryFile.existsSync()) {
+      throw FileSystemException('Missing country file', countryFile.path);
+    }
+
+    final countryData =
+        (loadYamlNode(countryFile.readAsStringSync(), recover: true) as YamlMap)
+            .toMap()[countryCode.toUpperCase()];
+    return countryData['alpha3'].toString();
+  }
+
+  String _subdivisionGeoClassString(dynamic geo) {
+    if (geo == null) return 'null';
+    final map = Map<String, dynamic>.from(geo as Map);
+    if (map['latitude'] == null || map['longitude'] == null) return 'null';
+    final maxCoordinate = map['max_latitude'] == null ||
+            map['max_longitude'] == null
+        ? 'null'
+        : 'CountrySubdivisionCoordinate(latitude: ${map['max_latitude']}, longitude: ${map['max_longitude']})';
+    final minCoordinate = map['min_latitude'] == null ||
+            map['min_longitude'] == null
+        ? 'null'
+        : 'CountrySubdivisionCoordinate(latitude: ${map['min_latitude']}, longitude: ${map['min_longitude']})';
+
+    return 'CountrySubdivisionGeoData(coordinate: CountrySubdivisionCoordinate(latitude: ${map['latitude']}, longitude: ${map['longitude']}), maxCoordinate: $maxCoordinate, minCoordinate: $minCoordinate)';
+  }
+
+  String _stringListClassString(dynamic values) {
+    return '[${List<String>.from(values ?? []).map((value) => '\'${_escapeDartString(value)}\'').join(', ')}]';
+  }
+
+  String _stringMapClassString(dynamic values) {
+    if (values == null) return '{}';
+    final entries = Map<String, dynamic>.from(values as Map).entries.map((entry) =>
+        '\'${_escapeDartString(entry.key)}\': \'${_escapeDartString(entry.value.toString())}\'');
+    return '{${entries.join(', ')}}';
+  }
+
+  String _nullableStringClassString(dynamic value) {
+    return value == null
+        ? 'null'
+        : '\'${_escapeDartString(value.toString())}\'';
+  }
+
+  String _escapeDartString(String value) {
+    return value.replaceAll('\\', '\\\\').replaceAll('\'', '\\\'');
+  }
 
   Map<String, Map<String, String>> _readTranslationData(Directory dataFolder) {
     final translationFolder = Directory(
@@ -147,42 +356,9 @@ class CountryGeneratorBuilder extends Builder {
     return allTranslationMap;
   }
 
-  Map<String, List<Map<String, dynamic>>> _readSubdivisionData(
-      Directory dataFolder) {
-    final subdivisionFolder = Directory(
-        normalize(join(dataFolder.absolute.path, subdivisionFolderPath)));
-    if (!subdivisionFolder.existsSync()) {
-      throw FileSystemException(
-          'Missing subdivision folder on ${subdivisionFolder.absolute.path}');
-    }
-
-    final allSubdivisionMap = <String, List<Map<String, dynamic>>>{};
-
-    final subdivisionFileList = subdivisionFolder
-        .listSync()
-        .where((file) => file.uri.pathSegments.last.endsWith('.yaml'))
-        .sortedBy((element) => element.uri.pathSegments.last)
-        .cast<File>();
-    for (final subdivisionFile in subdivisionFileList) {
-      final countryCode = subdivisionFile.uri.pathSegments.last.substring(0, 2);
-      final subdivisionData =
-          (loadYamlNode(subdivisionFile.readAsStringSync()) as YamlMap).toMap();
-      for (final MapEntry(key: _, value: data) in subdivisionData.entries) {
-        if (!allSubdivisionMap.containsKey(countryCode)) {
-          allSubdivisionMap[countryCode] = [data];
-        } else {
-          allSubdivisionMap[countryCode]!.addAll([data]);
-        }
-      }
-    }
-
-    return allSubdivisionMap;
-  }
-
   List<Country> _readCountryData(
     Directory dataFolder,
     Map<String, Map<String, String>> allTranslationMap,
-    Map<String, List<Map<String, dynamic>>> allSubdivisionMap,
   ) {
     final countryFolder =
         Directory(normalize(join(dataFolder.absolute.path, countryFolderPath)));
@@ -204,7 +380,6 @@ class CountryGeneratorBuilder extends Builder {
                   as YamlMap)
               .toMap()[countryCode];
       countryData['isoShortNameByLocale'] = allTranslationMap[countryCode];
-      countryData['subdivision'] = allSubdivisionMap[countryCode];
 
       final country = Country.fromJson(countryData);
       countryList.add(country);

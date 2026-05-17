@@ -199,5 +199,4 @@ const countryHKG = Country(
     "zh_TW": "香港",
     "zu": "Hong Kong"
   },
-  subdivision: [],
 );

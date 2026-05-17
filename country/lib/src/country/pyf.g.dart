@@ -203,5 +203,4 @@ const countryPYF = Country(
     "zh_TW": "法屬玻里尼西亞",
     "zu": "French Polynesia"
   },
-  subdivision: [],
 );

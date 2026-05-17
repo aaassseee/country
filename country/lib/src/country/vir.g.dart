@@ -206,5 +206,4 @@ const countryVIR = Country(
     "zh_TW": "美屬維京群島",
     "zu": "Virgin Islands, U.S."
   },
-  subdivision: [],
 );

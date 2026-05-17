@@ -196,5 +196,4 @@ const countryBMU = Country(
     "zh_TW": "百慕達",
     "zu": "Bermuda"
   },
-  subdivision: [],
 );

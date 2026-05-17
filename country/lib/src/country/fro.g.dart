@@ -203,5 +203,4 @@ const countryFRO = Country(
     "zh_TW": "法羅群島",
     "zu": "Faroe Islands"
   },
-  subdivision: [],
 );

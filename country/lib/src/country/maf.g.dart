@@ -196,5 +196,4 @@ const countryMAF = Country(
     "zh_TW": "聖馬丁 (法屬)",
     "zu": "Saint Martin (French part)"
   },
-  subdivision: [],
 );

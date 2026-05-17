@@ -202,5 +202,4 @@ const countryIMN = Country(
     "zh_TW": "曼島",
     "zu": "Isle of Man"
   },
-  subdivision: [],
 );

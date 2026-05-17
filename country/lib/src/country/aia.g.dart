@@ -196,5 +196,4 @@ const countryAIA = Country(
     "zh_TW": "安圭拉",
     "zu": "Anguilla"
   },
-  subdivision: [],
 );

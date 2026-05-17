@@ -202,5 +202,4 @@ const countryIOT = Country(
     "zh_TW": "英屬印度洋領地",
     "zu": "British Indian Ocean Territory"
   },
-  subdivision: [],
 );

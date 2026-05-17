@@ -196,5 +196,4 @@ const countryGIB = Country(
     "zh_TW": "直布羅陀",
     "zu": "Gibraltar"
   },
-  subdivision: [],
 );

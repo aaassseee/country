@@ -196,5 +196,4 @@ const countryMSR = Country(
     "zh_TW": "蒙塞拉特島",
     "zu": "Montserrat"
   },
-  subdivision: [],
 );

@@ -202,5 +202,4 @@ const countrySGS = Country(
     "zh_TW": "南喬治亞及南三明治群島",
     "zu": "South Georgia and the South Sandwich Islands"
   },
-  subdivision: [],
 );

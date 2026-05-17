@@ -196,5 +196,4 @@ const countryGLP = Country(
     "zh_TW": "瓜地洛普",
     "zu": "Guadeloupe"
   },
-  subdivision: [],
 );

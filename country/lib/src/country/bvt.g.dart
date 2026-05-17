@@ -196,5 +196,4 @@ const countryBVT = Country(
     "zh_TW": "布威島",
     "zu": "Bouvet Island"
   },
-  subdivision: [],
 );

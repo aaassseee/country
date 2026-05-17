@@ -196,5 +196,4 @@ const countryBLM = Country(
     "zh_TW": "聖巴瑟米",
     "zu": "Saint Barthélemy"
   },
-  subdivision: [],
 );

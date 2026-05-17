@@ -196,5 +196,4 @@ const countryCUW = Country(
     "zh_TW": "古拉索",
     "zu": "Curaçao"
   },
-  subdivision: [],
 );

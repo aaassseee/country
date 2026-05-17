@@ -203,5 +203,4 @@ const countryNFK = Country(
     "zh_TW": "諾福克島",
     "zu": "Norfolk Island"
   },
-  subdivision: [],
 );

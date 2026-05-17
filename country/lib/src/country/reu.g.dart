@@ -196,5 +196,4 @@ const countryREU = Country(
     "zh_TW": "留尼旺島",
     "zu": "IRiyunion"
   },
-  subdivision: [],
 );

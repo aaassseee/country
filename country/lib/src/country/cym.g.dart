@@ -203,5 +203,4 @@ const countryCYM = Country(
     "zh_TW": "開曼群島",
     "zu": "Cayman Islands"
   },
-  subdivision: [],
 );

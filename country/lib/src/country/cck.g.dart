@@ -201,5 +201,4 @@ const countryCCK = Country(
     "zh_TW": "科科斯 (基林) 群島",
     "zu": "Cocos (Keeling) Islands"
   },
-  subdivision: [],
 );

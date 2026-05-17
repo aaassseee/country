@@ -202,5 +202,4 @@ const countryATA = Country(
     "zh_TW": "南極洲",
     "zu": "Antarctica"
   },
-  subdivision: [],
 );

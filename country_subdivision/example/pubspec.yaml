@@ -1,0 +1,10 @@
+name: country_subdivision_example
+description: Example for country_subdivision.
+publish_to: none
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  country_subdivision:
+    path: ../

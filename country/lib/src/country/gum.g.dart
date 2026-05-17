@@ -196,5 +196,4 @@ const countryGUM = Country(
     "zh_TW": "關島",
     "zu": "Guam"
   },
-  subdivision: [],
 );

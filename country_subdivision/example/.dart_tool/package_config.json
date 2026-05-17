@@ -1,0 +1,22 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "country_subdivision",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "country_subdivision_example",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.11.5",
+  "flutterRoot": "file:///E:/Flutter",
+  "flutterVersion": "3.41.9",
+  "pubCache": "file:///C:/Users/user/AppData/Local/Pub/Cache"
+}

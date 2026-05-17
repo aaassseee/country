@@ -203,5 +203,4 @@ const countryCOK = Country(
     "zh_TW": "庫克群島",
     "zu": "Cook Islands"
   },
-  subdivision: [],
 );

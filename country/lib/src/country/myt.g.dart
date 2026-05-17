@@ -196,5 +196,4 @@ const countryMYT = Country(
     "zh_TW": "馬約特",
     "zu": "IMayotte"
   },
-  subdivision: [],
 );

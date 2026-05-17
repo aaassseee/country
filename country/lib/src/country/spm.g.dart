@@ -203,5 +203,4 @@ const countrySPM = Country(
     "zh_TW": "聖皮耶及密克隆群島",
     "zu": "Saint Pierre and Miquelon"
   },
-  subdivision: [],
 );

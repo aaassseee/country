@@ -196,5 +196,4 @@ const countryJEY = Country(
     "zh_TW": "澤西島",
     "zu": "Jersey"
   },
-  subdivision: [],
 );

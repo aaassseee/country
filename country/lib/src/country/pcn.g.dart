@@ -201,5 +201,4 @@ const countryPCN = Country(
     "zh_TW": "皮特肯島",
     "zu": "Pitcairn"
   },
-  subdivision: [],
 );

@@ -203,5 +203,4 @@ const countrySJM = Country(
     "zh_TW": "冷岸群島及央棉",
     "zu": "Svalbard and Jan Mayen"
   },
-  subdivision: [],
 );

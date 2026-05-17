@@ -204,5 +204,4 @@ const countryTCA = Country(
     "zh_TW": "土克凱可群島",
     "zu": "Turks and Caicos Islands"
   },
-  subdivision: [],
 );
