@@ -1,3 +1,5 @@
+import 'package:collection/collection.dart';
+
 /// Class for storing information of a country subdivision.
 class CountrySubdivision {
   /// Creates a country subdivision.
@@ -67,20 +69,23 @@ class CountrySubdivision {
           countryCode == other.countryCode &&
           code == other.code &&
           name == other.name &&
-          unofficialNames == other.unofficialNames &&
+          const ListEquality<String>()
+              .equals(unofficialNames, other.unofficialNames) &&
           geo == other.geo &&
-          translations == other.translations &&
+          const MapEquality<String, String>()
+              .equals(translations, other.translations) &&
           type == other.type;
 
   @override
-  int get hashCode =>
-      countryCode.hashCode ^
-      code.hashCode ^
-      name.hashCode ^
-      unofficialNames.hashCode ^
-      geo.hashCode ^
-      translations.hashCode ^
-      type.hashCode;
+  int get hashCode => Object.hash(
+        countryCode,
+        code,
+        name,
+        const ListEquality<String>().hash(unofficialNames),
+        geo,
+        const MapEquality<String, String>().hash(translations),
+        type,
+      );
 }
 
 /// Geographic information for a country subdivision.

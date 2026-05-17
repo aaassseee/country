@@ -11339,8 +11339,9 @@ class CountrySubdivisions {
 
   /// Returns the subdivision matching [countryCode] and [code], or `null`.
   static CountrySubdivision? maybeByCode(String countryCode, String code) {
+    final normalizedCode = code.toUpperCase();
     for (final subdivision in byCountry(countryCode)) {
-      if (subdivision.code == code) return subdivision;
+      if (subdivision.code.toUpperCase() == normalizedCode) return subdivision;
     }
     return null;
   }
