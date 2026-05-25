@@ -19,11 +19,12 @@ void main() {
         'translations': {'en': 'Alaska'},
         'type': 'state',
       },
-      countryCode: 'US',
+      alpha2: 'US',
+      alpha3: 'USA',
       code: 'AK',
     );
 
-    expect(subdivision.countryCode, 'US');
+    expect(subdivision.alpha2, 'US');
     expect(subdivision.code, 'AK');
     expect(subdivision.fullCode, 'US-AK');
     expect(subdivision.name, 'Alaska');
@@ -47,7 +48,8 @@ void main() {
         'translations': {'en': 'Alaska'},
         'type': 'state',
       },
-      countryCode: 'US',
+      alpha2: 'US',
+      alpha3: 'USA',
       code: 'AK',
     );
     expect(subdivision, sameSubdivision);
@@ -66,12 +68,12 @@ void main() {
 
     for (final entry in CountrySubdivisions.byCountryCode.entries) {
       for (final subdivision in entry.value) {
-        expect(subdivision.countryCode, entry.key);
-        expect(CountrySubdivisions.byCountry(subdivision.countryCode),
+        expect(subdivision.alpha2, entry.key);
+        expect(CountrySubdivisions.byCountry(subdivision.alpha2),
             contains(subdivision));
         expect(
           CountrySubdivisions.maybeByCode(
-            subdivision.countryCode,
+            subdivision.alpha2,
             subdivision.code,
           ),
           subdivision,

@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "collection",
+      "rootUri": "file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.19.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "country_subdivision",
       "rootUri": "../../",
       "packageUri": "lib/",

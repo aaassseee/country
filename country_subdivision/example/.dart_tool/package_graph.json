@@ -14,6 +14,13 @@
     {
       "name": "country_subdivision",
       "version": "0.0.1",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
       "dependencies": []
     }
   ],

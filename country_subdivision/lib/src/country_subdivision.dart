@@ -4,7 +4,8 @@ import 'package:collection/collection.dart';
 class CountrySubdivision {
   /// Creates a country subdivision.
   const CountrySubdivision({
-    required this.countryCode,
+    required this.alpha2,
+    required this.alpha3,
     required this.code,
     required this.name,
     required this.unofficialNames,
@@ -17,11 +18,13 @@ class CountrySubdivision {
   /// [countries](https://github.com/countries/countries).
   factory CountrySubdivision.fromJson(
     Map<String, dynamic> json, {
-    required String countryCode,
+    required String alpha2,
+    required String alpha3,
     required String code,
   }) =>
       CountrySubdivision(
-        countryCode: countryCode,
+        alpha2: alpha2,
+        alpha3: alpha3,
         code: (json['code'] ?? code).toString(),
         name: json['name'],
         unofficialNames: List<String>.from(json['unofficial_names'] ?? []),
@@ -33,13 +36,16 @@ class CountrySubdivision {
       );
 
   /// ISO 3166-1 alpha-2 country code.
-  final String countryCode;
+  final String alpha2;
+
+  /// ISO 3166-1 alpha-3 country code.
+  final String alpha3;
 
   /// ISO 3166-2 subdivision code without country code.
   final String code;
 
   /// ISO 3166-2 subdivision code with country code.
-  String get fullCode => '$countryCode-$code';
+  String get fullCode => '$alpha2-$code';
 
   /// Subdivision name.
   final String name;
@@ -58,7 +64,7 @@ class CountrySubdivision {
 
   @override
   String toString() {
-    return 'CountrySubdivision{countryCode: $countryCode, code: $code, name: $name, unofficialNames: $unofficialNames, geo: $geo, translations: $translations, type: $type}';
+    return 'CountrySubdivision{alpha2: $alpha2, alpha3: $alpha3, code: $code, name: $name, unofficialNames: $unofficialNames, geo: $geo, translations: $translations, type: $type}';
   }
 
   @override
@@ -66,7 +72,8 @@ class CountrySubdivision {
       identical(this, other) ||
       other is CountrySubdivision &&
           runtimeType == other.runtimeType &&
-          countryCode == other.countryCode &&
+          alpha2 == other.alpha2 &&
+          alpha3 == other.alpha3 &&
           code == other.code &&
           name == other.name &&
           const ListEquality<String>()
@@ -78,7 +85,8 @@ class CountrySubdivision {
 
   @override
   int get hashCode => Object.hash(
-        countryCode,
+        alpha2,
+        alpha3,
         code,
         name,
         const ListEquality<String>().hash(unofficialNames),

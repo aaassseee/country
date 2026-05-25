@@ -150,38 +150,37 @@ class CountryGeneratorBuilder extends Builder {
 
     for (final subdivisionFile in subdivisionFileList) {
       final countryCode = subdivisionFile.uri.pathSegments.last.substring(0, 2);
-      final countryCodeLower = countryCode.toLowerCase();
-      final countryAlpha3Lower =
-          _countryAlpha3(countryFolder, countryCode).toLowerCase();
+      final countryAlpha3 = _countryAlpha3(countryFolder, countryCode);
+      final countryAlpha3Lower = countryAlpha3.toLowerCase();
       final subdivisionData =
           (loadYamlNode(subdivisionFile.readAsStringSync(), recover: true)
                   as YamlMap)
               .toMap();
 
       subdivisionImportOutput +=
-          'import \'country_subdivision/$countryCodeLower.g.dart\';\n';
+          'import \'country_subdivision/$countryAlpha3Lower.g.dart\';\n';
 
       final countrySubdivisionFile = File(normalize(join(
           pubspecFile.parent.path,
           outputFolderPath,
-          'country_subdivision/$countryCodeLower.g.dart')));
+          'country_subdivision/$countryAlpha3Lower.g.dart')));
       if (!countrySubdivisionFile.existsSync()) {
         countrySubdivisionFile.createSync(recursive: true);
       }
 
       var countrySubdivisionOutput =
           'import \'../country_subdivision.dart\';\n';
-      var countrySubdivisionAlpha2Output = '';
+      var countrySubdivisionCountryOutput = '';
       for (final MapEntry(key: code, value: value) in subdivisionData.entries) {
-        final subdivisionCode = code.toString();
-        final variableName =
-            _countrySubdivisionVariableName(countryCode, subdivisionCode);
         final subdivision = Map<String, dynamic>.from(value as Map);
+        final variableName =
+            _countrySubdivisionVariableName(countryAlpha3Lower, code);
         countrySubdivisionOutput += [
           '',
           'const $variableName = CountrySubdivision(',
-          '  countryCode: \'$countryCode\',',
-          '  code: \'${_escapeDartString((subdivision['code'] ?? subdivisionCode).toString())}\',',
+          '  alpha2: \'$countryCode\',',
+          '  alpha3: \'$countryAlpha3\',',
+          '  code: \'${_escapeDartString(subdivision['code'].toString())}\',',
           '  name: \'${_escapeDartString(subdivision['name'].toString())}\',',
           '  unofficialNames: ${_stringListClassString(subdivision['unofficial_names'])},',
           '  geo: ${_subdivisionGeoClassString(subdivision['geo'])},',
@@ -190,7 +189,7 @@ class CountryGeneratorBuilder extends Builder {
           ');',
         ].join('\n');
 
-        countrySubdivisionAlpha2Output += '        $variableName,\n';
+        countrySubdivisionCountryOutput += '        $variableName,\n';
         subdivisionValuesOutput += '        $variableName,\n';
       }
 
@@ -199,7 +198,7 @@ class CountryGeneratorBuilder extends Builder {
       subdivisionClassOutput += [
         '  /// Country subdivisions for $countryCode.',
         '  static const List<CountrySubdivision> $countryAlpha3Lower = [',
-        countrySubdivisionAlpha2Output,
+        countrySubdivisionCountryOutput,
         '      ];',
         '',
       ].join('\n');
@@ -263,10 +262,10 @@ class CountryGeneratorBuilder extends Builder {
     outputFile.writeAsStringSync(output);
   }
 
-  String _countrySubdivisionVariableName(String countryCode, String code) {
+  String _countrySubdivisionVariableName(String countryAlpha3, String code) {
     final normalizedCode =
-        code.replaceAll(RegExp('[^a-zA-Z0-9]'), '').toLowerCase();
-    return 'countrySubdivision${countryCode.toUpperCase()}${normalizedCode[0].toUpperCase()}${normalizedCode.substring(1)}';
+        code.replaceAll(RegExp('[^a-zA-Z0-9]'), '').toUpperCase();
+    return 'countrySubdivision${countryAlpha3.toUpperCase()}$normalizedCode';
   }
 
   String _countryAlpha3(Directory countryFolder, String countryCode) {
