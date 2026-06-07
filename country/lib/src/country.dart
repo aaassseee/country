@@ -76,7 +76,7 @@ class Country {
         subregion: json['subregion'],
         unLocode: json['un_locode'],
         unMember: json['un_member'] ?? false,
-        unofficialNames: List<String>.from(json['unofficial_names']),
+        unofficialNames: List<String>.from(json['unofficial_names'] ?? []),
         vehicleRegistrationCode: json['vehicle_registration_code'],
         worldRegion: WorldRegion.fromWireName(json['world_region']),
         addressFormat: json['address_format'],
