@@ -15,13 +15,18 @@ extension YamlMapToMapExtension on YamlMap {
       return list;
     }
 
+    if (node is YamlScalar) {
+      return node.value;
+    }
+
     return node;
   }
 
   Map<String, dynamic> toMap() {
     var map = <String, dynamic>{};
     nodes.forEach((k, v) {
-      map[(k as YamlScalar).value.toString()] = _convertNode(v.value);
+      final key = (k is YamlScalar) ? k.value.toString() : k.toString();
+      map[key] = _convertNode(v);
     });
     return map;
   }
