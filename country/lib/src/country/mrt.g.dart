@@ -40,7 +40,7 @@ const countryMRT = Country(
   languagesOfficial: ['ar', 'fr'],
   languagesSpoken: ['ar', 'fr'],
   nationalDestinationCodeLengths: [2],
-  nationalNumberLengths: [7],
+  nationalNumberLengths: [8],
   nationalPrefix: '0',
   nationality: 'Mauritanian',
   number: '478',

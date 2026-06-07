@@ -40,7 +40,7 @@ const countryMWI = Country(
   languagesOfficial: ['en', 'ny'],
   languagesSpoken: ['en', 'ny'],
   nationalDestinationCodeLengths: [2],
-  nationalNumberLengths: [8],
+  nationalNumberLengths: [9],
   nationalPrefix: 'None',
   nationality: 'Malawian',
   number: '454',
