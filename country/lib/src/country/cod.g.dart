@@ -40,7 +40,7 @@ const countryCOD = Country(
   languagesOfficial: ['fr', 'ln', 'kg', 'sw', 'lu'],
   languagesSpoken: ['fr', 'ln', 'kg', 'sw', 'lu'],
   nationalDestinationCodeLengths: [2],
-  nationalNumberLengths: [8],
+  nationalNumberLengths: [9],
   nationalPrefix: 'None',
   nationality: 'Congolese',
   number: '180',

@@ -40,7 +40,7 @@ const countryCIV = Country(
   languagesOfficial: ['fr'],
   languagesSpoken: ['fr'],
   nationalDestinationCodeLengths: [2],
-  nationalNumberLengths: [8],
+  nationalNumberLengths: [10],
   nationalPrefix: '0',
   nationality: 'Ivorian',
   number: '384',
