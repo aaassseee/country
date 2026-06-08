@@ -1,3 +1,9 @@
+## 4.0.0
+
+### Internal
+
+- Dependency updates only in flutter_country_utility
+
 ## 3.0.4
 
 * update dependencies

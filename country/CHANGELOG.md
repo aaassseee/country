@@ -1,3 +1,23 @@
+## 7.0.0
+
+### Breaking
+
+- Separated `subdivision` into a separate package — may require updating imports and package references for code that previously accessed subdivisions directly from `country`.
+- Removed circular dependency between `country` and `country_generator` — adjust any code that imported both packages.
+
+### Internal
+
+- Reverted local dependency overrides and applied dependency bumps and housekeeping.
+- Changelog and run configuration updates.
+
+### Fix
+
+- Fixed a null crash when parsing `unofficial_names`.
+
+### Data
+
+- Updated generated country data and bumped the countries submodule.
+
 ## 6.0.4
 
 * update dependencies
