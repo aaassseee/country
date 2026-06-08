@@ -42,7 +42,6 @@ class Country {
     required this.g7Member,
     required this.g20Member,
     required this.isoShortNameByLocale,
-    required this.subdivision,
   });
 
   /// Creates a country with a decoded json object from [countries](https://github.com/countries/countries)
@@ -77,7 +76,7 @@ class Country {
         subregion: json['subregion'],
         unLocode: json['un_locode'],
         unMember: json['un_member'] ?? false,
-        unofficialNames: List<String>.from(json['unofficial_names']),
+        unofficialNames: List<String>.from(json['unofficial_names'] ?? []),
         vehicleRegistrationCode: json['vehicle_registration_code'],
         worldRegion: WorldRegion.fromWireName(json['world_region']),
         addressFormat: json['address_format'],
@@ -92,10 +91,6 @@ class Country {
         g7Member: json['g7_member'] ?? false,
         g20Member: json['g20_member'] ?? false,
         isoShortNameByLocale: json['isoShortNameByLocale'] ?? {},
-        subdivision: List.from(json['subdivision'] ?? [])
-            .map((e) => Subdivision.fromJson(e))
-            .cast<Subdivision>()
-            .toList(),
       );
 
   /// ISO 3166-1 alpha-2 codes are two-letter country codes defined in
@@ -304,12 +299,9 @@ class Country {
   /// Map for storing country short name by locale
   final Map<String, String> isoShortNameByLocale;
 
-  /// Map for subdivision
-  final List<Subdivision> subdivision;
-
   @override
   String toString() {
-    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, distanceUnit: $distanceUnit, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, isoShortNameLowerCase: $isoShortNameLowerCase, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale, subdivision: $subdivision}';
+    return 'Country{alpha2: $alpha2, alpha3: $alpha3, continent: $continent, countryCode: $countryCode, currencyCode: $currencyCode, distanceUnit: $distanceUnit, gec: $gec, geo: $geo, internationalPrefix: $internationalPrefix, ioc: $ioc, isoLongName: $isoLongName, isoShortName: $isoShortName, isoShortNameLowerCase: $isoShortNameLowerCase, languagesOfficial: $languagesOfficial, languagesSpoken: $languagesSpoken, nationalDestinationCodeLengths: $nationalDestinationCodeLengths, nationalNumberLengths: $nationalNumberLengths, nationalPrefix: $nationalPrefix, nationality: $nationality, number: $number, postalCode: $postalCode, postalCodeFormat: $postalCodeFormat, region: $region, startOfWeek: $startOfWeek, subregion: $subregion, unLocode: $unLocode, unMember: $unMember, unofficialNames: $unofficialNames, vehicleRegistrationCode: $vehicleRegistrationCode, worldRegion: $worldRegion, addressFormat: $addressFormat, vatRates: $vatRates, nanpPrefix: $nanpPrefix, eeaMember: $eeaMember, euMember: $euMember, esmMember: $esmMember, altCurrency: $altCurrency, g7Member: $g7Member, g20Member: $g20Member, isoShortNameByLocale: $isoShortNameByLocale}';
   }
 
   @override
@@ -357,8 +349,7 @@ class Country {
           altCurrency == other.altCurrency &&
           g7Member == other.g7Member &&
           g20Member == other.g20Member &&
-          isoShortNameByLocale == other.isoShortNameByLocale &&
-          subdivision == other.subdivision;
+          isoShortNameByLocale == other.isoShortNameByLocale;
 
   @override
   int get hashCode =>
@@ -401,8 +392,7 @@ class Country {
       altCurrency.hashCode ^
       g7Member.hashCode ^
       g20Member.hashCode ^
-      isoShortNameByLocale.hashCode ^
-      subdivision.hashCode;
+      isoShortNameByLocale.hashCode;
 
   /// Emoji flags are supported on all major platforms except Windows,
   /// which displays two-letter country codes instead of emoji flag images.
@@ -1074,110 +1064,4 @@ class WorldRegion {
 
   @override
   int get hashCode => wireName.hashCode;
-}
-
-/// A class for storing information of coordinate
-class SubdivisionGeoData {
-  /// Creates subdivision GeoData
-  const SubdivisionGeoData({
-    required this.latitude,
-    required this.longitude,
-    required this.maxLatitude,
-    required this.maxLongitude,
-    required this.minLatitude,
-    required this.minLongitude,
-  });
-
-  /// Creates subdivision GeoData with a decoded json object from [countries](https://github.com/countries/countries)
-  factory SubdivisionGeoData.fromJson(Map<String, dynamic> json) =>
-      SubdivisionGeoData(
-        latitude: json['latitude']?.toDouble(),
-        longitude: json['longitude']?.toDouble(),
-        maxLatitude: json['max_latitude']?.toDouble(),
-        maxLongitude: json['max_longitude']?.toDouble(),
-        minLatitude: json['min_latitude']?.toDouble(),
-        minLongitude: json['min_longitude']?.toDouble(),
-      );
-
-  /// The latitude represent as the center point of subdivision
-  final double? latitude;
-
-  /// The longitude represent as the center point of subdivision
-  final double? longitude;
-
-  /// The maximum latitude represent as the center point of subdivision
-  final double? maxLatitude;
-
-  /// The maximum longitude represent as the center point of subdivision
-  final double? maxLongitude;
-
-  /// The minimum latitude represent as the center point of subdivision
-  final double? minLatitude;
-
-  /// The minimum longitude represent as the center point of subdivision
-  final double? minLongitude;
-
-  @override
-  String toString() {
-    return 'SubdivisionGeoData{latitude: $latitude, longitude: $longitude, maxLatitude: $maxLatitude, maxLongitude: $maxLongitude, minLatitude: $minLatitude, minLongitude: $minLongitude}';
-  }
-
-  @override
-  bool operator ==(Object other) =>
-      identical(this, other) ||
-      other is SubdivisionGeoData &&
-          runtimeType == other.runtimeType &&
-          latitude == other.latitude &&
-          longitude == other.longitude &&
-          maxLatitude == other.maxLatitude &&
-          maxLongitude == other.maxLongitude &&
-          minLatitude == other.minLatitude &&
-          minLongitude == other.minLongitude;
-
-  @override
-  int get hashCode =>
-      latitude.hashCode ^
-      longitude.hashCode ^
-      maxLatitude.hashCode ^
-      maxLongitude.hashCode ^
-      minLatitude.hashCode ^
-      minLongitude.hashCode;
-}
-
-/// A class for storing subdivision of country
-class Subdivision {
-  /// Creates subdivision
-  const Subdivision({
-    required this.name,
-    required this.code,
-    required this.geo,
-    required this.translation,
-    required this.type,
-  });
-
-  /// Creates subdivision with a decoded json object from [countries](https://github.com/countries/countries)
-  factory Subdivision.fromJson(Map<String, dynamic> json) => Subdivision(
-        name: json['name'].toString(),
-        code: json['code'].toString(),
-        geo: json['geo'] == null
-            ? null
-            : SubdivisionGeoData.fromJson(json['geo']),
-        translation: json['translations'],
-        type: json['type'],
-      );
-
-  /// The name of this subdivision
-  final String name;
-
-  /// The code of this subdivision
-  final String code;
-
-  /// The GeoData info of this subdivision
-  final SubdivisionGeoData? geo;
-
-  /// The translation map of this subdivision
-  final Map<String, dynamic> translation;
-
-  /// The type of this subdivision
-  final String type;
 }

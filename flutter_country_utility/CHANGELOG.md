@@ -1,3 +1,13 @@
+## 6.0.0
+
+### Breaking
+
+- Subdivisions were separated into a new package; subdivision-related APIs and code were removed from flutter_country_utility — migration to the new package is required (see commit 351a1be).
+
+### Added
+
+- New subdivision package published (subdivision extraction moved out) (commit 351a1be).
+
 ## 5.0.4
 
 * update dependencies

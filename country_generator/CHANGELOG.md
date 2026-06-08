@@ -1,3 +1,17 @@
+## 7.0.0
+
+### Breaking
+
+* seperate subdivision into another package (commit 351a1be, 2026-05-17) — update imports and add the new subdivision package as a dependency if your code relied on subdivision generation inside country_generator.
+
+### Added
+
+* add alpha2 and alpha3 to subdivision object (commit 6227065, 2026-05-25)
+
+### Internal
+
+* remove circular dependency between country and country_generator (commit a179c40, 2026-05-17)
+
 ## 6.0.4
 
 * update dependencies
