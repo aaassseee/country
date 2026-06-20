@@ -673,11 +673,11 @@ const countrySubdivisionINDDH = CountrySubdivision(
   alpha2: 'IN',
   alpha3: 'IND',
   code: 'DH',
-  name: 'Dādra and Nagar Haveli and Damān and Diu',
+  name: 'Dadra and Nagar Haveli and Daman and Diu',
   unofficialNames: [],
   geo: null,
   translations: {
-    'en': 'Dādra and Nagar Haveli and Damān and Diu',
+    'en': 'Dadra and Nagar Haveli and Daman and Diu',
     'ar': 'دادرا وناغار هافيلي ودامان وديو',
     'as': 'দাদৰা আৰু নগৰ হাভেলী আৰু দমন আৰু দিউ',
     'be': 'Дадра і Нагархавелі і Даман і Дыу',
@@ -2496,7 +2496,7 @@ const countrySubdivisionINDPY = CountrySubdivision(
   alpha2: 'IN',
   alpha3: 'IND',
   code: 'PY',
-  name: 'Pondicherry',
+  name: 'Puducherry',
   unofficialNames: ['Pondicherry'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
@@ -2778,7 +2778,7 @@ const countrySubdivisionINDTS = CountrySubdivision(
   alpha2: 'IN',
   alpha3: 'IND',
   code: 'TS',
-  name: 'तेलंगाना',
+  name: 'Telangana',
   unofficialNames: [],
   geo: null,
   translations: {
@@ -3150,7 +3150,7 @@ const countrySubdivisionINDUK = CountrySubdivision(
   alpha2: 'IN',
   alpha3: 'IND',
   code: 'UK',
-  name: 'उत्तराखण्ड',
+  name: 'Uttarakhand',
   unofficialNames: [],
   geo: null,
   translations: {
