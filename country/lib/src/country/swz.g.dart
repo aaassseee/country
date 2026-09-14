@@ -75,7 +75,7 @@ const countrySWZ = Country(
     'az': 'Eswatini',
     'ba': 'Eswatini',
     'be': 'Эсваціні',
-    'bg': 'Есватини',
+    'bg': 'Eswatini',
     'bi': 'Eswatini',
     'bn': 'এসওয়াতিনি',
     'bn_IN': 'এসওয়াটানি',

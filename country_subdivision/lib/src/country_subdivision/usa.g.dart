@@ -314,7 +314,7 @@ const countrySubdivisionUSAAS = CountrySubdivision(
   unofficialNames: ['American Samoa'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
-          latitude: 21.3239718, longitude: -157.876498),
+          latitude: -14.270972, longitude: -170.132217),
       maxCoordinate: null,
       minCoordinate: null),
   translations: {
@@ -1133,7 +1133,7 @@ const countrySubdivisionUSAGU = CountrySubdivision(
   unofficialNames: ['Guam'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
-          latitude: 36.90194, longitude: -89.82361),
+          latitude: 13.444304, longitude: 144.793731),
       maxCoordinate: null,
       minCoordinate: null),
   translations: {'en': 'Guam', 'ccp': '𑄉𑄪𑄠𑄟𑄴', 'ja': 'グアム'},
@@ -4003,7 +4003,7 @@ const countrySubdivisionUSAPR = CountrySubdivision(
   unofficialNames: ['Puerto Rico'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
-          latitude: 32.7290818, longitude: -117.1517016),
+          latitude: 18.220833, longitude: -66.590149),
       maxCoordinate: null,
       minCoordinate: null),
   translations: {
@@ -4754,7 +4754,7 @@ const countrySubdivisionUSAVI = CountrySubdivision(
   unofficialNames: ['Virgin Islands, U.S.'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
-          latitude: 33.8569878, longitude: -84.5904089),
+          latitude: 18.335765, longitude: -64.896335),
       maxCoordinate: null,
       minCoordinate: null),
   translations: {

@@ -90,7 +90,7 @@ const countryCZE = Country(
     'az': 'Czechia',
     'ba': 'Czechia',
     'be': 'Чэхія',
-    'bg': 'Чехия',
+    'bg': 'Czechia',
     'bi': 'Czechia',
     'bn': 'চেকিয়া',
     'bn_IN': 'চেচিয়া',

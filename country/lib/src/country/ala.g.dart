@@ -42,7 +42,7 @@ const countryALA = Country(
   nationalDestinationCodeLengths: [],
   nationalNumberLengths: [],
   nationalPrefix: '',
-  nationality: 'Finnish',
+  nationality: 'Swedish',
   number: '248',
   postalCode: true,
   postalCodeFormat: '22\\d{3}',

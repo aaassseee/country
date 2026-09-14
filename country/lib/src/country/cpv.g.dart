@@ -82,7 +82,7 @@ const countryCPV = Country(
     'az': 'Cabo Verde',
     'ba': 'Cabo Verde',
     'be': 'Каба-Вердэ',
-    'bg': 'Кабо Верде',
+    'bg': 'Cabo Verde',
     'bi': 'Cabo Verde',
     'bn': 'কেবো ভার্ডে',
     'bn_IN': 'কেবো ভার্ডি',

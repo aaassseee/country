@@ -86,7 +86,7 @@ const countryMKD = Country(
     'az': 'North Macedonia',
     'ba': 'North Macedonia',
     'be': 'Паўночная Македонія',
-    'bg': 'Северна Македония',
+    'bg': 'North Macedonia',
     'bi': 'North Macedonia',
     'bn': 'উত্তর ম্যাসেডোনিয়া',
     'bn_IN': 'উত্তর ম্যাসেডোনিয়া',
