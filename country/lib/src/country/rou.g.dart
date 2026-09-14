@@ -64,8 +64,8 @@ const countryROU = Country(
   addressFormat:
       '{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}',
   vatRates: VatRates(
-    standard: 21,
-    reduced: [11],
+    standard: 19,
+    reduced: [5, 9],
     superReduced: null,
     parking: null,
   ),

@@ -94,7 +94,7 @@ const countryTUR = Country(
     'dz': 'ཊར་ཀི།',
     'ee': 'Türkiye',
     'el': 'Τουρκία',
-    'en': 'Turkey',
+    'en': 'Türkiye',
     'eo': 'Turkio',
     'es': 'Turquía',
     'et': 'Türgi',

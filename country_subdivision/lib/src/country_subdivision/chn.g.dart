@@ -1655,7 +1655,7 @@ const countrySubdivisionCHNMO = CountrySubdivision(
   unofficialNames: ['Aomen (zh) ***'],
   geo: CountrySubdivisionGeoData(
       coordinate: CountrySubdivisionCoordinate(
-          latitude: 52.07663429999999, longitude: 4.313052),
+          latitude: 22.198745, longitude: 113.543873),
       maxCoordinate: CountrySubdivisionCoordinate(
           latitude: 52.0766395, longitude: 4.313068599999999),
       minCoordinate: CountrySubdivisionCoordinate(

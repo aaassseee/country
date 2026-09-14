@@ -51,7 +51,7 @@ const countryREU = Country(
   subregion: 'Eastern Africa',
   unLocode: 'RE',
   unMember: false,
-  unofficialNames: ['La Réunion', 'Réunion', 'Reunión', 'Reunion', 'レユニオン'],
+  unofficialNames: ['Réunion', 'Reunión', 'Reunion', 'レユニオン'],
   vehicleRegistrationCode: null,
   worldRegion: WorldRegion.emea,
   addressFormat: null,
